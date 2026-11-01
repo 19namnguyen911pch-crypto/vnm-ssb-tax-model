@@ -1,4 +1,4 @@
-# Lợi ích sức khỏe khiêm tốn và tài chính lũy thoái của thuế tiêu thụ đặc biệt đồ uống có đường đã ban hành tại Việt Nam: nghiên cứu mô hình hóa trước thực thi
+# Lợi ích sức khỏe khiêm tốn và cơ chế tài chính lũy thoái của thuế tiêu thụ đặc biệt đồ uống có đường đã ban hành tại Việt Nam: nghiên cứu mô hình hóa trước thực thi
 
 **Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
