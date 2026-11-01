@@ -1,0 +1,12 @@
+.DS_Store
+.Rhistory
+.RData
+*.docx
+*.pdf
+data/wpp_age5.csv.gz
+data/off/
+data/nso_pop_proj.pdf
+data/gbd_vnm/vnm_gbd_2021.csv
+data/wb_*.json
+data/owid_pop.csv
+output/*.rds

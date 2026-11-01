@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or these parameters, please cite the article below."
+title: "Modest health gains and a regressive financing burden from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study"
+type: software
+authors:
+  - family-names: "Nguyen"
+    given-names: "Thanh Nam"
+    email: "ntnam.ddytcc23@ump.edu.vn"
+    affiliation: "Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam"
+  - family-names: "Lam Ngoc"
+    given-names: "Khanh Linh"
+    email: "lnklinh.ddytcc23@ump.edu.vn"
+    affiliation: "Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam"
+version: 1.0.0
+date-released: "2026-11-01"
+license: MIT
+keywords:
+  - sugar-sweetened beverages
+  - excise tax
+  - Viet Nam
+  - health equity
+  - multi-state life table
+references:
+  - type: article
+    title: "Modest health gains and a regressive financing burden from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study"
+    authors:
+      - family-names: "Nguyen"
+        given-names: "Thanh Nam"
+      - family-names: "Lam Ngoc"
+        given-names: "Khanh Linh"
+    year: 2026

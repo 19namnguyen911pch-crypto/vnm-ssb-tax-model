@@ -1,0 +1,4 @@
+cause,cost_type,value_vnd_2026,lo,hi,source,year,note
+t2dm,annual_per_case,8000000,5500000,12000000,"Le NTD et al. Diabetes Metab Syndr Obes 2017;10:363-74 (US$246 per patient-year, 2015)",2015,"inflated to 2026 at 3.5%/yr; direct medical only"
+ihd,acute_episode,84861931,73390073,96333789,"Pham ND et al. Vietnam Medical Journal 2024;543(2). doi:10.51298/vmj.v543i2.11460",2024,"PCI for acute coronary syndrome, HCMC Heart Institute, n=146; acute episode, not annual"
+stroke,acute_episode,10519000,6326000,45210000,"Doan TH et al. Hanoi Medical University 2022 (Bach Mai Hospital 2021, n=?)",2021,"inpatient stroke; upper bound from Huong VT 2026 (elderly ischaemic stroke, mean 45.2m)"

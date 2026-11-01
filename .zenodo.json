@@ -1,0 +1,12 @@
+{
+  "title": "Modest health gains and a regressive financing burden from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "Nguyen, Thanh Nam", "affiliation": "Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City"},
+    {"name": "Lam Ngoc, Khanh Linh", "affiliation": "Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City"}
+  ],
+  "keywords": ["sugar-sweetened beverages", "excise tax", "Viet Nam", "health equity", "multi-state life table"],
+  "notes": "Code and derived parameters for the modelling study. GBD 2021 raw extracts are not redistributed; see data/README.md."
+}

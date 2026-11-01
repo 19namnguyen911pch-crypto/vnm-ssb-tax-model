@@ -1,0 +1,4 @@
+sku_id,date,source,channel,city,brand,product,pack_ml,category,sugar_printed_g,sugar_basis_ml,sugar_g_per_100ml,sweetener_type,price_vnd,promo,borderline,photo_link,note
+EX-001,2026-11-05,Vi du - xoa dong nay,online,Ha Noi,Coca-Cola,Coca-Cola vi 330ml,330,soda_co_ga,35,330,=IFERROR(J2/K2*100,""),duong,10000,n,y,,
+EX-002,2026-11-05,Vi du - xoa dong nay,online,Ha Noi,TH true,Juice cam 450ml,450,chua_nuoc_qua,31.5,450,=IFERROR(J3/K3*100,""),duong,22000,n,y,,
+EX-003,2026-11-05,Vi du - xoa dong nay,online,Ha Noi,Khong ro,Tra xanh chai 455ml,455,tra,,100,=IFERROR(J4/K4*100,""),khong_ro,,n,n,,khong co nhan
