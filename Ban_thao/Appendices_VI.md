@@ -304,7 +304,9 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
 
-**F.8 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được xem xét và không thực hiện. Không kết quả nào của chúng được báo cáo.
+**F.8 Gradient độ co giãn.** Gradient độ co giãn giá riêng theo ngũ phân vị là giả định. Ở giá trị trung tâm, giữ mọi thứ khác cố định, tỷ số Q1/Q5 của DALY tránh được là 0,56 ở gradient 1,0; 0,78 ở 1,4 (kịch bản cơ sở) và 1,00 ở 1,8, với chỉ số tập trung tương ứng 0,112; 0,046 và −0,005. Vì thuế phải trả cũng tỷ lệ với tiêu thụ, chỉ số Kakwani dịch theo cùng giả định này.
+
+**F.9 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được xem xét và không thực hiện. Không kết quả nào của chúng được báo cáo.
 
 ## Phụ lục G. Mã và khả năng tái lập
 
@@ -329,7 +331,7 @@ Hạt giống cố định ở 20261101, và ma trận rút được công bố 
 
 ## Tài liệu tham khảo bổ sung
 
-References cited only in the appendices.
+Các tài liệu chỉ được trích trong phụ lục.
 
 S1. United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects 2024: volume I, comprehensive tables. New York: United Nations; 2024.
 S2. National Institute of Nutrition, Ministry of Health of Viet Nam. General Nutrition Survey 2019–2020. Hanoi; 2021.
@@ -338,3 +340,7 @@ S4. Hernández JCS, et al. Building upon the sugar beverage tax in Mexico. BMJ G
 S5. Andreyeva T, Long MW, Brownell KD. The impact of food prices on consumption: a systematic review of research on the price elasticity of demand for food. Am J Public Health. 2010;100(2):216–22.
 S6. Cabrera Escobar MA, Veerman JL, Tollman SM, Bertram MY, Hofman KJ. Evidence that a tax on sugar sweetened beverages reduces the obesity rate: a meta-analysis. BMC Public Health. 2013;13:1072.
 S7. National Institute of Nutrition, Ministry of Health of Viet Nam. Vietnamese food composition table. Hanoi: Medical Publishing House; 2017.
+
+S8. Nguyen LM, De Steur H. Public acceptability of policy interventions to reduce sugary drink consumption in urban Vietnam. Sustainability. 2021;13(23):13422.
+S9. Nguyen LG, Nguyen TD. Between commerce and conscience: a human rights assessment of Vietnam's excise tax on sugar-sweetened beverages. Nord J Hum Rights. 2025;43(4):405–18.
+S10. Nguyen TNC, Nguyen NA, Tran CN. Excise tax on sugar-sweetened beverages in Viet Nam: a view from theory and international experience. VLUTE J Sci. 2026;2(2). doi:10.64215/h1bmvr13

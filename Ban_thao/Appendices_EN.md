@@ -301,7 +301,9 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.7 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated on the same 5,000 draws under two socioeconomic gradients, risk falling with expenditure (1.15 in Q1 to 0.88 in Q5) and risk rising with expenditure (0.88 in Q1 to 1.15 in Q5). The median Q1/Q5 ratio moves from 0.77 to 0.99 in the first case and to 0.60 in the second, and the concentration index from 0.047 to −0.002 and to 0.097; the Kakwani index is unchanged because it depends only on payments. Deposited as `output/psa_gradient.csv`.
 
-**F.8 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
+**F.8 Elasticity gradient.** The quintile gradient in the own-price elasticity is an assumption. At central values, holding everything else fixed, the Q1/Q5 ratio of DALYs averted is 0.56 at a gradient of 1.0, 0.78 at 1.4 (the base case) and 1.00 at 1.8, with concentration indices of 0.112, 0.046 and −0.005. Because the tax payment also scales with consumption, the Kakwani index moves with the same assumption.
+
+**F.9 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 
 ## Appendix G. Code and reproducibility
 
@@ -335,3 +337,7 @@ S4. Hernández JCS, et al. Building upon the sugar beverage tax in Mexico. BMJ G
 S5. Andreyeva T, Long MW, Brownell KD. The impact of food prices on consumption: a systematic review of research on the price elasticity of demand for food. Am J Public Health. 2010;100(2):216–22.
 S6. Cabrera Escobar MA, Veerman JL, Tollman SM, Bertram MY, Hofman KJ. Evidence that a tax on sugar sweetened beverages reduces the obesity rate: a meta-analysis. BMC Public Health. 2013;13:1072.
 S7. National Institute of Nutrition, Ministry of Health of Viet Nam. Vietnamese food composition table. Hanoi: Medical Publishing House; 2017.
+
+S8. Nguyen LM, De Steur H. Public acceptability of policy interventions to reduce sugary drink consumption in urban Vietnam. Sustainability. 2021;13(23):13422.
+S9. Nguyen LG, Nguyen TD. Between commerce and conscience: a human rights assessment of Vietnam's excise tax on sugar-sweetened beverages. Nord J Hum Rights. 2025;43(4):405–18.
+S10. Nguyen TNC, Nguyen NA, Tran CN. Excise tax on sugar-sweetened beverages in Viet Nam: a view from theory and international experience. VLUTE J Sci. 2026;2(2). doi:10.64215/h1bmvr13
