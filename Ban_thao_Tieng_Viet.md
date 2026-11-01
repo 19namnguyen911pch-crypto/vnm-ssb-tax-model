@@ -36,7 +36,7 @@ Không có tài trợ riêng.
 ## Bối cảnh nghiên cứu
 
 **Bằng chứng trước nghiên cứu này**
-Chúng tôi tìm kiếm trên PubMed, Scopus, Cochrane Library, RePEc/IDEAS và Google Scholar từ tháng 1/2000 đến ⟦ngày⟧, kèm truy vết trích dẫn xuôi và ngược cho mọi nghiên cứu được đưa vào, cùng với tài liệu xám của Bộ Tài chính, Bộ Y tế, WHO Việt Nam và Viện Chiến lược và Chính sách y tế, cho các nghiên cứu mô hình hóa, đánh giá chính sách và tổng quan hệ thống về tác động sức khỏe, tài khóa và phân bố của thuế đồ uống có đường tại Việt Nam và tại các nước thu nhập trung bình thấp và trung bình cao so sánh được. Từ khóa kết hợp "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling" và "Viet Nam"; chuỗi tìm đầy đủ, ngày tìm và nhật ký sàng lọc ở Phụ lục A. Đến năm 2024, thuế đồ uống có đường đã được 64 quốc gia áp dụng, trong đó 45% theo tỷ lệ phần trăm giá, 44% theo lượng và chỉ 5% theo hàm lượng đường. Với Việt Nam, hai phân tích đã được công bố. Một nghiên cứu mô hình hóa năm kịch bản thuế tương ứng mức tăng giá bán lẻ 5%, 11% và 19–20% khi luật còn đang thảo luận, và ước tính tác động lên cân nặng và đái tháo đường. Nghiên cứu còn lại dùng Khảo sát mức sống hộ gia đình Việt Nam 2018 với hệ thống cầu hiệu chỉnh chất lượng để mô phỏng tác động lên tiêu thụ và phúc lợi theo thiết kế của luật 2025, nhưng không tách được đồ uống có đường khỏi nước đóng chai và nước ép 100% trong dữ liệu khảo sát, và không mô hình hóa kết cục bệnh. Chưa có nghiên cứu công bố nào mô hình hóa đúng thiết kế đã ban hành, cũng chưa có nghiên cứu nào báo cáo lợi ích sức khỏe và thuế phải trả trên cùng một thang đo công bằng.
+Chúng tôi tìm kiếm trên PubMed, Scopus, Cochrane Library, RePEc/IDEAS và Google Scholar từ tháng 1/2000 đến 1/11/2026, kèm truy vết trích dẫn xuôi và ngược cho mọi nghiên cứu được đưa vào, cùng với tài liệu xám của Bộ Tài chính, Bộ Y tế, WHO Việt Nam và Viện Chiến lược và Chính sách y tế, cho các nghiên cứu mô hình hóa, đánh giá chính sách và tổng quan hệ thống về tác động sức khỏe, tài khóa và phân bố của thuế đồ uống có đường tại Việt Nam và tại các nước thu nhập trung bình thấp và trung bình cao so sánh được. Từ khóa kết hợp "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling" và "Viet Nam"; chuỗi tìm đầy đủ, ngày tìm và nhật ký sàng lọc ở Phụ lục A. Đến năm 2024, thuế đồ uống có đường đã được 64 quốc gia áp dụng, trong đó 45% theo tỷ lệ phần trăm giá, 44% theo lượng và chỉ 5% theo hàm lượng đường. Với Việt Nam, hai phân tích đã được công bố. Một nghiên cứu mô hình hóa năm kịch bản thuế tương ứng mức tăng giá bán lẻ 5%, 11% và 19–20% khi luật còn đang thảo luận, và ước tính tác động lên cân nặng và đái tháo đường. Nghiên cứu còn lại dùng Khảo sát mức sống hộ gia đình Việt Nam 2018 với hệ thống cầu hiệu chỉnh chất lượng để mô phỏng tác động lên tiêu thụ và phúc lợi theo thiết kế của luật 2025, nhưng không tách được đồ uống có đường khỏi nước đóng chai và nước ép 100% trong dữ liệu khảo sát, và không mô hình hóa kết cục bệnh. Chưa có nghiên cứu công bố nào mô hình hóa đúng thiết kế đã ban hành, cũng chưa có nghiên cứu nào báo cáo lợi ích sức khỏe và thuế phải trả trên cùng một thang đo công bằng.
 
 **Giá trị gia tăng của nghiên cứu này**
 Nghiên cứu này định lượng hệ quả của thuế **như đã ban hành** chứ không phải như giả định, sử dụng đúng cơ sở tính thuế theo luật, đúng ngưỡng theo cách TCVN 12828:2019 vận hành, và đúng hiệu ứng chồng thuế giá trị gia tăng áp cho hàng chịu thuế tiêu thụ đặc biệt. Nghiên cứu thêm ba điểm. Thứ nhất, ước tính mức tăng giá bán lẻ và lợi ích sức khỏe mà mức thuế 2027 và 2028 thực sự tạo ra, biểu diễn bằng DALY, số ca tránh được, chi phí tiết kiệm và doanh thu. Thứ hai, so sánh trong cùng một mô hình và cùng một quần thể giữa thiết kế đã ban hành với mức tăng giá bán lẻ 20% mà WHO khuyến nghị. Thứ ba, báo cáo lợi ích sức khỏe và thuế phải trả trên cùng thang ngũ phân vị chi tiêu, để đánh đổi giữa hiệu quả và công bằng được **đo** chứ không phải được giả định, đồng thời ước tính lợi ích sức khỏe trên mỗi đồng doanh thu của một mức thuế theo gam đường cân bằng doanh thu — thiết kế nhiều khả năng được xem xét tại kỳ rà soát luật.
@@ -136,7 +136,7 @@ Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn d
 
 ### Báo cáo, đăng ký và đạo đức
 
-Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục E.[26] Protocol, gồm kế hoạch phân tích và đánh giá khả thi tham số, được đăng ký trên OSF ngày ⟦ngày⟧ trước khi chạy mô hình chính; các sai lệch được ghi ở Phụ lục D.⟦TBD-0⟧ Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai.https://doi.org/10.5281/zenodo.23852996
+Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục E.[26] Protocol đầy đủ, gồm kế hoạch phân tích và đánh giá khả thi tham số, được lưu cùng mã phân tích tại https://doi.org/10.5281/zenodo.23852996. Vì mô hình đã được chạy trước khi protocol được lưu trữ, nghiên cứu này không phải là đăng ký trước; các sai lệch so với protocol soạn ban đầu được ghi ở Phụ lục D. Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai.https://doi.org/10.5281/zenodo.23852996
 
 ---
 
@@ -406,7 +406,7 @@ Các khẳng định pháp lý trong một mô hình thuế là khẳng định 
 
 **A.9 Duy trì nhật ký**
 
-Nhật ký sàng lọc, lý do loại ở bước toàn văn, nhật ký xác minh ở A.7 và ngày tìm kiếm được lưu cùng protocol trên OSF và cập nhật đến khi nộp bài. Mọi chuỗi bị sửa sau khi đăng ký được ghi ở Phụ lục D.
+Nhật ký sàng lọc, lý do loại ở bước toàn văn, nhật ký xác minh ở A.7 và ngày tìm kiếm được lưu cùng protocol tại https://doi.org/10.5281/zenodo.23852996. Mọi chuỗi bị sửa sau khi đăng ký được ghi ở Phụ lục D.
 
 ---
 
@@ -576,7 +576,7 @@ Mọi thay đổi về: giá trị tham số ở Phụ lục B; bộ độ co gi
 | 1 | Tiêu đề | Trang bìa |
 | 2 | Tóm tắt | Tóm tắt |
 | 3 | Bối cảnh và mục tiêu | Giới thiệu |
-| 4 | Kế hoạch phân tích kinh tế y tế | Phương pháp, *Bất định và phân tích độ nhạy*; đăng ký OSF |
+| 4 | Kế hoạch phân tích kinh tế y tế | Phương pháp, *Bất định và phân tích độ nhạy*; protocol đã lưu trữ |
 | 5 | Quần thể nghiên cứu | Phương pháp, *Thiết kế và tổng quan* |
 | 6 | Bối cảnh và địa điểm | Phương pháp, *Thiết kế và tổng quan* |
 | 7 | Đối chứng | Phương pháp, *Các kịch bản chính sách*; Bảng 1 |
@@ -706,5 +706,5 @@ Mã được phát hành theo giấy phép mở khi bài được nhận; kho l�
 
 **Ưu tiên số 1:** hiệu chuẩn tham số #5 (tỷ trọng giá xuất xưởng) theo quy trình ở Phụ lục B.2 — đây là tham số quyết định quy mô toàn bộ kết quả.
 
-**5 chỗ thông tin hành chính:** tác giả, CRediT, xung đột lợi ích, tài trợ, mã OSF.
+**Còn lại:** tên người đọc mã độc lập.
 

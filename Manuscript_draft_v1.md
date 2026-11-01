@@ -37,7 +37,7 @@ No specific funding.
 ## Research in context
 
 **Evidence before this study**
-We searched PubMed, Scopus, Cochrane Library, RePEc/IDEAS, and Google Scholar from January 2000 to ⟦date⟧, with forward and backward citation chasing of every included study, together with the grey literature of the Vietnamese Ministry of Finance, Ministry of Health, WHO Viet Nam, and the Health Strategy and Policy Institute, for modelling studies, policy evaluations, and systematic reviews on the health, fiscal, and distributional effects of SSB taxes in Viet Nam and in comparable lower-middle-income and upper-middle-income countries. Search terms combined "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling", and "Viet Nam"; the full strings, dates, and screening log are in Appendix A. SSB taxes had been adopted in 64 countries by 2024, of which 45% were ad valorem, 44% volume-based, and only 5% based on sugar content. For Viet Nam, two analyses had been published. One modelled five tax scenarios corresponding to retail price increases of 5%, 11%, and 19–20% while the statute was still under discussion, and estimated effects on bodyweight and diabetes. The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but could not separate SSBs from bottled water and 100% juice in the survey data, and did not model disease outcomes. No published study has modelled the design as legislated, nor reported health benefits and tax payments on a common equity scale.
+We searched PubMed, Scopus, Cochrane Library, RePEc/IDEAS, and Google Scholar from January 2000 to 1 November 2026, with forward and backward citation chasing of every included study, together with the grey literature of the Vietnamese Ministry of Finance, Ministry of Health, WHO Viet Nam, and the Health Strategy and Policy Institute, for modelling studies, policy evaluations, and systematic reviews on the health, fiscal, and distributional effects of SSB taxes in Viet Nam and in comparable lower-middle-income and upper-middle-income countries. Search terms combined "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling", and "Viet Nam"; the full strings, dates, and screening log are in Appendix A. SSB taxes had been adopted in 64 countries by 2024, of which 45% were ad valorem, 44% volume-based, and only 5% based on sugar content. For Viet Nam, two analyses had been published. One modelled five tax scenarios corresponding to retail price increases of 5%, 11%, and 19–20% while the statute was still under discussion, and estimated effects on bodyweight and diabetes. The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but could not separate SSBs from bottled water and 100% juice in the survey data, and did not model disease outcomes. No published study has modelled the design as legislated, nor reported health benefits and tax payments on a common equity scale.
 
 **Added value of this study**
 This study quantifies the consequences of the tax as legislated rather than as hypothesised, using the statutory tax base, the statutory threshold as operationalised in TCVN 12828:2019, and the value-added tax cascade that applies to excise-bearing goods. It adds three things. First, it estimates the retail price change and the health gain that the 2027 and 2028 rates will actually deliver, expressed in DALYs, cases avoided, costs saved, and revenue. Second, it compares, in a single model and population, the enacted design with the 20% retail price increase recommended by WHO. Third, it reports health gains and tax payments on the same expenditure-quintile scale, so that the trade-off between effectiveness and fairness is measured rather than assumed, and it estimates the return in health gain per dong of revenue of the enacted design, the quantity that the 2028 review will need.
@@ -139,7 +139,7 @@ Unit tests were applied to each model step, population conservation was checked 
 
 ### Reporting, registration, and ethics
 
-The study is reported per CHEERS 2022, with the completed checklist in Appendix E.[26] The protocol, including the analysis plan and the parameter feasibility assessment, was registered on OSF on ⟦date⟧ before the main model runs; deviations are recorded in Appendix D.⟦TBD-0⟧ The study used only published parameters and secondary data, involved no human participants, and accessed no individual-level records; no identifiable information was handled. Ethical approval was therefore not required. The analytic code and the probabilistic sensitivity analysis input matrix are publicly available.https://doi.org/10.5281/zenodo.23852996
+The study is reported per CHEERS 2022, with the completed checklist in Appendix E.[26] The full protocol, including the analysis plan and the parameter feasibility assessment, is archived with the analytic code at https://doi.org/10.5281/zenodo.23852996. Because the model was run before the protocol was deposited, this study is not a pre-registration; the departures from the protocol as originally drafted are recorded in Appendix D. The study used only published parameters and secondary data, involved no human participants, and accessed no individual-level records; no identifiable information was handled. Ethical approval was therefore not required. The analytic code and the probabilistic sensitivity analysis input matrix are publicly available.https://doi.org/10.5281/zenodo.23852996
 
 ---
 
@@ -281,7 +281,7 @@ The study had no funder, and therefore no funder had any role in study design, d
 - **Appendix A.** Evidence search: databases, strings, dates, screening log.
 - **Appendix B.** Parameter evidence log: one row per parameter with value, range, distribution, source, year, population, rationale, and feasibility.
 - **Appendix C.** Product audit: sampling frame, product list, shelf prices, sugar content per 100 mL, share above threshold.
-- **Appendix D.** Deviation log relative to the OSF registration.
+- **Appendix D.** Deviation log relative to the archived protocol.
 - **Appendix E.** CHEERS 2022 checklist with section references.
 - **Appendix F.** Model validation: baseline reproduction and external comparison.
 - **Appendix G.** Full probabilistic and structural sensitivity results.
@@ -422,7 +422,7 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.9 Maintaining the log**
 
-The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol on OSF and updated until submission. Any string modified after registration is recorded in Appendix D.
+The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852996. Any string modified after registration is recorded in Appendix D.
 
 ---
 
@@ -590,7 +590,7 @@ Any change to: the parameter values in Appendix B; the elasticity set; the laten
 | 1 | Title | Title page |
 | 2 | Abstract | Summary |
 | 3 | Background and objectives | Introduction |
-| 4 | Health economic analysis plan | Methods, *Uncertainty and sensitivity analysis*; OSF registration |
+| 4 | Health economic analysis plan | Methods, *Uncertainty and sensitivity analysis*; archived protocol |
 | 5 | Study population | Methods, *Study design and overview* |
 | 6 | Setting and location | Methods, *Study design and overview* |
 | 7 | Comparators | Methods, *Policy scenarios*; Table 1 |
@@ -737,4 +737,4 @@ Code released under an open licence on acceptance; the repository carries a DOI.
 
 **Kết quả mô hình:** đã điền đầy đủ.
 
-**5 chỗ thông tin hành chính:** tác giả, CRediT, COI, tài trợ, mã OSF.
+**Còn lại:** tên người đọc mã độc lập (⟦TBD-37⟧).
