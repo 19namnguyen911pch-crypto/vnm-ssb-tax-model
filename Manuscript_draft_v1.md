@@ -1,16 +1,8 @@
-> **BẢN THẢO v2.0 — 01/11/2026**
-> Ngôn ngữ nộp: tiếng Anh (*Lancet Regional Health – Western Pacific*).
-> **Đã xác minh từ nguồn công khai:** số hiệu luật, nghị định, thông tư, định nghĩa đường, căn cứ tính thuế, thuế VAT áp dụng, chuẩn TCVN, số liệu dịch tễ, bằng chứng truyền dẫn và độ co giãn, các tham chiếu chính.
-> **Kết quả mô hình:** đã điền từ `output/results.json`.
-> **Đã đối chiếu:** mọi dữ kiện pháp lý và thư mục đã xác minh (Phụ lục A.7).
-
----
-
 # Modest health gains and a regressive financing burden from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study
 
-**Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc
-**Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam
-**Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn
+**Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
+**Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
+**Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
 **Word count:** abstract 401; main text 5342; 3 tables; 4 figures; 37 references
 
 ---

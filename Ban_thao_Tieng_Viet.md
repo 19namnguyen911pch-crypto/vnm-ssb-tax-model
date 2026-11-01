@@ -1,15 +1,8 @@
-> **BẢN THẢO v2.0 — 01/11/2026 — BẢN DỊCH TIẾNG VIỆT**
-> Bản nộp tạp chí là bản tiếng Anh (`Manuscript_draft_v1.md`). Bản này để hội đồng và cơ quan chủ trì đọc, không nộp.
-> **Kết quả mô hình:** đã điền từ `output/results.json`.
-> **Không dùng bản này để nộp.**
-
----
-
 # Lợi ích sức khỏe khiêm tốn và gánh nặng tài chính lũy thoái của thuế tiêu thụ đặc biệt đồ uống có đường đã ban hành tại Việt Nam: nghiên cứu mô hình hóa trước thực thi
 
-**Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc
-**Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam
-**Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn
+**Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
+**Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
+**Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
 **Số từ:** tóm tắt 473; thân bài 6991; 3 bảng; 4 hình; 37 tài liệu tham khảo
 
 ---

@@ -9,11 +9,12 @@ Tạp chí mục tiêu: *The Lancet Regional Health – Western Pacific*
 
 | Tệp | Dùng để |
 |---|---|
-| `Manuscript_EN.md` | Bản nộp chính (tiếng Anh) |
-| `Manuscript_VI.md` | Bản dịch, cho hội đồng và cơ quan chủ trì đọc |
-| `Appendices_EN.md` | Phụ lục A–H (tài liệu bổ sung) |
-| `Appendices_VI.md` | Phụ lục A–H, bản dịch |
-| `Cover_letter.md` | Thư gửi toà soạn |
+| `Manuscript_EN.docx` | **Bản nộp chính** — A4, Times New Roman 12, giãn dòng đôi, số dòng liên tục |
+| `Manuscript_VI.docx` | Bản dịch, cho hội đồng và cơ quan chủ trì đọc |
+| `Appendices_EN.docx` | Phụ lục A–H (tài liệu bổ sung) |
+| `Appendices_VI.docx` | Phụ lục A–H, bản dịch |
+| `Cover_letter.docx` | Thư gửi toà soạn |
+| `*.md` | Nguồn Markdown, để sửa và chuyển lại DOCX |
 | `Figures/fig1–4.png` | Bốn hình, 300 dpi |
 | `Figures/make_figures.R` | Script sinh lại toàn bộ hình |
 
@@ -32,7 +33,7 @@ Tạp chí mục tiêu: *The Lancet Regional Health – Western Pacific*
 
 ## Trước khi nộp
 
-- [ ] Chuyển `.md` sang `.docx` theo mẫu của tạp chí (Lancet yêu cầu Word; có thể dùng Pandoc hoặc Google Docs → Download as .docx)
+- [x] Đã chuyển sang `.docx` (A4, TNR 12, giãn đôi, số dòng)
 - [ ] Đổi tên hình theo quy ước của tạp chí (thường `Figure1.png`, `Figure2.png`…)
 - [ ] Kiểm tra lại độ dài tóm tắt so với giới hạn hiện hành của *Lancet Regional Health – WP*
 - [ ] Điền thông tin tài khoản nộp bài trên Editorial Manager
