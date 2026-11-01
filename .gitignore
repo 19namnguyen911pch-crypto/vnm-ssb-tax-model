@@ -10,6 +10,3 @@ data/gbd_vnm/vnm_gbd_2021.csv
 data/wb_*.json
 data/owid_pop.csv
 output/*.rds
-output/psa_results.csv
-output/psa_draws.csv
-output/psa_summary.csv

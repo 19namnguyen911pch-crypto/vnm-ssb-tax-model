@@ -23,7 +23,7 @@ Tháng 6/2025, Việt Nam lần đầu ban hành thuế tiêu thụ đặc biệ
 Chúng tôi xây dựng mô hình bảng sống đa trạng thái tỷ lệ cho dân số Việt Nam từ 20 tuổi trở lên, phân tầng theo tuổi từng năm và ngũ phân vị chi tiêu hộ. Mô hình nối thuế suất với giá bán lẻ qua cơ sở tính thuế xuất xưởng và tầng thuế giá trị gia tăng; giá với cầu; cầu với năng lượng nạp vào; năng lượng với chỉ số khối cơ thể; và BMI với tỷ lệ mắc đái tháo đường type 2, bệnh tim thiếu máu cục bộ và đột quỵ. Bốn kịch bản được so sánh: không thuế, thuế đã ban hành, tăng giá bán lẻ 20% (mốc của WHO), và thuế đã ban hành kèm giảm đường của doanh nghiệp. Bất định được lan truyền qua 5.000 lần mô phỏng Monte Carlo và kết cục chiết khấu 3%/năm.
 
 **Kết quả**
-Thuế đã ban hành sẽ làm giá bán lẻ đồ uống chịu thuế tăng 4,36% năm 2027 và 5,45% năm 2028, làm tiêu thụ giảm 9,6 mL/người/ngày. Giai đoạn 2027–2050, thuế tránh được 23.614 DALY (khoảng bất định 95%: 9.956–53.043) và 32.625 ca đái tháo đường type 2, bệnh tim thiếu máu cục bộ, đột quỵ, tiết kiệm 1.500 tỷ đồng chi phí y tế và tạo 2.731 tỷ đồng doanh thu. DALY tránh được trên 1.000 dân là 0,27 ở nhóm nghèo nhất và 0,35 ở nhóm giàu nhất. Thuế phải trả tương ứng 0,133% và 0,079% chi tiêu hộ. Tăng giá 20% tránh được 89.991 DALY, gấp 3,6 lần.
+Thuế đã ban hành sẽ làm giá bán lẻ đồ uống chịu thuế tăng 4,36% năm 2027 và 5,45% năm 2028, làm tiêu thụ giảm 9,6 mL/người/ngày. Giai đoạn 2027–2050, thuế tránh được 23.614 DALY (khoảng bất định 95%: 9.956–53.043) và 32.625 ca đái tháo đường type 2, bệnh tim thiếu máu cục bộ, đột quỵ, tiết kiệm 1.500 tỷ đồng chi phí y tế và tạo 2.731 tỷ đồng doanh thu. DALY tránh được trên 1.000 dân là 0,27 ở nhóm nghèo nhất và 0,35 ở nhóm giàu nhất. Thuế phải trả tương ứng 0,133% và 0,079% chi tiêu hộ. Tăng giá 20% tránh được 89.991 DALY, gấp 3,8 lần.
 
 **Diễn giải**
 Vì thuế đánh trên cơ sở xuất xưởng và chịu tầng thuế giá trị gia tăng, các mức thuế đã ban hành chỉ tạo ra mức tăng giá bán lẻ khoảng một phần tư mốc WHO khuyến nghị, và lợi ích sức khỏe nhỏ tương ứng. Gánh nặng chi trả là lũy thoái, và khi thiếu một gradient nguy cơ bệnh đo được thì lợi ích sức khỏe cũng rơi nhiều hơn vào các hộ khá giả. Kỳ rà soát luật năm 2028 là cơ hội quyết định để thu hẹp khoảng cách này.
@@ -170,7 +170,7 @@ Giai đoạn 2027–2050, thuế đã ban hành được dự báo tránh đư�
 
 ### So sánh các thiết kế
 
-Mức tăng giá 20% tránh được 89.991 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu 8.187 so với 2.731. Trên mỗi tỷ đồng doanh thu, thuế đã ban hành tạo 9,1 DALY và mốc tham chiếu tạo 11,0, tỷ số 1,21. Giảm đường ở mức 10%, 25% và 50% loại bỏ 10%, 25% và 50% cơ sở thuế, và làm giảm lợi ích sức khỏe cùng doanh thu với độ lớn tương tự, dù sản phẩm đã giảm đường tạo ra mức giảm lượng đường nạp vào thực sự mà thuế theo giá đơn thuần không tạo được.
+Mức tăng giá 20% tránh được 89.991 DALY, gấp 3,8 lần lợi ích của thuế đã ban hành, với doanh thu 8.187 so với 2.731. Trên mỗi tỷ đồng doanh thu, thuế đã ban hành tạo 9,1 DALY và mốc tham chiếu tạo 11,0, tỷ số 1,21. Giảm đường ở mức 10%, 25% và 50% loại bỏ 10%, 25% và 50% cơ sở thuế, và làm giảm lợi ích sức khỏe cùng doanh thu với độ lớn tương tự, dù sản phẩm đã giảm đường tạo ra mức giảm lượng đường nạp vào thực sự mà thuế theo giá đơn thuần không tạo được.
 
 ### Công bằng
 
