@@ -205,7 +205,7 @@ Nguyen Thanh Nam: conceptualisation, methodology, software, formal analysis, dat
 
 ## Data sharing
 
-The analytic code, the parameter evidence log, and the probabilistic sensitivity analysis input matrix are available at https://doi.org/10.5281/zenodo.23852908 from publication. Model outputs underlying Figures 2–4 are provided as supplementary data. VHLSS microdata are held by the National Statistics Office and cannot be redistributed; access conditions are described at https://microdata.worldbank.org/.
+The analytic code, the parameter evidence log, and the probabilistic sensitivity analysis input matrix are available at https://doi.org/10.5281/zenodo.23852908 from publication. Model outputs underlying Figures 2–4 are provided as supplementary data. The quintile profile is calibrated to the published VHLSS 2024 tabulations and no household microdata were used.
 
 ## Declaration of interests
 

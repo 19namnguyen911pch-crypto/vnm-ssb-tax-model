@@ -203,7 +203,7 @@ Nguyen Thanh Nam: xây dựng ý tưởng, phương pháp, phần mềm, phân t
 
 ## Chia sẻ dữ liệu
 
-Mã phân tích, nhật ký bằng chứng tham số và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852908 kể từ ngày công bố. Kết quả mô hình làm cơ sở cho Hình 2–4 được cung cấp dưới dạng dữ liệu bổ sung. Dữ liệu vi mô VHLSS thuộc Tổng cục Thống kê và không thể phân phối lại; điều kiện truy cập được mô tả tại https://microdata.worldbank.org/.
+Mã phân tích, nhật ký bằng chứng tham số và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852908 kể từ ngày công bố. Kết quả mô hình làm cơ sở cho Hình 2–4 được cung cấp dưới dạng dữ liệu bổ sung. Hồ sơ ngũ phân vị được hiệu chỉnh theo bảng công bố của VHLSS 2024 và không sử dụng dữ liệu vi mô hộ gia đình.
 
 ## Tuyên bố xung đột lợi ích
 
