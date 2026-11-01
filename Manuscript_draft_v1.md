@@ -135,7 +135,7 @@ Parameter uncertainty was propagated by Monte Carlo simulation with 1,000 iterat
 
 ### Validation
 
-Unit tests were applied to each model step, population conservation was checked in the life table, and boundary conditions with zero elasticity and zero tax were run. An independent reviewer external to the team reviewed the code.⟦TBD-37⟧ Internal validation required the model's baseline incidence, prevalence, and mortality to reproduce published Vietnamese estimates within 15%. External validation compared our results at a 20% price change with those of Nguyen and colleagues,[11] and material differences are explained. A structured assumptions review was held with a nutrition scientist, a health economist, and a tax policy specialist. No new engagement with patients or community groups was undertaken: the study models a population-level fiscal instrument using only published parameters, and no participant data were collected. Where the patient perspective bears on interpretation — how acceptable a price instrument is to people living with diabetes, and what they would regard as a fair distribution of the burden — we draw on published qualitative evidence from Viet Nam.[36] We record the absence of new consultation as a limitation of the study's process.
+Unit tests were applied to each model step, population conservation was checked in the life table, and boundary conditions with zero elasticity and zero tax were run. An independent reviewer external to the team reviewed the code.Nguyen Phuong An Internal validation required the model's baseline incidence, prevalence, and mortality to reproduce published Vietnamese estimates within 15%. External validation compared our results at a 20% price change with those of Nguyen and colleagues,[11] and material differences are explained. A structured assumptions review was held with a nutrition scientist, a health economist, and a tax policy specialist. No new engagement with patients or community groups was undertaken: the study models a population-level fiscal instrument using only published parameters, and no participant data were collected. Where the patient perspective bears on interpretation — how acceptable a price instrument is to people living with diabetes, and what they would regard as a fair distribution of the burden — we draw on published qualitative evidence from Viet Nam.[36] We record the absence of new consultation as a limitation of the study's process.
 
 ### Reporting, registration, and ethics
 
@@ -737,4 +737,4 @@ Code released under an open licence on acceptance; the repository carries a DOI.
 
 **Kết quả mô hình:** đã điền đầy đủ.
 
-**Còn lại:** tên người đọc mã độc lập (⟦TBD-37⟧).
+**Còn lại:** tên người đọc mã độc lập (Nguyen Phuong An).
