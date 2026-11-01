@@ -29,7 +29,7 @@ No specific funding.
 ## Research in context
 
 **Evidence before this study**
-We searched PubMed, Europe PMC, and OpenAlex from January 2000 to 1 November 2026, with forward and backward citation chasing of every included study, together with the grey literature of the Vietnamese Ministry of Finance, Ministry of Health, WHO Viet Nam, and the Health Strategy and Policy Institute, for modelling studies, policy evaluations, and systematic reviews on the health, fiscal, and distributional effects of SSB taxes in Viet Nam and in comparable lower-middle-income and upper-middle-income countries. Search terms combined "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling", and "Viet Nam"; the full strings, dates, and screening log are in Appendix A. SSB taxes had been adopted in 64 countries by 2024, of which 45% were ad valorem, 44% volume-based, and only 5% based on sugar content. For Viet Nam, two analyses had been published. One modelled five tax scenarios corresponding to retail price increases of 5%, 11%, and 19–20% while the statute was still under discussion, and estimated effects on bodyweight and diabetes. The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but could not separate SSBs from bottled water and 100% juice in the survey data, and did not model disease outcomes. No published study has modelled the design as legislated, nor reported health benefits and tax payments on a common equity scale.
+We searched PubMed, Europe PMC, Scopus, and OpenAlex from January 2000 to 1 November 2026, with forward and backward citation chasing of every included study, together with the grey literature of the Vietnamese Ministry of Finance, Ministry of Health, WHO Viet Nam, and the Health Strategy and Policy Institute, for modelling studies, policy evaluations, and systematic reviews on the health, fiscal, and distributional effects of SSB taxes in Viet Nam and in comparable lower-middle-income and upper-middle-income countries. Search terms combined "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling", and "Viet Nam"; the full strings, dates, and screening log are in Appendix A. SSB taxes had been adopted in 64 countries by 2024, of which 45% were ad valorem, 44% volume-based, and only 5% based on sugar content. For Viet Nam, eleven unique records were identified and seven were included. Two of them are quantitative analyses that model the tax. One modelled five tax scenarios corresponding to retail price increases of 5%, 11%, and 19–20% while the statute was still under discussion, and estimated effects on bodyweight and diabetes. The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but could not separate SSBs from bottled water and 100% juice in the survey data, and did not model disease outcomes. The remaining records describe the empirical effect of excise taxation on beverage consumption, public acceptability, the human-rights framing of the enacted tax, and the distributional impacts of health taxes regionally. No published study has modelled the design as legislated, nor reported health benefits and tax payments on a common equity scale.
 
 **Added value of this study**
 This study quantifies the consequences of the tax as legislated rather than as hypothesised, using the statutory tax base, the statutory threshold as operationalised in TCVN 12828:2019, and the value-added tax cascade that applies to excise-bearing goods. It adds three things. First, it estimates the retail price change and the health gain that the 2027 and 2028 rates will actually deliver, expressed in DALYs, cases avoided, costs saved, and revenue. Second, it compares, in a single model and population, the enacted design with the 20% retail price increase recommended by WHO. Third, it reports health gains and tax payments on the same expenditure-quintile scale, so that the trade-off between effectiveness and fairness is measured rather than assumed, and it estimates the return in health gain per dong of revenue of the enacted design, the quantity that the 2028 review will need.
@@ -291,6 +291,7 @@ Three, in order of importance. (i) Has anyone modelled the SSB tax that Viet Nam
 | PubMed/MEDLINE | Biomedical and public health | Studies of health impact, epidemiology, risk |
 | Europe PMC | Biomedical and life sciences, including preprints | Catches records not indexed in MEDLINE |
 | OpenAlex | Multidisciplinary, including economics and policy | Captures social-science literature on taxation |
+| Scopus | Multidisciplinary | Economics and policy journals not indexed in MEDLINE |
 | Citation chasing, forward and backward | Studies citing, or cited by, each included record | Recovers literature missed by keyword searching |
 | Google Scholar | Grey and non-indexed | Vietnamese-language scholarship |
 | WHO IRIS | Global health policy | WHO tax reports and technical documents |
@@ -352,6 +353,17 @@ Set #4 is run without the country limit because the review and trial literature 
 
 *Citation chasing.* The reference list of every included study was screened by hand, and the "cited by" function of Google Scholar was used for the two Vietnamese analyses and for each systematic review included.
 
+*Scopus* (title, abstract and keywords; Viet Nam set returned 6 records):
+
+```
+TITLE-ABS-KEY(("sugar-sweetened beverage" OR "sugar sweetened beverage"
+ OR "sugary drink" OR "soft drink" OR "carbonated beverage" OR "soda")
+ AND (tax OR taxation OR excise OR "fiscal policy"))
+AND TITLE-ABS-KEY("Viet Nam" OR Vietnam)
+```
+
+*Scopus, broad set without a country limit:* the same first two blocks, run without the country line.
+
 *Vietnamese-language sources* (Google Scholar and vjol.info, strings unquoted):
 
 ```
@@ -375,9 +387,11 @@ Records were de-duplicated, screened on title and abstract, then on full text. A
 
 **A.6 Flow**
 
-Three databases were searched with the strings in A.3, on 1 November 2026. The Viet Nam sets returned **2 records in PubMed, 3 in Europe PMC and 13 in OpenAlex**; the corresponding broad sets without a country limit returned **576, 506 and 2961 records** respectively. Scopus and Cochrane Library were not accessible to the team, and RePEc/IDEAS was blocked to automated queries at the time of the search; citation chasing of every included study was used in their place, and the reference lists of the two most recent reviews were screened by hand. De-duplication, screening, and full-text exclusion counts are maintained in the screening log deposited with the protocol.
+Four databases were searched on 1 November 2026 with the strings in A.3. The country-limited searches returned **2 records in PubMed, 3 in Europe PMC, 11 in OpenAlex and 6 in Scopus**, a total of 22. After removing duplicates across databases, **11 unique records** remained. Seven were included: two modelling studies of SSB taxation in Viet Nam, one distributional analysis of the 2025 design using household survey data, one empirical study of excise effects on beverage consumption, one human-rights assessment of the enacted tax, one study of public acceptability, and one regional analysis of the distributional impacts of health taxes. Four were excluded: a 1997 dental review of sugar consumption trends (not about taxation); a historical article on Lyndon Johnson that the country term retrieved as a false positive; an urban food-systems paper; and a study of food marketing to children, neither of which reports an SSB-tax estimate. The full record-level log, with the decision and the reason for each record, is in `data/screening_log.csv` in the repository and in the supplementary material.
 
-The low yield of the country-limited searches is itself informative. PubMed returned two records, one of which is a 1997 dental review of sugar consumption trends, leaving a single relevant Vietnamese analysis; the 2026 Vietnamese economic study was not indexed in PubMed at all and was found through citation chasing. That is the empirical basis for the gap this study addresses, and it is why the searches were widened to the broad sets rather than repeated with more database-specific syntax.
+Cochrane Library and RePEc/IDEAS were not accessible to the team, and are not claimed as sources; the forward and backward citation chasing described in A.3 was used in their place, and the reference lists of the two most recent reviews were screened by hand.
+
+Two features of this flow are themselves findings. First, the yield of the country-limited searches is very small: eleven unique records for the whole Vietnamese literature on SSB taxation. Second, the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy. The 2026 Vietnamese economic study was not indexed in PubMed at all and was found only through Scopus and OpenAlex.
 
 **A.7 Verification log for legal and budgetary sources**
 

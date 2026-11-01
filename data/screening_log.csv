@@ -1,0 +1,12 @@
+record,sources,year,title,doi,decision,reason
+1,Europe PMC+OpenAlex+PubMed+Scopus,2023,Estimating the health impacts of sugar-sweetened beverage tax for informing policy decisions about the obesity burden in Vietnam,10.1371/journal.pone.0274928,include,health-impact modelling of SSB tax scenarios in Viet Nam
+2,Europe PMC+OpenAlex+PubMed+Scopus,1997,Current trends of sugar consumption in developing societies,10.1111/j.1600-0528.1997.tb01735.x,exclude,dental review of sugar consumption trends
+3,OpenAlex+Scopus,2025,Between Commerce and Conscience: A Human Rights Assessment of Vietnam’s Excise Tax on Sugar-Sweetened Beverages,10.1080/18918131.2025.2604913,include,human-rights assessment of the enacted SSB excise tax
+4,OpenAlex+Scopus,2020,Impacts of Excise Taxation on Non-Alcoholic Beverage Consumption in Vietnam,10.3390/su12031092,include,empirical analysis of excise effects on beverage consumption
+5,OpenAlex+Scopus,2026,The impacts of alcoholic and non-alcoholic beverage tax on different income groups in Vietnam,10.1007/s43621-026-03022-1,include,distributional analysis of the 2025 excise design using VHLSS
+6,OpenAlex,2026,Thuế tiêu thụ đặc biệt đối với nước giải khát có đường tại Việt Nam - góc nhìn từ lý thuyết và kinh nghiệm quốc tế,10.64215/h1bmvr13,include,legal and theoretical analysis of the enacted tax
+7,OpenAlex,2022,The Distributional Impacts of Health Taxes,10.1596/38409,include,"distributional analysis of health taxes, including SSB, regional"
+8,OpenAlex,1996,Lyndon Johnson and Vietnam: The Making of a Tragedy,10.1111/j.1467-7709.1996.tb00620.x,exclude,unrelated historical record; false positive of the country term
+9,OpenAlex,2026,Building food-smart cities: embedding urban food systems in the WEF nexus,10.3389/fsrma.2026.1819367,exclude,"urban food systems, no beverage tax analysis"
+10,OpenAlex,2023,Harmful marketing by commercial actors and policy ideas from youth,10.1093/heapro/daad149,exclude,"food marketing to children, not taxation"
+11,Scopus,2021,Public acceptability of policy interventions to reduce sugary drink consumption in urban Vietnam,10.3390/su132313422,include,acceptability of SSB policies in urban Viet Nam
