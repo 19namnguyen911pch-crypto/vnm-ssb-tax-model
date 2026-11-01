@@ -12,6 +12,8 @@ Ba, theo thứ tự quan trọng. (i) Đã có ai mô hình hóa đúng mức th
 | Europe PMC | Y sinh và khoa học sự sống, gồm cả preprint | Bắt các bản ghi không có trong MEDLINE |
 | OpenAlex | Đa ngành, gồm kinh tế và chính sách | Bao phủ văn liệu khoa học xã hội về thuế |
 | Scopus | Đa ngành | Tạp chí kinh tế và chính sách không có trong MEDLINE |
+| Cochrane Library (CDSR và CENTRAL) | Tổng quan hệ thống và thử nghiệm | Tổng quan về can thiệp SSB; bằng chứng thử nghiệm về giá và tiêu thụ |
+| RePEc/IDEAS | Working paper và tạp chí kinh tế | Truyền dẫn, quy giáng và thiết kế thuế |
 | Truy vết trích dẫn, xuôi và ngược | Nghiên cứu trích dẫn, hoặc được trích dẫn bởi, mỗi bản ghi được đưa vào | Bắt văn liệu mà tìm theo từ khóa bỏ sót |
 | Google Scholar | Tài liệu xám và không được chỉ mục | Học thuật tiếng Việt |
 | WHO IRIS | Chính sách y tế toàn cầu | Báo cáo và tài liệu kỹ thuật của WHO |
@@ -87,6 +89,26 @@ AND TITLE-ABS-KEY("Viet Nam" OR Vietnam)
 
 *Scopus, tập rộng không giới hạn quốc gia:* hai khối đầu, bỏ dòng quốc gia.
 
+*Cochrane Library* (CDSR và CENTRAL; tập đánh số dòng):
+
+```
+#1 ("sugar-sweetened beverage" OR "sugar sweetened beverage" OR "sugary drink"
+    OR "soft drink" OR "carbonated beverage" OR soda):ti,ab,kw
+#2 (tax OR taxes OR taxation OR excise OR "fiscal policy" OR "price elasticity"):ti,ab,kw
+#3 (vietnam OR "viet nam"):ti,ab,kw
+#4 #1 AND #2
+#5 #4 AND #3
+```
+
+*RePEc/IDEAS* (tìm nâng cao EconPapers, tiêu đề và tóm tắt), bổ sung bằng
+`site:ideas.repec.org OR site:econpapers.repec.org ("sugar-sweetened beverage" OR "soft drink" OR soda) (tax OR taxation OR excise)`:
+
+```
+("sugar-sweetened beverage" OR "soft drink" OR soda)
+AND (tax OR taxation OR excise)
+AND (vietnam OR "viet nam" OR asia OR "developing countr*")
+```
+
 *Nguồn tiếng Việt* (Google Scholar và vjol.info, chuỗi không đặt trong ngoặc kép):
 
 ```
@@ -110,11 +132,15 @@ Các bản ghi được loại trùng, sàng lọc theo tiêu đề và tóm t�
 
 **A.6 Sơ đồ dòng**
 
-Bốn cơ sở dữ liệu được tìm ngày 1/11/2026 bằng chuỗi ở A.3. Các tìm kiếm giới hạn quốc gia trả về **2 bản ghi ở PubMed, 3 ở Europe PMC, 11 ở OpenAlex và 6 ở Scopus**, tổng cộng 22. Sau khi loại trùng giữa các cơ sở dữ liệu, còn **11 bản ghi duy nhất**. Bảy bản ghi được đưa vào: hai nghiên cứu mô hình hóa thuế đồ uống có đường tại Việt Nam, một phân tích phân bố của thiết kế 2025 dùng dữ liệu khảo sát hộ, một nghiên cứu thực nghiệm về tác động của thuế tiêu thụ đặc biệt lên tiêu thụ đồ uống, một đánh giá nhân quyền về thuế đã ban hành, một nghiên cứu về mức chấp nhận của công chúng, và một phân tích khu vực về tác động phân bố của thuế sức khỏe. Bốn bản ghi bị loại: một tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường (không bàn về thuế); một bài lịch sử về Lyndon Johnson mà từ khóa quốc gia bắt nhầm; một bài về hệ thống thực phẩm đô thị; và một nghiên cứu về tiếp thị thực phẩm cho trẻ em — hai bài sau không có ước lượng nào về thuế đồ uống có đường. Nhật ký đầy đủ theo từng bản ghi, kèm quyết định và lý do, nằm ở `data/screening_log.csv` trong kho mã và trong tài liệu bổ sung.
+Sáu nguồn được tìm ngày 1/11/2026 bằng chuỗi ở A.3. Các tìm kiếm giới hạn quốc gia trả về **2 bản ghi ở PubMed, 3 ở Europe PMC, 11 ở OpenAlex, 6 ở Scopus, 3 ở Cochrane Library và không có bản ghi nào ở RePEc/IDEAS**, tổng cộng 25. Sau khi loại trùng giữa các cơ sở dữ liệu, còn **14 bản ghi duy nhất**.
 
-Cochrane Library và RePEc/IDEAS không thuộc quyền truy cập của nhóm và không được tính là nguồn; truy vết trích dẫn xuôi và ngược mô tả ở A.3 được dùng thay thế, và danh mục tài liệu tham khảo của hai tổng quan gần nhất được sàng lọc thủ công.
+Tám bản ghi được đưa vào: hai phân tích định lượng mô hình hóa thuế đồ uống có đường tại Việt Nam; một phân tích phân bố của thiết kế 2025 dùng dữ liệu khảo sát hộ; một nghiên cứu thực nghiệm về tác động của thuế tiêu thụ đặc biệt lên tiêu thụ đồ uống; một đánh giá nhân quyền về thuế đã ban hành; một nghiên cứu về mức chấp nhận của công chúng; một phân tích khu vực về tác động phân bố của thuế sức khỏe; và một tổng quan hệ thống Cochrane về các can thiệp môi trường nhằm giảm tiêu thụ đồ uống có đường.
 
-Hai đặc điểm của sơ đồ này tự chúng là phát hiện. Thứ nhất, năng suất của các tìm kiếm giới hạn quốc gia rất thấp: mười một bản ghi duy nhất cho toàn bộ văn liệu Việt Nam về thuế đồ uống có đường. Thứ hai, tổng quan nha khoa 1997 được mọi cơ sở dữ liệu trả về vì nó nêu tên Việt Nam trong danh sách các nước có tiêu thụ đường tăng — một lời nhắc rằng tìm theo từ khóa quốc gia trong lĩnh vực này rất nhiễu. Nghiên cứu kinh tế Việt Nam 2026 hoàn toàn không được chỉ mục trong PubMed và chỉ tìm được qua Scopus và OpenAlex.
+Sáu bản ghi bị loại. Một tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường không bàn về thuế. Một bài lịch sử về Lyndon Johnson bị từ khóa quốc gia bắt nhầm. Một bài về hệ thống thực phẩm đô thị và một nghiên cứu về tiếp thị thực phẩm cho trẻ em không có ước lượng nào về thuế đồ uống có đường. Một thử nghiệm giáo dục dinh dưỡng do đồng đẳng dẫn dắt và một nghiên cứu về tỷ lệ sâu răng có nêu Việt Nam nhưng không có phơi nhiễm thuế. Nhật ký theo từng bản ghi, kèm quyết định và lý do, nằm ở `data/screening_log.csv` và trong tài liệu bổ sung.
+
+Các tập rộng không giới hạn quốc gia trả về 576 bản ghi ở PubMed, 506 ở Europe PMC, 2.961 ở OpenAlex, 1.526 ở Cochrane CENTRAL và 21 ở RePEc. Các tập này được dùng để lấy giá trị tham số — độ co giãn giá, mức truyền dẫn, nguy cơ tương đối và chi phí — chứ không sàng lọc từng bản ghi, vì nghiên cứu cần ước lượng tham số từ bất kỳ bối cảnh so sánh được nào, không phải một tổng quan hệ thống về tác động của thuế.
+
+Hai đặc điểm của sơ đồ này tự chúng là phát hiện. Năng suất của các tìm kiếm giới hạn quốc gia rất thấp: mười bốn bản ghi duy nhất cho toàn bộ văn liệu Việt Nam về thuế đồ uống có đường, trong đó tám bản ghi có liên quan. Và tổng quan nha khoa 1997 được mọi cơ sở dữ liệu trả về vì nó nêu tên Việt Nam trong danh sách các nước có tiêu thụ đường tăng — một lời nhắc rằng tìm theo từ khóa quốc gia trong lĩnh vực này rất nhiễu.
 
 **A.7 Nhật ký xác minh nguồn pháp lý và ngân sách**
 

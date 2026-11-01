@@ -12,6 +12,8 @@ Three, in order of importance. (i) Has anyone modelled the SSB tax that Viet Nam
 | Europe PMC | Biomedical and life sciences, including preprints | Catches records not indexed in MEDLINE |
 | OpenAlex | Multidisciplinary, including economics and policy | Captures social-science literature on taxation |
 | Scopus | Multidisciplinary | Economics and policy journals not indexed in MEDLINE |
+| Cochrane Library (CDSR and CENTRAL) | Systematic reviews and trials | Reviews of SSB interventions; trial evidence on price and consumption |
+| RePEc/IDEAS | Economics working papers and journals | Pass-through, incidence and tax design |
 | Citation chasing, forward and backward | Studies citing, or cited by, each included record | Recovers literature missed by keyword searching |
 | Google Scholar | Grey and non-indexed | Vietnamese-language scholarship |
 | WHO IRIS | Global health policy | WHO tax reports and technical documents |
@@ -84,6 +86,26 @@ AND TITLE-ABS-KEY("Viet Nam" OR Vietnam)
 
 *Scopus, broad set without a country limit:* the same first two blocks, run without the country line.
 
+*Cochrane Library* (CDSR and CENTRAL; line-numbered sets):
+
+```
+#1 ("sugar-sweetened beverage" OR "sugar sweetened beverage" OR "sugary drink"
+    OR "soft drink" OR "carbonated beverage" OR soda):ti,ab,kw
+#2 (tax OR taxes OR taxation OR excise OR "fiscal policy" OR "price elasticity"):ti,ab,kw
+#3 (vietnam OR "viet nam"):ti,ab,kw
+#4 #1 AND #2
+#5 #4 AND #3
+```
+
+*RePEc/IDEAS* (EconPapers advanced search, title and abstract), supplemented by
+`site:ideas.repec.org OR site:econpapers.repec.org ("sugar-sweetened beverage" OR "soft drink" OR soda) (tax OR taxation OR excise)`:
+
+```
+("sugar-sweetened beverage" OR "soft drink" OR soda)
+AND (tax OR taxation OR excise)
+AND (vietnam OR "viet nam" OR asia OR "developing countr*")
+```
+
 *Vietnamese-language sources* (Google Scholar and vjol.info, strings unquoted):
 
 ```
@@ -107,11 +129,15 @@ Records were de-duplicated, screened on title and abstract, then on full text. A
 
 **A.6 Flow**
 
-Four databases were searched on 1 November 2026 with the strings in A.3. The country-limited searches returned **2 records in PubMed, 3 in Europe PMC, 11 in OpenAlex and 6 in Scopus**, a total of 22. After removing duplicates across databases, **11 unique records** remained. Seven were included: two modelling studies of SSB taxation in Viet Nam, one distributional analysis of the 2025 design using household survey data, one empirical study of excise effects on beverage consumption, one human-rights assessment of the enacted tax, one study of public acceptability, and one regional analysis of the distributional impacts of health taxes. Four were excluded: a 1997 dental review of sugar consumption trends (not about taxation); a historical article on Lyndon Johnson that the country term retrieved as a false positive; an urban food-systems paper; and a study of food marketing to children, neither of which reports an SSB-tax estimate. The full record-level log, with the decision and the reason for each record, is in `data/screening_log.csv` in the repository and in the supplementary material.
+Six sources were searched on 1 November 2026 with the strings in A.3. The country-limited searches returned **2 records in PubMed, 3 in Europe PMC, 11 in OpenAlex, 6 in Scopus, 3 in Cochrane Library and none in RePEc/IDEAS**, a total of 25. After removing duplicates across databases, **14 unique records** remained.
 
-Cochrane Library and RePEc/IDEAS were not accessible to the team, and are not claimed as sources; the forward and backward citation chasing described in A.3 was used in their place, and the reference lists of the two most recent reviews were screened by hand.
+Eight were included: two quantitative analyses that model SSB taxation in Viet Nam; one distributional analysis of the 2025 design using household survey data; one empirical study of excise effects on beverage consumption; one human-rights assessment of the enacted tax; one study of public acceptability; one regional analysis of the distributional impacts of health taxes; and one Cochrane systematic review of environmental interventions to reduce SSB consumption.
 
-Two features of this flow are themselves findings. First, the yield of the country-limited searches is very small: eleven unique records for the whole Vietnamese literature on SSB taxation. Second, the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy. The 2026 Vietnamese economic study was not indexed in PubMed at all and was found only through Scopus and OpenAlex.
+Six were excluded. A 1997 dental review of sugar consumption trends is not about taxation. A historical article on Lyndon Johnson was retrieved by the country term as a false positive. An urban food-systems paper and a study of food marketing to children report no SSB-tax estimate. A peer-led dietary education trial and a caries prevalence study mention Viet Nam but contain no tax exposure. The record-level log, with the decision and the reason for each record, is in `data/screening_log.csv` and in the supplementary material.
+
+The broad sets without a country limit returned 576 records in PubMed, 506 in Europe PMC, 2,961 in OpenAlex, 1,526 in Cochrane CENTRAL and 21 in RePEc. These were used to source parameter values — price elasticities, pass-through, relative risks and cost estimates — rather than screened record by record, because the study needs parameter estimates from any comparable setting and not a systematic review of tax effects.
+
+Two features of this flow are themselves findings. The yield of the country-limited searches is very small: fourteen unique records for the whole Vietnamese literature on SSB taxation, of which eight are relevant. And the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy.
 
 **A.7 Verification log for legal and budgetary sources**
 

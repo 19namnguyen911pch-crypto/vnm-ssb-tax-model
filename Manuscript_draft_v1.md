@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 401; main text 5342; 3 tables; 4 figures; 37 references
+**Word count:** abstract 401; main text 5351; 3 tables; 4 figures; 38 references
 
 ---
 
@@ -41,7 +41,7 @@ The protective effect of an ad valorem excise on sugar-sweetened beverages scale
 
 ## Introduction
 
-Non-communicable diseases account for more than 80% of deaths in Viet Nam.[1] Overweight prevalence among adults rose from 15.6% in 2015 to 19.5% in 2021, and 7.3% of men and 6.9% of women had raised blood glucose or were taking medication for diabetes by 2021.[1] Sugar-sweetened beverages contribute to this burden through weight gain and through a weight-independent effect of rapidly absorbed liquid sugar on insulin resistance, and they are the dietary source of added sugar most responsive to price. Per-capita consumption of sugary drinks in Viet Nam rose from 18 L in 2009 to 66 L in 2023, an increase of 350%, one of the fastest increases in the Western Pacific region,[2] and the market is forecast to keep expanding. Viet Nam is therefore a setting in which a small change in price could plausibly have a large population effect, which is what makes the design of its first excise tax consequential. Taxation is the intervention with the strongest evidence base for reducing population sugar intake. A tax that raises retail prices by 20% can reduce consumption by around 20%,[3] and WHO recommends that SSB taxes achieve at least a 20% increase in retail price.[4] By 2024, 64 countries had implemented SSB taxes, covering 3.5 billion people; adoption has been fastest in south and southeast Asia, but only 5% of these taxes are levied on sugar content.[5] WHO's 2025 global assessment reached the same conclusion from a different data source, and noted that standardised comparison of tax levels across countries remains difficult because the tax base and the price point at which the tax is levied differ.[30]
+Non-communicable diseases account for more than 80% of deaths in Viet Nam.[1] Overweight prevalence among adults rose from 15.6% in 2015 to 19.5% in 2021, and 7.3% of men and 6.9% of women had raised blood glucose or were taking medication for diabetes by 2021.[1] Sugar-sweetened beverages contribute to this burden through weight gain and through a weight-independent effect of rapidly absorbed liquid sugar on insulin resistance, and they are the dietary source of added sugar most responsive to price. Per-capita consumption of sugary drinks in Viet Nam rose from 18 L in 2009 to 66 L in 2023, an increase of 350%, one of the fastest increases in the Western Pacific region,[2] and the market is forecast to keep expanding. Viet Nam is therefore a setting in which a small change in price could plausibly have a large population effect, which is what makes the design of its first excise tax consequential. Taxation is the intervention with the strongest evidence base for reducing population sugar intake, as the Cochrane review of environmental interventions concludes.[38] A tax that raises retail prices by 20% can reduce consumption by around 20%,[3] and WHO recommends that SSB taxes achieve at least a 20% increase in retail price.[4] By 2024, 64 countries had implemented SSB taxes, covering 3.5 billion people; adoption has been fastest in south and southeast Asia, but only 5% of these taxes are levied on sugar content.[5] WHO's 2025 global assessment reached the same conclusion from a different data source, and noted that standardised comparison of tax levels across countries remains difficult because the tax base and the price point at which the tax is levied differ.[30]
 
 On 14 June 2025, Viet Nam's National Assembly passed Law No. 66/2025/QH15, which for the first time brings non-alcoholic beverages containing more than 5 g of sugar per 100 mL within the excise base.[6] The rate is 0% in 2026, 8% from 1 January 2027, and 10% from 1 January 2028.[6,7] Decree 360/2025/ND-CP and Circular 158/2025/TT-BTC operationalise the tax: sugar content is the total sugar declared on the nutrition label under Ministry of Health labelling rules, and the taxable price is the producer's or importer's selling price exclusive of value-added tax and excise.[7,8] Value-added tax on most goods was temporarily reduced from 10% to 8% between 1 July 2025 and 31 December 2026, but goods subject to excise were excluded from that reduction;[9] from 2027 the standard 10% rate applies in any event, so the excise reaches the consumer through a 10% value-added tax cascade. The scope of the tax is set by reference to the national standard for soft drinks, TCVN 12828:2019, which covers flavoured drinks — including energy, sports, and electrolyte drinks — coffee-based and tea-based drinks, herbal drinks, drinks containing fruit juice, and cereal-based drinks, and does not apply to milk and dairy products, liquid nutritional foods, natural mineral and bottled water, fruit and vegetable juices and nectars, or cocoa products.[8,26] The exclusion is therefore definitional rather than an explicit exemption list, and because the boundary between a fruit juice and a drink containing fruit juice is contested in practice, while the status of coconut water is unresolved, part of the tax base is legally indeterminate.[7,8] We treat this as structural uncertainty and model broad and narrow interpretations rather than resolving it by assumption. The design raises three questions that the statute leaves open. First, an ad valorem rate applied to an ex-factory base is not a retail price change: because the excise is levied on the producer's price rather than on the retail price, the change reaching the consumer is a fraction of the headline rate, and the health gain scales with that price change rather than with the rate. Second, it is not established whether the resulting burden of payment falls disproportionately on poorer households, for whom SSBs represent a larger share of expenditure, nor whether any such regressivity is offset by a progressive distribution of health gain. Third, the statute provides for review in 2028, when the choice between a higher ad valorem rate and a levy per gram of sugar will be considered, and that choice should be informed by health return per unit of revenue rather than by revenue alone. Previous modelling for Viet Nam examined hypothetical rates before the statute was passed and concentrated on bodyweight and diabetes;[10] a later analysis used household survey data to simulate consumption and welfare effects of the legislated design but could not isolate SSBs from other non-alcoholic beverages and did not model disease.[11] Neither reports health benefits and tax payments on a common equity scale, and neither quantifies the return per unit of revenue of alternative designs. In this study we therefore estimated, for the tax as enacted, (i) the change in retail price and consumption, (ii) the DALYs gained and the cases of type 2 diabetes, ischaemic heart disease, and stroke avoided, (iii) the health-care costs saved and the revenue raised, and (iv) how these gains and this burden are distributed across household expenditure quintiles, comparing the enacted design with a 20% retail price increase, with industry reformulation, and with a revenue-neutral tax per gram of sugar. To our knowledge this is the first analysis to model a Vietnamese SSB tax as legislated, on its statutory base, and to place its health benefit and its financing burden on the same equity scale.
 
@@ -264,6 +264,7 @@ The study had no funder, and therefore no funder had any role in study design, d
 35. Tri MT, Khue NT, Khoa VT, Goto A. Patient views on quality of life and hospital care: results from a qualitative study among Vietnamese patients with diabetes. Front Commun. 2022;7:894435.
 36. Pham ND, Bui HLA, Pham TTL, Bui MT, Nguyen CT. Direct medical cost analysis of percutaneous coronary intervention in acute coronary syndrome patients. Vietnam Medical Journal. 2024;543(2). doi:10.51298/vmj.v543i2.11460.
 37. Doan TH. Direct costs of inpatient treatment for stroke patients at Bach Mai Hospital [thesis]. Hanoi: Hanoi Medical University; 2022.
+38. von Philipsborn P, Stratil JM, Burns J, Busert LK, Pfadenhauer LM, Polus S, Holzapfel C, Hauner H, Rehfuess E. Environmental interventions to reduce the consumption of sugar-sweetened beverages and their effects on health. Cochrane Database Syst Rev. 2019;6:CD012292.
 
 ## Supplementary material
 
@@ -292,6 +293,8 @@ Three, in order of importance. (i) Has anyone modelled the SSB tax that Viet Nam
 | Europe PMC | Biomedical and life sciences, including preprints | Catches records not indexed in MEDLINE |
 | OpenAlex | Multidisciplinary, including economics and policy | Captures social-science literature on taxation |
 | Scopus | Multidisciplinary | Economics and policy journals not indexed in MEDLINE |
+| Cochrane Library (CDSR and CENTRAL) | Systematic reviews and trials | Reviews of SSB interventions; trial evidence on price and consumption |
+| RePEc/IDEAS | Economics working papers and journals | Pass-through, incidence and tax design |
 | Citation chasing, forward and backward | Studies citing, or cited by, each included record | Recovers literature missed by keyword searching |
 | Google Scholar | Grey and non-indexed | Vietnamese-language scholarship |
 | WHO IRIS | Global health policy | WHO tax reports and technical documents |
@@ -364,6 +367,26 @@ AND TITLE-ABS-KEY("Viet Nam" OR Vietnam)
 
 *Scopus, broad set without a country limit:* the same first two blocks, run without the country line.
 
+*Cochrane Library* (CDSR and CENTRAL; line-numbered sets):
+
+```
+#1 ("sugar-sweetened beverage" OR "sugar sweetened beverage" OR "sugary drink"
+    OR "soft drink" OR "carbonated beverage" OR soda):ti,ab,kw
+#2 (tax OR taxes OR taxation OR excise OR "fiscal policy" OR "price elasticity"):ti,ab,kw
+#3 (vietnam OR "viet nam"):ti,ab,kw
+#4 #1 AND #2
+#5 #4 AND #3
+```
+
+*RePEc/IDEAS* (EconPapers advanced search, title and abstract), supplemented by
+`site:ideas.repec.org OR site:econpapers.repec.org ("sugar-sweetened beverage" OR "soft drink" OR soda) (tax OR taxation OR excise)`:
+
+```
+("sugar-sweetened beverage" OR "soft drink" OR soda)
+AND (tax OR taxation OR excise)
+AND (vietnam OR "viet nam" OR asia OR "developing countr*")
+```
+
 *Vietnamese-language sources* (Google Scholar and vjol.info, strings unquoted):
 
 ```
@@ -387,11 +410,15 @@ Records were de-duplicated, screened on title and abstract, then on full text. A
 
 **A.6 Flow**
 
-Four databases were searched on 1 November 2026 with the strings in A.3. The country-limited searches returned **2 records in PubMed, 3 in Europe PMC, 11 in OpenAlex and 6 in Scopus**, a total of 22. After removing duplicates across databases, **11 unique records** remained. Seven were included: two modelling studies of SSB taxation in Viet Nam, one distributional analysis of the 2025 design using household survey data, one empirical study of excise effects on beverage consumption, one human-rights assessment of the enacted tax, one study of public acceptability, and one regional analysis of the distributional impacts of health taxes. Four were excluded: a 1997 dental review of sugar consumption trends (not about taxation); a historical article on Lyndon Johnson that the country term retrieved as a false positive; an urban food-systems paper; and a study of food marketing to children, neither of which reports an SSB-tax estimate. The full record-level log, with the decision and the reason for each record, is in `data/screening_log.csv` in the repository and in the supplementary material.
+Six sources were searched on 1 November 2026 with the strings in A.3. The country-limited searches returned **2 records in PubMed, 3 in Europe PMC, 11 in OpenAlex, 6 in Scopus, 3 in Cochrane Library and none in RePEc/IDEAS**, a total of 25. After removing duplicates across databases, **14 unique records** remained.
 
-Cochrane Library and RePEc/IDEAS were not accessible to the team, and are not claimed as sources; the forward and backward citation chasing described in A.3 was used in their place, and the reference lists of the two most recent reviews were screened by hand.
+Eight were included: two quantitative analyses that model SSB taxation in Viet Nam; one distributional analysis of the 2025 design using household survey data; one empirical study of excise effects on beverage consumption; one human-rights assessment of the enacted tax; one study of public acceptability; one regional analysis of the distributional impacts of health taxes; and one Cochrane systematic review of environmental interventions to reduce SSB consumption.
 
-Two features of this flow are themselves findings. First, the yield of the country-limited searches is very small: eleven unique records for the whole Vietnamese literature on SSB taxation. Second, the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy. The 2026 Vietnamese economic study was not indexed in PubMed at all and was found only through Scopus and OpenAlex.
+Six were excluded. A 1997 dental review of sugar consumption trends is not about taxation. A historical article on Lyndon Johnson was retrieved by the country term as a false positive. An urban food-systems paper and a study of food marketing to children report no SSB-tax estimate. A peer-led dietary education trial and a caries prevalence study mention Viet Nam but contain no tax exposure. The record-level log, with the decision and the reason for each record, is in `data/screening_log.csv` and in the supplementary material.
+
+The broad sets without a country limit returned 576 records in PubMed, 506 in Europe PMC, 2,961 in OpenAlex, 1,526 in Cochrane CENTRAL and 21 in RePEc. These were used to source parameter values — price elasticities, pass-through, relative risks and cost estimates — rather than screened record by record, because the study needs parameter estimates from any comparable setting and not a systematic review of tax effects.
+
+Two features of this flow are themselves findings. The yield of the country-limited searches is very small: fourteen unique records for the whole Vietnamese literature on SSB taxation, of which eight are relevant. And the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy.
 
 **A.7 Verification log for legal and budgetary sources**
 

@@ -3,7 +3,7 @@
 **Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 473; thân bài 6991; 3 bảng; 4 hình; 37 tài liệu tham khảo
+**Số từ:** tóm tắt 473; thân bài 7005; 3 bảng; 4 hình; 38 tài liệu tham khảo
 
 ---
 
@@ -41,7 +41,7 @@ Tác dụng bảo vệ của một mức thuế tiêu thụ đặc biệt theo t
 
 ## Giới thiệu
 
-Bệnh không lây nhiễm chiếm hơn 80% số ca tử vong tại Việt Nam.[1] Tỷ lệ thừa cân ở người trưởng thành tăng từ 15,6% năm 2015 lên 19,5% năm 2021, và đến năm 2021 có 7,3% nam và 6,9% nữ có đường huyết tăng hoặc đang dùng thuốc điều trị đái tháo đường.[1] Đồ uống có đường góp phần vào gánh nặng này qua tăng cân và qua tác động không phụ thuộc cân nặng của đường lỏng hấp thu nhanh lên đề kháng insulin; đây cũng là nguồn đường bổ sung trong khẩu phần nhạy cảm nhất với giá. Tiêu thụ đồ uống có đường bình quân đầu người ở Việt Nam tăng từ 18 lít năm 2009 lên 66 lít năm 2023, tức tăng 350%, một trong những mức tăng nhanh nhất khu vực Tây Thái Bình Dương,[2] và thị trường được dự báo tiếp tục mở rộng. Việt Nam vì vậy là bối cảnh mà ở đó một thay đổi nhỏ về giá có thể tạo tác động quần thể lớn — chính điều này làm cho thiết kế của mức thuế tiêu thụ đặc biệt đầu tiên trở nên quan trọng. Thuế là can thiệp có nền bằng chứng mạnh nhất cho việc giảm lượng đường nạp vào ở cấp quần thể. Một mức thuế làm giá bán lẻ tăng 20% có thể làm tiêu thụ giảm khoảng 20%,[3] và WHO khuyến nghị thuế đồ uống có đường đạt mức tăng giá bán lẻ ít nhất 20%.[4] Đến năm 2024 đã có 64 quốc gia áp dụng thuế đồ uống có đường, bao phủ 3,5 tỷ người; tốc độ áp dụng nhanh nhất ở Nam Á và Đông Nam Á, nhưng chỉ 5% số thuế này đánh theo hàm lượng đường.[5] Đánh giá toàn cầu năm 2025 của WHO đi đến cùng kết luận từ một nguồn dữ liệu khác, và ghi nhận rằng việc so sánh chuẩn hóa mức thuế giữa các nước vẫn khó vì cơ sở tính thuế và điểm đánh thuế trên chuỗi giá khác nhau.[30]
+Bệnh không lây nhiễm chiếm hơn 80% số ca tử vong tại Việt Nam.[1] Tỷ lệ thừa cân ở người trưởng thành tăng từ 15,6% năm 2015 lên 19,5% năm 2021, và đến năm 2021 có 7,3% nam và 6,9% nữ có đường huyết tăng hoặc đang dùng thuốc điều trị đái tháo đường.[1] Đồ uống có đường góp phần vào gánh nặng này qua tăng cân và qua tác động không phụ thuộc cân nặng của đường lỏng hấp thu nhanh lên đề kháng insulin; đây cũng là nguồn đường bổ sung trong khẩu phần nhạy cảm nhất với giá. Tiêu thụ đồ uống có đường bình quân đầu người ở Việt Nam tăng từ 18 lít năm 2009 lên 66 lít năm 2023, tức tăng 350%, một trong những mức tăng nhanh nhất khu vực Tây Thái Bình Dương,[2] và thị trường được dự báo tiếp tục mở rộng. Việt Nam vì vậy là bối cảnh mà ở đó một thay đổi nhỏ về giá có thể tạo tác động quần thể lớn — chính điều này làm cho thiết kế của mức thuế tiêu thụ đặc biệt đầu tiên trở nên quan trọng. Thuế là can thiệp có nền bằng chứng mạnh nhất cho việc giảm lượng đường nạp vào ở cấp quần thể, theo kết luận của tổng quan Cochrane về các can thiệp môi trường.[38] Một mức thuế làm giá bán lẻ tăng 20% có thể làm tiêu thụ giảm khoảng 20%,[3] và WHO khuyến nghị thuế đồ uống có đường đạt mức tăng giá bán lẻ ít nhất 20%.[4] Đến năm 2024 đã có 64 quốc gia áp dụng thuế đồ uống có đường, bao phủ 3,5 tỷ người; tốc độ áp dụng nhanh nhất ở Nam Á và Đông Nam Á, nhưng chỉ 5% số thuế này đánh theo hàm lượng đường.[5] Đánh giá toàn cầu năm 2025 của WHO đi đến cùng kết luận từ một nguồn dữ liệu khác, và ghi nhận rằng việc so sánh chuẩn hóa mức thuế giữa các nước vẫn khó vì cơ sở tính thuế và điểm đánh thuế trên chuỗi giá khác nhau.[30]
 
 Ngày 14/6/2025, Quốc hội Việt Nam thông qua Luật số 66/2025/QH15, lần đầu đưa đồ uống không cồn có trên 5 g đường/100 mL vào diện chịu thuế tiêu thụ đặc biệt.[6] Thuế suất là 0% năm 2026, 8% từ 1/1/2027 và 10% từ 1/1/2028.[6,7] Nghị định 360/2025/NĐ-CP và Thông tư 158/2025/TT-BTC hướng dẫn thi hành: hàm lượng đường là **tổng lượng đường** ghi trên nhãn dinh dưỡng theo quy định của Bộ Y tế, và giá tính thuế là giá bán của nhà sản xuất hoặc nhà nhập khẩu, chưa gồm thuế giá trị gia tăng và thuế tiêu thụ đặc biệt.[7,8] Thuế giá trị gia tăng với phần lớn hàng hóa được giảm tạm thời từ 10% xuống 8% trong giai đoạn 1/7/2025–31/12/2026, nhưng hàng chịu thuế tiêu thụ đặc biệt bị loại khỏi diện giảm đó;[9] từ năm 2027 mức 10% áp dụng trong mọi trường hợp, nên thuế tiêu thụ đặc biệt đến tay người tiêu dùng qua một tầng thuế giá trị gia tăng 10%. Phạm vi chịu thuế được xác định bằng tham chiếu tới tiêu chuẩn quốc gia về nước giải khát, TCVN 12828:2019, bao gồm đồ uống hương liệu — kể cả nước tăng lực, nước thể thao và nước điện giải — đồ uống chứa cà phê, chứa chè, đồ uống thảo mộc, đồ uống có chứa nước trái cây và đồ uống từ ngũ cốc; tiêu chuẩn này không áp dụng cho sữa và sản phẩm từ sữa, thực phẩm dạng lỏng dùng cho mục đích dinh dưỡng, nước khoáng thiên nhiên và nước uống đóng chai, nước rau quả và nectar rau quả, và sản phẩm từ ca cao.[8,26] Việc loại trừ vì vậy mang tính **định nghĩa** chứ không phải một danh mục miễn trừ riêng; và vì ranh giới giữa nước quả với đồ uống có chứa nước quả đang tranh cãi trên thực tế, trong khi địa vị của nước dừa chưa rõ, một phần cơ sở thuế là không xác định về mặt pháp lý.[7,8] Chúng tôi xử lý đây là bất định cấu trúc và mô hình hóa cả cách diễn giải rộng và hẹp, thay vì giải quyết nó bằng một giả định. Thiết kế đặt ra ba câu hỏi mà luật để ngỏ. Thứ nhất, thuế suất theo giá đánh trên cơ sở xuất xưởng không đồng nghĩa với thay đổi giá bán lẻ: vì thuế đánh trên giá nhà sản xuất chứ không phải giá bán lẻ, mức thay đổi đến tay người tiêu dùng chỉ là một phần của thuế suất danh nghĩa, và lợi ích sức khỏe tỷ lệ với mức tăng giá đó chứ không tỷ lệ với thuế suất. Thứ hai, chưa rõ gánh nặng chi trả phát sinh có rơi không cân xứng vào các hộ nghèo hơn hay không, khi đồ uống có đường chiếm tỷ trọng lớn hơn trong chi tiêu của họ, và cũng chưa rõ liệu mức lũy thoái đó có được bù đắp bởi một phân bố lũy tiến của lợi ích sức khỏe hay không. Thứ ba, luật có điều khoản rà soát năm 2028, khi việc chọn giữa một thuế suất theo giá cao hơn và một mức thuế theo gam đường sẽ được xem xét, và lựa chọn đó nên dựa trên lợi ích sức khỏe trên mỗi đơn vị doanh thu chứ không chỉ dựa trên doanh thu. Các nghiên cứu mô hình hóa trước đây cho Việt Nam xem xét những mức thuế giả định khi luật chưa được thông qua và tập trung vào cân nặng và đái tháo đường;[10] một phân tích sau đó dùng dữ liệu khảo sát hộ để mô phỏng tác động lên tiêu thụ và phúc lợi của thiết kế đã ban hành nhưng không tách được đồ uống có đường khỏi các đồ uống không cồn khác và không mô hình hóa bệnh.[11] Cả hai đều không báo cáo lợi ích sức khỏe và thuế phải trả trên cùng một thang đo công bằng, và không định lượng lợi ích trên mỗi đơn vị doanh thu của các thiết kế khác nhau. Vì vậy trong nghiên cứu này chúng tôi ước tính, cho thuế như đã ban hành: (i) thay đổi giá bán lẻ và tiêu thụ; (ii) DALY thu được và số ca đái tháo đường type 2, bệnh tim thiếu máu cục bộ và đột quỵ tránh được; (iii) chi phí y tế tiết kiệm và doanh thu thuế; và (iv) cách lợi ích và gánh nặng này phân bố giữa các ngũ phân vị chi tiêu hộ, so sánh thiết kế đã ban hành với mức tăng giá bán lẻ 20%, với giảm đường của doanh nghiệp, và với thuế theo gam đường cân bằng doanh thu. Theo hiểu biết của chúng tôi, đây là phân tích đầu tiên mô hình hóa thuế đồ uống có đường của Việt Nam **như đã ban hành**, trên đúng cơ sở tính thuế theo luật, và đặt lợi ích sức khỏe cùng gánh nặng chi trả trên cùng một thang đo công bằng.
 
@@ -259,6 +259,7 @@ Nghiên cứu không có nhà tài trợ, và do đó không có bên nào có v
 35. Tri MT, Khue NT, Khoa VT, Goto A. Patient views on quality of life and hospital care: results from a qualitative study among Vietnamese patients with diabetes. Front Commun. 2022;7:894435.
 36. Phạm ND, Bùi HLA, Phạm TTL, Bùi MT, Nguyễn CT. Phân tích chi phí trực tiếp y tế trong can thiệp động mạch vành qua da ở bệnh nhân hội chứng mạch vành cấp. Tạp chí Y học Việt Nam. 2024;543(2). doi:10.51298/vmj.v543i2.11460.
 37. Doãn TH. Chi phí trực tiếp dành cho điều trị nội trú của bệnh nhân đột quỵ tại Bệnh viện Bạch Mai [luận văn]. Hà Nội: Đại học Y Hà Nội; 2022.
+38. von Philipsborn P, Stratil JM, Burns J, Busert LK, Pfadenhauer LM, Polus S, Holzapfel C, Hauner H, Rehfuess E. Environmental interventions to reduce the consumption of sugar-sweetened beverages and their effects on health. Cochrane Database Syst Rev. 2019;6:CD012292.
 
 ## Phụ lục A. Tìm kiếm bằng chứng
 
@@ -274,6 +275,8 @@ Ba, theo thứ tự quan trọng. (i) Đã có ai mô hình hóa đúng mức th
 | Europe PMC | Y sinh và khoa học sự sống, gồm cả preprint | Bắt các bản ghi không có trong MEDLINE |
 | OpenAlex | Đa ngành, gồm kinh tế và chính sách | Bao phủ văn liệu khoa học xã hội về thuế |
 | Scopus | Đa ngành | Tạp chí kinh tế và chính sách không có trong MEDLINE |
+| Cochrane Library (CDSR và CENTRAL) | Tổng quan hệ thống và thử nghiệm | Tổng quan về can thiệp SSB; bằng chứng thử nghiệm về giá và tiêu thụ |
+| RePEc/IDEAS | Working paper và tạp chí kinh tế | Truyền dẫn, quy giáng và thiết kế thuế |
 | Truy vết trích dẫn, xuôi và ngược | Nghiên cứu trích dẫn, hoặc được trích dẫn bởi, mỗi bản ghi được đưa vào | Bắt văn liệu mà tìm theo từ khóa bỏ sót |
 | Google Scholar | Tài liệu xám và không được chỉ mục | Học thuật tiếng Việt |
 | WHO IRIS | Chính sách y tế toàn cầu | Báo cáo và tài liệu kỹ thuật của WHO |
@@ -349,6 +352,26 @@ AND TITLE-ABS-KEY("Viet Nam" OR Vietnam)
 
 *Scopus, tập rộng không giới hạn quốc gia:* hai khối đầu, bỏ dòng quốc gia.
 
+*Cochrane Library* (CDSR và CENTRAL; tập đánh số dòng):
+
+```
+#1 ("sugar-sweetened beverage" OR "sugar sweetened beverage" OR "sugary drink"
+    OR "soft drink" OR "carbonated beverage" OR soda):ti,ab,kw
+#2 (tax OR taxes OR taxation OR excise OR "fiscal policy" OR "price elasticity"):ti,ab,kw
+#3 (vietnam OR "viet nam"):ti,ab,kw
+#4 #1 AND #2
+#5 #4 AND #3
+```
+
+*RePEc/IDEAS* (tìm nâng cao EconPapers, tiêu đề và tóm tắt), bổ sung bằng
+`site:ideas.repec.org OR site:econpapers.repec.org ("sugar-sweetened beverage" OR "soft drink" OR soda) (tax OR taxation OR excise)`:
+
+```
+("sugar-sweetened beverage" OR "soft drink" OR soda)
+AND (tax OR taxation OR excise)
+AND (vietnam OR "viet nam" OR asia OR "developing countr*")
+```
+
 *Nguồn tiếng Việt* (Google Scholar và vjol.info, chuỗi không đặt trong ngoặc kép):
 
 ```
@@ -372,11 +395,15 @@ Các bản ghi được loại trùng, sàng lọc theo tiêu đề và tóm t�
 
 **A.6 Sơ đồ dòng**
 
-Bốn cơ sở dữ liệu được tìm ngày 1/11/2026 bằng chuỗi ở A.3. Các tìm kiếm giới hạn quốc gia trả về **2 bản ghi ở PubMed, 3 ở Europe PMC, 11 ở OpenAlex và 6 ở Scopus**, tổng cộng 22. Sau khi loại trùng giữa các cơ sở dữ liệu, còn **11 bản ghi duy nhất**. Bảy bản ghi được đưa vào: hai nghiên cứu mô hình hóa thuế đồ uống có đường tại Việt Nam, một phân tích phân bố của thiết kế 2025 dùng dữ liệu khảo sát hộ, một nghiên cứu thực nghiệm về tác động của thuế tiêu thụ đặc biệt lên tiêu thụ đồ uống, một đánh giá nhân quyền về thuế đã ban hành, một nghiên cứu về mức chấp nhận của công chúng, và một phân tích khu vực về tác động phân bố của thuế sức khỏe. Bốn bản ghi bị loại: một tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường (không bàn về thuế); một bài lịch sử về Lyndon Johnson mà từ khóa quốc gia bắt nhầm; một bài về hệ thống thực phẩm đô thị; và một nghiên cứu về tiếp thị thực phẩm cho trẻ em — hai bài sau không có ước lượng nào về thuế đồ uống có đường. Nhật ký đầy đủ theo từng bản ghi, kèm quyết định và lý do, nằm ở `data/screening_log.csv` trong kho mã và trong tài liệu bổ sung.
+Sáu nguồn được tìm ngày 1/11/2026 bằng chuỗi ở A.3. Các tìm kiếm giới hạn quốc gia trả về **2 bản ghi ở PubMed, 3 ở Europe PMC, 11 ở OpenAlex, 6 ở Scopus, 3 ở Cochrane Library và không có bản ghi nào ở RePEc/IDEAS**, tổng cộng 25. Sau khi loại trùng giữa các cơ sở dữ liệu, còn **14 bản ghi duy nhất**.
 
-Cochrane Library và RePEc/IDEAS không thuộc quyền truy cập của nhóm và không được tính là nguồn; truy vết trích dẫn xuôi và ngược mô tả ở A.3 được dùng thay thế, và danh mục tài liệu tham khảo của hai tổng quan gần nhất được sàng lọc thủ công.
+Tám bản ghi được đưa vào: hai phân tích định lượng mô hình hóa thuế đồ uống có đường tại Việt Nam; một phân tích phân bố của thiết kế 2025 dùng dữ liệu khảo sát hộ; một nghiên cứu thực nghiệm về tác động của thuế tiêu thụ đặc biệt lên tiêu thụ đồ uống; một đánh giá nhân quyền về thuế đã ban hành; một nghiên cứu về mức chấp nhận của công chúng; một phân tích khu vực về tác động phân bố của thuế sức khỏe; và một tổng quan hệ thống Cochrane về các can thiệp môi trường nhằm giảm tiêu thụ đồ uống có đường.
 
-Hai đặc điểm của sơ đồ này tự chúng là phát hiện. Thứ nhất, năng suất của các tìm kiếm giới hạn quốc gia rất thấp: mười một bản ghi duy nhất cho toàn bộ văn liệu Việt Nam về thuế đồ uống có đường. Thứ hai, tổng quan nha khoa 1997 được mọi cơ sở dữ liệu trả về vì nó nêu tên Việt Nam trong danh sách các nước có tiêu thụ đường tăng — một lời nhắc rằng tìm theo từ khóa quốc gia trong lĩnh vực này rất nhiễu. Nghiên cứu kinh tế Việt Nam 2026 hoàn toàn không được chỉ mục trong PubMed và chỉ tìm được qua Scopus và OpenAlex.
+Sáu bản ghi bị loại. Một tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường không bàn về thuế. Một bài lịch sử về Lyndon Johnson bị từ khóa quốc gia bắt nhầm. Một bài về hệ thống thực phẩm đô thị và một nghiên cứu về tiếp thị thực phẩm cho trẻ em không có ước lượng nào về thuế đồ uống có đường. Một thử nghiệm giáo dục dinh dưỡng do đồng đẳng dẫn dắt và một nghiên cứu về tỷ lệ sâu răng có nêu Việt Nam nhưng không có phơi nhiễm thuế. Nhật ký theo từng bản ghi, kèm quyết định và lý do, nằm ở `data/screening_log.csv` và trong tài liệu bổ sung.
+
+Các tập rộng không giới hạn quốc gia trả về 576 bản ghi ở PubMed, 506 ở Europe PMC, 2.961 ở OpenAlex, 1.526 ở Cochrane CENTRAL và 21 ở RePEc. Các tập này được dùng để lấy giá trị tham số — độ co giãn giá, mức truyền dẫn, nguy cơ tương đối và chi phí — chứ không sàng lọc từng bản ghi, vì nghiên cứu cần ước lượng tham số từ bất kỳ bối cảnh so sánh được nào, không phải một tổng quan hệ thống về tác động của thuế.
+
+Hai đặc điểm của sơ đồ này tự chúng là phát hiện. Năng suất của các tìm kiếm giới hạn quốc gia rất thấp: mười bốn bản ghi duy nhất cho toàn bộ văn liệu Việt Nam về thuế đồ uống có đường, trong đó tám bản ghi có liên quan. Và tổng quan nha khoa 1997 được mọi cơ sở dữ liệu trả về vì nó nêu tên Việt Nam trong danh sách các nước có tiêu thụ đường tăng — một lời nhắc rằng tìm theo từ khóa quốc gia trong lĩnh vực này rất nhiễu.
 
 **A.7 Nhật ký xác minh nguồn pháp lý và ngân sách**
 

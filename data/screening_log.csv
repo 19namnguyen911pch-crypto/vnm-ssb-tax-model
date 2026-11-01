@@ -10,3 +10,6 @@ record,sources,year,title,doi,decision,reason
 9,OpenAlex,2026,Building food-smart cities: embedding urban food systems in the WEF nexus,10.3389/fsrma.2026.1819367,exclude,"urban food systems, no beverage tax analysis"
 10,OpenAlex,2023,Harmful marketing by commercial actors and policy ideas from youth,10.1093/heapro/daad149,exclude,"food marketing to children, not taxation"
 11,Scopus,2021,Public acceptability of policy interventions to reduce sugary drink consumption in urban Vietnam,10.3390/su132313422,include,acceptability of SSB policies in urban Viet Nam
+12,Cochrane,0,Effect of a Peer-Led Education Intervention on Dietary Behavior and Physical Activity in Preventing,,exclude,dietary education trial; no tax exposure
+13,Cochrane,0,Early childhood caries in obese children: the status and associated factors in the suburban areas,,exclude,caries prevalence study; no tax exposure
+14,Cochrane,0,Environmental interventions to reduce the consumption of sugar-sweetened beverages and their effects,10.1002/14651858.CD012292.pub2,include,"Cochrane systematic review of environmental interventions, including SSB taxes"

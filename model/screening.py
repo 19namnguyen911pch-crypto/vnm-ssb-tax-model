@@ -51,6 +51,19 @@ for r in csv.DictReader(open("data/scopus_export.csv", encoding="utf-8-sig")):
     records.append({"source": "Scopus", "year": int(r["Year"] or 0),
                     "title": r["Title"], "doi": (r.get("DOI") or "").strip()})
 
+# ---- Cochrane Library (CENTRAL export; Viet Nam subset) -------------------
+records += [
+ {"source": "Cochrane", "year": 0,
+  "title": "Effect of a Peer-Led Education Intervention on Dietary Behavior and Physical Activity in Preventing",
+  "doi": ""},
+ {"source": "Cochrane", "year": 0,
+  "title": "Early childhood caries in obese children: the status and associated factors in the suburban areas",
+  "doi": ""},
+ {"source": "Cochrane", "year": 0,
+  "title": "Environmental interventions to reduce the consumption of sugar-sweetened beverages and their effects",
+  "doi": "10.1002/14651858.CD012292.pub2"},
+]
+
 # ---- de-duplicate ----------------------------------------------------------
 seen_doi, seen_title, unique = {}, {}, []
 for rec in records:
@@ -73,6 +86,7 @@ INCLUDE = {
  "public acceptability of policy interventions to reduce sugary drink consumption": "acceptability of SSB policies in urban Viet Nam",
  "impacts of excise taxation on non alcoholic beverage consumption": "empirical analysis of excise effects on beverage consumption",
  "the distributional impacts of health taxes": "distributional analysis of health taxes, including SSB, regional",
+ "environmental interventions to reduce the consumption of sugar sweetened beverages": "Cochrane systematic review of environmental interventions, including SSB taxes",
 }
 INCLUDE_VI = "thue tieu thu dac biet doi voi nuoc giai khat co duong"
 EXCLUDE = {
@@ -80,6 +94,8 @@ EXCLUDE = {
  "lyndon johnson and vietnam": ("wrong population", "unrelated historical record; false positive of the country term"),
  "building food smart cities": ("no SSB-tax estimate", "urban food systems, no beverage tax analysis"),
  "harmful marketing by commercial actors": ("no SSB-tax estimate", "food marketing to children, not taxation"),
+ "effect of a peer led education intervention": ("no SSB-tax estimate", "dietary education trial; no tax exposure"),
+ "early childhood caries in obese children": ("no SSB-tax estimate", "caries prevalence study; no tax exposure"),
 }
 
 rows = []
