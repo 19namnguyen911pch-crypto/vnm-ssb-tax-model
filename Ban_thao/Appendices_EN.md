@@ -164,11 +164,11 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.8 What the search established before the model was run**
 
-*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[17] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[18] Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
+*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[14] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[15] Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
 
-*On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.[10] WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult[11] — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
+*On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.[7] WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult[8] — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
 
-*On parameters.* Elasticities, pass-through, relative risks, and costs are available from comparable settings but not from Viet Nam, apart from the diabetes cost estimate.[35,36] This is the source of the two binding constraints identified in Appendix B: the ex-factory share of retail price and the quintile-specific disease rates.
+*On parameters.* Elasticities, pass-through, relative risks, and costs are available from comparable settings but not from Viet Nam, apart from the diabetes cost estimate.[21,22] This is the source of the two binding constraints identified in Appendix B: the ex-factory share of retail price and the quintile-specific disease rates.
 
 **A.9 Maintaining the log**
 
@@ -184,23 +184,23 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 | # | Parameter | Central value used | Uncertainty range | Distribution | Source | Type | Feasible |
 |---|---|---|---|---|---|---|---|
-| 1 | Population aged 20+, by age and quintile | 81 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 [26] | Source | Yes |
-| 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR [6] | Derived | Partly |
-| 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [6]; GNS 2019–20 [27]; VHLSS [37] | Derived | Partly |
+| 1 | Population aged 20+, by age and quintile | 81 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 [S1] | Source | Yes |
+| 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR [3] | Derived | Partly |
+| 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [3]; GNS 2019–20 [S2]; VHLSS [S3] | Derived | Partly |
 | 4 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
-| 5 | Pass-through rate | 0.90 | 0.50 to 1.30 | Triangular | World Bank 2020 [28]; Barbados, Mexico [41]; Portugal, France [29,30] | Source (foreign) | Partly |
-| 6a | Own-price elasticity | −1.20 | −0.80 to −1.80 | Lognormal on \|ε\| | Andreyeva [31]; Cabrera Escobar [42]; Colchero [21] | Source | Partly |
-| 6b | Cross-price elasticity to untaxed beverages | +0.35 | +0.10 to +0.65 | Lognormal | Chile and Mexico demand systems [21] | Source | Partly |
-| 6c | Quintile gradient in elasticity | Q1 = 1.4 × Q5 | 1.0 to 1.8 | — | Colchero [21] | Derived | No |
-| 7a | Energy density of taxed beverages | 44 kcal/100 mL | 30 to 55 | Fixed | Vietnamese food composition table [32] | Source | Yes |
+| 5 | Pass-through rate | 0.90 | 0.50 to 1.30 | Triangular | World Bank 2020 [26]; Barbados, Mexico [S4]; Portugal, France [27,28] | Source (foreign) | Partly |
+| 6a | Own-price elasticity | −1.20 | −0.80 to −1.80 | Lognormal on \|ε\| | Andreyeva [S5]; Cabrera Escobar [S6]; Colchero [16] | Source | Partly |
+| 6b | Cross-price elasticity to untaxed beverages | +0.35 | +0.10 to +0.65 | Lognormal | Chile and Mexico demand systems [16] | Source | Partly |
+| 6c | Quintile gradient in elasticity | Q1 = 1.4 × Q5 | 1.0 to 1.8 | — | Colchero [16] | Derived | No |
+| 7a | Energy density of taxed beverages | 44 kcal/100 mL | 30 to 55 | Fixed | Vietnamese food composition table [S7] | Source | Yes |
 | 7b | Energy compensation | 30% | 15% to 45% | Uniform | Assumption; no Vietnamese estimate | Assumption | No |
-| 8 | BMI to disease relative risks | per 2 kg/m²: CHD 1.11; ischaemic stroke 1.12 (1.09–1.15); haemorrhagic stroke 1.08 (1.04–1.12) | see note | Lognormal | APCSC [33,34] | Source | Yes |
+| 8 | BMI to disease relative risks | per 2 kg/m²: CHD 1.11; ischaemic stroke 1.12 (1.09–1.15); haemorrhagic stroke 1.08 (1.04–1.12) | see note | Lognormal | APCSC [19,20] | Source | Yes |
 | 9 | Incidence, mortality, disability weights | GBD 2021, Viet Nam, by age and sex | — | Beta; gamma | GBD 2021 [25] | Source | Yes |
 | 9b | Gradient in baseline disease risk by quintile (sensitivity only) | Both directions: 1.15 (Q1) falling to 0.88 (Q5), and the reverse | 0.85 to 1.20 | — | Direction not established for Viet Nam | Assumption | No |
-| 10 | Health-care cost per case | Diabetes VND 8.0m per patient-year; IHD VND 84.9m per acute episode; stroke VND 10.5m per acute episode | −30% to +100% | Gamma | Le 2017 [35]; Pham 2020 [36]; Pham 2024 [43]; Doan 2022 [44] | Source | Yes |
-| 11 | Household expenditure by quintile | Mean VND 3.0 million per person-month; Q5/Q1 ratio 3.1 | — | Fixed | VHLSS 2024 [37] | Source | Yes |
+| 10 | Health-care cost per case | Diabetes VND 8.0m per patient-year; IHD VND 84.9m per acute episode; stroke VND 10.5m per acute episode | −30% to +100% | Gamma | Le 2017 [21]; Pham 2020 [22]; Pham 2024 [23]; Doan 2022 [24] | Source | Yes |
+| 11 | Household expenditure by quintile | Mean VND 3.0 million per person-month; Q5/Q1 ratio 3.1 | — | Fixed | VHLSS 2024 [S3] | Source | Yes |
 | 12 | Latency, BMI change to risk change | 2 years | 1 to 5 | Uniform | Assumption | Assumption | No |
-| 13 | Discount rate | 3% | 0%; 5% | Fixed | CHEERS 2022 [39] | Source | Yes |
+| 13 | Discount rate | 3% | 0%; 5% | Fixed | CHEERS 2022 [29] | Source | Yes |
 
 **B.2 Notes on parameters that are not directly measured**
 
@@ -212,15 +212,15 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 **#4 Ex-factory share of retail price — the binding constraint.** No published Vietnamese estimate exists. The value determines the entire price effect: with τ = 0.10, *v* = 0.10, and κ = 0.90, a share of 0.40 gives a 4.0% retail price increase and a share of 0.70 gives 6.9% — a range that spans most of the plausible result space. We use a triangular distribution centred on 0.55, derived from the typical structure of Vietnamese fast-moving consumer goods distribution (producer selling price, wholesale and retail margins, and the 10% VAT cascade). It is an assumption and no Vietnamese estimate exists. It would be calibrated directly if the Ministry of Finance published a projected yield for the excise, since the taxable base implied by that projection is R/τ and dividing by the retail value of taxed volume net of VAT gives the share; no such projection was available for this analysis.
 
-**#5 Pass-through.** Evaluated pass-through has ranged from below 50% (Berkeley, Chile, the United Kingdom) to close to 100% (Philadelphia, Mexico).[28] In Barbados, a 10% excise raised SSB prices by 5.9% six months after implementation, implying pass-through of about 60%. Two further evaluations retrieved from the economics literature, of the Portuguese and French soda taxes, report near-complete pass-through to retail prices.[29,30] Because Viet Nam has no post-implementation price data at the time of writing, we centre the distribution slightly below full pass-through and allow it to exceed 100%, which is observed where firms round prices upward. *Fallback:* none; the range is the fallback.
+**#5 Pass-through.** Evaluated pass-through has ranged from below 50% (Berkeley, Chile, the United Kingdom) to close to 100% (Philadelphia, Mexico).[26] In Barbados, a 10% excise raised SSB prices by 5.9% six months after implementation, implying pass-through of about 60%. Two further evaluations retrieved from the economics literature, of the Portuguese and French soda taxes, report near-complete pass-through to retail prices.[27,28] Because Viet Nam has no post-implementation price data at the time of writing, we centre the distribution slightly below full pass-through and allow it to exceed 100%, which is observed where firms round prices upward. *Fallback:* none; the range is the fallback.
 
-**#6 Elasticities.** Pooled own-price elasticities for SSBs cluster between −1.0 and −1.4: −1.30 (95% CI −1.09 to −1.51) in a nine-study meta-analysis,[42] −1.16 for SSBs in Mexico,[21] −1.37 for soft drinks in Chile, and −0.79 (range −1.24 to −0.33) for soft drinks in an earlier review.[31] We centre on −1.20 and allow the full observed range. The quintile gradient is the weakest element: the consistent finding is that elasticities are larger among lower-income households,[21] but the magnitude for Viet Nam is unknown, so a gradient of 1.4 is applied and the result is reported as a sensitivity rather than as a finding.
+**#6 Elasticities.** Pooled own-price elasticities for SSBs cluster between −1.0 and −1.4: −1.30 (95% CI −1.09 to −1.51) in a nine-study meta-analysis,[S6] −1.16 for SSBs in Mexico,[16] −1.37 for soft drinks in Chile, and −0.79 (range −1.24 to −0.33) for soft drinks in an earlier review.[S5] We centre on −1.20 and allow the full observed range. The quintile gradient is the weakest element: the consistent finding is that elasticities are larger among lower-income households,[16] but the magnitude for Viet Nam is unknown, so a gradient of 1.4 is applied and the result is reported as a sensitivity rather than as a finding.
 
 **#7b Energy compensation.** Some of the energy displaced from beverages is replaced from other sources. Published estimates vary widely, and the choice materially affects the BMI pathway. We use a uniform distribution from 15% to 45%, centred at 30%, and note that this is an assumption rather than a Vietnamese estimate; no Vietnamese measurement exists and none is available from a comparable setting we could verify, so the value carries no citation.
 
-**#8 Relative risks.** From the Asia-Pacific Cohort Studies Collaboration: each 2 kg/m² lower BMI is associated with a 12% (95% CI 9–15) lower risk of ischaemic stroke and an 8% (95% CI 4–12) lower risk of haemorrhagic stroke,[33] with a comparable estimate for coronary heart disease.[33] Diabetes risk is taken from the same collaboration.[34] Because relative risks are applied to BMI *categories* through population impact fractions, we convert the per-2-unit estimates to category-specific values using the midpoints of the standard Asian cut-offs (18.5, 23, 25, 30). *Rationale for preferring APCSC:* it is the only pooled Asian evidence base of adequate size, and using Western estimates would overstate risk at a given BMI in a lean population.
+**#8 Relative risks.** From the Asia-Pacific Cohort Studies Collaboration: each 2 kg/m² lower BMI is associated with a 12% (95% CI 9–15) lower risk of ischaemic stroke and an 8% (95% CI 4–12) lower risk of haemorrhagic stroke,[19] with a comparable estimate for coronary heart disease.[19] Diabetes risk is taken from the same collaboration.[20] Because relative risks are applied to BMI *categories* through population impact fractions, we convert the per-2-unit estimates to category-specific values using the midpoints of the standard Asian cut-offs (18.5, 23, 25, 30). *Rationale for preferring APCSC:* it is the only pooled Asian evidence base of adequate size, and using Western estimates would overstate risk at a given BMI in a lean population.
 
-**Sugar density of taxed beverages.** The central value of 11 g per 100 mL is not an assumption: Nguyen and colleagues report 11 g per 100 mL for carbonates, 9 for ready-to-drink coffee and tea, 16 for sports and energy drinks, and 7 for juices in the Vietnamese market.[17] Carbonates dominate the taxed volume, so 11 is used centrally, and the full range across categories (7–16) is tested as a sensitivity analysis.
+**Sugar density of taxed beverages.** The central value of 11 g per 100 mL is not an assumption: Nguyen and colleagues report 11 g per 100 mL for carbonates, 9 for ready-to-drink coffee and tea, 16 for sports and energy drinks, and 7 for juices in the Vietnamese market.[14] Carbonates dominate the taxed volume, so 11 is used centrally, and the full range across categories (7–16) is tested as a sensitivity analysis.
 
 **#9 Baseline disease rates by quintile.** GBD 2021 provides national incidence, prevalence, and mortality for all three diseases, and STEPS 2021 provides measured diabetes prevalence. Neither is stratified by household expenditure. We therefore apply national rates to every quintile in the base case, which means that equity differences arise only from differential consumption and differential price response. The direction of the true gradient is not established for Viet Nam: quintile-specific incidence and mortality are not published, and we could not verify a source that would support a central value. We therefore run the analysis under no gradient, under risk falling with expenditure, and under risk rising with expenditure, and report the equity result as a range (Appendix F, Figure 3).
 
@@ -238,7 +238,7 @@ The protocol and analysis plan were deposited with the code after the model had 
 |---|---|---|
 | C1 | The revenue-neutral levy per gram of sugar (scenario S1b) was dropped | Distributing taxed volume across sugar bands requires a product-level database that does not exist for Viet Nam; without it the scenario reduces to the same average price change as the enacted tax and cannot be distinguished from it |
 | C2 | No socioeconomic gradient in baseline disease rates is assumed in the base case | Quintile-specific incidence and mortality are not available for Viet Nam, so national rates are applied to every quintile; the whole analysis is repeated with a gradient in each direction (Appendix B, #9b) and all three runs are reported in Figure 3 |
-| C3 | The product audit was not undertaken | The sugar density of the taxed category is taken from [17] rather than measured, and the reformulation pool assumed for S3 is a modelling choice |
+| C3 | The product audit was not undertaken | The sugar density of the taxed category is taken from [14] rather than measured, and the reformulation pool assumed for S3 is a modelling choice |
 | C4 | Health-care costs for ischaemic heart disease and stroke are amortised from acute-episode studies | No Vietnamese estimate of annual cost per prevalent case exists for these two conditions |
 | C5 | Latency is a two-year shift of the impact fraction, not a distributed lag | No Vietnamese evidence on the shape of the lag; a step lag is the conservative choice |
 
@@ -261,7 +261,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 | 11 | Selection of outcomes | Methods; summary of outcomes in Introduction |
 | 12 | Measurement of outcomes | Methods, *Model structure* steps 5–7 |
 | 13 | Valuation of outcomes | Methods step 7; disability weights from GBD 2021 |
-| 14 | Measurement and valuation of resources and costs | Methods step 7; Table 2 |
+| 14 | Measurement and valuation of resources and costs | Methods; Appendix B |
 | 15 | Currency, price date, and conversion | Methods, *Study design and overview* |
 | 16 | Rationale and description of model | Methods, *Model structure*; Figure 1 |
 | 17 | Analytics and assumptions | Methods; Appendix B; Appendix F |
@@ -269,7 +269,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 | 19 | Characterising distributional effects | Methods, *Equity analysis*; Figure 3 |
 | 20 | Characterising uncertainty | Methods; Results, *Uncertainty*; Appendix F |
 | 21 | Approach to engagement with patients and others affected | Methods, *Validation* |
-| 22 | Study parameters | Table 2; Appendix B |
+| 22 | Study parameters | Appendix B |
 | 23 | Summary of main results | Results; Table 3 |
 | 24 | Effect of uncertainty | Results, *Uncertainty*; Figure 4 |
 | 25 | Effect of engagement | Methods, *Validation*; Discussion, Limitations |
@@ -285,7 +285,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **E.2 Baseline comparison.** The model's own prevalence at the end of the horizon was compared with the source its disease parameters come from, on the same 2027 age structure: 5.1% against 6.2% for type 2 diabetes, 0.4% against 1.6% for ischaemic heart disease, and 1.2% against 1.9% for stroke (GBD 2021). Diabetes, which carries 89% of the averted cases, is the closest. The shortfall in the cardiovascular states follows from starting in 2027 without a prevalent stock and applying a high case fatality to new cases; it is recorded in the Limitations and it affects the level of years lived with disability, not the direction of the averted difference.
 
-**E.3 Checks not performed.** Two checks were not carried out and the manuscript does not claim them. No external comparison was made with the earlier Vietnamese modelling study,[17] because that study reports different outcomes on a different model structure and the comparison would not isolate model error. The code was not reviewed by an independent programmer. The unit tests, the boundary conditions in E.1 and the baseline comparison in E.2 are the whole of the technical assurance behind the results.
+**E.3 Checks not performed.** Two checks were not carried out and the manuscript does not claim them. No external comparison was made with the earlier Vietnamese modelling study,[14] because that study reports different outcomes on a different model structure and the comparison would not isolate model error. The code was not reviewed by an independent programmer. The unit tests, the boundary conditions in E.1 and the baseline comparison in E.2 are the whole of the technical assurance behind the results.
 
 ## Appendix F. Sensitivity analyses performed
 
@@ -323,3 +323,15 @@ The seed is fixed at 20261101, and the draw matrix is published as `output/psa_d
 
 
 ---
+
+## Supplementary references
+
+References cited only in the appendices.
+
+S1. United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects 2024: volume I, comprehensive tables. New York: United Nations; 2024.
+S2. National Institute of Nutrition, Ministry of Health of Viet Nam. General Nutrition Survey 2019–2020. Hanoi; 2021.
+S3. National Statistics Office of Viet Nam. Results of the Viet Nam Household Living Standards Survey 2024. Hanoi; 2025.
+S4. Hernández JCS, et al. Building upon the sugar beverage tax in Mexico. BMJ Glob Health. 2023;8(Suppl 8):e012227.
+S5. Andreyeva T, Long MW, Brownell KD. The impact of food prices on consumption: a systematic review of research on the price elasticity of demand for food. Am J Public Health. 2010;100(2):216–22.
+S6. Cabrera Escobar MA, Veerman JL, Tollman SM, Bertram MY, Hofman KJ. Evidence that a tax on sugar sweetened beverages reduces the obesity rate: a meta-analysis. BMC Public Health. 2013;13:1072.
+S7. National Institute of Nutrition, Ministry of Health of Viet Nam. Vietnamese food composition table. Hanoi: Medical Publishing House; 2017.
