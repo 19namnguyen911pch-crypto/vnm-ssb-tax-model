@@ -47,10 +47,14 @@ for (e in c(-0.80, -1.20, -1.80)) {
   rows[[length(rows)]]$value <- sprintf("%.2f", e)
 }
 
+# start from the GBD prevalent stock rather than from zero
+add("Initial prevalent stock", list(init_prev = TRUE))
+rows[[length(rows)]]$value <- "GBD 2021"
+
 # horizon
 for (h in c(2036, 2050, 2100)) {
   add("Horizon", list(horizon = h))
-  rows[[length(rows)]]$value <- if (h == 2100) "lifetime" else as.character(h)
+  rows[[length(rows)]]$value <- if (h == 2100) "2100" else as.character(h)
 }
 
 out <- do.call(rbind, rows)

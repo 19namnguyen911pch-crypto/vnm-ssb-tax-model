@@ -81,6 +81,7 @@ params_default <- function() {
     cost_case = c(t2dm = 8.0e6, ihd = 84.9e6, stroke = 10.5e6),
 
     # analysis settings ------------------------------------------------------
+    init_prev = FALSE,   # sensitivity: start from the GBD prevalent stock
     discount = 0.03,
     start    = 2027,
     horizon  = 2050
@@ -273,6 +274,11 @@ life_table <- function(inc_path, p, pop0, mort_by_age) {
   dis <- c("t2dm", "ihd", "stroke")
   N <- matrix(0, nrow = A, ncol = 3, dimnames = list(NULL, dis))
   healthy <- pop0
+  # Sensitivity only: start from the GBD 2021 prevalent stock instead of zero.
+  if (isTRUE(p$init_prev) && !is.null(p$gbd)) {
+    N <- sweep(p$gbd$prev, 1, pop0, "*")
+    healthy <- pmax(pop0 - rowSums(N), 0)
+  }
   dalys <- 0; costs <- 0; deaths <- 0
   cases <- stats::setNames(rep(0, 3), dis)
 
@@ -355,11 +361,17 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
   pop_k <- p$pop_2027 * p$share_20plus * qprof$pop_share[k]
   ml_day <- qprof$ssb_ml_day[k]
 
-  dp <- scenario_price(code, p)
-  dq <- consumption_change(dp, qprof$elast_mult[k], p)
+  dp <- scenario_price(code, p)              # price change among TAXED products
+  dq_taxed <- consumption_change(dp, qprof$elast_mult[k], p)
 
+  # S3: the share that reformulates leaves the base, so it faces neither the
+  # price change nor the tax. Reports are averages across the whole category;
+  # revenue is computed on the taxed remainder only.
   reform <- if (identical(code, "S3")) p$reform_share else 0
-  dsugar <- sugar_change_g_day(ml_day, dq, p, reform, p$sugar_reform)
+  dp_avg <- dp * (1 - reform)
+  dq <- dq_taxed * (1 - reform)
+
+  dsugar <- sugar_change_g_day(ml_day, dq_taxed, p, reform, p$sugar_reform)
   de <- energy_change_kcal(dsugar, p)
   bmi_path <- bmi_change_dynamic(de, p, years = yrs)
 
@@ -382,12 +394,12 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
 
   # S3: only the share that does not reformulate remains in the tax base
   base_share <- if (identical(code, "S3")) 1 - p$reform_share else 1
-  list(quintile = k, pop = pop_k, dp = dp, dq = dq, d_sugar = dsugar,
+  list(quintile = k, pop = pop_k, dp = dp_avg, dq = dq, d_sugar = dsugar,
        d_bmi = bmi_path[yrs], dalys = lt$dalys, cases = lt$cases,
        deaths = lt$deaths, costs = lt$costs,
        prev = lt$prev,
-       tax_share = qprof$ssb_exp_share[k] * (1 + dq) * dp,
-       revenue = revenue_implied(ml_day, dq, dp, p, pop_k, base_share))
+       tax_share = qprof$ssb_exp_share[k] * (1 + dq) * dp_avg,
+       revenue = revenue_implied(ml_day, dq_taxed, dp, p, pop_k, base_share))
 }
 
 # ---------------------------------------------------------------------------

@@ -111,10 +111,7 @@ points(d1$dalys_averted, d1$ci_dalys, pch = 16, cex = 0.40,
        col = adjustcolor("#2c5f7c", 0.28))
 legend("topleft", legend = c("Enacted tax (S1)", "20% price rise (S2)"),
        pch = 16, col = c("#2c5f7c", "#c8792a"), bty = "n", cex = 0.74)
-legend(x = 4200, y = 0.032, title = "Panel B", cex = 0.70, bty = "n", title.adj = 0,
-       legend = c("risk rises with expenditure",
-                  "risk falls with expenditure"),
-       pch = c(15, 17), col = c("#7a8b5a", "#2c5f7c"))
+
 
 frame_panel("B  Gradient in disease risk, both directions", "")
 points(g1$dalys_averted[g1$grad == "pro_rich"],
@@ -124,6 +121,10 @@ points(g1$dalys_averted[g1$grad == "pro_poor"],
        g1$ci_dalys[g1$grad == "pro_poor"], pch = 17, cex = 0.36,
        col = adjustcolor("#2c5f7c", 0.30))
 abline(h = median(d1$ci_dalys, na.rm = TRUE), lty = 3, col = "#c8792a", lwd = 1.2)
+legend(x = 3800, y = 0.082, cex = 0.72, bty = "n",
+       legend = c("risk rises with expenditure",
+                  "risk falls with expenditure"),
+       pch = c(15, 17), col = c("#7a8b5a", "#2c5f7c"))
 
 
 mtext("Figure 3. Impact-equity plane under three assumptions about the socioeconomic gradient",
