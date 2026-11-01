@@ -41,6 +41,12 @@ params_default <- function() {
     retail_price_l  = 12000,    # VND per litre, VAT inclusive
     taxed_share     = 0.80,     # Appendix B #4
 
+    # reformulation: share of taxed volume that reformulates below the
+    # threshold, and the sugar density it reaches (g/100 mL)
+    reform_share = 0.25,
+    sugar_near   = 6.5,   # baseline density of the near-threshold products
+    sugar_reform = 4.5,   # density they reach once they leave the base
+
     # mean sugar density of taxed beverages, g per 100 mL.
     # Sourced: Nguyen et al. 2023 report 11 for carbonates, 9 for RTD coffee
     # and tea, 16 for sports and energy drinks, 7 for juices.
@@ -210,8 +216,17 @@ untaxed_response <- function(dp, p) unname(p$elast_cross_unt * dp)
 # ---------------------------------------------------------------------------
 # 4. Step 3 - demand to sugar and energy intake
 # ---------------------------------------------------------------------------
-sugar_change_g_day <- function(ml_day, dq_rel, p) {
-  (ml_day / 100) * dq_rel * p$sugar_mean
+sugar_change_g_day <- function(ml_day, dq_rel, p, reform_share = 0,
+                               sugar_reform = NA_real_) {
+  q0 <- ml_day / 100
+  if (reform_share > 0 && !is.na(sugar_reform)) {
+    # The reformulating share comes from products near the threshold, so the
+    # share that stays in the base is denser than the market average.
+    s_taxed <- (p$sugar_mean - reform_share * p$sugar_near) / (1 - reform_share)
+    return(q0 * ((1 - reform_share) * (1 + dq_rel) * s_taxed +
+                 reform_share * sugar_reform - p$sugar_mean))
+  }
+  q0 * dq_rel * p$sugar_mean
 }
 
 energy_change_kcal <- function(d_sugar_g_day, p) {
@@ -296,10 +311,20 @@ life_table <- function(inc_path, p, pop0, mort_by_age) {
 # ---------------------------------------------------------------------------
 # 8. Revenue
 # ---------------------------------------------------------------------------
+# Annual revenue is constant in the model (the population is static and no
+# baseline trend is applied), so the cumulative discounted total is the annual
+# figure times the annuity factor. This keeps revenue on the same time frame and
+# discounting as the DALYs it is divided by.
+disc_annuity <- function(p) {
+  T <- p$horizon - p$start + 1
+  sum(1 / (1 + p$discount)^(0:(T - 1)))
+}
+
 revenue_implied <- function(ml_day, dq, dp, p, pop_total, base_share = 1) {
   if (dp <= 0) return(0)
-  vol_l <- (ml_day * (1 + dq) / 1000) * pop_total * 365 * base_share
-  vol_l * p$retail_price_l * p$exfac_share * implied_tau(dp, p)
+  vol_l_year <- (ml_day * (1 + dq) / 1000) * pop_total * 365 * base_share
+  vol_l_year * p$retail_price_l * p$exfac_share * implied_tau(dp, p) *
+    disc_annuity(p)
 }
 
 # ---------------------------------------------------------------------------
@@ -311,7 +336,7 @@ scenario_price <- function(code, p) {
     S0 = 0,
     S1 = base,
     S2 = 0.20,
-    S3 = base * 0.75,
+    S3 = base,
     stop("unknown scenario: ", code))
 }
 
@@ -326,7 +351,8 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
   dp <- scenario_price(code, p)
   dq <- consumption_change(dp, qprof$elast_mult[k], p)
 
-  dsugar <- sugar_change_g_day(ml_day, dq, p)
+  reform <- if (identical(code, "S3")) p$reform_share else 0
+  dsugar <- sugar_change_g_day(ml_day, dq, p, reform, p$sugar_reform)
   de <- energy_change_kcal(dsugar, p)
   bmi_path <- bmi_change_dynamic(de, p, years = yrs)
 
@@ -344,7 +370,8 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
   w_age <- if (is.null(p$age_weights)) rep(1, length(p$ages)) else p$age_weights
   lt <- life_table(inc_path, p, pop_k * w_age, mort_by_age)
 
-  base_share <- if (identical(code, "S3")) 0.75 else 1
+  # S3: only the share that does not reformulate remains in the tax base
+  base_share <- if (identical(code, "S3")) 1 - p$reform_share else 1
   list(quintile = k, pop = pop_k, dp = dp, dq = dq, d_sugar = dsugar,
        d_bmi = bmi_path[yrs], dalys = lt$dalys, cases = lt$cases,
        deaths = lt$deaths, costs = lt$costs,

@@ -164,15 +164,15 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.8 What the search established before the model was run**
 
-*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[10] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[11] Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
+*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[17] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[18] Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
 
-*On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.[5] WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult[30] — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
+*On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.[10] WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult[11] — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
 
-*On parameters.* Elasticities, pass-through, relative risks, and costs are available from comparable settings but not from Viet Nam, apart from the diabetes cost estimate.[22,23] This is the source of the two binding constraints identified in Appendix B: the ex-factory share of retail price and the quintile-specific disease rates.
+*On parameters.* Elasticities, pass-through, relative risks, and costs are available from comparable settings but not from Viet Nam, apart from the diabetes cost estimate.[34,35] This is the source of the two binding constraints identified in Appendix B: the ex-factory share of retail price and the quintile-specific disease rates.
 
 **A.9 Maintaining the log**
 
-The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852996. Any string modified after registration is recorded in Appendix D.
+The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852996. Any string modified after registration is recorded in Appendix C.
 
 ---
 
@@ -184,45 +184,45 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 | # | Parameter | Proposed central value | Uncertainty range | Distribution | Source | Type | Feasible |
 |---|---|---|---|---|---|---|---|
-| 1 | Population by age and quintile, 2027–2050 | NSO projection; 2027 total ≈104 million | — | Fixed | NSO projections 2024–2074 [18] | Source | Yes |
-| 2 | Baseline SSB consumption trend | +2·0% per year | 0 to +4·0% | Uniform | Euromonitor 2009–2023 CAGR [2] | Derived | Partly |
-| 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [2]; GNS 2019–20 [31]; VHLSS [24] | Derived | Partly |
-| 4 | Share of products above 5 g/100 mL | 0·80 | 0·60 to 0·95 | Beta(8,2) | Product audit (Appendix C) | Primary | Yes |
-| 5 | Ex-factory share of retail price | 0·55 | 0·40 to 0·70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
-| 6 | Pass-through rate | 0·90 | 0·50 to 1·30 | Triangular | World Bank 2020 [19]; Barbados, Mexico [28] | Source (foreign) | Partly |
-| 7a | Own-price elasticity | −1·20 | −0·80 to −1·80 | Lognormal on \|ε\| | Andreyeva [20]; Cabrera Escobar [15]; Colchero [13] | Source | Partly |
-| 7b | Cross-price elasticity to untaxed beverages | +0·35 | +0·10 to +0·65 | Lognormal | Chile and Mexico demand systems [13] | Source | Partly |
-| 7c | Quintile gradient in elasticity | Q1 = 1·4 × Q5 | 1·0 to 1·8 | — | Colchero [13] | Derived | No |
-| 8a | Energy density of taxed beverages | 44 kcal/100 mL | 30 to 55 | Fixed | Vietnamese food composition table [32] | Source | Yes |
-| 8b | Energy compensation | 30% | 15% to 45% | Uniform | Intervention literature [15] | Assumption | No |
-| 9 | BMI to disease relative risks | per 2 kg/m²: CHD 1·11; ischaemic stroke 1·12 (1·09–1·15); haemorrhagic stroke 1·08 (1·04–1·12) | see note | Lognormal | APCSC [21,33] | Source | Yes |
-| 10 | Incidence, mortality, disability weights | GBD 2021, Viet Nam, by age and sex | — | Beta; gamma | GBD 2021 [17] | Source | Yes |
-| 11 | Health-care cost per case | Diabetes VND 8·0m per patient-year; IHD VND 84·9m per acute episode; stroke VND 10·5m per acute episode | −30% to +100% | Gamma | Le 2017 [22]; Pham 2020 [23]; Pham 2024 [36]; Doan 2022 [37] | Source | Yes |
-| 12 | Household expenditure by quintile | Mean VND 3·0 million per person-month; Q5/Q1 ratio 3·1 | — | Fixed | VHLSS 2024 [24] | Source | Yes |
+| 1 | Population by age and quintile, 2027–2050 | NSO projection; 2027 total ≈104 million | — | Fixed | NSO projections 2024–2074 [27] | Source | Yes |
+| 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR [6] | Derived | Partly |
+| 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [6]; GNS 2019–20 [28]; VHLSS [36] | Derived | Partly |
+| 4 | Share of taxed beverages above 5 g/100 mL | 0.80 | 0.60 to 0.95 | Beta(8,2) | Assumed; not measured | Assumption | No |
+| 5 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
+| 6 | Pass-through rate | 0.90 | 0.50 to 1.30 | Triangular | World Bank 2020 [29]; Barbados, Mexico [40] | Source (foreign) | Partly |
+| 7a | Own-price elasticity | −1.20 | −0.80 to −1.80 | Lognormal on \|ε\| | Andreyeva [30]; Cabrera Escobar [24]; Colchero [21] | Source | Partly |
+| 7b | Cross-price elasticity to untaxed beverages | +0.35 | +0.10 to +0.65 | Lognormal | Chile and Mexico demand systems [21] | Source | Partly |
+| 7c | Quintile gradient in elasticity | Q1 = 1.4 × Q5 | 1.0 to 1.8 | — | Colchero [21] | Derived | No |
+| 8a | Energy density of taxed beverages | 44 kcal/100 mL | 30 to 55 | Fixed | Vietnamese food composition table [31] | Source | Yes |
+| 8b | Energy compensation | 30% | 15% to 45% | Uniform | Intervention literature [24] | Assumption | No |
+| 9 | BMI to disease relative risks | per 2 kg/m²: CHD 1.11; ischaemic stroke 1.12 (1.09–1.15); haemorrhagic stroke 1.08 (1.04–1.12) | see note | Lognormal | APCSC [32,33] | Source | Yes |
+| 10 | Incidence, mortality, disability weights | GBD 2021, Viet Nam, by age and sex | — | Beta; gamma | GBD 2021 [26] | Source | Yes |
+| 11 | Health-care cost per case | Diabetes VND 8.0m per patient-year; IHD VND 84.9m per acute episode; stroke VND 10.5m per acute episode | −30% to +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doan 2022 [42] | Source | Yes |
+| 12 | Household expenditure by quintile | Mean VND 3.0 million per person-month; Q5/Q1 ratio 3.1 | — | Fixed | VHLSS 2024 [36] | Source | Yes |
 | 13 | Latency, BMI change to risk change | 2 years | 1 to 5 | Uniform | Assumption | Assumption | No |
-| 14 | Discount rate | 3% | 0%; 5% | Fixed | CHEERS 2022 [25] | Source | Yes |
+| 14 | Discount rate | 3% | 0%; 5% | Fixed | CHEERS 2022 [38] | Source | Yes |
 
 **B.2 Notes on parameters that are not directly measured**
 
-**#2 Baseline consumption trend.** The counterfactual is the single largest driver of the absolute size of every result, and it is the parameter that the protocol originally left unspecified. Euromonitor retail volume for soft drinks in Viet Nam grew from 18 L to 66 L per capita between 2009 and 2023, an annual rate of about 9·7%. Extrapolating that rate to 2050 is not defensible: it would imply consumption far above any observed market. We therefore use a central trend of +2·0% per year, which is close to the forecast growth of the broader beverage market, and deliberately place the low bound at zero so that the "no further growth" counterfactual is retained. *Rationale:* a faster baseline makes the tax look more valuable, so a conservative trend biases the study against its own hypothesis. *Fallback:* none needed; this is a design choice, not a data gap, and it must be stated explicitly in the paper because reviewers will ask what the counterfactual assumes.
+**#2 Baseline consumption trend.** The counterfactual is the single largest driver of the absolute size of every result, and it is the parameter that the protocol originally left unspecified. Euromonitor retail volume for soft drinks in Viet Nam grew from 18 L to 66 L per capita between 2009 and 2023, an annual rate of about 9.7%. Extrapolating that rate to 2050 is not defensible: it would imply consumption far above any observed market. We therefore use a central trend of +2.0% per year, which is close to the forecast growth of the broader beverage market, and deliberately place the low bound at zero so that the "no further growth" counterfactual is retained. *Rationale:* a faster baseline makes the tax look more valuable, so a conservative trend biases the study against its own hypothesis. *Fallback:* none needed; this is a design choice, not a data gap, and it must be stated explicitly in the paper because reviewers will ask what the counterfactual assumes.
 
-**#12 and #3, note on the expenditure profile.** Quintile means are set so that the mean (VND 3·0 million per person-month) and the Q5/Q1 ratio (3·1) reproduce the published VHLSS 2024 tabulations exactly. The share of expenditure spent on SSB is then *derived* from volume and retail price inside the model rather than assumed separately, so that it cannot contradict the consumption assumption. That derivation gives 2·6% in Q1 and 1·5% in Q5. The Gini used for the Kakwani index is computed from quintile means alone and is therefore a lower bound, which biases the estimated regressivity towards zero; the published Gini of income is 0·372. **#3 Consumption by age, sex, and quintile.** Per-capita retail volume gives the level; it does not give the distribution. Age and sex profiles come from the General Nutrition Survey 2019–2020, which records beverage intake by group. Quintile profiles come from VHLSS 2024 beverage expenditure, scaled to the Euromonitor volume total so that the two sources are mutually consistent. The central value of 145 mL/person/day is derived as 66 L/year × 0·80 (share above the threshold) ÷ 365, not observed directly. *Fallback:* if GNS beverage categories cannot be mapped to the taxable category, apply a uniform age profile and state this as a limitation.
+**#12 and #3, note on the expenditure profile.** Quintile means are set so that the mean (VND 3.0 million per person-month) and the Q5/Q1 ratio (3.1) reproduce the published VHLSS 2024 tabulations exactly. The share of expenditure spent on SSB is then *derived* from volume and retail price inside the model rather than assumed separately, so that it cannot contradict the consumption assumption. That derivation gives 2.6% in Q1 and 1.5% in Q5. The Gini used for the Kakwani index is computed from quintile means alone and is therefore a lower bound, which biases the estimated regressivity towards zero; the published Gini of income is 0.372. **#3 Consumption by age, sex, and quintile.** Per-capita retail volume gives the level; it does not give the distribution. Age and sex profiles come from the General Nutrition Survey 2019–2020, which records beverage intake by group. Quintile profiles come from VHLSS 2024 beverage expenditure, scaled to the Euromonitor volume total so that the two sources are mutually consistent. The central value of 145 mL/person/day is derived as 66 L/year × 0.80 (share above the threshold) ÷ 365, not observed directly. *Fallback:* if GNS beverage categories cannot be mapped to the taxable category, apply a uniform age profile and state this as a limitation.
 
-**#5 Ex-factory share of retail price — the binding constraint.** No published Vietnamese estimate exists. The value determines the entire price effect: with τ = 0·10, *v* = 0·10, and κ = 0·90, a share of 0·40 gives a 4·0% retail price increase and a share of 0·70 gives 6·9% — a range that spans most of the plausible result space. We propose a triangular distribution centred on 0·55, derived from the typical structure of Vietnamese fast-moving consumer goods distribution (producer selling price, wholesale and retail margins, and the 10% VAT cascade), and we propose to *calibrate it empirically* rather than leave it as an assumption:
+**#5 Ex-factory share of retail price — the binding constraint.** No published Vietnamese estimate exists. The value determines the entire price effect: with τ = 0.10, *v* = 0.10, and κ = 0.90, a share of 0.40 gives a 4.0% retail price increase and a share of 0.70 gives 6.9% — a range that spans most of the plausible result space. We propose a triangular distribution centred on 0.55, derived from the typical structure of Vietnamese fast-moving consumer goods distribution (producer selling price, wholesale and retail margins, and the 10% VAT cascade), and we propose to *calibrate it empirically* rather than leave it as an assumption:
 
 > **Calibration procedure.** If the Ministry of Finance publishes a projected yield for the SSB excise in the 2027 budget, the taxable base implied by that projection is R/τ. Dividing by the estimated retail value of taxed volume, net of VAT, gives a direct estimate of the ex-factory share. Two independent published projections, or one projection plus the market value of taxed volume, are sufficient. This converts the weakest parameter in the model into a calibrated one, and it is the single highest-value data task in the study.
 
 *Fallback if no projection is available:* keep the triangular assumption, report the threshold analysis (the pass-through and share combinations at which the health gain becomes indistinguishable from zero), and state in the Limitations that the price effect is assumption-driven rather than estimated.
 
-**#6 Pass-through.** Evaluated pass-through has ranged from below 50% (Berkeley, Chile, the United Kingdom) to close to 100% (Philadelphia, Mexico).[19] In Barbados, a 10% excise raised SSB prices by 5·9% six months after implementation, implying pass-through of about 60%. Because Viet Nam has no post-implementation price data at the time of writing, we centre the distribution slightly below full pass-through and allow it to exceed 100%, which is observed where firms round prices upward. *Fallback:* none; the range is the fallback.
+**#6 Pass-through.** Evaluated pass-through has ranged from below 50% (Berkeley, Chile, the United Kingdom) to close to 100% (Philadelphia, Mexico).[29] In Barbados, a 10% excise raised SSB prices by 5.9% six months after implementation, implying pass-through of about 60%. Because Viet Nam has no post-implementation price data at the time of writing, we centre the distribution slightly below full pass-through and allow it to exceed 100%, which is observed where firms round prices upward. *Fallback:* none; the range is the fallback.
 
-**#7 Elasticities.** Pooled own-price elasticities for SSBs cluster between −1·0 and −1·4: −1·30 (95% CI −1·09 to −1·51) in a nine-study meta-analysis,[15] −1·16 for SSBs in Mexico,[13] −1·37 for soft drinks in Chile, and −0·79 (range −1·24 to −0·33) for soft drinks in an earlier review.[20] We centre on −1·20 and allow the full observed range. The quintile gradient is the weakest element: the consistent finding is that elasticities are larger among lower-income households,[13] but the magnitude for Viet Nam is unknown, so a gradient of 1·4 is applied and the result is reported as a sensitivity rather than as a finding.
+**#7 Elasticities.** Pooled own-price elasticities for SSBs cluster between −1.0 and −1.4: −1.30 (95% CI −1.09 to −1.51) in a nine-study meta-analysis,[24] −1.16 for SSBs in Mexico,[21] −1.37 for soft drinks in Chile, and −0.79 (range −1.24 to −0.33) for soft drinks in an earlier review.[30] We centre on −1.20 and allow the full observed range. The quintile gradient is the weakest element: the consistent finding is that elasticities are larger among lower-income households,[21] but the magnitude for Viet Nam is unknown, so a gradient of 1.4 is applied and the result is reported as a sensitivity rather than as a finding.
 
 **#8b Energy compensation.** Some of the energy displaced from beverages is replaced from other sources. Published estimates vary widely, and the choice materially affects the BMI pathway. We use a uniform distribution from 15% to 45%, centred at 30%, and note that this is an assumption rather than a Vietnamese estimate. *Fallback:* report the static-conversion sensitivity alongside, so that the reader can see how much of the result depends on this step.
 
-**#9 Relative risks.** From the Asia-Pacific Cohort Studies Collaboration: each 2 kg/m² lower BMI is associated with a 12% (95% CI 9–15) lower risk of ischaemic stroke and an 8% (95% CI 4–12) lower risk of haemorrhagic stroke,[21] with a comparable estimate for coronary heart disease.[21] Diabetes risk is taken from the same collaboration.[33] Because relative risks are applied to BMI *categories* through population impact fractions, we convert the per-2-unit estimates to category-specific values using the midpoints of the standard Asian cut-offs (18·5, 23, 25, 30). *Rationale for preferring APCSC:* it is the only pooled Asian evidence base of adequate size, and using Western estimates would overstate risk at a given BMI in a lean population.
+**#9 Relative risks.** From the Asia-Pacific Cohort Studies Collaboration: each 2 kg/m² lower BMI is associated with a 12% (95% CI 9–15) lower risk of ischaemic stroke and an 8% (95% CI 4–12) lower risk of haemorrhagic stroke,[32] with a comparable estimate for coronary heart disease.[32] Diabetes risk is taken from the same collaboration.[33] Because relative risks are applied to BMI *categories* through population impact fractions, we convert the per-2-unit estimates to category-specific values using the midpoints of the standard Asian cut-offs (18.5, 23, 25, 30). *Rationale for preferring APCSC:* it is the only pooled Asian evidence base of adequate size, and using Western estimates would overstate risk at a given BMI in a lean population.
 
-**Sugar density of taxed beverages.** The central value of 11 g per 100 mL is not an assumption: Nguyen and colleagues report 11 g per 100 mL for carbonates, 9 for ready-to-drink coffee and tea, 16 for sports and energy drinks, and 7 for juices in the Vietnamese market.[10] Carbonates dominate the taxed volume, so 11 is used centrally, and the full range across categories (7–16) is tested as a sensitivity analysis.
+**Sugar density of taxed beverages.** The central value of 11 g per 100 mL is not an assumption: Nguyen and colleagues report 11 g per 100 mL for carbonates, 9 for ready-to-drink coffee and tea, 16 for sports and energy drinks, and 7 for juices in the Vietnamese market.[17] Carbonates dominate the taxed volume, so 11 is used centrally, and the full range across categories (7–16) is tested as a sensitivity analysis.
 
 **#10 Baseline disease rates by quintile.** GBD 2021 provides national incidence, prevalence, and mortality for all three diseases, and STEPS 2021 provides measured diabetes prevalence. Neither is stratified by household expenditure. We therefore apply national rates to every quintile and assume **no** socioeconomic gradient in baseline disease rates. This is a deliberate simplification: it means equity differences in the model arise only from differential consumption and differential price response, never from an assumed disease gradient. Any real gradient in disease risk would therefore be unrepresented.
 
@@ -236,104 +236,21 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 ---
 
-## Appendix C. Product audit protocol
+## Appendix C. Deviations from the plan as originally drafted
 
-**C.1 Purpose**
+The protocol and analysis plan were deposited with the code after the model had been run. This appendix records every departure from the plan as first written, so that a reader can see what changed and why. Five departures were made.
 
-The audit has three jobs, and they are the reason it is worth three weeks of fieldwork. It measures the **share of the market above the 5 g/100 mL threshold**, which sets the size of the tax base (parameter 4 in Appendix B). It measures the **distribution of sugar content around the threshold**, which determines how many products could plausibly reformulate and therefore the range of the S3 scenario. And it establishes a **pre-implementation retail price benchmark**, so that the price change estimated from the tax formula can later be checked against what actually happened. It does not require ethical approval: no human participants are involved, no personal data are collected, and only publicly displayed prices and label information are recorded.
+| # | Departure | Reason |
+|---|---|---|
+| C1 | The revenue-neutral levy per gram of sugar (scenario S1b) was dropped | Distributing taxed volume across sugar bands requires a product-level database that does not exist for Viet Nam; without it the scenario reduces to the same average price change as the enacted tax and cannot be distinguished from it |
+| C2 | No socioeconomic gradient in baseline disease rates was assumed | Quintile-specific incidence and mortality are not available for Viet Nam; national rates are applied to every quintile |
+| C3 | The product audit was not undertaken | The share of taxed beverages above the threshold is assumed (Appendix B, #4) rather than measured |
+| C4 | Health-care costs for ischaemic heart disease and stroke are amortised from acute-episode studies | No Vietnamese estimate of annual cost per prevalent case exists for these two conditions |
+| C5 | Latency is a two-year shift of the impact fraction, not a distributed lag | No Vietnamese evidence on the shape of the lag; a step lag is the conservative choice |
 
-**C.2 Design and timing**
+Two further points affect the reading of the equity results. The elasticity gradient across quintiles (Appendix B, #7c) is an assumption, not a measurement, and the concentration and Kakwani indices use a Gini computed from quintile means, which is a lower bound on true inequality.
 
-Cross-sectional retail audit of packaged non-alcoholic beverages, conducted in **November–December 2026**, before the 8% rate takes effect on 1 January 2027. The timing matters: a post-implementation audit cannot be used to establish the baseline, and a baseline taken after the tax is announced but before it applies is the cleanest available comparison point. If resources permit, the protocol should be repeated in **February–March 2027** at the same outlets, which converts a static baseline into a before-and-after price comparison and gives the study its own pass-through estimate — the parameter that is currently imported from other countries.
-
-**C.3 Sampling frame**
-
-*In scope*, following TCVN 12828:2019: flavoured drinks including carbonated soft drinks, still drinks, energy drinks, sports and electrolyte drinks; coffee-based and tea-based ready-to-drink beverages; herbal drinks; drinks containing fruit juice; cereal-based drinks.
-
-*Out of scope*, and recorded separately so the exclusion can be verified: milk and dairy products, liquid nutritional foods, natural mineral and bottled water, 100% fruit and vegetable juice, nectars, cocoa products.
-
-*Channels*, sampled in all three because prices and assortments differ: modern trade (supermarkets and convenience-store chains), traditional trade (grocery stores and wet-market stalls), and online (two major e-commerce platforms plus one quick-commerce app).
-
-*Locations*: Hanoi and Ho Chi Minh City, with a purposive rural or peri-urban district in each region to capture the price gradient. Two cities alone would overstate average prices; adding a rural district costs little and removes an obvious reviewer objection.
-
-**C.4 Sampling strategy and size**
-
-Quota sampling by product category × channel, with the quota proportional to the number of distinct SKUs observed on shelf in a pilot scan of four outlets per city. Sampling is purposive at the product level and exhaustive at the outlet level: within each selected outlet, **every** in-scope SKU on shelf is recorded. Target n ≈ 200 SKU, with 250 if resources allow. At p = 0·80, n = 200 gives a 95% confidence interval of about ±5·5 percentage points around the estimated share above the threshold; n = 250 gives ±5·0. Because the population of distinct SKUs nationally is in the low thousands rather than the millions, a finite-population correction is unnecessary at this size.
-
-**C.5 Data elements**
-
-For each SKU: brand; product name as printed; manufacturer or importer; barcode; pack size and unit (mL); category per C.3; **total sugar per 100 mL as printed on the nutrition panel**; sweetener type (caloric sweetener, non-caloric sweetener, or both) as printed in the ingredient list; shelf price in dong; whether the price is promotional; outlet identifier, channel, and location; date of observation; and three photographs — front of pack, nutrition panel, and shelf price tag. The distinction between total sugar and added sugar matters legally and is easy to get wrong: Decree 360/2025/ND-CP defines the tax base as **total sugar on the label**, not added sugar. Recording only added sugar would misclassify products.
-
-**C.6 Measurement procedure**
-
-Two data collectors work independently in each outlet and reconcile discrepancies at the end of the day, with a third reviewer adjudicating unresolved cases. All entries are double-keyed. Photographs are retained so that every value can be re-verified against the pack. Where a nutrition panel is absent or illegible, the SKU is recorded as *unlabelled* rather than imputed, and the share of unlabelled SKUs is reported — it is itself a finding about the enforceability of a label-based tax.
-
-**C.7 Classification of borderline products**
-
-The threshold sits inside a category boundary that the law does not resolve: the difference between a fruit juice and a drink containing fruit juice is contested, and the status of coconut water is unclear (Introduction). The audit therefore applies an explicit four-rule decision tree and records every borderline case with its photograph:
-
-1. If the label declares 100% juice and the ingredient list contains no added sugar or water, classify as **juice, out of scope**.
-2. If the product contains fruit juice *and* added sugar or added water, classify as **drink containing fruit juice, in scope**.
-3. If the label declares "nectar" or shows a fruit content below 100% with added sugar, classify as **nectar, out of scope**, but flag it, because nectars are the category most likely to be reclassified in guidance.
-4. Coconut water: classify as **out of scope** if the only ingredient is coconut water; otherwise **in scope**. Every SKU that triggers rule 2, 3, or 4 is listed individually in the audit output, so that the model's broad and narrow interpretations of the tax base can be built directly from observed products rather than from assumption.
-
-**C.8 Analysis**
-
-The primary output is the share of SKUs above the threshold, with a Clopper–Pearson exact confidence interval. Because high-sugar products tend to be over-represented on shelf relative to their sales, the **unweighted SKU share is an upper bound on the volume share**. We therefore report three estimates: unweighted SKU share; SKU share weighted by category volume from Euromonitor; and a lower bound obtained by assuming that within each category the above-threshold products carry the average category volume. The model uses the weighted estimate as its central value and the lower bound as the pessimistic scenario. Secondary outputs: the distribution of sugar content overall and within category, in 1 g/100 mL bins, with the count of products in the 5·0–8·0 g range — the pool from which S3 draws its reformulation candidates; mean price per litre by category and channel; price per gram of sugar, which is the quantity that a per-gram tax would act on; and the share of products sweetened partly or wholly with non-caloric sweeteners, which bears directly on the unresolved question of whether such products fall inside the tax base.
-
-**C.9 Limitations to state in the paper**
-
-The audit observes shelf presence, not sales, so the volume weighting depends on external category data. Label values carry the tolerance permitted by nutrition labelling rules and are not laboratory measurements; where the declared value lies within 0·5 g/100 mL of the threshold, the SKU is treated as borderline and the tax-base share is recomputed with it on each side. Two cities plus two rural districts are not nationally representative, and traditional-trade coverage is necessarily incomplete. Finally, the audit is a snapshot: reformulation and repricing after January 2027 are not captured unless the repeat round is funded.
-
-**C.10 Resources and timeline**
-
-| Week | Activity |
-|---|---|
-| 1 | Finalise instrument; pilot in four outlets per city; revise category list and quota |
-| 2 | Fieldwork, Hanoi and Ho Chi Minh City, modern and traditional trade |
-| 3 | Fieldwork, online channels and rural districts; double-keying; reconciliation |
-| 4 | Classification adjudication; analysis; audit report and machine-readable dataset |
-
-Staffing: two data collectors, one supervisor, one analyst at 50%. Direct costs are modest — travel, per diems, and a tablet per collector — and the dataset should be published with the paper, since it is the only primary data in the study.
-
-**C.11 Outputs**
-
-A machine-readable dataset of all audited SKUs with the fields in C.5; the four derived estimates in C.8; a list of borderline products with photographs; and a short methods note suitable for publication as part of Appendix C. The dataset feeds parameters 3, 4, and 5 in Appendix B, and the near-threshold SKU list defines the reformulation pool for scenario S3.
-
----
-
-## Appendix D. Deviation log
-
-The log is opened at registration and maintained until submission. Each entry records what the registered protocol said, what was done instead, when the change was made, and why. Deviations are disclosed in the manuscript even where they improve the analysis, because the value of registration depends on the completeness of the record.
-
-**D.1 Structural template**
-
-| # | Date | Registered protocol | What was done | Reason | Effect on results |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
-
-**D.2 Deviations already known at drafting**
-
-These arise from the difference between protocol v3.0 and the design now proposed. They must be settled **before** registration rather than logged afterwards, because they are design decisions, not departures.
-
-| # | Item | Protocol v3.0 | Now proposed | Reason |
-|---|---|---|---|---|
-| D1 | Baseline consumption trend | "published trend parameters", unspecified | +2·0%/yr, range 0 to +4·0% (Appendix B #2) | The counterfactual drives every absolute result and had no specified value; a conservative trend avoids biasing the study towards its own hypothesis |
-| D2 | Ex-factory share of retail price | Not identified as a parameter | Explicit parameter #5, with a calibration procedure | The parameter determines the whole price effect and was missing from the original list |
-| D3 | Value-added tax cascade | "verify in the legal text" | Confirmed: 10% VAT on the excise-inclusive price | Decree 360 and Decree 174 settle the mechanism |
-| D4 | Definition of sugar | "total or added sugar, to verify" | Total sugar on the label (Decree 360, Article 3.4) | Resolved by the implementing decree |
-| D5 | Scope of the taxable category | "exemption list, to verify" | Definitional, via TCVN 12828:2019; broad and narrow interpretations modelled | The law contains no exemption list for beverages |
-| D6 | Scenario set | 6 scenarios | 4 | Pass-through moved to sensitivity; sugar-content scenario dropped for lack of data |
-| D7 | Patient and public engagement | "expert consultation" | No new engagement; published qualitative evidence used | Recorded as a process limitation (Methods) |
-| D8 | Dental caries and under-20s | Excluded | Still excluded, stated as a limitation | Resource constraint; flagged for the extension paper |
-
-**D.3 What must be logged after registration**
-
-Any change to: the parameter values in Appendix B; the elasticity set; the latency assumption; the discount rate; the set of scenarios; the primary outcome; the method for computing equivalent health; and any change to the model code that alters results rather than only presentation. Each entry is dated and signed by the analyst who made it.
-
----
-
-## Appendix E. CHEERS 2022 checklist
+## Appendix D. CHEERS 2022 checklist
 
 | # | Item | Reported in |
 |---|---|---|
@@ -346,17 +263,17 @@ Any change to: the parameter values in Appendix B; the elasticity set; the laten
 | 7 | Comparators | Methods, *Policy scenarios*; Table 1 |
 | 8 | Perspective | Methods, *Study design and overview* |
 | 9 | Time horizon | Methods, *Study design and overview* |
-| 10 | Discount rate | Methods; Appendix G |
+| 10 | Discount rate | Methods; Appendix F |
 | 11 | Selection of outcomes | Methods; summary of outcomes in Introduction |
 | 12 | Measurement of outcomes | Methods, *Model structure* steps 5–7 |
 | 13 | Valuation of outcomes | Methods step 7; disability weights from GBD 2021 |
 | 14 | Measurement and valuation of resources and costs | Methods step 7; Table 2 |
 | 15 | Currency, price date, and conversion | Methods, *Study design and overview* |
 | 16 | Rationale and description of model | Methods, *Model structure*; Figure 1 |
-| 17 | Analytics and assumptions | Methods; Appendix B; Appendix G |
+| 17 | Analytics and assumptions | Methods; Appendix B; Appendix F |
 | 18 | Characterising heterogeneity | Methods, *Equity analysis*; Results, *Equity* |
 | 19 | Characterising distributional effects | Methods, *Equity analysis*; Figure 3 |
-| 20 | Characterising uncertainty | Methods; Results, *Uncertainty*; Appendix G |
+| 20 | Characterising uncertainty | Methods; Results, *Uncertainty*; Appendix F |
 | 21 | Approach to engagement with patients and others affected | Methods, *Validation* |
 | 22 | Study parameters | Table 2; Appendix B |
 | 23 | Summary of main results | Results; Table 3 |
@@ -368,72 +285,27 @@ Any change to: the parameter values in Appendix B; the elasticity set; the laten
 
 ---
 
-## Appendix F. Validation plan
+## Appendix E. What was and was not validated
 
-**F.1 Internal validation**
+**E.1 Checks performed.** Every step of the model has a unit test with hand-calculated inputs and outputs. Population conservation is checked in the life table: no individual leaves the cohort except through death, and the living plus the dead equal the starting population in every cycle. Boundary conditions are checked: a zero tax returns the baseline exactly, a zero elasticity returns the baseline exactly, and a tax large enough to remove all consumption produces neither negative quantities nor a division error.
 
-The model must reproduce, for the baseline scenario and before any tax is applied, the published Vietnamese epidemiology for each modelled disease. Acceptance is defined in advance so that the check cannot become a search for a specification that passes.
+**E.2 Checks not performed.** Three planned checks were not carried out and the manuscript does not claim them. The model's baseline prevalence was not compared against GBD or STEPS estimates, because the life table does not age the cohort and a comparison of levels would not be informative. No external comparison was made with the earlier Vietnamese modelling study,[17] because that study reports different outcomes on a different structure. The code was not reviewed by an independent programmer. The unit tests and boundary conditions in E.1 are the whole of the technical assurance behind the results.
 
-| Check | Benchmark | Acceptance criterion |
-|---|---|---|
-| Diabetes prevalence, ages 20+ | STEPS 2021 measured prevalence | Within ±15% of the published value |
-| Incidence, all three diseases | GBD 2021, Viet Nam | Within ±15% by sex and 10-year age band |
-| All-cause mortality by age and sex | GBD 2021 / NSO life table | Within ±5% |
-| Population totals 2027–2050 | NSO projection | Within ±1% in every year |
-| Disability weights applied | GBD 2021 | Exact match to the published values |
+## Appendix F. Sensitivity analyses performed
 
-A failure at this stage is reported, not tuned away. Where a parameter is adjusted to achieve calibration, the adjustment and its size are recorded in Appendix D and the fitted value is used with a widened uncertainty range.
+**F.1 Probabilistic analysis.** 5,000 Monte Carlo iterations, independent sampling from the distributions in Appendix B, fixed seed (20261101), reporting medians and 95% uncertainty intervals.
 
-**F.2 Technical checks**
+**F.2 Threshold analysis.** A grid over the ex-factory share (0.30 to 0.85) and the pass-through rate (0.30 to 1.50), with the model re-run at each point, identifies the combinations at which the health gain becomes indistinguishable from zero. The grid is deposited as `output/threshold_grid.csv`.
 
-Unit tests on each of the seven model steps, with known inputs and hand-calculated outputs. Population conservation: no individual leaves the life table except through death. Boundary conditions: zero elasticity and zero tax must both return exactly the baseline; a tax so high that consumption falls to zero must not produce negative consumption or a division error. The tax-to-price step is checked against a closed-form calculation for a single product with known price structure.
+**F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.3 External validation**
+**F.4 Tax-base variants.** The share of taxed beverages set at 0.60 and 0.95, bracketing the assumed 0.80.
 
-At a 20% retail price increase, our estimate of DALYs averted is compared with that of Nguyen and colleagues,[10] the closest published Vietnamese analysis. Differences are decomposed into four sources in this order: outcome set, discount rate, time horizon, and model structure. The decomposition is reported in full, because a single unexplained percentage difference is worse than a documented one.
+**F.5 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
 
-**F.4 Independent review**
+**F.6 Analyses not run.** A static weight model, low and high elasticity sets, a full pass-through grid crossed with broad and narrow legal interpretations of the tax base, and a distributed latency were planned and not carried out. None is reported.
 
-An independent reviewer with no role in the analysis re-runs the model from the public repository and reproduces Figure 2 and Table 3. The review covers code, not methods. Discrepancies are resolved before submission.
-
----
-
-## Appendix G. Sensitivity analysis plan
-
-**G.1 Probabilistic analysis**
-
-5,000 draws, independent sampling from the distributions in Appendix B, Latin hypercube sampling with a fixed seed. Reported: median, 95% uncertainty interval, and the probability statements in the Results. Convergence is assessed by comparing the first and second halves of the draws; if the medians differ by more than 2%, the run is repeated with 10,000 draws.
-
-**G.2 One-way analysis**
-
-Tornado diagram over the ten parameters contributing most to variance, each varied across its 2·5th and 97·5th percentiles while all others are held at their central values.
-
-**G.3 Structural scenarios**
-
-| Scenario | What it tests | Expected direction |
-|---|---|---|
-| Static weight conversion | Whether the dynamic weight model drives the result | Smaller gain |
-| Low elasticity set (−0.8) | Demand responsiveness | Smaller gain |
-| High elasticity set (−1.8) | Demand responsiveness | Larger gain |
-| Pass-through 50% | Whether firms absorb the tax | Much smaller gain |
-| Pass-through 150% | Over-shifting | Larger gain |
-| Taxed share 0.60 | Narrow tax base | Smaller gain |
-| Taxed share 0.95 | Broad tax base | Larger gain |
-| Broad legal interpretation | Nectars and juice-containing drinks taxed | Larger gain |
-| Narrow legal interpretation | Only unambiguous soft drinks taxed | Smaller gain |
-| S3 at 10%, 25%, 50% | Reformulation channel | Gain falls as base shrinks, but sugar intake falls |
-
-**G.4 Threshold analysis**
-
-For a grid of pass-through (0·3 to 1·5) and ex-factory share (0·30 to 0·85), the model reports the DALY gain. The output identifies the boundary at which the health gain becomes indistinguishable from zero, and that boundary — not the point estimate — is the study's most defensible statement about what the tax can achieve.
-
-**G.5 Reporting**
-
-All sensitivity results are reported whether or not they support the main conclusion. The Discussion states which conclusions survive the full set and which do not.
-
----
-
-## Appendix H. Code and reproducibility
+## Appendix G. Code and reproducibility
 
 **H.1 Environment**
 
