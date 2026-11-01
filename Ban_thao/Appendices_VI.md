@@ -304,7 +304,21 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
 
-**F.8 Gradient độ co giãn.** Gradient độ co giãn giá riêng theo ngũ phân vị là giả định. Ở giá trị trung tâm, giữ mọi thứ khác cố định, tỷ số Q1/Q5 của DALY tránh được là 0,56 ở gradient 1,0; 0,78 ở 1,4 (kịch bản cơ sở) và 1,00 ở 1,8, với chỉ số tập trung tương ứng 0,112; 0,046 và −0,005. Vì thuế phải trả cũng tỷ lệ với tiêu thụ, chỉ số Kakwani dịch theo cùng giả định này.
+**F.8 Gradient bệnh và gradient độ co giãn cùng lúc.** Cả hai gradient đều là giả định, nên được báo cáo cùng nhau. Bảng dưới cho tỷ số Q1/Q5 của DALY tránh được và chỉ số tập trung ở từng tổ hợp giữa gradient bệnh (nguy cơ nền tăng theo chi tiêu, không có, giảm theo chi tiêu) và gradient độ co giãn theo ngũ phân vị (1,0; 1,39 ở kịch bản cơ sở; 1,8). Chỉ số Kakwani và tỷ lệ thuế dịch ít hơn nhiều, vì khoản chi trả phụ thuộc vào tiêu thụ chứ không vào nguy cơ bệnh.
+
+| Nguy cơ nền | Gradient độ co giãn | Q1/Q5 | Chỉ số tập trung | Kakwani | Thuế, Q1 (%) | Thuế, Q5 (%) |
+|---|---|---|---|---|---|---|
+| Tăng theo chi tiêu | 1,0 | 0,44 | 0,160 | −0,101 | 0,135 | 0,078 |
+| Tăng theo chi tiêu | 1,39 | 0,60 | 0,096 | −0,096 | 0,133 | 0,079 |
+| Tăng theo chi tiêu | 1,8 | 0,78 | 0,045 | −0,093 | 0,132 | 0,080 |
+| Không có | 1,0 | 0,56 | 0,112 | −0,101 | 0,135 | 0,078 |
+| Không có | 1,39 | 0,77 | 0,047 | −0,096 | 0,133 | 0,079 |
+| Không có | 1,8 | 1,00 | −0,005 | −0,093 | 0,132 | 0,080 |
+| Giảm theo chi tiêu | 1,0 | 0,71 | 0,063 | −0,101 | 0,135 | 0,078 |
+| Giảm theo chi tiêu | 1,39 | 0,99 | −0,003 | −0,096 | 0,133 | 0,079 |
+| Giảm theo chi tiêu | 1,8 | 1,28 | −0,054 | −0,093 | 0,132 | 0,080 |
+
+Lưu ở `output/equity_grid.csv`.
 
 **F.9 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được xem xét và không thực hiện. Không kết quả nào của chúng được báo cáo.
 

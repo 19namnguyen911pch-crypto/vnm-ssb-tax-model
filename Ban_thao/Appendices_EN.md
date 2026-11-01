@@ -301,7 +301,21 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.7 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated on the same 5,000 draws under two socioeconomic gradients, risk falling with expenditure (1.15 in Q1 to 0.88 in Q5) and risk rising with expenditure (0.88 in Q1 to 1.15 in Q5). The median Q1/Q5 ratio moves from 0.77 to 0.99 in the first case and to 0.60 in the second, and the concentration index from 0.047 to −0.002 and to 0.097; the Kakwani index is unchanged because it depends only on payments. Deposited as `output/psa_gradient.csv`.
 
-**F.8 Elasticity gradient.** The quintile gradient in the own-price elasticity is an assumption. At central values, holding everything else fixed, the Q1/Q5 ratio of DALYs averted is 0.56 at a gradient of 1.0, 0.78 at 1.4 (the base case) and 1.00 at 1.8, with concentration indices of 0.112, 0.046 and −0.005. Because the tax payment also scales with consumption, the Kakwani index moves with the same assumption.
+**F.8 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
+
+| Baseline risk | Elasticity gradient | Q1/Q5 | Concentration index | Kakwani | Tax, Q1 (%) | Tax, Q5 (%) |
+|---|---|---|---|---|---|---|
+| Rises with expenditure | 1.0 | 0.44 | 0.160 | −0.101 | 0.135 | 0.078 |
+| Rises with expenditure | 1.39 | 0.60 | 0.096 | −0.096 | 0.133 | 0.079 |
+| Rises with expenditure | 1.8 | 0.78 | 0.045 | −0.093 | 0.132 | 0.080 |
+| None | 1.0 | 0.56 | 0.112 | −0.101 | 0.135 | 0.078 |
+| None | 1.39 | 0.77 | 0.047 | −0.096 | 0.133 | 0.079 |
+| None | 1.8 | 1.00 | −0.005 | −0.093 | 0.132 | 0.080 |
+| Falls with expenditure | 1.0 | 0.71 | 0.063 | −0.101 | 0.135 | 0.078 |
+| Falls with expenditure | 1.39 | 0.99 | −0.003 | −0.096 | 0.133 | 0.079 |
+| Falls with expenditure | 1.8 | 1.28 | −0.054 | −0.093 | 0.132 | 0.080 |
+
+Deposited as `output/equity_grid.csv`.
 
 **F.9 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 
