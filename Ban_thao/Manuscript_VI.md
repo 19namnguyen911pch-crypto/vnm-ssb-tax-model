@@ -3,7 +3,7 @@
 **Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 444; thân bài 7074; 3 bảng; 4 hình; 42 tài liệu tham khảo
+**Số từ:** tóm tắt 444; thân bài 7033; 3 bảng; 4 hình; 42 tài liệu tham khảo
 
 ---
 
@@ -125,7 +125,7 @@ Bất định tham số được lan truyền bằng mô phỏng Monte Carlo v�
 
 ### Kiểm chứng
 
-Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn dân số được kiểm tra trong bảng sống, và các điều kiện cực biên với độ co giãn bằng không và thuế bằng không được chạy. Ba kiểm tra dự kiến đã không được thực hiện: tái tạo tỷ lệ hiện mắc từ GBD hoặc STEPS, so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[17], và rà soát mã bởi người độc lập. Phụ lục E ghi lại những gì đã và chưa được kiểm tra, và bài không tuyên bố những điều chưa làm. Một buổi rà soát giả định có cấu trúc đã được tổ chức với một nhà dinh dưỡng học, một nhà kinh tế y tế và một chuyên gia chính sách thuế. Không tổ chức tham vấn mới với người bệnh hoặc nhóm cộng đồng: nghiên cứu mô hình hóa một công cụ tài khóa ở cấp quần thể, chỉ dùng tham số công bố, và không thu thập dữ liệu người tham gia. Ở những chỗ quan điểm người bệnh thực sự ảnh hưởng đến diễn giải — mức chấp nhận của một công cụ giá đối với người sống chung với đái tháo đường, và điều họ coi là phân bố gánh nặng công bằng — chúng tôi dựa trên bằng chứng định tính đã công bố của Việt Nam.[37] Không có tham vấn mới nào được thực hiện.
+Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn dân số được kiểm tra trong bảng sống, và các điều kiện cực biên với độ co giãn bằng không và thuế bằng không được chạy. Ba kiểm tra dự kiến đã không được thực hiện: tái tạo tỷ lệ hiện mắc từ GBD hoặc STEPS, so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[17], và rà soát mã bởi người độc lập. Phụ lục E ghi lại những gì đã và chưa được kiểm tra, và bài không tuyên bố những điều chưa làm. Không tổ chức tham vấn mới với người bệnh hoặc nhóm cộng đồng: nghiên cứu mô hình hóa một công cụ tài khóa ở cấp quần thể, chỉ dùng tham số công bố, và không thu thập dữ liệu người tham gia. Ở những chỗ quan điểm người bệnh thực sự ảnh hưởng đến diễn giải — mức chấp nhận của một công cụ giá đối với người sống chung với đái tháo đường, và điều họ coi là phân bố gánh nặng công bằng — chúng tôi dựa trên bằng chứng định tính đã công bố của Việt Nam.[37]
 
 ### Báo cáo, đăng ký và đạo đức
 
@@ -211,7 +211,7 @@ Chúng tôi tuyên bố không có xung đột lợi ích.
 
 ## Lời cảm ơn
 
-Các tác giả cảm ơn những đồng nghiệp đã tham gia buổi rà soát giả định có cấu trúc.
+Không áp dụng.
 
 ## Vai trò của nguồn tài trợ
 

@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 349; main text 5476; 3 tables; 4 figures; 42 references
+**Word count:** abstract 349; main text 5453; 3 tables; 4 figures; 42 references
 
 ---
 
@@ -127,7 +127,7 @@ Parameter uncertainty was propagated by Monte Carlo simulation with 1,000 iterat
 
 ### Validation
 
-Unit tests were applied to each model step, population conservation was checked in the life table, and boundary conditions with zero elasticity and zero tax were run. Three planned checks were not carried out: reproduction of GBD or STEPS prevalence, an external comparison with the earlier Vietnamese modelling study,[17] and independent review of the code. Appendix E records what was checked and what was not, and the manuscript makes no claim to the latter. A structured assumptions review was held with a nutrition scientist, a health economist, and a tax policy specialist. No new engagement with patients or community groups was undertaken: the study models a population-level fiscal instrument using only published parameters, and no participant data were collected. Where the patient perspective bears on interpretation — how acceptable a price instrument is to people living with diabetes, and what they would regard as a fair distribution of the burden — we draw on published qualitative evidence from Viet Nam.[37] No new consultation was undertaken.
+Unit tests were applied to each model step, population conservation was checked in the life table, and boundary conditions with zero elasticity and zero tax were run. Three planned checks were not carried out: reproduction of GBD or STEPS prevalence, an external comparison with the earlier Vietnamese modelling study,[17] and independent review of the code. Appendix E records what was checked and what was not, and the manuscript makes no claim to the latter. No new engagement with patients or community groups was undertaken: the study models a population-level fiscal instrument using only published parameters, and no participant data were collected. Where the patient perspective bears on interpretation — how acceptable a price instrument is to people living with diabetes, and what they would regard as a fair distribution of the burden — we draw on published qualitative evidence from Viet Nam.[37]
 
 ### Reporting, registration, and ethics
 
@@ -213,7 +213,7 @@ We declare no competing interests.
 
 ## Acknowledgements
 
-The authors thank the colleagues who took part in the structured assumptions review.
+Not applicable.
 
 ## Role of the funding source
 
