@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 349; main text 5463; 3 tables; 4 figures; 42 references
+**Word count:** abstract 349; main text 5476; 3 tables; 4 figures; 42 references
 
 ---
 
@@ -170,7 +170,7 @@ The 20% price increase would avert 89,991 DALYs, 3.6 times the gain from the ena
 
 ### Equity
 
-DALYs averted per 1,000 population were 0.27 in Q1 and 0.35 in Q5, a ratio of 0.77. The concentration index of DALYs averted was 0.047, and the concentration index of tax payments was −0.113; with a Gini of household expenditure of 0.213 the Kakwani index is −0.326, obtained as −0.113 − 0.213. Tax payments were 0.133% of household expenditure in Q1 and 0.079% in Q5. Both distributional results depend on the assumption of no gradient in baseline disease risk. When a gradient of 1.15 in Q1 down to 0.88 in Q5 is imposed — the direction reported in most middle-income settings, though not measured for Viet Nam — the ratio of DALYs averted in Q1 to Q5 rises from 0.77 to 0.99 and the concentration index falls from 0.047 to −0.002, while the Kakwani index is unchanged because it depends only on tax payments.
+DALYs averted per 1,000 population were 0.27 in Q1 and 0.35 in Q5, a ratio of 0.77. The concentration index of DALYs averted was 0.047, and the concentration index of tax payments was −0.113; with a Gini of household expenditure of 0.213 — a lower bound, since it is computed from quintile means — the Kakwani index is −0.326, obtained as −0.113 − 0.213. Tax payments were 0.133% of household expenditure in Q1 and 0.079% in Q5. Both distributional results depend on the assumption of no gradient in baseline disease risk. When a gradient of 1.15 in Q1 down to 0.88 in Q5 is imposed — the direction reported in most middle-income settings, though not measured for Viet Nam — the ratio of DALYs averted in Q1 to Q5 rises from 0.77 to 0.99 and the concentration index falls from 0.047 to −0.002, while the Kakwani index is unchanged because it depends only on tax payments.
 
 ### Uncertainty
 

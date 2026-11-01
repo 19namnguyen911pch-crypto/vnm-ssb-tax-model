@@ -3,7 +3,7 @@
 **Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 444; thân bài 7053; 3 bảng; 4 hình; 42 tài liệu tham khảo
+**Số từ:** tóm tắt 444; thân bài 7074; 3 bảng; 4 hình; 42 tài liệu tham khảo
 
 ---
 
@@ -167,7 +167,7 @@ Mức tăng giá 20% tránh được 89.991 DALY, gấp 3,6 lần lợi ích c�
 
 ### Công bằng
 
-DALY tránh được trên 1.000 dân là 0,27 ở Q1 và 0,35 ở Q5, tỷ số 0,77. Chỉ số tập trung của DALY tránh được là 0,047, và chỉ số tập trung của thuế phải trả là −0,113; với Gini chi tiêu hộ là 0,213, chỉ số Kakwani là −0,326, tính bằng −0,113 − 0,213. Thuế phải trả chiếm 0,133% chi tiêu hộ ở Q1 và 0,079% ở Q5. Cả hai kết quả phân bố đều phụ thuộc vào giả định không có gradient nguy cơ bệnh nền. Khi áp gradient từ 1,15 ở Q1 xuống 0,88 ở Q5 — hướng quan sát thấy ở hầu hết bối cảnh thu nhập trung bình nhưng chưa được đo ở Việt Nam — tỷ số DALY tránh được giữa Q1 và Q5 tăng từ 0,77 lên 0,99 và chỉ số tập trung giảm từ 0,047 xuống −0,002, còn chỉ số Kakwani không đổi vì nó chỉ phụ thuộc vào thuế phải trả.
+DALY tránh được trên 1.000 dân là 0,27 ở Q1 và 0,35 ở Q5, tỷ số 0,77. Chỉ số tập trung của DALY tránh được là 0,047, và chỉ số tập trung của thuế phải trả là −0,113; với Gini chi tiêu hộ là 0,213 — cận dưới, vì tính từ giá trị trung bình các nhóm — chỉ số Kakwani là −0,326, tính bằng −0,113 − 0,213. Thuế phải trả chiếm 0,133% chi tiêu hộ ở Q1 và 0,079% ở Q5. Cả hai kết quả phân bố đều phụ thuộc vào giả định không có gradient nguy cơ bệnh nền. Khi áp gradient từ 1,15 ở Q1 xuống 0,88 ở Q5 — hướng quan sát thấy ở hầu hết bối cảnh thu nhập trung bình nhưng chưa được đo ở Việt Nam — tỷ số DALY tránh được giữa Q1 và Q5 tăng từ 0,77 lên 0,99 và chỉ số tập trung giảm từ 0,047 xuống −0,002, còn chỉ số Kakwani không đổi vì nó chỉ phụ thuộc vào thuế phải trả.
 
 ### Bất định
 
