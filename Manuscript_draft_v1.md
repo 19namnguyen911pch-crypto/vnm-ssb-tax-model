@@ -139,7 +139,7 @@ Unit tests were applied to each model step, population conservation was checked 
 
 ### Reporting, registration, and ethics
 
-The study is reported per CHEERS 2022, with the completed checklist in Appendix E.[26] The full protocol, including the analysis plan and the parameter feasibility assessment, is archived with the analytic code at https://doi.org/10.5281/zenodo.23852996. Because the model was run before the protocol was deposited, this study is not a pre-registration; the departures from the protocol as originally drafted are recorded in Appendix D. The study used only published parameters and secondary data, involved no human participants, and accessed no individual-level records; no identifiable information was handled. Ethical approval was therefore not required. The analytic code and the probabilistic sensitivity analysis input matrix are publicly available.https://doi.org/10.5281/zenodo.23852996
+The study is reported per CHEERS 2022, with the completed checklist in Appendix E.[26] The full protocol, including the analysis plan and the parameter feasibility assessment, is archived with the analytic code at https://doi.org/10.5281/zenodo.23852996. Because the model was run before the protocol was deposited, this study is not a pre-registration; the departures from the protocol as originally drafted are recorded in Appendix D. The study used only published parameters and secondary data, involved no human participants, and accessed no individual-level records; no identifiable information was handled. Ethical approval was therefore not required. The analytic code and the probabilistic sensitivity analysis input matrix are publicly available at https://doi.org/10.5281/zenodo.23852996.
 
 ---
 

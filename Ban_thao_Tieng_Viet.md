@@ -136,7 +136,7 @@ Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn d
 
 ### Báo cáo, đăng ký và đạo đức
 
-Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục E.[26] Protocol đầy đủ, gồm kế hoạch phân tích và đánh giá khả thi tham số, được lưu cùng mã phân tích tại https://doi.org/10.5281/zenodo.23852996. Vì mô hình đã được chạy trước khi protocol được lưu trữ, nghiên cứu này không phải là đăng ký trước; các sai lệch so với protocol soạn ban đầu được ghi ở Phụ lục D. Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai.https://doi.org/10.5281/zenodo.23852996
+Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục E.[26] Protocol đầy đủ, gồm kế hoạch phân tích và đánh giá khả thi tham số, được lưu cùng mã phân tích tại https://doi.org/10.5281/zenodo.23852996. Vì mô hình đã được chạy trước khi protocol được lưu trữ, nghiên cứu này không phải là đăng ký trước; các sai lệch so với protocol soạn ban đầu được ghi ở Phụ lục D. Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852996.
 
 ---
 
