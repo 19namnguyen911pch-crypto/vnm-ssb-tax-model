@@ -81,50 +81,65 @@ d1 <- psa[psa$scenario == "S1", ]
 d2 <- psa[psa$scenario == "S2", ]
 
 # The same 5,000 draws under two assumptions about the gradient in baseline
-# disease risk, side by side, so that the reader can see how much of the
-# apparent equity result is carried by the assumption.
-g1 <- read.csv("output/psa_gradient.csv")
-g1 <- g1[g1$scenario == "S1", ]
-g2 <- read.csv("output/psa_gradient.csv")
-g2 <- g2[g2$scenario == "S2", ]
+# disease risk, both directions. Panel B carries the level shift that a fixed
+# gradient imposes, so the two panels share one vertical scale.
+g <- read.csv("output/psa_gradient.csv")
+g1 <- g[g$scenario == "S1", ]
 
-png_("fig3_impact_equity.png", 7.4, 4.0)
-par(mfrow = c(1, 2), mar = c(4.4, 4.4, 2.6, 1), oma = c(0, 0, 1.2, 0))
+png_("fig3_impact_equity.png", 7.4, 4.2)
+par(mfrow = c(1, 2), mar = c(4.6, 4.6, 2.8, 1.2), oma = c(0, 0, 1.2, 0))
 
-panel <- function(x1, y1, x2, y2, ylim_all, title, show_y) {
-  plot(NA, xlim = range(c(x1, x2), na.rm = TRUE), ylim = ylim_all,
-       log = "x", xaxt = "n",
-       xlab = "Total DALYs averted (log scale)",
-       ylab = if (show_y) "Concentration index of DALYs averted" else "",
-       main = title, cex.main = 0.82, font.main = 1)
+ylim_all <- range(c(d1$ci_dalys, d2$ci_dalys, g1$ci_dalys), na.rm = TRUE)
+ylim_all <- ylim_all + c(-0.06, 0.06) * diff(ylim_all)
+xlim_all <- range(c(d1$dalys_averted, d2$dalys_averted, g1$dalys_averted), na.rm = TRUE)
+
+frame_panel <- function(title, ylab) {
+  plot(NA, xlim = xlim_all, ylim = ylim_all, log = "x", xaxt = "n",
+       xlab = "Total DALYs averted (log scale)", ylab = ylab,
+       main = title, cex.main = 0.82, font.main = 1, cex.axis = 0.85)
   at <- axTicks(1, log = TRUE)
-  axis(1, at = at, labels = format(at, big.mark = ",", scientific = FALSE))
-  points(x2, y2, pch = 16, cex = 0.42, col = adjustcolor("#c8792a", 0.25))
-  points(x1, y1, pch = 16, cex = 0.42, col = adjustcolor("#2c5f7c", 0.30))
-  abline(h = 0, lty = 2, col = "grey40")
+  axis(1, at = at, labels = format(at, big.mark = ",", scientific = FALSE),
+       cex.axis = 0.82)
+  abline(h = 0, lty = 2, col = "grey45")
 }
 
-ylim_all <- range(c(d1$ci_dalys, d2$ci_dalys, g1$ci_dalys, g2$ci_dalys),
-                  na.rm = TRUE)
-ylim_all <- ylim_all + c(-0.02, 0.02) * diff(ylim_all)
+frame_panel("A  No gradient in disease risk",
+            "Concentration index of DALYs averted")
+points(d2$dalys_averted, d2$ci_dalys, pch = 16, cex = 0.40,
+       col = adjustcolor("#c8792a", 0.22))
+points(d1$dalys_averted, d1$ci_dalys, pch = 16, cex = 0.40,
+       col = adjustcolor("#2c5f7c", 0.28))
+legend("topleft", legend = c("Enacted tax (S1)", "20% price rise (S2)"),
+       pch = 16, col = c("#2c5f7c", "#c8792a"), bty = "n", cex = 0.74)
+legend(x = 4200, y = 0.032, title = "Panel B", cex = 0.70, bty = "n", title.adj = 0,
+       legend = c("risk rises with expenditure",
+                  "risk falls with expenditure"),
+       pch = c(15, 17), col = c("#7a8b5a", "#2c5f7c"))
 
-panel(d1$dalys_averted, d1$ci_dalys, d2$dalys_averted, d2$ci_dalys, ylim_all,
-      "A  No gradient in disease risk", TRUE)
-legend("left", inset = 0.02, legend = c("Enacted tax (S1)", "20% price rise (S2)"),
-       pch = 16, col = c("#2c5f7c", "#c8792a"), bty = "n", cex = 0.75,
-       title = "above zero = gain concentrated\namong the better-off", title.adj = 0)
-panel(g1$dalys_averted, g1$ci_dalys, g2$dalys_averted, g2$ci_dalys, ylim_all,
-      "B  Gradient 1.15 (Q1) to 0.88 (Q5)", FALSE)
-mtext("Figure 3. Impact-equity plane under two assumptions about the socioeconomic gradient",
-      outer = TRUE, cex = 0.95, font = 2)
+frame_panel("B  Gradient in disease risk, both directions", "")
+points(g1$dalys_averted[g1$grad == "pro_rich"],
+       g1$ci_dalys[g1$grad == "pro_rich"], pch = 15, cex = 0.36,
+       col = adjustcolor("#7a8b5a", 0.30))
+points(g1$dalys_averted[g1$grad == "pro_poor"],
+       g1$ci_dalys[g1$grad == "pro_poor"], pch = 17, cex = 0.36,
+       col = adjustcolor("#2c5f7c", 0.30))
+abline(h = median(d1$ci_dalys, na.rm = TRUE), lty = 3, col = "#c8792a", lwd = 1.2)
+
+
+mtext("Figure 3. Impact-equity plane under three assumptions about the socioeconomic gradient",
+      outer = TRUE, cex = 0.92, font = 2)
 dev.off()
 
-png_("fig4_uncertainty.png", 7, 6.6)
-par(mfrow = c(2, 1), mar = c(4.2, 4.6, 1.8, 1))
+png_("fig4_uncertainty.png", 7.6, 7.2)
+par(mfrow = c(2, 1), mar = c(5.0, 6.0, 1.8, 1), mgp = c(4.0, 0.7, 0))
 br <- seq(0, max(c(d1$dalys_averted, d2$dalys_averted), na.rm = TRUE), length.out = 40)
 hist(d1$dalys_averted, breaks = br, col = adjustcolor("#2c5f7c", 0.55), border = NA,
      xlab = "DALYs averted", main = "A  Distribution of DALY gains",
-     cex.main = 0.9, font.main = 1)
+     cex.main = 0.9, font.main = 1, xaxt = "n", yaxt = "n")
+axis(1, at = axTicks(1), labels = format(axTicks(1), big.mark = ",",
+     scientific = FALSE), cex.axis = 0.78)
+axis(2, at = axTicks(2), labels = format(axTicks(2), big.mark = ",",
+     scientific = FALSE), las = 1, cex.axis = 0.78)
 hist(d2$dalys_averted, breaks = br, col = adjustcolor("#c8792a", 0.45),
      border = NA, add = TRUE)
 legend("topright", legend = c("S1 enacted", "S2 20% benchmark"),
@@ -132,11 +147,15 @@ legend("topright", legend = c("S1 enacted", "S2 20% benchmark"),
 
 plot(NA, xlim = range(c(d1$revenue, d2$revenue) / 1e9, na.rm = TRUE),
      ylim = range(c(d1$dalys_averted, d2$dalys_averted), na.rm = TRUE),
-     log = "x", xaxt = "n",
+     log = "x", xaxt = "n", xaxs = "r",
      xlab = "Revenue (billion VND, log scale)", ylab = "DALYs averted",
-     main = "B  Health gain against revenue", cex.main = 0.9, font.main = 1)
+     main = "B  Health gain against revenue", cex.main = 0.9, font.main = 1,
+     yaxt = "n")
+axis(2, at = axTicks(2), labels = format(axTicks(2), big.mark = ",",
+     scientific = FALSE), las = 1, cex.axis = 0.78)
 at <- axTicks(1, log = TRUE)
-axis(1, at = at, labels = format(at, big.mark = ",", scientific = FALSE))
+axis(1, at = at, labels = format(at, big.mark = ",", scientific = FALSE),
+     cex.axis = 0.72, las = 1)
 points(d2$revenue / 1e9, d2$dalys_averted, pch = 16, cex = 0.35,
        col = adjustcolor("#c8792a", 0.25))
 points(d1$revenue / 1e9, d1$dalys_averted, pch = 16, cex = 0.35,

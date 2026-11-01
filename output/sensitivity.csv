@@ -1,0 +1,13 @@
+"analysis","value","dalys","revenue_bn","dalys_per_bn"
+"Base case","",24767,47635,0.52
+"Discount rate","0%",39894,65539,0.61
+"Discount rate","5%",18724,39565,0.47
+"Pass-through rate","0.50",13784,49090,0.28
+"Pass-through rate","0.90",24767,47635,0.52
+"Pass-through rate","1.30",35710,46179,0.77
+"Own-price elasticity","-0.80",16534,48727,0.34
+"Own-price elasticity","-1.20",24767,47635,0.52
+"Own-price elasticity","-1.80",37075,45997,0.81
+"Horizon","2036",7822,23993,0.33
+"Horizon","2050",24767,47635,0.52
+"Horizon","lifetime",53509,83236,0.64

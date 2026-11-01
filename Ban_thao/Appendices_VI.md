@@ -175,7 +175,7 @@ Các khẳng định pháp lý trong một mô hình thuế là khẳng định 
 
 **A.9 Duy trì nhật ký**
 
-Nhật ký sàng lọc, lý do loại ở bước toàn văn, nhật ký xác minh ở A.7 và ngày tìm kiếm được lưu cùng protocol tại https://doi.org/10.5281/zenodo.23852908. Mọi chuỗi bị sửa sau khi đăng ký được ghi ở Phụ lục C.
+Nhật ký sàng lọc, lý do loại ở bước toàn văn, nhật ký xác minh ở A.7 và ngày tìm kiếm được lưu cùng protocol tại https://doi.org/10.5281/zenodo.23852908. Mọi chuỗi bị sửa sau khi protocol được lưu được ghi ở Phụ lục C.
 
 ---
 
@@ -185,30 +185,31 @@ Mỗi tham số một dòng. Cột "Loại" phân biệt giá trị lấy từ n
 
 **B.1 Bảng tóm tắt**
 
-| # | Tham số | Giá trị trung tâm đề xuất | Khoảng bất định | Phân phối | Nguồn | Loại | Khả thi |
+| # | Tham số | Giá trị trung tâm đã dùng | Khoảng bất định | Phân phối | Nguồn | Loại | Khả thi |
 |---|---|---|---|---|---|---|---|
-| 1 | Dân số theo tuổi và ngũ phân vị, 2027–2050 | Dự báo TCTK; tổng 2027 ≈104 triệu | — | Cố định | Dự báo dân số 2024–2074 [27] | Nguồn | Có |
+| 1 | Dân số từ 20 tuổi, theo tuổi và ngũ phân vị, 2027–2050 | 81 triệu (2027); 86 triệu (2050) | — | Cố định | Dự báo dân số UN 2024 [27] | Nguồn | Có |
 | 2 | Xu hướng tiêu thụ nền | +2,0%/năm | 0 đến +4,0% | Đều | CAGR Euromonitor 2009–2023 [6] | Suy ra | Một phần |
 | 3 | Tiêu thụ theo tuổi, giới, ngũ phân vị | 145 mL/người/ngày | 90 đến 220 | Gamma | Euromonitor [6]; GNS 2019–20 [28]; VHLSS [36] | Suy ra | Một phần |
-| 4 | Tỷ trọng đồ uống chịu thuế trên 5 g/100 mL | 0,80 | 0,60 đến 0,95 | Beta(8;2) | Giả định; không đo | Giả định | Không |
-| 5 | Tỷ trọng giá xuất xưởng trong giá bán lẻ | 0,55 | 0,40 đến 0,70 | Tam giác | Không có nguồn Việt Nam; cấu trúc biên FMCG | Giả định | **Không** |
-| 6 | Mức truyền dẫn | 0,90 | 0,50 đến 1,30 | Tam giác | World Bank 2020 [29]; Barbados, Mexico [40] | Nguồn (nước ngoài) | Một phần |
-| 7a | Độ co giãn giá riêng | −1,20 | −0,80 đến −1,80 | Log-chuẩn trên \|ε\| | Andreyeva [30]; Cabrera Escobar [24]; Colchero [21] | Nguồn | Một phần |
-| 7b | Độ co giãn giá chéo sang đồ uống không chịu thuế | +0,35 | +0,10 đến +0,65 | Log-chuẩn | Hệ thống cầu Chile và Mexico [21] | Nguồn | Một phần |
-| 7c | Gradient độ co giãn theo ngũ phân vị | Q1 = 1,4 × Q5 | 1,0 đến 1,8 | — | Colchero [21] | Suy ra | Không |
-| 8a | Mật độ năng lượng | 44 kcal/100 mL | 30 đến 55 | Cố định | Bảng thành phần thực phẩm VN [31] | Nguồn | Có |
-| 8b | Bù trừ năng lượng | 30% | 15% đến 45% | Đều | Văn liệu can thiệp [24] | Giả định | Không |
-| 9 | Nguy cơ tương đối BMI–bệnh | trên 2 kg/m²: CHD 1,11; đột quỵ thiếu máu 1,12 (1,09–1,15); đột quỵ xuất huyết 1,08 (1,04–1,12) | xem ghi chú | Log-chuẩn | APCSC [32,33] | Nguồn | Có |
-| 10 | Tỷ lệ mắc, tử vong, trọng số khuyết tật | GBD 2021, Việt Nam, theo tuổi và giới | — | Beta; gamma | GBD 2021 [26] | Nguồn | Có |
-| 10b | Gradient nguy cơ bệnh nền theo ngũ phân vị (chỉ dùng cho độ nhạy) | 1,15 (Q1) đến 0,88 (Q5) | 1,00 đến 1,25 | — | Chỉ có hướng; chưa đo ở Việt Nam | Giả định | Không |
-| 11 | Chi phí y tế theo ca bệnh | Đái tháo đường 8,0 triệu đồng/bệnh nhân-năm; tim thiếu máu 84,9 triệu/đợt cấp; đột quỵ 10,5 triệu/đợt cấp | −30% đến +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doãn 2022 [42] | Nguồn | Có |
-| 12 | Chi tiêu hộ theo ngũ phân vị | Bình quân 3,0 triệu đồng/người-tháng; tỷ số Q5/Q1 = 3,1 | — | Cố định | VHLSS 2024 [36] | Nguồn | Có |
-| 13 | Độ trễ BMI → nguy cơ | 2 năm | 1 đến 5 | Đều | Giả định | Giả định | Không |
-| 14 | Suất chiết khấu | 3% | 0%; 5% | Cố định | CHEERS 2022 [38] | Nguồn | Có |
+| 4 | Tỷ trọng giá xuất xưởng trong giá bán lẻ | 0,55 | 0,40 đến 0,70 | Tam giác | Không có nguồn Việt Nam; cấu trúc biên FMCG | Giả định | **Không** |
+| 5 | Mức truyền dẫn | 0,90 | 0,50 đến 1,30 | Tam giác | World Bank 2020 [29]; Barbados, Mexico [40] | Nguồn (nước ngoài) | Một phần |
+| 6a | Độ co giãn giá riêng | −1,20 | −0,80 đến −1,80 | Log-chuẩn trên \|ε\| | Andreyeva [30]; Cabrera Escobar [24]; Colchero [21] | Nguồn | Một phần |
+| 6b | Độ co giãn giá chéo sang đồ uống không chịu thuế | +0,35 | +0,10 đến +0,65 | Log-chuẩn | Hệ thống cầu Chile và Mexico [21] | Nguồn | Một phần |
+| 6c | Gradient độ co giãn theo ngũ phân vị | Q1 = 1,4 × Q5 | 1,0 đến 1,8 | — | Colchero [21] | Suy ra | Không |
+| 7a | Mật độ năng lượng | 44 kcal/100 mL | 30 đến 55 | Cố định | Bảng thành phần thực phẩm VN [31] | Nguồn | Có |
+| 7b | Bù trừ năng lượng | 30% | 15% đến 45% | Đều | Giả định; không có ước lượng Việt Nam | Giả định | Không |
+| 8 | Nguy cơ tương đối BMI–bệnh | trên 2 kg/m²: CHD 1,11; đột quỵ thiếu máu 1,12 (1,09–1,15); đột quỵ xuất huyết 1,08 (1,04–1,12) | xem ghi chú | Log-chuẩn | APCSC [32,33] | Nguồn | Có |
+| 9 | Tỷ lệ mắc, tử vong, trọng số khuyết tật | GBD 2021, Việt Nam, theo tuổi và giới | — | Beta; gamma | GBD 2021 [26] | Nguồn | Có |
+| 9b | Gradient nguy cơ bệnh nền theo ngũ phân vị (chỉ dùng cho độ nhạy) | Cả hai chiều: 1,15 (Q1) giảm còn 0,88 (Q5), và chiều ngược lại | 0,85 đến 1,20 | — | Chưa xác lập chiều ở Việt Nam | Giả định | Không |
+| 10 | Chi phí y tế theo ca bệnh | Đái tháo đường 8,0 triệu đồng/bệnh nhân-năm; tim thiếu máu 84,9 triệu/đợt cấp; đột quỵ 10,5 triệu/đợt cấp | −30% đến +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doãn 2022 [42] | Nguồn | Có |
+| 11 | Chi tiêu hộ theo ngũ phân vị | Bình quân 3,0 triệu đồng/người-tháng; tỷ số Q5/Q1 = 3,1 | — | Cố định | VHLSS 2024 [36] | Nguồn | Có |
+| 12 | Độ trễ BMI → nguy cơ | 2 năm | 1 đến 5 | Đều | Giả định | Giả định | Không |
+| 13 | Suất chiết khấu | 3% | 0%; 5% | Cố định | CHEERS 2022 [38] | Nguồn | Có |
 
 **B.2 Ghi chú cho các tham số không đo trực tiếp**
 
 **#2 Xu hướng tiêu thụ nền.** Kịch bản phản thực tế là yếu tố quyết định lớn nhất đến độ lớn tuyệt đối của mọi kết quả, và là tham số mà protocol ban đầu bỏ trống. Sản lượng bán lẻ đồ uống có đường của Euromonitor tại Việt Nam tăng từ 18 lít lên 66 lít/người giai đoạn 2009–2023, tốc độ khoảng 9,7%/năm. Ngoại suy tốc độ đó đến 2050 là không bảo vệ được: nó hàm ý mức tiêu thụ vượt xa mọi quan sát thị trường. Vì vậy chúng tôi dùng xu hướng trung tâm +2,0%/năm, gần với dự báo tăng trưởng của thị trường đồ uống rộng hơn, và cố ý đặt biên dưới ở 0% để giữ kịch bản "không tăng thêm". *Lý do:* xu hướng nền càng cao thì thuế càng có lợi, nên chọn xu hướng thận trọng là tự làm yếu đi giả thuyết của chính nghiên cứu. *Phương án thay thế:* không cần; đây là lựa chọn thiết kế, không phải lỗ hổng dữ liệu, và phải nêu rõ trong bài vì phản biện sẽ hỏi kịch bản phản thực tế giả định điều gì.
+
+**#3 Khối lượng đồ uống chịu thuế.** Euromonitor báo cáo 66 L/người năm 2023 cho nhóm nước ngọt; tập dữ liệu chúng tôi có không tách tổng này theo nhóm phụ, nên không thể dùng trực tiếp làm khối lượng đồ uống chịu thuế. Giá trị 145 mL/ngày dùng ở trung tâm là khối lượng suy ra khi áp tỷ lệ tiêu thụ trên ngưỡng giả định lên tổng đó, và được mang như một tham số với khoảng 90 đến 220 mL/ngày chứ không phải số đo. Một cơ sở dữ liệu cấp sản phẩm sẽ thay thế nó.
 
 **#12 và #3, ghi chú về cấu trúc chi tiêu.** Giá trị trung bình các nhóm được đặt sao cho bình quân (3,0 triệu đồng/người-tháng) và tỷ số Q5/Q1 (3,1) tái tạo đúng số công bố của VHLSS 2024. Tỷ trọng chi tiêu dành cho đồ uống có đường sau đó được **suy ra** từ sản lượng và giá bán lẻ ngay trong mô hình, thay vì giả định riêng, để nó không thể mâu thuẫn với giả định tiêu thụ. Cách suy ra cho 2,6% ở Q1 và 1,5% ở Q5. Chỉ số Gini dùng cho Kakwani được tính chỉ từ giá trị trung bình các nhóm nên là **cận dưới**, khiến mức lũy thoái ước tính bị kéo về phía không; Gini thu nhập công bố là 0,372. **#3 Tiêu thụ theo tuổi, giới và ngũ phân vị.** Sản lượng bán lẻ bình quân đầu người cho biết mức, không cho biết phân bố. Phân bố theo tuổi và giới lấy từ Điều tra dinh dưỡng toàn quốc 2019–2020, có ghi nhận lượng đồ uống theo nhóm. Phân bố theo ngũ phân vị lấy từ chi tiêu đồ uống trong VHLSS 2024, hiệu chỉnh về tổng sản lượng Euromonitor để hai nguồn nhất quán. Giá trị trung tâm 145 mL/người/ngày được suy ra là 66 lít/năm × 0,80 (tỷ trọng trên ngưỡng) ÷ 365, không quan sát trực tiếp. *Phương án thay thế:* nếu không ánh xạ được nhóm đồ uống của GNS sang nhóm chịu thuế, áp dụng profile tuổi đồng nhất và ghi nhận là hạn chế.
 
@@ -222,21 +223,17 @@ Mỗi tham số một dòng. Cột "Loại" phân biệt giá trị lấy từ n
 
 **#7 Độ co giãn.** Độ co giãn giá riêng gộp của đồ uống có đường tập trung trong khoảng −1,0 đến −1,4: −1,30 (KTC 95%: −1,09 đến −1,51) trong một phân tích gộp chín nghiên cứu,[24] −1,16 với đồ uống có đường tại Mexico,[21] −1,37 với nước ngọt tại Chile, và −0,79 (khoảng −1,24 đến −0,33) với nước ngọt trong một tổng quan trước đó.[30] Chúng tôi đặt trung tâm −1,20 và cho phép toàn bộ khoảng quan sát. Gradient theo ngũ phân vị là yếu tố yếu nhất: phát hiện nhất quán là độ co giãn lớn hơn ở hộ thu nhập thấp hơn,[21] nhưng độ lớn cho Việt Nam chưa biết, nên gradient 1,4 được áp dụng và kết quả được báo cáo như một phân tích độ nhạy chứ không phải một phát hiện.
 
-**#8b Bù trừ năng lượng.** Một phần năng lượng mất đi từ đồ uống được thay thế từ nguồn khác. Ước lượng công bố rất khác nhau, và lựa chọn này ảnh hưởng đáng kể đến đường BMI. Chúng tôi dùng phân phối đều từ 15% đến 45%, trung tâm 30%, và ghi rõ đây là giả định chứ không phải ước lượng Việt Nam. *Phương án thay thế:* báo cáo song song độ nhạy với hệ số quy đổi tĩnh, để người đọc thấy kết quả phụ thuộc bao nhiêu vào bước này.
+**#8b Bù trừ năng lượng.** Một phần năng lượng mất đi từ đồ uống được thay thế từ nguồn khác. Ước lượng công bố rất khác nhau, và lựa chọn này ảnh hưởng đáng kể đến đường BMI. Chúng tôi dùng phân phối đều từ 15% đến 45%, trung tâm 30%, và ghi rõ đây là giả định chứ không phải ước lượng Việt Nam; không có đo lường nào ở Việt Nam và không có giá trị nào từ bối cảnh tương đương mà chúng tôi kiểm chứng được, nên giá trị này không kèm trích dẫn.
 
 **#9 Nguy cơ tương đối.** Từ Nghiên cứu đoàn hệ châu Á–Thái Bình Dương: mỗi 2 kg/m² BMI thấp hơn gắn với nguy cơ đột quỵ thiếu máu cục bộ thấp hơn 12% (KTC 95%: 9–15) và nguy cơ đột quỵ xuất huyết thấp hơn 8% (KTC 95%: 4–12),[32] với ước lượng tương đương cho bệnh mạch vành.[32] Nguy cơ đái tháo đường lấy từ cùng nhóm nghiên cứu.[33] Vì nguy cơ tương đối được áp lên *nhóm* BMI qua phân suất tác động quần thể, chúng tôi chuyển các ước lượng trên 2 đơn vị thành giá trị đặc thù theo nhóm, dùng điểm giữa các ngưỡng châu Á chuẩn (18,5; 23; 25; 30). *Lý do ưu tiên APCSC:* đây là bộ bằng chứng gộp châu Á duy nhất đủ lớn, và dùng ước lượng phương Tây sẽ phóng đại nguy cơ ở một quần thể gầy.
 
 **Mật độ đường của đồ uống chịu thuế.** Giá trị trung tâm 11 g/100 mL không phải giả định: Nguyễn và cộng sự báo cáo 11 g/100 mL với nước ngọt có ga, 9 g với cà phê và trà pha sẵn, 16 g với nước thể thao và tăng lực, và 7 g với nước ép trên thị trường Việt Nam.[17] Nước ngọt có ga chiếm phần lớn sản lượng chịu thuế, nên 11 được dùng làm giá trị trung tâm, và toàn dải theo nhóm (7–16) được khảo sát trong phân tích độ nhạy.
 
-**#10 Tỷ lệ mắc nền theo ngũ phân vị.** GBD 2021 cung cấp tỷ lệ mắc, tỷ lệ hiện mắc và tử vong quốc gia cho cả ba bệnh, và STEPS 2021 cung cấp tỷ lệ hiện mắc đái tháo đường đo được. Không nguồn nào phân tầng theo chi tiêu hộ. Vì vậy chúng tôi áp tỷ lệ quốc gia cho **mọi** ngũ phân vị và giả định **không có** gradient kinh tế–xã hội trong tỷ lệ mắc nền. Đây là đơn giản hóa có chủ đích: mọi chênh lệch công bằng trong mô hình chỉ phát sinh từ khác biệt về tiêu thụ và phản ứng giá, không bao giờ từ một gradient bệnh giả định. Một gradient thật trong nguy cơ bệnh sẽ không được phản ánh.
+**#10 Tỷ lệ mắc nền theo ngũ phân vị.** GBD 2021 cung cấp tỷ lệ mắc, tỷ lệ hiện mắc và tử vong quốc gia cho cả ba bệnh, và STEPS 2021 cung cấp tỷ lệ hiện mắc đái tháo đường đo được. Không nguồn nào phân tầng theo chi tiêu hộ. Vì vậy ở kịch bản cơ sở chúng tôi áp tỷ lệ quốc gia cho mọi ngũ phân vị, nghĩa là mọi chênh lệch công bằng chỉ phát sinh từ khác biệt về tiêu thụ và phản ứng giá. Chiều của gradient thật chưa được xác lập ở Việt Nam: thừa cân và đái tháo đường thường được báo cáo là gặp nhiều hơn ở các hộ khá giả trong bối cảnh thu nhập trung bình, nhưng bằng chứng Việt Nam không nhất quán giữa các điều tra và chúng tôi không xác minh được tỷ lệ theo ngũ phân vị từ một nguồn đủ để đặt giá trị trung tâm. Vì vậy chúng tôi chạy phân tích với ba giả định — không gradient, nguy cơ giảm theo chi tiêu, và nguy cơ tăng theo chi tiêu — và báo cáo kết quả công bằng dưới dạng khoảng (Phụ lục F, Hình 3).
 
-**B.3 Thứ tự các nhiệm vụ dữ liệu, theo giá trị**
+**B.3 Điều gì sẽ thay đổi ước tính nhiều nhất**
 
-1. Hiệu chuẩn tỷ trọng giá xuất xưởng (#5) từ một dự toán ngân sách đã công bố — giá trị cao nhất, vì nó đặt quy mô cho mọi kết quả.
-2. Hoàn tất kiểm toán sản phẩm (#4) — đặt cơ sở thuế và nhóm ứng viên tái định lượng cho S3.
-3. Ánh xạ nhóm đồ uống của GNS 2019–2020 sang nhóm chịu thuế (#3).
-4. Lấy ước lượng chi phí Việt Nam cho bệnh tim thiếu máu cục bộ và đột quỵ (#11); chi phí đái tháo đường đã có.
-5. Chốt xu hướng nền (#2) và ghi quyết định vào nhật ký sai lệch nếu khác protocol đã đăng ký.
+Hai tham số làm kết quả thay đổi nhiều nhất là tỷ trọng giá xuất xưởng (#4), đặt quy mô của mức tăng giá, và một gradient nguy cơ bệnh nền được đo (#9b), sẽ xác định dấu của kết quả công bằng. Một cơ sở dữ liệu cấp sản phẩm cho đồ uống chịu thuế sẽ thay thế mật độ đường giả định và cho phép mô hình hóa thuế theo gam đường; cả hai đều chưa có ở Việt Nam và bài không tuyên bố chúng.
 
 ---
 
@@ -247,12 +244,12 @@ Protocol và kế hoạch phân tích được lưu cùng mã sau khi mô hình 
 | # | Sai lệch | Lý do |
 |---|---|---|
 | C1 | Bỏ kịch bản thuế theo gam đường cân bằng doanh thu (S1b) | Phân bổ sản lượng chịu thuế theo các dải đường cần cơ sở dữ liệu cấp sản phẩm không tồn tại ở Việt Nam; thiếu nó, kịch bản quy về cùng mức tăng giá bình quân với thuế đã ban hành và không phân biệt được |
-| C2 | Không giả định gradient kinh tế–xã hội trong tỷ lệ mắc nền ở kịch bản cơ sở | Không có tỷ lệ mắc và tử vong theo ngũ phân vị cho Việt Nam, nên tỷ lệ quốc gia được áp cho mọi nhóm; toàn bộ phân tích được lặp lại với một gradient giả định (Phụ lục B, #10b) và hai lần chạy được báo cáo ở Hình 3 |
-| C3 | Không thực hiện kiểm toán sản phẩm | Tỷ trọng đồ uống chịu thuế trên ngưỡng là giả định (Phụ lục B, #4), không phải số đo |
+| C2 | Không giả định gradient kinh tế–xã hội trong tỷ lệ mắc nền ở kịch bản cơ sở | Không có tỷ lệ mắc và tử vong theo ngũ phân vị cho Việt Nam, nên tỷ lệ quốc gia được áp cho mọi nhóm; toàn bộ phân tích được lặp lại với gradient theo từng chiều (Phụ lục B, #9b) và cả ba lần chạy được báo cáo ở Hình 3 |
+| C3 | Không thực hiện kiểm toán sản phẩm | Mật độ đường của nhóm chịu thuế lấy từ [17] và nhóm tái định lượng cho S3 là giả định, không phải số đo |
 | C4 | Chi phí y tế cho tim thiếu máu cục bộ và đột quỵ được phân bổ từ nghiên cứu đợt cấp | Không có ước lượng Việt Nam về chi phí năm trên mỗi ca hiện mắc cho hai bệnh này |
 | C5 | Độ trễ là dịch chuyển hai năm của phân suất tác động, không phải phân bố độ trễ | Không có bằng chứng Việt Nam về hình dạng độ trễ; bước nhảy là lựa chọn thận trọng |
 
-Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. Gradient độ co giãn giữa các ngũ phân vị (Phụ lục B, #7c) là giả định, không phải số đo; và chỉ số tập trung cùng Kakwani dùng Gini tính từ giá trị trung bình các nhóm, tức là cận dưới của bất bình đẳng thực.
+Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. Gradient độ co giãn giữa các ngũ phân vị (Phụ lục B, #6c) là giả định, không phải số đo; và chỉ số tập trung cùng Kakwani dùng Gini tính từ giá trị trung bình các nhóm, tức là cận dưới của bất bình đẳng thực.
 
 ## Phụ lục D. Danh mục kiểm tra CHEERS 2022
 
@@ -293,23 +290,25 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **E.1 Đã kiểm tra.** Mỗi bước của mô hình có kiểm thử đơn vị với đầu vào và đầu ra tính tay. Bảo toàn dân số được kiểm tra trong bảng sống: không ai rời quần thể ngoài đường tử vong, và số còn sống cộng số đã chết bằng dân số ban đầu ở mọi chu kỳ. Điều kiện cực biên được kiểm tra: thuế bằng không trả về đúng kịch bản nền, độ co giãn bằng không trả về đúng kịch bản nền, và một mức thuế đủ lớn để triệt tiêu tiêu thụ không tạo ra lượng âm hay lỗi chia.
 
-**E.2 Chưa kiểm tra.** Ba kiểm tra dự kiến đã không được thực hiện và bài không tuyên bố chúng. Tỷ lệ hiện mắc nền của mô hình chưa được đối chiếu với GBD hoặc STEPS, vì bảng sống không làm quần thể già đi nên so sánh mức sẽ không có ý nghĩa. Không có so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[17] vì nghiên cứu đó báo cáo kết cục khác trên cấu trúc khác. Mã chưa được một lập trình viên độc lập rà soát. Các kiểm thử đơn vị và điều kiện cực biên ở E.1 là toàn bộ bảo đảm kỹ thuật phía sau kết quả.
+**E.2 So sánh nền.** Tỷ lệ hiện mắc do chính mô hình tạo ra ở cuối khung phân tích được so với nguồn mà các tham số bệnh lấy từ đó, trên cùng cơ cấu tuổi 2027: 5,1% so với 6,2% với đái tháo đường type 2, 0,4% so với 1,6% với bệnh tim thiếu máu cục bộ, và 1,2% so với 1,9% với đột quỵ (GBD 2021). Đái tháo đường, chiếm 89% số ca tránh được, là gần nhất. Khoảng cách ở hai bệnh tim mạch phát sinh từ việc khởi đầu năm 2027 không có tồn lưu hiện mắc và áp tỷ lệ tử vong ca bệnh cao cho ca mới; điều này được ghi ở phần Hạn chế và ảnh hưởng đến mức số năm sống với khuyết tật, không ảnh hưởng đến chiều của khác biệt tránh được.
+
+**E.3 Chưa kiểm tra.** Hai kiểm tra đã không được thực hiện và bài không tuyên bố chúng. Không có so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[17], vì nghiên cứu đó báo cáo kết cục khác trên cấu trúc mô hình khác và so sánh sẽ không tách được sai số mô hình. Mã chưa được một lập trình viên độc lập rà soát. Các kiểm thử đơn vị, điều kiện cực biên ở E.1 và so sánh nền ở E.2 là toàn bộ bảo đảm kỹ thuật phía sau kết quả.
 
 ## Phụ lục F. Các phân tích độ nhạy đã thực hiện
 
-**F.1 Phân tích xác suất.** 5.000 lần mô phỏng Monte Carlo, lấy mẫu độc lập từ các phân phối ở Phụ lục B, hạt giống cố định (20261101), báo cáo trung vị và khoảng bất định 95%.
+**F.1 Phân tích xác suất.** 5.000 lần mô phỏng Monte Carlo, lấy mẫu độc lập từ các phân phối ở Phụ lục B, hạt giống cố định (20261101), báo cáo trung vị và khoảng bất định 95%. Đóng góp của từng tham số vào phương sai của DALY tránh được được tính từ một mô hình tuyến tính của 5.000 lần rút trên các tham số đã lấy mẫu, dùng bình phương tương quan bán phần chia cho phương sai được giải thích; mô hình đó giải thích 94% biến thiên.
 
 **F.2 Phân tích ngưỡng.** Lưới trên tỷ trọng giá xuất xưởng (0,30 đến 0,85) và mức truyền dẫn (0,30 đến 1,50), mô hình chạy lại tại từng điểm, xác định các tổ hợp mà tại đó lợi ích sức khỏe không phân biệt được với không. Lưới được lưu ở `output/threshold_grid.csv`.
 
 **F.3 Lưới độ co giãn.** Độ co giãn giá riêng từ −0,3 đến −2,0 theo bước 0,1, các tham số khác giữ ở trung tâm, để xác định điểm mà lợi ích sức khỏe đổi dấu.
 
-**F.4 Biến thể cơ sở thuế.** Tỷ trọng đồ uống chịu thuế đặt ở 0,60 và 0,95, bao quanh giá trị giả định 0,80.
-
 **F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài.
 
-**F.6 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại với gradient kinh tế–xã hội trong tỷ lệ mắc nền, 1,15 ở Q1 giảm xuống 0,88 ở Q5, trên cùng 5.000 lần lấy mẫu. Chỉ số tập trung của DALY tránh được dịch từ trung vị 0,047 xuống −0,002 và tỷ số Q1/Q5 từ 0,77 lên 0,99, còn chỉ số Kakwani không đổi vì chỉ phụ thuộc vào thuế phải trả. Hai lần chạy được trình bày cạnh nhau ở Hình 3 và lưu ở `output/psa_gradient.csv`.
+**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và cả đời. Ở giá trị trung tâm, lợi ích sức khỏe là 39.894 và 18.724 DALY ở suất chiết khấu 0% và 5%; 13.784 và 35.710 ở mức truyền dẫn 0,50 và 1,30; 16.534 và 37.075 ở độ co giãn −0,80 và −1,80; 7.822, 24.767 và 53.509 ở khung 10 năm, 2050 và cả đời. Lưu ở `output/sensitivity.csv`.
 
-**F.7 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, bộ độ co giãn thấp và cao, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được dự kiến và không thực hiện. Không kết quả nào của chúng được báo cáo.
+**F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
+
+**F.8 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được xem xét và không thực hiện. Không kết quả nào của chúng được báo cáo.
 
 ## Phụ lục G. Mã và khả năng tái lập
 
@@ -317,11 +316,12 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **G.2 Cấu trúc kho lưu trữ.** `model/` chứa mô hình (`pmslt_model.R`), hồ sơ ngũ phân vị (`vhlss.R`), phân tích xác suất (`psa.R`, `psa_all.R`, `psa_gradient.R`) và script ghi mọi con số trong bản thảo (`fill_results.R`). `data/` chứa tham số đầu vào và nhật ký sàng lọc. `output/` chứa ma trận rút, các lần rút, lưới ngưỡng và lần chạy có gradient. `Ban_thao/` chứa bản nguồn bản thảo, script vẽ hình và các tệp DOCX đã tạo.
 
-**G.3 Tái lập.** Kết quả chính được tái lập qua bốn bước, mỗi bước ghi đầu ra vào `output/`:
+**G.3 Tái lập.** Kết quả chính được tái lập qua năm bước, mỗi bước ghi đầu ra vào `output/`:
 
 ```
 Rscript model/psa_all.R        # 5.000 lần rút, hạt giống 20261101 -> psa_results.csv, psa_draws.csv
-Rscript model/psa_gradient.R   # cùng các lần rút với gradient bệnh -> psa_gradient.csv
+Rscript model/psa_gradient.R   # cùng các lần rút, ba gradient bệnh -> psa_gradient.csv
+Rscript model/sensitivity.R    # các lần chạy cấu trúc một chiều -> sensitivity.csv
 Rscript model/fill_results.R   # mọi con số trong bản thảo -> results.json
 Rscript Ban_thao/Figures/make_figures.R   # Hình 1-4
 ```

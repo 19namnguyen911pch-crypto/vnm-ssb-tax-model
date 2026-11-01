@@ -21,7 +21,6 @@ psa_spec <- function() {
     list(name = "passthrough",  dist = "tri",  args = list(min = 0.50, mode = 0.90, max = 1.30), scale = 1),
     list(name = "elast_own",    dist = "lnorm_abs", args = list(meanlog = log(1.20), sdlog = 0.30), scale = 1),
     list(name = "elast_cross_unt", dist = "lnorm", args = list(meanlog = log(0.35), sdlog = 0.40), scale = 1),
-    list(name = "taxed_share",  dist = "beta", args = list(shape1 = 8, shape2 = 2), scale = 1),
     list(name = "compensation", dist = "unif", args = list(min = 0.15, max = 0.45), scale = 1),
     list(name = "rr_t2dm",      dist = "lnorm", args = list(meanlog = log(1.55), sdlog = 0.08), scale = 1),
     list(name = "rr_ihd",       dist = "lnorm", args = list(meanlog = log(1.11), sdlog = 0.06), scale = 1),
@@ -64,7 +63,6 @@ apply_draw <- function(p, row) {
   p$passthrough    <- row[["passthrough"]]
   p$elast_own      <- row[["elast_own"]]
   p$elast_cross_unt <- row[["elast_cross_unt"]]
-  p$taxed_share    <- row[["taxed_share"]]
   p$compensation   <- row[["compensation"]]
   p$rr_per_2bmi    <- c(t2dm = row[["rr_t2dm"]],
                         ihd  = row[["rr_ihd"]],

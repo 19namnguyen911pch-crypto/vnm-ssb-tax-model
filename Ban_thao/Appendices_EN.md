@@ -172,7 +172,7 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.9 Maintaining the log**
 
-The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852908. Any string modified after registration is recorded in Appendix C.
+The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852908. Any string modified after the protocol was deposited is recorded in Appendix C.
 
 ---
 
@@ -182,30 +182,31 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 **B.1 Summary table**
 
-| # | Parameter | Proposed central value | Uncertainty range | Distribution | Source | Type | Feasible |
+| # | Parameter | Central value used | Uncertainty range | Distribution | Source | Type | Feasible |
 |---|---|---|---|---|---|---|---|
-| 1 | Population by age and quintile, 2027–2050 | NSO projection; 2027 total ≈104 million | — | Fixed | NSO projections 2024–2074 [27] | Source | Yes |
+| 1 | Population aged 20+, by age and quintile, 2027–2050 | 81 million (2027); 86 million (2050) | — | Fixed | UN World Population Prospects 2024 [27] | Source | Yes |
 | 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR [6] | Derived | Partly |
 | 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [6]; GNS 2019–20 [28]; VHLSS [36] | Derived | Partly |
-| 4 | Share of taxed beverages above 5 g/100 mL | 0.80 | 0.60 to 0.95 | Beta(8,2) | Assumed; not measured | Assumption | No |
-| 5 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
-| 6 | Pass-through rate | 0.90 | 0.50 to 1.30 | Triangular | World Bank 2020 [29]; Barbados, Mexico [40] | Source (foreign) | Partly |
-| 7a | Own-price elasticity | −1.20 | −0.80 to −1.80 | Lognormal on \|ε\| | Andreyeva [30]; Cabrera Escobar [24]; Colchero [21] | Source | Partly |
-| 7b | Cross-price elasticity to untaxed beverages | +0.35 | +0.10 to +0.65 | Lognormal | Chile and Mexico demand systems [21] | Source | Partly |
-| 7c | Quintile gradient in elasticity | Q1 = 1.4 × Q5 | 1.0 to 1.8 | — | Colchero [21] | Derived | No |
-| 8a | Energy density of taxed beverages | 44 kcal/100 mL | 30 to 55 | Fixed | Vietnamese food composition table [31] | Source | Yes |
-| 8b | Energy compensation | 30% | 15% to 45% | Uniform | Intervention literature [24] | Assumption | No |
-| 9 | BMI to disease relative risks | per 2 kg/m²: CHD 1.11; ischaemic stroke 1.12 (1.09–1.15); haemorrhagic stroke 1.08 (1.04–1.12) | see note | Lognormal | APCSC [32,33] | Source | Yes |
-| 10 | Incidence, mortality, disability weights | GBD 2021, Viet Nam, by age and sex | — | Beta; gamma | GBD 2021 [26] | Source | Yes |
-| 10b | Gradient in baseline disease risk by quintile (sensitivity only) | 1.15 (Q1) to 0.88 (Q5) | 1.00 to 1.25 | — | Direction only; not measured for Viet Nam | Assumption | No |
-| 11 | Health-care cost per case | Diabetes VND 8.0m per patient-year; IHD VND 84.9m per acute episode; stroke VND 10.5m per acute episode | −30% to +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doan 2022 [42] | Source | Yes |
-| 12 | Household expenditure by quintile | Mean VND 3.0 million per person-month; Q5/Q1 ratio 3.1 | — | Fixed | VHLSS 2024 [36] | Source | Yes |
-| 13 | Latency, BMI change to risk change | 2 years | 1 to 5 | Uniform | Assumption | Assumption | No |
-| 14 | Discount rate | 3% | 0%; 5% | Fixed | CHEERS 2022 [38] | Source | Yes |
+| 4 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
+| 5 | Pass-through rate | 0.90 | 0.50 to 1.30 | Triangular | World Bank 2020 [29]; Barbados, Mexico [40] | Source (foreign) | Partly |
+| 6a | Own-price elasticity | −1.20 | −0.80 to −1.80 | Lognormal on \|ε\| | Andreyeva [30]; Cabrera Escobar [24]; Colchero [21] | Source | Partly |
+| 6b | Cross-price elasticity to untaxed beverages | +0.35 | +0.10 to +0.65 | Lognormal | Chile and Mexico demand systems [21] | Source | Partly |
+| 6c | Quintile gradient in elasticity | Q1 = 1.4 × Q5 | 1.0 to 1.8 | — | Colchero [21] | Derived | No |
+| 7a | Energy density of taxed beverages | 44 kcal/100 mL | 30 to 55 | Fixed | Vietnamese food composition table [31] | Source | Yes |
+| 7b | Energy compensation | 30% | 15% to 45% | Uniform | Assumption; no Vietnamese estimate | Assumption | No |
+| 8 | BMI to disease relative risks | per 2 kg/m²: CHD 1.11; ischaemic stroke 1.12 (1.09–1.15); haemorrhagic stroke 1.08 (1.04–1.12) | see note | Lognormal | APCSC [32,33] | Source | Yes |
+| 9 | Incidence, mortality, disability weights | GBD 2021, Viet Nam, by age and sex | — | Beta; gamma | GBD 2021 [26] | Source | Yes |
+| 9b | Gradient in baseline disease risk by quintile (sensitivity only) | Both directions: 1.15 (Q1) falling to 0.88 (Q5), and the reverse | 0.85 to 1.20 | — | Direction not established for Viet Nam | Assumption | No |
+| 10 | Health-care cost per case | Diabetes VND 8.0m per patient-year; IHD VND 84.9m per acute episode; stroke VND 10.5m per acute episode | −30% to +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doan 2022 [42] | Source | Yes |
+| 11 | Household expenditure by quintile | Mean VND 3.0 million per person-month; Q5/Q1 ratio 3.1 | — | Fixed | VHLSS 2024 [36] | Source | Yes |
+| 12 | Latency, BMI change to risk change | 2 years | 1 to 5 | Uniform | Assumption | Assumption | No |
+| 13 | Discount rate | 3% | 0%; 5% | Fixed | CHEERS 2022 [38] | Source | Yes |
 
 **B.2 Notes on parameters that are not directly measured**
 
 **#2 Baseline consumption trend.** The counterfactual is the single largest driver of the absolute size of every result, and it is the parameter that the protocol originally left unspecified. Euromonitor retail volume for soft drinks in Viet Nam grew from 18 L to 66 L per capita between 2009 and 2023, an annual rate of about 9.7%. Extrapolating that rate to 2050 is not defensible: it would imply consumption far above any observed market. We therefore use a central trend of +2.0% per year, which is close to the forecast growth of the broader beverage market, and deliberately place the low bound at zero so that the "no further growth" counterfactual is retained. *Rationale:* a faster baseline makes the tax look more valuable, so a conservative trend biases the study against its own hypothesis. *Fallback:* none needed; this is a design choice, not a data gap, and it must be stated explicitly in the paper because reviewers will ask what the counterfactual assumes.
+
+**#3 Volume of taxed beverages.** Euromonitor reports 66 L per capita in 2023 for soft drinks as a category; the extract we hold does not break that total down by sub-category, so it cannot be used directly as the volume of taxed beverages. The 145 mL per day used centrally is the volume implied by applying the assumed share of consumption above the threshold to that total, and it is carried as a parameter with a range of 90 to 220 mL per day rather than as a measured value. A product-level database would replace it.
 
 **#12 and #3, note on the expenditure profile.** Quintile means are set so that the mean (VND 3.0 million per person-month) and the Q5/Q1 ratio (3.1) reproduce the published VHLSS 2024 tabulations exactly. The share of expenditure spent on SSB is then *derived* from volume and retail price inside the model rather than assumed separately, so that it cannot contradict the consumption assumption. That derivation gives 2.6% in Q1 and 1.5% in Q5. The Gini used for the Kakwani index is computed from quintile means alone and is therefore a lower bound, which biases the estimated regressivity towards zero; the published Gini of income is 0.372. **#3 Consumption by age, sex, and quintile.** Per-capita retail volume gives the level; it does not give the distribution. Age and sex profiles come from the General Nutrition Survey 2019–2020, which records beverage intake by group. Quintile profiles come from VHLSS 2024 beverage expenditure, scaled to the Euromonitor volume total so that the two sources are mutually consistent. The central value of 145 mL/person/day is derived as 66 L/year × 0.80 (share above the threshold) ÷ 365, not observed directly. *Fallback:* if GNS beverage categories cannot be mapped to the taxable category, apply a uniform age profile and state this as a limitation.
 
@@ -219,21 +220,17 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 **#7 Elasticities.** Pooled own-price elasticities for SSBs cluster between −1.0 and −1.4: −1.30 (95% CI −1.09 to −1.51) in a nine-study meta-analysis,[24] −1.16 for SSBs in Mexico,[21] −1.37 for soft drinks in Chile, and −0.79 (range −1.24 to −0.33) for soft drinks in an earlier review.[30] We centre on −1.20 and allow the full observed range. The quintile gradient is the weakest element: the consistent finding is that elasticities are larger among lower-income households,[21] but the magnitude for Viet Nam is unknown, so a gradient of 1.4 is applied and the result is reported as a sensitivity rather than as a finding.
 
-**#8b Energy compensation.** Some of the energy displaced from beverages is replaced from other sources. Published estimates vary widely, and the choice materially affects the BMI pathway. We use a uniform distribution from 15% to 45%, centred at 30%, and note that this is an assumption rather than a Vietnamese estimate. *Fallback:* report the static-conversion sensitivity alongside, so that the reader can see how much of the result depends on this step.
+**#8b Energy compensation.** Some of the energy displaced from beverages is replaced from other sources. Published estimates vary widely, and the choice materially affects the BMI pathway. We use a uniform distribution from 15% to 45%, centred at 30%, and note that this is an assumption rather than a Vietnamese estimate; no Vietnamese measurement exists and none is available from a comparable setting we could verify, so the value carries no citation.
 
 **#9 Relative risks.** From the Asia-Pacific Cohort Studies Collaboration: each 2 kg/m² lower BMI is associated with a 12% (95% CI 9–15) lower risk of ischaemic stroke and an 8% (95% CI 4–12) lower risk of haemorrhagic stroke,[32] with a comparable estimate for coronary heart disease.[32] Diabetes risk is taken from the same collaboration.[33] Because relative risks are applied to BMI *categories* through population impact fractions, we convert the per-2-unit estimates to category-specific values using the midpoints of the standard Asian cut-offs (18.5, 23, 25, 30). *Rationale for preferring APCSC:* it is the only pooled Asian evidence base of adequate size, and using Western estimates would overstate risk at a given BMI in a lean population.
 
 **Sugar density of taxed beverages.** The central value of 11 g per 100 mL is not an assumption: Nguyen and colleagues report 11 g per 100 mL for carbonates, 9 for ready-to-drink coffee and tea, 16 for sports and energy drinks, and 7 for juices in the Vietnamese market.[17] Carbonates dominate the taxed volume, so 11 is used centrally, and the full range across categories (7–16) is tested as a sensitivity analysis.
 
-**#10 Baseline disease rates by quintile.** GBD 2021 provides national incidence, prevalence, and mortality for all three diseases, and STEPS 2021 provides measured diabetes prevalence. Neither is stratified by household expenditure. We therefore apply national rates to every quintile and assume **no** socioeconomic gradient in baseline disease rates. This is a deliberate simplification: it means equity differences in the model arise only from differential consumption and differential price response, never from an assumed disease gradient. Any real gradient in disease risk would therefore be unrepresented.
+**#10 Baseline disease rates by quintile.** GBD 2021 provides national incidence, prevalence, and mortality for all three diseases, and STEPS 2021 provides measured diabetes prevalence. Neither is stratified by household expenditure. We therefore apply national rates to every quintile in the base case, which means that equity differences arise only from differential consumption and differential price response. The direction of the true gradient is not established for Viet Nam: overweight and diabetes are often reported as more common in better-off households in middle-income settings, but the Vietnamese evidence is not consistent across surveys and we could not verify quintile-specific rates from a source that would support a central value. We therefore run the analysis under no gradient, under risk falling with expenditure, and under risk rising with expenditure, and report the equity result as a range (Appendix F, Figure 3).
 
-**B.3 Sequence of data tasks, in order of value**
+**B.3 What would most change the estimates**
 
-1. Calibrate the ex-factory share (#5) from a published budget projection — highest value, because it sets the scale of every result.
-2. Complete the product audit (#4) — sets the tax base and the reformulation pool for S3.
-3. Map GNS 2019–2020 beverage categories to the taxable category (#3).
-4. Obtain a Vietnamese cost estimate for ischaemic heart disease and stroke (#11); the diabetes cost is available.
-5. Fix the baseline trend (#2) and record the decision in the deviation log if it differs from the registered protocol.
+The two parameters that would most change the results are the ex-factory share (#4), which sets the scale of the price change, and a measured gradient in baseline disease risk (#9b), which would resolve the sign of the equity result. A product-level database of taxed beverages would replace the assumed sugar density and would allow a levy per gram of sugar to be modelled; neither exists for Viet Nam and the manuscript does not claim them.
 
 ---
 
@@ -244,12 +241,12 @@ The protocol and analysis plan were deposited with the code after the model had 
 | # | Departure | Reason |
 |---|---|---|
 | C1 | The revenue-neutral levy per gram of sugar (scenario S1b) was dropped | Distributing taxed volume across sugar bands requires a product-level database that does not exist for Viet Nam; without it the scenario reduces to the same average price change as the enacted tax and cannot be distinguished from it |
-| C2 | No socioeconomic gradient in baseline disease rates is assumed in the base case | Quintile-specific incidence and mortality are not available for Viet Nam, so national rates are applied to every quintile; the whole analysis is repeated with an assumed gradient (Appendix B, #10b) and both runs are reported in Figure 3 |
-| C3 | The product audit was not undertaken | The share of taxed beverages above the threshold is assumed (Appendix B, #4) rather than measured |
+| C2 | No socioeconomic gradient in baseline disease rates is assumed in the base case | Quintile-specific incidence and mortality are not available for Viet Nam, so national rates are applied to every quintile; the whole analysis is repeated with a gradient in each direction (Appendix B, #9b) and all three runs are reported in Figure 3 |
+| C3 | The product audit was not undertaken | The sugar density of the taxed category is taken from [17] rather than measured, and the reformulation pool assumed for S3 is a modelling choice |
 | C4 | Health-care costs for ischaemic heart disease and stroke are amortised from acute-episode studies | No Vietnamese estimate of annual cost per prevalent case exists for these two conditions |
 | C5 | Latency is a two-year shift of the impact fraction, not a distributed lag | No Vietnamese evidence on the shape of the lag; a step lag is the conservative choice |
 
-Two further points affect the reading of the equity results. The elasticity gradient across quintiles (Appendix B, #7c) is an assumption, not a measurement, and the concentration and Kakwani indices use a Gini computed from quintile means, which is a lower bound on true inequality.
+Two further points affect the reading of the equity results. The elasticity gradient across quintiles (Appendix B, #6c) is an assumption, not a measurement, and the concentration and Kakwani indices use a Gini computed from quintile means, which is a lower bound on true inequality.
 
 ## Appendix D. CHEERS 2022 checklist
 
@@ -290,23 +287,25 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **E.1 Checks performed.** Every step of the model has a unit test with hand-calculated inputs and outputs. Population conservation is checked in the life table: no individual leaves the cohort except through death, and the living plus the dead equal the starting population in every cycle. Boundary conditions are checked: a zero tax returns the baseline exactly, a zero elasticity returns the baseline exactly, and a tax large enough to remove all consumption produces neither negative quantities nor a division error.
 
-**E.2 Checks not performed.** Three planned checks were not carried out and the manuscript does not claim them. The model's baseline prevalence was not compared against GBD or STEPS estimates, because the life table does not age the cohort and a comparison of levels would not be informative. No external comparison was made with the earlier Vietnamese modelling study,[17] because that study reports different outcomes on a different structure. The code was not reviewed by an independent programmer. The unit tests and boundary conditions in E.1 are the whole of the technical assurance behind the results.
+**E.2 Baseline comparison.** The model's own prevalence at the end of the horizon was compared with the source its disease parameters come from, on the same 2027 age structure: 5.1% against 6.2% for type 2 diabetes, 0.4% against 1.6% for ischaemic heart disease, and 1.2% against 1.9% for stroke (GBD 2021). Diabetes, which carries 89% of the averted cases, is the closest. The shortfall in the cardiovascular states follows from starting in 2027 without a prevalent stock and applying a high case fatality to new cases; it is recorded in the Limitations and it affects the level of years lived with disability, not the direction of the averted difference.
+
+**E.3 Checks not performed.** Two checks were not carried out and the manuscript does not claim them. No external comparison was made with the earlier Vietnamese modelling study,[17] because that study reports different outcomes on a different model structure and the comparison would not isolate model error. The code was not reviewed by an independent programmer. The unit tests, the boundary conditions in E.1 and the baseline comparison in E.2 are the whole of the technical assurance behind the results.
 
 ## Appendix F. Sensitivity analyses performed
 
-**F.1 Probabilistic analysis.** 5,000 Monte Carlo iterations, independent sampling from the distributions in Appendix B, fixed seed (20261101), reporting medians and 95% uncertainty intervals.
+**F.1 Probabilistic analysis.** 5,000 Monte Carlo iterations, independent sampling from the distributions in Appendix B, fixed seed (20261101), reporting medians and 95% uncertainty intervals. The contribution of each parameter to the variance in DALYs averted was obtained from a linear model of the 5,000 draws on the sampled parameters, with squared semipartial correlations as shares of the explained variance; that model explains 94% of the variation.
 
 **F.2 Threshold analysis.** A grid over the ex-factory share (0.30 to 0.85) and the pass-through rate (0.30 to 1.50), with the model re-run at each point, identifies the combinations at which the health gain becomes indistinguishable from zero. The grid is deposited as `output/threshold_grid.csv`.
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.4 Tax-base variants.** The share of taxed beverages set at 0.60 and 0.95, bracketing the assumed 0.80.
-
 **F.5 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
 
-**F.6 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated with a socioeconomic gradient in baseline incidence, 1.15 in Q1 falling to 0.88 in Q5, on the same 5,000 draws. The concentration index of DALYs averted moves from a median of 0.047 to −0.002 and the Q1/Q5 ratio from 0.77 to 0.99, while the Kakwani index is unaffected because it depends only on tax payments. The two runs are shown side by side in Figure 3 and deposited as `output/psa_gradient.csv`.
+**F.6 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and lifetime. At central values the health gain is 39,894 and 18,724 DALYs at discount rates of 0% and 5%; 13,784 and 35,710 at pass-through 0.50 and 1.30; 16,534 and 37,075 at elasticity −0.80 and −1.80; 7,822, 24,767 and 53,509 over the 10-year, 2050 and lifetime horizons. Deposited as `output/sensitivity.csv`.
 
-**F.7 Analyses not run.** A static weight model, low and high elasticity sets, a full pass-through grid crossed with broad and narrow legal interpretations of the tax base, and a distributed latency were planned and not carried out. None is reported.
+**F.7 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated on the same 5,000 draws under two socioeconomic gradients, risk falling with expenditure (1.15 in Q1 to 0.88 in Q5) and risk rising with expenditure (0.88 in Q1 to 1.15 in Q5). The median Q1/Q5 ratio moves from 0.77 to 0.99 in the first case and to 0.60 in the second, and the concentration index from 0.047 to −0.002 and to 0.097; the Kakwani index is unchanged because it depends only on payments. Deposited as `output/psa_gradient.csv`.
+
+**F.8 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 
 ## Appendix G. Code and reproducibility
 
@@ -314,11 +313,12 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **G.2 Repository.** `model/` holds the model (`pmslt_model.R`), the quintile profile (`vhlss.R`), the probabilistic analysis (`psa.R`, `psa_all.R`, `psa_gradient.R`) and the script that writes every number in the manuscript (`fill_results.R`). `data/` holds the parameter inputs and the screening log. `output/` holds the draw matrix, the draws, the threshold grid and the gradient run. `Ban_thao/` holds the manuscript sources, the figure script and the generated DOCX files.
 
-**G.3 Reproduction.** The main results are reproduced in four steps, each writing its output to `output/`:
+**G.3 Reproduction.** The main results are reproduced in five steps, each writing its output to `output/`:
 
 ```
 Rscript model/psa_all.R        # 5,000 draws, seed 20261101 -> psa_results.csv, psa_draws.csv
-Rscript model/psa_gradient.R   # same draws with the disease gradient -> psa_gradient.csv
+Rscript model/psa_gradient.R   # same draws, three disease gradients -> psa_gradient.csv
+Rscript model/sensitivity.R    # one-way structural runs -> sensitivity.csv
 Rscript model/fill_results.R   # every number in the manuscript -> results.json
 Rscript Ban_thao/Figures/make_figures.R   # Figures 1-4
 ```

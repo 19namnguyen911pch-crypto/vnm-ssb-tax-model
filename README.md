@@ -35,7 +35,8 @@ Requires R ≥ 4.6. No package dependencies beyond base R.
 
 ```bash
 Rscript model/psa_all.R                    # 5,000 draws -> output/psa_results.csv
-Rscript model/psa_gradient.R               # same draws, disease gradient
+Rscript model/psa_gradient.R               # same draws, three disease gradients
+Rscript model/sensitivity.R                # one-way structural runs
 Rscript model/fill_results.R               # every number in the paper
 Rscript Ban_thao/Figures/make_figures.R    # Figures 1-4
 ```

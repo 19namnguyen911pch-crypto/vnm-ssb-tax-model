@@ -133,6 +133,9 @@ R[["TBD-75"]] <- formatC(eq$ede_e10, format = "f", digits = 2)
 R[["TBD-11"]] <- formatC(100 * eq$tax_share[1], format = "f", digits = 3)
 R[["TBD-12"]] <- formatC(100 * eq$tax_share[5], format = "f", digits = 3)
 R[["TBD-76"]] <- formatC(eq$kakwani, format = "f", digits = 3)
+R[["TBD-85"]] <- formatC(eq$ci_tax, format = "f", digits = 3)
+R[["TBD-86"]] <- formatC(eq$ci_tax_share, format = "f", digits = 3)
+R[["TBD-87"]] <- formatC(eq$gini_exp, format = "f", digits = 3)
 
 # S2 comparison
 R[["TBD-13"]] <- fmt(R[["D_S2"]])

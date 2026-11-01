@@ -39,7 +39,6 @@ params_default <- function() {
     elast_own       = -1.20,    # Appendix B #7a
     elast_cross_unt =  0.35,    # reporting only, Appendix B #7b
     retail_price_l  = 12000,    # VND per litre, VAT inclusive
-    taxed_share     = 0.80,     # Appendix B #4
 
     # reformulation: share of taxed volume that reformulates below the
     # threshold, and the sugar density it reaches (g/100 mL)
@@ -197,8 +196,7 @@ implied_tau <- function(dp, p) {
 # Calibrate the ex-factory share from a published revenue projection.
 calibrate_exfac_share <- function(rev_projection_vnd, tau, qprof, p) {
   pop <- p$pop_2027 * p$share_20plus
-  vol_l_year <- sum(qprof$pop_share * qprof$ssb_ml_day) / 1000 * 365 * pop *
-                p$taxed_share
+  vol_l_year <- sum(qprof$pop_share * qprof$ssb_ml_day) / 1000 * 365 * pop
   s <- rev_projection_vnd / (vol_l_year * p$retail_price_l * tau)
   if (s <= 0 || s >= 1) {
     warning("Implied ex-factory share is outside (0,1): ", round(s, 3),
@@ -310,7 +308,11 @@ life_table <- function(inc_path, p, pop0, mort_by_age) {
     costs <- costs + (if (is.null(cost_age)) sum(N %*% p$cost_case[dis])
                       else sum(N * cost_age)) * disc
   }
-  list(dalys = dalys, cases = cases, deaths = deaths, costs = costs)
+  # closing prevalence, for the comparison against GBD and STEPS. It does not
+  # enter any result.
+  prev <- colSums(N) / max(sum(healthy) + sum(N), 1e-9)
+  list(dalys = dalys, cases = cases, deaths = deaths, costs = costs,
+       prev = prev)
 }
 
 # ---------------------------------------------------------------------------
@@ -383,6 +385,7 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
   list(quintile = k, pop = pop_k, dp = dp, dq = dq, d_sugar = dsugar,
        d_bmi = bmi_path[yrs], dalys = lt$dalys, cases = lt$cases,
        deaths = lt$deaths, costs = lt$costs,
+       prev = lt$prev,
        tax_share = qprof$ssb_exp_share[k] * (1 + dq) * dp,
        revenue = revenue_implied(ml_day, dq, dp, p, pop_k, base_share))
 }
@@ -401,6 +404,9 @@ run_scenario <- function(code, qprof, p, mort_by_age) {
     cases_t2dm = unname(r$cases["t2dm"]),
     cases_ihd = unname(r$cases["ihd"]),
     cases_stroke = unname(r$cases["stroke"]),
+    prev_t2dm = unname(r$prev["t2dm"]),
+    prev_ihd = unname(r$prev["ihd"]),
+    prev_stroke = unname(r$prev["stroke"]),
     deaths = r$deaths)))
 }
 
@@ -433,15 +439,24 @@ atkinson_ede <- function(x, shares, e = 1) {
 equity_summary <- function(base, scen, qprof) {
   d <- base$dalys - scen$dalys
   per1000 <- d / (scen$pop / 1000)
+  # tax_share is tax paid as a fraction of household expenditure. The
+  # concentration index of the ABSOLUTE payment, not of that ratio, is the
+  # quantity Kakwani's index is defined on; using the ratio and then
+  # subtracting the Gini of expenditure would normalise twice.
+  tax_abs <- scen$tax_share * qprof$mean_exp_month
+  gini_exp <- gini_from_quintiles(qprof$mean_exp_month, qprof$pop_share)
+  ci_tax <- concentration_index(tax_abs, qprof$mean_exp_month, qprof$pop_share)
   list(
     dalys_per_1000 = per1000,
     ratio_Q1_Q5 = per1000[1] / per1000[5],
     ci_dalys = concentration_index(d, qprof$mean_exp_month, qprof$pop_share),
-    kakwani = concentration_index(scen$tax_share, qprof$mean_exp_month,
-                                  qprof$pop_share) -
-              gini_from_quintiles(qprof$mean_exp_month, qprof$pop_share),
-    gini_exp = gini_from_quintiles(qprof$mean_exp_month, qprof$pop_share),
+    ci_tax = ci_tax,
+    ci_tax_share = concentration_index(scen$tax_share, qprof$mean_exp_month,
+                                       qprof$pop_share),
+    kakwani = ci_tax - gini_exp,
+    gini_exp = gini_exp,
     tax_share = scen$tax_share,
+    tax_abs = tax_abs,
     ede_e1 = atkinson_ede(per1000, qprof$pop_share, 1),
     ede_e3 = atkinson_ede(per1000, qprof$pop_share, 3),
     ede_e10 = atkinson_ede(per1000, qprof$pop_share, 10)
