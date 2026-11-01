@@ -1,11 +1,11 @@
 # Viet Nam SSB excise tax — modelling code and parameters
 
 <!-- DOI badge -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23852996.svg)](https://doi.org/10.5281/zenodo.23852996)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23852908.svg)](https://doi.org/10.5281/zenodo.23852908)
 
 Reproducibility package for:
 
-> **Modest health gains and a regressive financing burden from Viet Nam's enacted
+> **Modest health gains and regressive financing from Viet Nam's enacted
 > sugar-sweetened beverage excise tax: an ex-ante modelling study**
 > Nguyen Thanh Nam, Khanh Linh Lam Ngoc
 > Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City
@@ -20,9 +20,11 @@ excise tax legislated by Law No. 66/2025/QH15.
 |---|---|
 | `model/pmslt_model.R` | Core model: seven steps, life table, equity metrics |
 | `model/psa.R` | Probabilistic sensitivity analysis |
+| `model/psa_all.R` | 5,000-draw PSA for S1, S2 and S3 |
+| `model/psa_gradient.R` | The same draws with a socioeconomic gradient in disease risk |
 | `model/vhlss.R` | Expenditure quintile profile (published VHLSS tabulations) |
-| `model/audit.R` | Product-audit loader (for the protocol in the paper) |
 | `model/fill_results.R` | Produces every number in the manuscript |
+| `Ban_thao/Figures/make_figures.R` | Figures 1-4 |
 | `model/run_all.R` | Driver |
 | `data/` | Parameters, with sources |
 | `output/` | Generated results |
@@ -32,11 +34,14 @@ excise tax legislated by Law No. 66/2025/QH15.
 Requires R ≥ 4.6. No package dependencies beyond base R.
 
 ```bash
-Rscript model/run_all.R            # PSA with 200 draws
-PSA_N=5000 Rscript model/run_all.R # full analysis
+Rscript model/psa_all.R                    # 5,000 draws -> output/psa_results.csv
+Rscript model/psa_gradient.R               # same draws, disease gradient
+Rscript model/fill_results.R               # every number in the paper
+Rscript Ban_thao/Figures/make_figures.R    # Figures 1-4
 ```
 
-Runtime for 5,000 draws: approximately 30 minutes on a laptop.
+Seed 20261101. Runtime for the full analysis: about 40 minutes on a laptop;
+the deterministic results alone take under a minute.
 
 ## Data sources
 
@@ -59,4 +64,4 @@ pending publication.
 
 ## Citation
 
-See `CITATION.cff`. Archived at Zenodo: **10.5281/zenodo.23852996** (concept DOI 10.5281/zenodo.23852908, which resolves to the latest version).
+See `CITATION.cff`. Archived at Zenodo under the concept DOI **10.5281/zenodo.23852908**, which always resolves to the latest released version.

@@ -172,7 +172,7 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.9 Maintaining the log**
 
-The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852996. Any string modified after registration is recorded in Appendix C.
+The screening log, the full-text exclusion reasons, the verification log in A.7, and the search dates are deposited with the protocol at https://doi.org/10.5281/zenodo.23852908. Any string modified after registration is recorded in Appendix C.
 
 ---
 
@@ -310,27 +310,20 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 ## Appendix G. Code and reproducibility
 
-**H.1 Environment**
+**G.1 Environment.** R version 4.6.1, base R only, with no package dependencies. The model, the probabilistic analysis and the figures run from a clean installation of R; the DOCX files are built with Python 3 and `python-docx`.
 
-R version 4.6.1. Package versions are pinned in `renv.lock`; the repository records the full session information for the run that produced each table and figure.
+**G.2 Repository.** `model/` holds the model (`pmslt_model.R`), the quintile profile (`vhlss.R`), the probabilistic analysis (`psa.R`, `psa_all.R`, `psa_gradient.R`) and the script that writes every number in the manuscript (`fill_results.R`). `data/` holds the parameter inputs and the screening log. `output/` holds the draw matrix, the draws, the threshold grid and the gradient run. `Ban_thao/` holds the manuscript sources, the figure script and the generated DOCX files.
 
-**H.2 Repository structure**
+**G.3 Reproduction.** The main results are reproduced in four steps, each writing its output to `output/`:
 
 ```
-/model seven model steps, one file each, plus the life-table engine
-/params parameter tables, PSA draw matrix, evidence-log CSV
-/analysis scripts that generate each table and figure in order
-/output generated tables and figures, with the seed in the filename
-/tests unit tests and boundary-condition tests
-/docs protocol, appendices, deviation log
+Rscript model/psa_all.R        # 5,000 draws, seed 20261101 -> psa_results.csv, psa_draws.csv
+Rscript model/psa_gradient.R   # same draws with the disease gradient -> psa_gradient.csv
+Rscript model/fill_results.R   # every number in the manuscript -> results.json
+Rscript Ban_thao/Figures/make_figures.R   # Figures 1-4
 ```
 
-**H.3 Reproducibility**
+The seed is fixed at 20261101, and the draw matrix is published as `output/psa_draws.csv` so that the probabilistic results can be checked without re-running the sampling. The full analysis takes about 40 minutes on a laptop; the deterministic results alone take under a minute. The repository is public at https://doi.org/10.5281/zenodo.23852908 under the MIT licence.
 
-A single script reproduces every number in the manuscript from the parameter file and a fixed seed. The PSA input matrix is published as a CSV so that the results can be checked without re-running the sampling. Runtime for the full analysis is recorded so that a reviewer can judge feasibility.
-
-**H.4 Licence and citation**
-
-Code released under an open licence on acceptance; the repository carries a DOI. The parameter evidence log is released as a data file with a column for the source of every value.
 
 ---

@@ -43,4 +43,4 @@ Tạp chí mục tiêu: *The Lancet Regional Health – Western Pacific*
 
 - Bốn hình sinh từ `output/` trong kho mã, bằng `Rscript Ban_thao/Figures/make_figures.R`
 - Mọi con số trong bản thảo lấy từ `output/results.json`
-- Mã và dữ liệu: https://doi.org/10.5281/zenodo.23852996
+- Mã và dữ liệu: https://doi.org/10.5281/zenodo.23852908

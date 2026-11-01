@@ -131,7 +131,7 @@ Unit tests were applied to each model step, population conservation was checked 
 
 ### Reporting, registration, and ethics
 
-The study is reported per CHEERS 2022, with the completed checklist in Appendix D.[38] The full protocol, including the analysis plan and the parameter feasibility assessment, is archived with the analytic code at https://doi.org/10.5281/zenodo.23852996, and the departures from the plan as originally drafted are recorded in Appendix C. The study used only published parameters and secondary data, involved no human participants, and accessed no individual-level records; no identifiable information was handled. Ethical approval was therefore not required. The analytic code and the probabilistic sensitivity analysis input matrix are publicly available at https://doi.org/10.5281/zenodo.23852996.
+The study is reported per CHEERS 2022, with the completed checklist in Appendix D.[38] The full protocol, including the analysis plan and the parameter feasibility assessment, is archived with the analytic code at https://doi.org/10.5281/zenodo.23852908, and the departures from the plan as originally drafted are recorded in Appendix C. The study used only published parameters and secondary data, involved no human participants, and accessed no individual-level records; no identifiable information was handled. Ethical approval was therefore not required. The analytic code and the probabilistic sensitivity analysis input matrix are publicly available at https://doi.org/10.5281/zenodo.23852908.
 
 ---
 
@@ -205,7 +205,7 @@ Nguyen Thanh Nam: conceptualisation, methodology, software, formal analysis, dat
 
 ## Data sharing
 
-The analytic code, the parameter evidence log, and the probabilistic sensitivity analysis input matrix are available at https://doi.org/10.5281/zenodo.23852996 from publication. Model outputs underlying Figures 2–4 are provided as supplementary data. VHLSS microdata are held by the National Statistics Office and cannot be redistributed; access conditions are described at https://microdata.worldbank.org/.
+The analytic code, the parameter evidence log, and the probabilistic sensitivity analysis input matrix are available at https://doi.org/10.5281/zenodo.23852908 from publication. Model outputs underlying Figures 2–4 are provided as supplementary data. VHLSS microdata are held by the National Statistics Office and cannot be redistributed; access conditions are described at https://microdata.worldbank.org/.
 
 ## Declaration of interests
 

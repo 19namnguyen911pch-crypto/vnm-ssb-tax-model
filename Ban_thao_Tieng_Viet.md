@@ -129,7 +129,7 @@ Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn d
 
 ### Báo cáo, đăng ký và đạo đức
 
-Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục D.[38] Protocol đầy đủ, gồm kế hoạch phân tích và đánh giá khả thi tham số, được lưu cùng mã phân tích tại https://doi.org/10.5281/zenodo.23852996. Protocol và kế hoạch phân tích được lưu cùng mã, và các sai lệch so với kế hoạch soạn ban đầu được ghi ở Phụ lục C. Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852996.
+Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục D.[38] Protocol đầy đủ, gồm kế hoạch phân tích và đánh giá khả thi tham số, được lưu cùng mã phân tích tại https://doi.org/10.5281/zenodo.23852908. Protocol và kế hoạch phân tích được lưu cùng mã, và các sai lệch so với kế hoạch soạn ban đầu được ghi ở Phụ lục C. Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852908.
 
 ---
 
@@ -203,7 +203,7 @@ Nguyen Thanh Nam: xây dựng ý tưởng, phương pháp, phần mềm, phân t
 
 ## Chia sẻ dữ liệu
 
-Mã phân tích, nhật ký bằng chứng tham số và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852996 kể từ ngày công bố. Kết quả mô hình làm cơ sở cho Hình 2–4 được cung cấp dưới dạng dữ liệu bổ sung. Dữ liệu vi mô VHLSS thuộc Tổng cục Thống kê và không thể phân phối lại; điều kiện truy cập được mô tả tại https://microdata.worldbank.org/.
+Mã phân tích, nhật ký bằng chứng tham số và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852908 kể từ ngày công bố. Kết quả mô hình làm cơ sở cho Hình 2–4 được cung cấp dưới dạng dữ liệu bổ sung. Dữ liệu vi mô VHLSS thuộc Tổng cục Thống kê và không thể phân phối lại; điều kiện truy cập được mô tả tại https://microdata.worldbank.org/.
 
 ## Tuyên bố xung đột lợi ích
 
@@ -441,7 +441,7 @@ Các khẳng định pháp lý trong một mô hình thuế là khẳng định 
 
 **A.9 Duy trì nhật ký**
 
-Nhật ký sàng lọc, lý do loại ở bước toàn văn, nhật ký xác minh ở A.7 và ngày tìm kiếm được lưu cùng protocol tại https://doi.org/10.5281/zenodo.23852996. Mọi chuỗi bị sửa sau khi đăng ký được ghi ở Phụ lục C.
+Nhật ký sàng lọc, lý do loại ở bước toàn văn, nhật ký xác minh ở A.7 và ngày tìm kiếm được lưu cùng protocol tại https://doi.org/10.5281/zenodo.23852908. Mọi chuỗi bị sửa sau khi đăng ký được ghi ở Phụ lục C.
 
 ---
 
@@ -579,27 +579,20 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 ## Phụ lục G. Mã và khả năng tái lập
 
-**H.1 Môi trường**
+**G.1 Môi trường.** R phiên bản 4.6.1, chỉ dùng R gốc, không có gói phụ thuộc. Mô hình, phân tích xác suất và các hình chạy được trên một bản cài R sạch; các tệp DOCX được tạo bằng Python 3 và `python-docx`.
 
-R phiên bản 4.6.1. Phiên bản các gói được ghim trong `renv.lock`; kho lưu trữ ghi lại thông tin phiên đầy đủ của lần chạy tạo ra từng bảng và hình.
+**G.2 Cấu trúc kho lưu trữ.** `model/` chứa mô hình (`pmslt_model.R`), hồ sơ ngũ phân vị (`vhlss.R`), phân tích xác suất (`psa.R`, `psa_all.R`, `psa_gradient.R`) và script ghi mọi con số trong bản thảo (`fill_results.R`). `data/` chứa tham số đầu vào và nhật ký sàng lọc. `output/` chứa ma trận rút, các lần rút, lưới ngưỡng và lần chạy có gradient. `Ban_thao/` chứa bản nguồn bản thảo, script vẽ hình và các tệp DOCX đã tạo.
 
-**H.2 Cấu trúc kho lưu trữ**
+**G.3 Tái lập.** Kết quả chính được tái lập qua bốn bước, mỗi bước ghi đầu ra vào `output/`:
 
 ```
-/model bảy bước mô hình, mỗi bước một tệp, cộng động cơ bảng sống
-/params bảng tham số, ma trận rút PSA, CSV nhật ký bằng chứng
-/analysis script tạo từng bảng và hình theo thứ tự
-/output bảng và hình đã tạo, tên tệp kèm hạt giống
-/tests kiểm thử đơn vị và kiểm thử điều kiện cực biên
-/docs protocol, các phụ lục, nhật ký sai lệch
+Rscript model/psa_all.R        # 5.000 lần rút, hạt giống 20261101 -> psa_results.csv, psa_draws.csv
+Rscript model/psa_gradient.R   # cùng các lần rút với gradient bệnh -> psa_gradient.csv
+Rscript model/fill_results.R   # mọi con số trong bản thảo -> results.json
+Rscript Ban_thao/Figures/make_figures.R   # Hình 1-4
 ```
 
-**H.3 Khả năng tái lập**
+Hạt giống cố định ở 20261101, và ma trận rút được công bố ở `output/psa_draws.csv` để kiểm tra kết quả xác suất mà không cần chạy lại bước lấy mẫu. Toàn bộ phân tích mất khoảng 40 phút trên một máy xách tay; riêng kết quả tất định dưới một phút. Kho lưu trữ công khai tại https://doi.org/10.5281/zenodo.23852908 theo giấy phép MIT.
 
-Một script duy nhất tái tạo mọi con số trong bản thảo từ tệp tham số và một hạt giống cố định. Ma trận đầu vào PSA được công bố dạng CSV để kết quả có thể kiểm tra mà không cần chạy lại bước lấy mẫu. Thời gian chạy của toàn bộ phân tích được ghi lại để người rà soát đánh giá được tính khả thi.
-
-**H.4 Giấy phép và trích dẫn**
-
-Mã được phát hành theo giấy phép mở khi bài được nhận; kho lưu trữ có DOI. Nhật ký bằng chứng tham số được phát hành dạng tệp dữ liệu, có cột ghi nguồn cho từng giá trị.
 
 ---
