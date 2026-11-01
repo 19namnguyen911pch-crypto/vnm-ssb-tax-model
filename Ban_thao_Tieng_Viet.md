@@ -29,7 +29,7 @@ Không có tài trợ riêng.
 ## Bối cảnh nghiên cứu
 
 **Bằng chứng trước nghiên cứu này**
-Chúng tôi tìm kiếm trên PubMed, Scopus, Cochrane Library, RePEc/IDEAS và Google Scholar từ tháng 1/2000 đến 1/11/2026, kèm truy vết trích dẫn xuôi và ngược cho mọi nghiên cứu được đưa vào, cùng với tài liệu xám của Bộ Tài chính, Bộ Y tế, WHO Việt Nam và Viện Chiến lược và Chính sách y tế, cho các nghiên cứu mô hình hóa, đánh giá chính sách và tổng quan hệ thống về tác động sức khỏe, tài khóa và phân bố của thuế đồ uống có đường tại Việt Nam và tại các nước thu nhập trung bình thấp và trung bình cao so sánh được. Từ khóa kết hợp "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling" và "Viet Nam"; chuỗi tìm đầy đủ, ngày tìm và nhật ký sàng lọc ở Phụ lục A. Đến năm 2024, thuế đồ uống có đường đã được 64 quốc gia áp dụng, trong đó 45% theo tỷ lệ phần trăm giá, 44% theo lượng và chỉ 5% theo hàm lượng đường. Với Việt Nam, hai phân tích đã được công bố. Một nghiên cứu mô hình hóa năm kịch bản thuế tương ứng mức tăng giá bán lẻ 5%, 11% và 19–20% khi luật còn đang thảo luận, và ước tính tác động lên cân nặng và đái tháo đường. Nghiên cứu còn lại dùng Khảo sát mức sống hộ gia đình Việt Nam 2018 với hệ thống cầu hiệu chỉnh chất lượng để mô phỏng tác động lên tiêu thụ và phúc lợi theo thiết kế của luật 2025, nhưng không tách được đồ uống có đường khỏi nước đóng chai và nước ép 100% trong dữ liệu khảo sát, và không mô hình hóa kết cục bệnh. Chưa có nghiên cứu công bố nào mô hình hóa đúng thiết kế đã ban hành, cũng chưa có nghiên cứu nào báo cáo lợi ích sức khỏe và thuế phải trả trên cùng một thang đo công bằng.
+Chúng tôi tìm kiếm trên PubMed, Europe PMC và OpenAlex từ tháng 1/2000 đến 1/11/2026, kèm truy vết trích dẫn xuôi và ngược cho mọi nghiên cứu được đưa vào, cùng với tài liệu xám của Bộ Tài chính, Bộ Y tế, WHO Việt Nam và Viện Chiến lược và Chính sách y tế, cho các nghiên cứu mô hình hóa, đánh giá chính sách và tổng quan hệ thống về tác động sức khỏe, tài khóa và phân bố của thuế đồ uống có đường tại Việt Nam và tại các nước thu nhập trung bình thấp và trung bình cao so sánh được. Từ khóa kết hợp "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling" và "Viet Nam"; chuỗi tìm đầy đủ, ngày tìm và nhật ký sàng lọc ở Phụ lục A. Đến năm 2024, thuế đồ uống có đường đã được 64 quốc gia áp dụng, trong đó 45% theo tỷ lệ phần trăm giá, 44% theo lượng và chỉ 5% theo hàm lượng đường. Với Việt Nam, hai phân tích đã được công bố. Một nghiên cứu mô hình hóa năm kịch bản thuế tương ứng mức tăng giá bán lẻ 5%, 11% và 19–20% khi luật còn đang thảo luận, và ước tính tác động lên cân nặng và đái tháo đường. Nghiên cứu còn lại dùng Khảo sát mức sống hộ gia đình Việt Nam 2018 với hệ thống cầu hiệu chỉnh chất lượng để mô phỏng tác động lên tiêu thụ và phúc lợi theo thiết kế của luật 2025, nhưng không tách được đồ uống có đường khỏi nước đóng chai và nước ép 100% trong dữ liệu khảo sát, và không mô hình hóa kết cục bệnh. Chưa có nghiên cứu công bố nào mô hình hóa đúng thiết kế đã ban hành, cũng chưa có nghiên cứu nào báo cáo lợi ích sức khỏe và thuế phải trả trên cùng một thang đo công bằng.
 
 **Giá trị gia tăng của nghiên cứu này**
 Nghiên cứu này định lượng hệ quả của thuế **như đã ban hành** chứ không phải như giả định, sử dụng đúng cơ sở tính thuế theo luật, đúng ngưỡng theo cách TCVN 12828:2019 vận hành, và đúng hiệu ứng chồng thuế giá trị gia tăng áp cho hàng chịu thuế tiêu thụ đặc biệt. Nghiên cứu thêm ba điểm. Thứ nhất, ước tính mức tăng giá bán lẻ và lợi ích sức khỏe mà mức thuế 2027 và 2028 thực sự tạo ra, biểu diễn bằng DALY, số ca tránh được, chi phí tiết kiệm và doanh thu. Thứ hai, so sánh trong cùng một mô hình và cùng một quần thể giữa thiết kế đã ban hành với mức tăng giá bán lẻ 20% mà WHO khuyến nghị. Thứ ba, báo cáo lợi ích sức khỏe và thuế phải trả trên cùng thang ngũ phân vị chi tiêu, để đánh đổi giữa hiệu quả và công bằng được **đo** chứ không phải được giả định, đồng thời ước tính lợi ích sức khỏe trên mỗi đồng doanh thu của một mức thuế theo gam đường cân bằng doanh thu — thiết kế nhiều khả năng được xem xét tại kỳ rà soát luật.
@@ -271,11 +271,10 @@ Ba, theo thứ tự quan trọng. (i) Đã có ai mô hình hóa đúng mức th
 | Nguồn | Phạm vi | Mục đích |
 |---|---|---|
 | PubMed/MEDLINE | Y sinh và sức khỏe công cộng | Nghiên cứu tác động sức khỏe, dịch tễ, nguy cơ |
-| Scopus | Đa ngành | Bắt các tạp chí kinh tế và chính sách không có trong MEDLINE |
+| Europe PMC | Y sinh và khoa học sự sống, gồm cả preprint | Bắt các bản ghi không có trong MEDLINE |
+| OpenAlex | Đa ngành, gồm kinh tế và chính sách | Bao phủ văn liệu khoa học xã hội về thuế |
 | Truy vết trích dẫn, xuôi và ngược | Nghiên cứu trích dẫn, hoặc được trích dẫn bởi, mỗi bản ghi được đưa vào | Bắt văn liệu mà tìm theo từ khóa bỏ sót |
-| Cochrane Library (CDSR và CENTRAL) | Tổng quan hệ thống và thử nghiệm có đối chứng | Tổng quan về hiệu quả thuế, bằng chứng thử nghiệm về giá và tiêu thụ |
-| RePEc/IDEAS | Working paper và tạp chí kinh tế | Độ co giãn, truyền dẫn, phân tích phúc lợi |
-| Google Scholar | Tài liệu xám và không được chỉ mục | Luận văn, working paper, học thuật tiếng Việt |
+| Google Scholar | Tài liệu xám và không được chỉ mục | Học thuật tiếng Việt |
 | WHO IRIS | Chính sách y tế toàn cầu | Báo cáo và tài liệu kỹ thuật của WHO |
 | World Bank, IMF, ADB | Kinh tế phát triển | Tài liệu thiết kế thuế và doanh thu |
 | Bộ Tài chính, Bộ Y tế, HSPI, NIN, TCTK | Nguồn chính thức Việt Nam | Văn bản pháp luật, dự toán ngân sách, tài liệu khảo sát |
@@ -312,39 +311,30 @@ AND
 ("tax"[tiab] OR "taxes"[tiab] OR "taxation"[tiab] OR "excise"[tiab])
 ```
 
-*Scopus:*
+*Europe PMC* (trường tiêu đề và tóm tắt; tập rộng trả về 506 bản ghi, tập Việt Nam 3):
 
 ```
-TITLE-ABS-KEY(("sugar-sweetened beverage" OR "sugar sweetened beverage"
- OR "sugary drink" OR "soft drink" OR "carbonated beverage" OR "soda")
- AND (tax OR taxation OR excise OR "fiscal policy")
- AND ("Viet Nam" OR Vietnam))
+(TITLE_ABS:"sugar-sweetened beverage" OR TITLE_ABS:"sugar sweetened beverage"
+ OR TITLE_ABS:"sugary drink" OR TITLE_ABS:"soft drink"
+ OR TITLE_ABS:"carbonated beverage" OR TITLE_ABS:soda)
+AND
+(TITLE_ABS:tax OR TITLE_ABS:taxation OR TITLE_ABS:excise OR TITLE_ABS:"fiscal policy")
+[AND (TITLE_ABS:vietnam OR TITLE_ABS:"viet nam")]
 ```
 
-*Cochrane Library* (CDSR và CENTRAL; Cochrane dùng các tập đánh số dòng):
+*OpenAlex* (tiêu đề và tóm tắt; tập rộng trả về 2961 bản ghi, tập Việt Nam 13):
 
 ```
-#1 ("sugar-sweetened beverage" OR "sugar sweetened beverage" OR "sugary drink"
- OR "soft drink" OR "carbonated beverage" OR soda):ti,ab,kw
-#2 (tax OR taxation OR excise OR "fiscal policy" OR "price elasticity"):ti,ab,kw
-#3 ("Viet Nam" OR Vietnam):ti,ab,kw
-#4 #1 AND #2
-#5 #4 AND #3
+filter=title_and_abstract.search:("sugar-sweetened beverage" OR "soft drink" OR soda)
+   AND (tax OR taxation OR excise)
+   [AND (vietnam OR "viet nam")]
 ```
 
 Tập #4 được chạy không giới hạn quốc gia vì văn liệu tổng quan và thử nghiệm về thuế đồ uống có đường rất mỏng và gần như toàn bộ không phải của Việt Nam; #5 tách riêng tập con Việt Nam.
 
-*RePEc/IDEAS* (tìm nâng cao EconPapers, theo tiêu đề và tóm tắt):
-
-```
-(sugar-sweetened OR "soft drink" OR sugary OR soda)
-AND (tax OR taxation OR excise OR "fiscal policy")
-AND (Vietnam OR "Viet Nam" OR "developing countr*" OR Asia)
-```
-
 IDEAS chỉ hỗ trợ cú pháp Boolean hạn chế, nên tìm kiếm được bổ sung bằng một truy vấn giới hạn tên miền, `site:ideas.repec.org "sugar-sweetened" tax`, chạy trên Google Scholar và Google.
 
-*Truy vết trích dẫn.* Danh mục tài liệu tham khảo của mọi nghiên cứu được đưa vào được sàng lọc thủ công, và chức năng "được trích dẫn bởi" của Scopus và Google Scholar được dùng cho hai phân tích Việt Nam và cho từng tổng quan hệ thống được đưa vào.
+*Truy vết trích dẫn.* Danh mục tài liệu tham khảo của mọi nghiên cứu được đưa vào được sàng lọc thủ công, và chức năng "được trích dẫn bởi" của Google Scholar được dùng cho hai phân tích Việt Nam và cho từng tổng quan hệ thống được đưa vào.
 
 
 *Nguồn tiếng Việt* (Google Scholar và vjol.info, chuỗi không đặt trong ngoặc kép):
@@ -370,7 +360,9 @@ Các bản ghi được loại trùng, sàng lọc theo tiêu đề và tóm t�
 
 **A.6 Sơ đồ dòng**
 
-Các tìm kiếm PubMed đã được chạy và có số: tập Việt Nam trả về **2 bản ghi**, tập rộng về thuế đồ uống có đường không giới hạn quốc gia trả về **576 bản ghi**. Các cơ sở dữ liệu còn lại được tìm bằng chuỗi ở A.3; số bản ghi, số loại trùng và lý do loại ở bước toàn văn được duy trì trong nhật ký sàng lọc và nộp kèm protocol. Vì tập Việt Nam chỉ trả về hai bản ghi — một là tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường — năng suất thực tế của tìm kiếm y sinh là một phân tích có liên quan duy nhất, và nghiên cứu kinh tế Việt Nam 2026 chỉ tìm được qua RePEc và Google Scholar.
+Ba cơ sở dữ liệu được tìm bằng chuỗi ở A.3, ngày 1/11/2026. Tập Việt Nam trả về **2 bản ghi ở PubMed, 3 ở Europe PMC và 13 ở OpenAlex**; các tập rộng không giới hạn quốc gia tương ứng trả về **576, 506 và 2961 bản ghi**. Scopus và Cochrane Library không thuộc quyền truy cập của nhóm, và RePEc/IDEAS chặn truy vấn tự động tại thời điểm tìm; truy vết trích dẫn cho mọi nghiên cứu được đưa vào được dùng thay thế, và danh mục tài liệu tham khảo của hai tổng quan gần nhất được sàng lọc thủ công. Số loại trùng, số sàng lọc và lý do loại ở bước toàn văn được duy trì trong nhật ký sàng lọc nộp kèm protocol.
+
+Năng suất thấp của các tìm kiếm giới hạn quốc gia tự nó là thông tin. PubMed trả về hai bản ghi, một là tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường, còn lại một phân tích Việt Nam có liên quan; nghiên cứu kinh tế Việt Nam 2026 hoàn toàn không được chỉ mục trong PubMed và chỉ tìm được qua truy vết trích dẫn. Đó là căn cứ thực nghiệm cho khoảng trống mà nghiên cứu này đề cập, và là lý do các tìm kiếm được mở rộng sang tập rộng thay vì lặp lại với cú pháp riêng của từng cơ sở dữ liệu.
 
 **A.7 Nhật ký xác minh nguồn pháp lý và ngân sách**
 
