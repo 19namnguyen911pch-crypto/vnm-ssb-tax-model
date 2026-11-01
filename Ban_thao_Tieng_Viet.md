@@ -136,7 +136,7 @@ Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn d
 
 ### Báo cáo, đăng ký và đạo đức
 
-Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục E.[26] Protocol, gồm kế hoạch phân tích và đánh giá khả thi tham số, được đăng ký trên OSF ngày ⟦ngày⟧ trước khi chạy mô hình chính; các sai lệch được ghi ở Phụ lục D.⟦TBD-0⟧ Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai.⟦TBD-96⟧
+Nghiên cứu được báo cáo theo CHEERS 2022, với danh mục kiểm tra hoàn chỉnh ở Phụ lục E.[26] Protocol, gồm kế hoạch phân tích và đánh giá khả thi tham số, được đăng ký trên OSF ngày ⟦ngày⟧ trước khi chạy mô hình chính; các sai lệch được ghi ở Phụ lục D.⟦TBD-0⟧ Nghiên cứu chỉ dùng tham số công bố và dữ liệu thứ cấp, không có người tham gia, và không truy cập hồ sơ cấp cá thể; không xử lý thông tin định danh. Do đó không cần phê duyệt đạo đức. Mã phân tích và ma trận đầu vào phân tích độ nhạy xác suất được công khai.https://doi.org/10.5281/zenodo.23852996
 
 ---
 
@@ -211,7 +211,7 @@ Nguyen Thanh Nam: xây dựng ý tưởng, phương pháp, phần mềm, phân t
 
 ## Chia sẻ dữ liệu
 
-Mã phân tích, nhật ký bằng chứng tham số và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại ⟦kho lưu trữ và DOI⟧ kể từ ngày công bố. Kết quả mô hình làm cơ sở cho Hình 2–4 được cung cấp dưới dạng dữ liệu bổ sung. Dữ liệu vi mô VHLSS thuộc Tổng cục Thống kê và không thể phân phối lại; điều kiện truy cập được mô tả tại https://microdata.worldbank.org/.
+Mã phân tích, nhật ký bằng chứng tham số và ma trận đầu vào phân tích độ nhạy xác suất được công khai tại https://doi.org/10.5281/zenodo.23852996 kể từ ngày công bố. Kết quả mô hình làm cơ sở cho Hình 2–4 được cung cấp dưới dạng dữ liệu bổ sung. Dữ liệu vi mô VHLSS thuộc Tổng cục Thống kê và không thể phân phối lại; điều kiện truy cập được mô tả tại https://microdata.worldbank.org/.
 
 ## Tuyên bố xung đột lợi ích
 

@@ -1,5 +1,8 @@
 # Viet Nam SSB excise tax — modelling code and parameters
 
+<!-- DOI badge -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23852996.svg)](https://doi.org/10.5281/zenodo.23852996)
+
 Reproducibility package for:
 
 > **Modest health gains and a regressive financing burden from Viet Nam's enacted
@@ -56,4 +59,4 @@ pending publication.
 
 ## Citation
 
-See `CITATION.cff`. The DOI is minted at first release.
+See `CITATION.cff`. Archived at Zenodo: **10.5281/zenodo.23852996** (concept DOI 10.5281/zenodo.23852908, which resolves to the latest version).

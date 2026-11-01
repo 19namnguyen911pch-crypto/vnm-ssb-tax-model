@@ -11,9 +11,10 @@ authors:
     given-names: "Khanh Linh"
     email: "lnklinh.ddytcc23@ump.edu.vn"
     affiliation: "Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam"
-version: 1.0.0
+version: 1.0.2
 date-released: "2026-11-01"
 license: MIT
+doi: "10.5281/zenodo.23852996"
 keywords:
   - sugar-sweetened beverages
   - excise tax
