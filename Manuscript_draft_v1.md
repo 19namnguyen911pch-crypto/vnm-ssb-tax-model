@@ -135,7 +135,7 @@ Parameter uncertainty was propagated by Monte Carlo simulation with 1,000 iterat
 
 ### Validation
 
-Unit tests were applied to each model step, population conservation was checked in the life table, and boundary conditions with zero elasticity and zero tax were run. An independent reviewer external to the team reviewed the code.Nguyen Phuong An Internal validation required the model's baseline incidence, prevalence, and mortality to reproduce published Vietnamese estimates within 15%. External validation compared our results at a 20% price change with those of Nguyen and colleagues,[11] and material differences are explained. A structured assumptions review was held with a nutrition scientist, a health economist, and a tax policy specialist. No new engagement with patients or community groups was undertaken: the study models a population-level fiscal instrument using only published parameters, and no participant data were collected. Where the patient perspective bears on interpretation — how acceptable a price instrument is to people living with diabetes, and what they would regard as a fair distribution of the burden — we draw on published qualitative evidence from Viet Nam.[36] We record the absence of new consultation as a limitation of the study's process.
+Unit tests were applied to each model step, population conservation was checked in the life table, and boundary conditions with zero elasticity and zero tax were run. An independent reviewer external to the team reviewed the code (Nguyen Phuong An, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City). Internal validation required the model's baseline incidence, prevalence, and mortality to reproduce published Vietnamese estimates within 15%. External validation compared our results at a 20% price change with those of Nguyen and colleagues,[11] and material differences are explained. A structured assumptions review was held with a nutrition scientist, a health economist, and a tax policy specialist. No new engagement with patients or community groups was undertaken: the study models a population-level fiscal instrument using only published parameters, and no participant data were collected. Where the patient perspective bears on interpretation — how acceptable a price instrument is to people living with diabetes, and what they would regard as a fair distribution of the burden — we draw on published qualitative evidence from Viet Nam.[36] We record the absence of new consultation as a limitation of the study's process.
 
 ### Reporting, registration, and ethics
 
@@ -709,32 +709,3 @@ A single script reproduces every number in the manuscript from the parameter fil
 Code released under an open licence on acceptance; the repository carries a DOI. The parameter evidence log is released as a data file with a column for the source of every value.
 
 ---
-
-## VIỆC CÒN LẠI — danh sách ngắn
-
-**Đã đóng trong vòng tra cứu này** (kèm nguồn gốc):
-
-| Mục | Kết quả |
-|---|---|
-| Số hiệu luật | Luật 66/2025/QH15, 14/6/2025, hiệu lực 1/1/2026 — đọc toàn văn |
-| Định nghĩa "đường" | **Đường tổng** trên nhãn dinh dưỡng (NĐ 360, Điều 3 khoản 4) |
-| Căn cứ tính thuế | Giá bán của nhà SX/NK, chưa VAT, chưa TTĐB (NĐ 360, Điều 5) |
-| Công thức thuế | Giá tính thuế = (giá chưa VAT − thuế BVMT) ÷ (1 + thuế suất) |
-| Phạm vi chịu thuế | **TCVN 12828:2019**, không phải danh mục miễn trừ riêng |
-| VAT | SSB bị loại khỏi mức giảm 8% → giữ 10% (NĐ 174/2025/NĐ-CP, Phụ lục II) |
-| RR BMI–bệnh | Woodward 2004 (IJE 33:751–8) + Murakami 2012 (Prev Med 54:38–41) |
-| Dinh dưỡng VN | General Nutrition Survey 2019–2020 (NIN) |
-| Bằng chứng Thái Lan | Phonsuk 2021 (PLoS One 16:e0250841): giá +11%, đường giảm 10% |
-| Công bằng | Backholer 2016 (PHN 19:3070–84): gánh nặng lũy thoái nhưng nhẹ |
-
-**Còn 0 việc tra cứu.** `VERIFY-6` đã đóng: Nghị định **174/2025/NĐ-CP** ban hành **30/6/2025**, hiệu lực **1/7/2025**, ký bởi **Hồ Đức Phớc**, "Quy định chính sách giảm thuế GTGT theo Nghị quyết 204/2025/QH15" — đối chiếu trực tiếp trên `vanban.chinhphu.vn` (docid 214310). Phụ lục II loại hàng chịu thuế TTĐB khỏi diện giảm thuế.
-
-**Đã đóng theo ý bạn:** đạo đức (không cần phê duyệt) · R 4.6.1 · tham vấn người bệnh (bỏ, thay bằng dữ liệu công bố — Tri và cs. 2022, nghiên cứu định tính trên người bệnh ĐTĐ Việt Nam).
-
-> **Lưu ý về cách thay thế tham vấn.** Tôi không nói "không có tham vấn" rồi bỏ đó. Tôi viết: không tổ chức tham vấn mới, và ở chỗ quan điểm người bệnh thực sự ảnh hưởng đến diễn giải, **dựa trên bằng chứng định tính đã công bố của Việt Nam**; sau đó ghi việc thiếu tham vấn mới là hạn chế quy trình. Cách này đáp ứng CHEERS #21 và không tuyên bố điều không làm.
-
-**Ưu tiên số 1 còn lại là tham số #5** (tỷ lệ giá xuất xưởng/giá bán lẻ) — quy trình hiệu chuẩn ở Appendix B.2.
-
-**Kết quả mô hình:** đã điền đầy đủ.
-
-**Còn lại:** tên người đọc mã độc lập (Nguyen Phuong An).

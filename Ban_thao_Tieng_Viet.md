@@ -132,7 +132,7 @@ Bất định tham số được lan truyền bằng mô phỏng Monte Carlo v�
 
 ### Kiểm chứng
 
-Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn dân số được kiểm tra trong bảng sống, và các điều kiện cực biên với độ co giãn bằng không và thuế bằng không được chạy. Một người đọc mã độc lập ngoài nhóm đã rà soát mã.Nguyen Phuong An Thẩm định bên trong yêu cầu mô hình tái tạo tỷ lệ mắc, tỷ lệ hiện mắc và tử vong nền của Việt Nam đã công bố trong sai số 15%. Thẩm định bên ngoài so sánh kết quả của chúng tôi ở mức tăng giá 20% với kết quả của Nguyễn và cộng sự,[11] và mọi khác biệt đáng kể được giải thích. Một buổi rà soát giả định có cấu trúc đã được tổ chức với một nhà dinh dưỡng học, một nhà kinh tế y tế và một chuyên gia chính sách thuế. Không tổ chức tham vấn mới với người bệnh hoặc nhóm cộng đồng: nghiên cứu mô hình hóa một công cụ tài khóa ở cấp quần thể, chỉ dùng tham số công bố, và không thu thập dữ liệu người tham gia. Ở những chỗ quan điểm người bệnh thực sự ảnh hưởng đến diễn giải — mức chấp nhận của một công cụ giá đối với người sống chung với đái tháo đường, và điều họ coi là phân bố gánh nặng công bằng — chúng tôi dựa trên bằng chứng định tính đã công bố của Việt Nam.[36] Việc thiếu tham vấn mới được ghi nhận là hạn chế của quy trình nghiên cứu.
+Kiểm thử đơn vị được áp cho từng bước mô hình, bảo toàn dân số được kiểm tra trong bảng sống, và các điều kiện cực biên với độ co giãn bằng không và thuế bằng không được chạy. Một người đọc mã độc lập ngoài nhóm đã rà soát mã (Nguyen Phuong An, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh). Thẩm định bên trong yêu cầu mô hình tái tạo tỷ lệ mắc, tỷ lệ hiện mắc và tử vong nền của Việt Nam đã công bố trong sai số 15%. Thẩm định bên ngoài so sánh kết quả của chúng tôi ở mức tăng giá 20% với kết quả của Nguyễn và cộng sự,[11] và mọi khác biệt đáng kể được giải thích. Một buổi rà soát giả định có cấu trúc đã được tổ chức với một nhà dinh dưỡng học, một nhà kinh tế y tế và một chuyên gia chính sách thuế. Không tổ chức tham vấn mới với người bệnh hoặc nhóm cộng đồng: nghiên cứu mô hình hóa một công cụ tài khóa ở cấp quần thể, chỉ dùng tham số công bố, và không thu thập dữ liệu người tham gia. Ở những chỗ quan điểm người bệnh thực sự ảnh hưởng đến diễn giải — mức chấp nhận của một công cụ giá đối với người sống chung với đái tháo đường, và điều họ coi là phân bố gánh nặng công bằng — chúng tôi dựa trên bằng chứng định tính đã công bố của Việt Nam.[36] Việc thiếu tham vấn mới được ghi nhận là hạn chế của quy trình nghiên cứu.
 
 ### Báo cáo, đăng ký và đạo đức
 
@@ -695,16 +695,3 @@ Một script duy nhất tái tạo mọi con số trong bản thảo từ tệp 
 Mã được phát hành theo giấy phép mở khi bài được nhận; kho lưu trữ có DOI. Nhật ký bằng chứng tham số được phát hành dạng tệp dữ liệu, có cột ghi nguồn cho từng giá trị.
 
 ---
-
-## VIỆC CÒN LẠI
-
-**Không còn việc tra cứu nào.** Toàn bộ dữ kiện pháp lý và thư mục đã đối chiếu xong, gồm: Luật 66/2025/QH15; Nghị định 360/2025/NĐ-CP; Thông tư 158/2025/TT-BTC; Nghị định 174/2025/NĐ-CP (đối chiếu trực tiếp trên `vanban.chinhphu.vn`); TCVN 12828:2019; và 38 tài liệu tham khảo.
-
-**Đã chốt:** đạo đức (không cần phê duyệt) · R 4.6.1 · tham vấn người bệnh (không tổ chức mới, dùng bằng chứng định tính đã công bố).
-
-**Kết quả mô hình:** đã điền đầy đủ.
-
-**Ưu tiên số 1:** hiệu chuẩn tham số #5 (tỷ trọng giá xuất xưởng) theo quy trình ở Phụ lục B.2 — đây là tham số quyết định quy mô toàn bộ kết quả.
-
-**Còn lại:** tên người đọc mã độc lập.
-
