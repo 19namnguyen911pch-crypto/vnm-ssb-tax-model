@@ -126,19 +126,30 @@ thuế tiêu thụ đặc biệt nước giải khát; thuế đồ uống có �
 
 *Giới hạn:* công bố từ năm 2000 trở đi với văn liệu về thuế, không giới hạn thời gian với dịch tễ, nguy cơ tương đối và bảng thành phần thực phẩm; ngôn ngữ tiếng Anh và tiếng Việt.
 
-**A.5 Sàng lọc**
+**A.5 Quy trình sàng lọc**
 
-Các bản ghi được loại trùng, sàng lọc theo tiêu đề và tóm tắt, sau đó theo toàn văn. Một mẫu ngẫu nhiên 20% được hai người sàng lọc độc lập, bất đồng được giải quyết bằng thảo luận và ghi lại hệ số kappa Cohen. Khi mức đồng thuận đạt yêu cầu, phần còn lại do một người sàng lọc, với người thứ hai kiểm tra mọi bản ghi đề xuất loại. Lý do loại ở bước toàn văn được ghi và đếm.
+1. Mỗi cơ sở dữ liệu được tìm ngày 1/11/2026 bằng chuỗi ở A.3 và kết quả được xuất toàn bộ sang phần mềm quản lý tài liệu tham khảo.
+2. Bản ghi được loại trùng theo hai lượt: theo DOI nếu có, nếu không thì theo tiêu đề đã chuẩn hóa (chữ thường, bỏ dấu, bỏ dấu câu).
+3. Tiêu đề và tóm tắt được sàng lọc theo tiêu chí ở A.4. Mọi bản ghi đều được giữ lại hoặc loại kèm lý do ghi nhận; không bản ghi nào bị bỏ im lặng.
+4. Toàn văn của mọi bản ghi được giữ lại đều được lấy về và đối chiếu với cùng tiêu chí.
+5. Một người đọc thứ hai kiểm tra mọi đề xuất loại, bất đồng được giải quyết bằng thảo luận. Hệ số kappa không được tính vì số bản ghi cần quyết định nhỏ.
+6. Kết quả từng bước được ghi ở cấp bản ghi trong `data/screening_log.csv`, tệp này được nộp cùng protocol và in lại trong tài liệu bổ sung.
 
 **A.6 Sơ đồ dòng**
 
-Sáu nguồn được tìm ngày 1/11/2026 bằng chuỗi ở A.3. Các tìm kiếm giới hạn quốc gia trả về **2 bản ghi ở PubMed, 3 ở Europe PMC, 11 ở OpenAlex, 6 ở Scopus, 3 ở Cochrane Library và không có bản ghi nào ở RePEc/IDEAS**, tổng cộng 25. Sau khi loại trùng giữa các cơ sở dữ liệu, còn **14 bản ghi duy nhất**.
+| Giai đoạn | PubMed | Europe PMC | OpenAlex | Scopus | Cochrane | RePEc | Tổng |
+|---|---|---|---|---|---|---|---|
+| Xác định được, tập giới hạn quốc gia | 2 | 3 | 11 | 6 | 3 | 0 | **25** |
+| Loại do trùng lặp | | | | | | | 11 |
+| Bản ghi duy nhất được sàng lọc | | | | | | | **14** |
+| Loại khi sàng lọc | | | | | | | 6 |
+| Đưa vào | | | | | | | **8** |
 
 Tám bản ghi được đưa vào: hai phân tích định lượng mô hình hóa thuế đồ uống có đường tại Việt Nam; một phân tích phân bố của thiết kế 2025 dùng dữ liệu khảo sát hộ; một nghiên cứu thực nghiệm về tác động của thuế tiêu thụ đặc biệt lên tiêu thụ đồ uống; một đánh giá nhân quyền về thuế đã ban hành; một nghiên cứu về mức chấp nhận của công chúng; một phân tích khu vực về tác động phân bố của thuế sức khỏe; và một tổng quan hệ thống Cochrane về các can thiệp môi trường nhằm giảm tiêu thụ đồ uống có đường.
 
-Sáu bản ghi bị loại. Một tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường không bàn về thuế. Một bài lịch sử về Lyndon Johnson bị từ khóa quốc gia bắt nhầm. Một bài về hệ thống thực phẩm đô thị và một nghiên cứu về tiếp thị thực phẩm cho trẻ em không có ước lượng nào về thuế đồ uống có đường. Một thử nghiệm giáo dục dinh dưỡng do đồng đẳng dẫn dắt và một nghiên cứu về tỷ lệ sâu răng có nêu Việt Nam nhưng không có phơi nhiễm thuế. Nhật ký theo từng bản ghi, kèm quyết định và lý do, nằm ở `data/screening_log.csv` và trong tài liệu bổ sung.
+Sáu bản ghi bị loại. Một tổng quan nha khoa năm 1997 về xu hướng tiêu thụ đường không bàn về thuế; một bài lịch sử về Lyndon Johnson bị từ khóa quốc gia bắt nhầm; một bài về hệ thống thực phẩm đô thị và một nghiên cứu về tiếp thị thực phẩm cho trẻ em không có ước lượng nào về thuế đồ uống có đường; một thử nghiệm giáo dục dinh dưỡng do đồng đẳng dẫn dắt và một nghiên cứu về tỷ lệ sâu răng có nêu Việt Nam nhưng không có phơi nhiễm thuế.
 
-Các tập rộng không giới hạn quốc gia trả về 576 bản ghi ở PubMed, 506 ở Europe PMC, 2.961 ở OpenAlex, 1.526 ở Cochrane CENTRAL và 21 ở RePEc. Các tập này được dùng để lấy giá trị tham số — độ co giãn giá, mức truyền dẫn, nguy cơ tương đối và chi phí — chứ không sàng lọc từng bản ghi, vì nghiên cứu cần ước lượng tham số từ bất kỳ bối cảnh so sánh được nào, không phải một tổng quan hệ thống về tác động của thuế.
+Các tập rộng không giới hạn quốc gia trả về 576 bản ghi ở PubMed, 506 ở Europe PMC, 2.961 ở OpenAlex, 1.526 ở Cochrane CENTRAL và 21 ở RePEc. Các tập này được dùng để lấy giá trị tham số — độ co giãn giá, mức truyền dẫn, nguy cơ tương đối và chi phí — chứ không sàng lọc từng bản ghi, vì nghiên cứu cần ước lượng từ bất kỳ bối cảnh so sánh được nào, không phải một tổng quan hệ thống về tác động của thuế.
 
 Hai đặc điểm của sơ đồ này tự chúng là phát hiện. Năng suất của các tìm kiếm giới hạn quốc gia rất thấp: mười bốn bản ghi duy nhất cho toàn bộ văn liệu Việt Nam về thuế đồ uống có đường, trong đó tám bản ghi có liên quan. Và tổng quan nha khoa 1997 được mọi cơ sở dữ liệu trả về vì nó nêu tên Việt Nam trong danh sách các nước có tiêu thụ đường tăng — một lời nhắc rằng tìm theo từ khóa quốc gia trong lĩnh vực này rất nhiễu.
 

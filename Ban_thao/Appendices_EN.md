@@ -123,19 +123,30 @@ thuế tiêu thụ đặc biệt nước giải khát; thuế đồ uống có �
 
 *Limits:* published 2000 onwards for tax literature, with no date limit for epidemiology, relative risks, or the food composition table; languages English and Vietnamese.
 
-**A.5 Screening**
+**A.5 Screening procedure**
 
-Records were de-duplicated, screened on title and abstract, then on full text. A 20% random sample was screened independently by two reviewers, with disagreements resolved by discussion and a Cohen's kappa recorded. Where agreement was acceptable, the remainder was screened by one reviewer with a second reviewer checking every record proposed for exclusion. Reasons for exclusion at full text are recorded and counted.
+1. Each database was searched on 1 November 2026 with the strings in A.3 and the results exported in full to a reference manager.
+2. Records were de-duplicated in two passes: by DOI where one was present, and otherwise by normalised title (lower case, diacritics removed, punctuation stripped).
+3. Titles and abstracts were screened against the eligibility criteria in A.4. Every record was retained or excluded with a recorded reason; no record was dropped silently.
+4. The full text of every retained record was obtained and checked against the same criteria.
+5. A second reader checked every proposed exclusion, and disagreements were resolved by discussion. A formal inter-rater kappa was not computed, because the number of records requiring a decision was small.
+6. The outcome of every step is recorded at record level in `data/screening_log.csv`, which is deposited with the protocol and reproduced in the supplementary material.
 
 **A.6 Flow**
 
-Six sources were searched on 1 November 2026 with the strings in A.3. The country-limited searches returned **2 records in PubMed, 3 in Europe PMC, 11 in OpenAlex, 6 in Scopus, 3 in Cochrane Library and none in RePEc/IDEAS**, a total of 25. After removing duplicates across databases, **14 unique records** remained.
+| Stage | PubMed | Europe PMC | OpenAlex | Scopus | Cochrane | RePEc | Total |
+|---|---|---|---|---|---|---|---|
+| Identified, country-limited set | 2 | 3 | 11 | 6 | 3 | 0 | **25** |
+| Removed as duplicates | | | | | | | 11 |
+| Unique records screened | | | | | | | **14** |
+| Excluded at screening | | | | | | | 6 |
+| Included | | | | | | | **8** |
 
-Eight were included: two quantitative analyses that model SSB taxation in Viet Nam; one distributional analysis of the 2025 design using household survey data; one empirical study of excise effects on beverage consumption; one human-rights assessment of the enacted tax; one study of public acceptability; one regional analysis of the distributional impacts of health taxes; and one Cochrane systematic review of environmental interventions to reduce SSB consumption.
+Eight records were included: two quantitative analyses that model SSB taxation in Viet Nam; one distributional analysis of the 2025 design using household survey data; one empirical study of excise effects on beverage consumption; one human-rights assessment of the enacted tax; one study of public acceptability; one regional analysis of the distributional impacts of health taxes; and one Cochrane systematic review of environmental interventions to reduce SSB consumption.
 
-Six were excluded. A 1997 dental review of sugar consumption trends is not about taxation. A historical article on Lyndon Johnson was retrieved by the country term as a false positive. An urban food-systems paper and a study of food marketing to children report no SSB-tax estimate. A peer-led dietary education trial and a caries prevalence study mention Viet Nam but contain no tax exposure. The record-level log, with the decision and the reason for each record, is in `data/screening_log.csv` and in the supplementary material.
+Six were excluded. A 1997 dental review of sugar consumption trends is not about taxation; a historical article on Lyndon Johnson was retrieved by the country term as a false positive; an urban food-systems paper and a study of food marketing to children report no SSB-tax estimate; and a peer-led dietary education trial and a caries prevalence study mention Viet Nam but contain no tax exposure.
 
-The broad sets without a country limit returned 576 records in PubMed, 506 in Europe PMC, 2,961 in OpenAlex, 1,526 in Cochrane CENTRAL and 21 in RePEc. These were used to source parameter values — price elasticities, pass-through, relative risks and cost estimates — rather than screened record by record, because the study needs parameter estimates from any comparable setting and not a systematic review of tax effects.
+The broad sets without a country limit returned 576 records in PubMed, 506 in Europe PMC, 2,961 in OpenAlex, 1,526 in Cochrane CENTRAL and 21 in RePEc. These were used to source parameter values — price elasticities, pass-through, relative risks and cost estimates — rather than screened record by record, because the study needs estimates from any comparable setting rather than a systematic review of tax effects.
 
 Two features of this flow are themselves findings. The yield of the country-limited searches is very small: fourteen unique records for the whole Vietnamese literature on SSB taxation, of which eight are relevant. And the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy.
 
