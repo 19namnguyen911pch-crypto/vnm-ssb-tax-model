@@ -63,7 +63,7 @@ AND
 [AND (TITLE_ABS:vietnam OR TITLE_ABS:"viet nam")]
 ```
 
-*OpenAlex* (title and abstract; broad set returned 2961 records, Viet Nam set 13):
+*OpenAlex* (title and abstract; broad set returned 2961 records, Viet Nam set 11):
 
 ```
 filter=title_and_abstract.search:("sugar-sweetened beverage" OR "soft drink" OR soda)
@@ -197,6 +197,7 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 | 8b | Energy compensation | 30% | 15% to 45% | Uniform | Intervention literature [24] | Assumption | No |
 | 9 | BMI to disease relative risks | per 2 kg/m²: CHD 1.11; ischaemic stroke 1.12 (1.09–1.15); haemorrhagic stroke 1.08 (1.04–1.12) | see note | Lognormal | APCSC [32,33] | Source | Yes |
 | 10 | Incidence, mortality, disability weights | GBD 2021, Viet Nam, by age and sex | — | Beta; gamma | GBD 2021 [26] | Source | Yes |
+| 10b | Gradient in baseline disease risk by quintile (sensitivity only) | 1.15 (Q1) to 0.88 (Q5) | 1.00 to 1.25 | — | Direction only; not measured for Viet Nam | Assumption | No |
 | 11 | Health-care cost per case | Diabetes VND 8.0m per patient-year; IHD VND 84.9m per acute episode; stroke VND 10.5m per acute episode | −30% to +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doan 2022 [42] | Source | Yes |
 | 12 | Household expenditure by quintile | Mean VND 3.0 million per person-month; Q5/Q1 ratio 3.1 | — | Fixed | VHLSS 2024 [36] | Source | Yes |
 | 13 | Latency, BMI change to risk change | 2 years | 1 to 5 | Uniform | Assumption | Assumption | No |
@@ -243,7 +244,7 @@ The protocol and analysis plan were deposited with the code after the model had 
 | # | Departure | Reason |
 |---|---|---|
 | C1 | The revenue-neutral levy per gram of sugar (scenario S1b) was dropped | Distributing taxed volume across sugar bands requires a product-level database that does not exist for Viet Nam; without it the scenario reduces to the same average price change as the enacted tax and cannot be distinguished from it |
-| C2 | No socioeconomic gradient in baseline disease rates was assumed | Quintile-specific incidence and mortality are not available for Viet Nam; national rates are applied to every quintile |
+| C2 | No socioeconomic gradient in baseline disease rates is assumed in the base case | Quintile-specific incidence and mortality are not available for Viet Nam, so national rates are applied to every quintile; the whole analysis is repeated with an assumed gradient (Appendix B, #10b) and both runs are reported in Figure 3 |
 | C3 | The product audit was not undertaken | The share of taxed beverages above the threshold is assumed (Appendix B, #4) rather than measured |
 | C4 | Health-care costs for ischaemic heart disease and stroke are amortised from acute-episode studies | No Vietnamese estimate of annual cost per prevalent case exists for these two conditions |
 | C5 | Latency is a two-year shift of the impact fraction, not a distributed lag | No Vietnamese evidence on the shape of the lag; a step lag is the conservative choice |
@@ -303,7 +304,9 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.5 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
 
-**F.6 Analyses not run.** A static weight model, low and high elasticity sets, a full pass-through grid crossed with broad and narrow legal interpretations of the tax base, and a distributed latency were planned and not carried out. None is reported.
+**F.6 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated with a socioeconomic gradient in baseline incidence, 1.15 in Q1 falling to 0.88 in Q5, on the same 5,000 draws. The concentration index of DALYs averted moves from a median of 0.047 to −0.002 and the Q1/Q5 ratio from 0.77 to 0.99, while the Kakwani index is unaffected because it depends only on tax payments. The two runs are shown side by side in Figure 3 and deposited as `output/psa_gradient.csv`.
+
+**F.7 Analyses not run.** A static weight model, low and high elasticity sets, a full pass-through grid crossed with broad and narrow legal interpretations of the tax base, and a distributed latency were planned and not carried out. None is reported.
 
 ## Appendix G. Code and reproducibility
 

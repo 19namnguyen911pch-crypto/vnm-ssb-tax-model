@@ -63,7 +63,7 @@ AND
 [AND (TITLE_ABS:vietnam OR TITLE_ABS:"viet nam")]
 ```
 
-*OpenAlex* (tiêu đề và tóm tắt; tập rộng trả về 2961 bản ghi, tập Việt Nam 13):
+*OpenAlex* (tiêu đề và tóm tắt; tập rộng trả về 2961 bản ghi, tập Việt Nam 11):
 
 ```
 filter=title_and_abstract.search:("sugar-sweetened beverage" OR "soft drink" OR soda)
@@ -200,6 +200,7 @@ Mỗi tham số một dòng. Cột "Loại" phân biệt giá trị lấy từ n
 | 8b | Bù trừ năng lượng | 30% | 15% đến 45% | Đều | Văn liệu can thiệp [24] | Giả định | Không |
 | 9 | Nguy cơ tương đối BMI–bệnh | trên 2 kg/m²: CHD 1,11; đột quỵ thiếu máu 1,12 (1,09–1,15); đột quỵ xuất huyết 1,08 (1,04–1,12) | xem ghi chú | Log-chuẩn | APCSC [32,33] | Nguồn | Có |
 | 10 | Tỷ lệ mắc, tử vong, trọng số khuyết tật | GBD 2021, Việt Nam, theo tuổi và giới | — | Beta; gamma | GBD 2021 [26] | Nguồn | Có |
+| 10b | Gradient nguy cơ bệnh nền theo ngũ phân vị (chỉ dùng cho độ nhạy) | 1,15 (Q1) đến 0,88 (Q5) | 1,00 đến 1,25 | — | Chỉ có hướng; chưa đo ở Việt Nam | Giả định | Không |
 | 11 | Chi phí y tế theo ca bệnh | Đái tháo đường 8,0 triệu đồng/bệnh nhân-năm; tim thiếu máu 84,9 triệu/đợt cấp; đột quỵ 10,5 triệu/đợt cấp | −30% đến +100% | Gamma | Le 2017 [34]; Pham 2020 [35]; Pham 2024 [41]; Doãn 2022 [42] | Nguồn | Có |
 | 12 | Chi tiêu hộ theo ngũ phân vị | Bình quân 3,0 triệu đồng/người-tháng; tỷ số Q5/Q1 = 3,1 | — | Cố định | VHLSS 2024 [36] | Nguồn | Có |
 | 13 | Độ trễ BMI → nguy cơ | 2 năm | 1 đến 5 | Đều | Giả định | Giả định | Không |
@@ -246,7 +247,7 @@ Protocol và kế hoạch phân tích được lưu cùng mã sau khi mô hình 
 | # | Sai lệch | Lý do |
 |---|---|---|
 | C1 | Bỏ kịch bản thuế theo gam đường cân bằng doanh thu (S1b) | Phân bổ sản lượng chịu thuế theo các dải đường cần cơ sở dữ liệu cấp sản phẩm không tồn tại ở Việt Nam; thiếu nó, kịch bản quy về cùng mức tăng giá bình quân với thuế đã ban hành và không phân biệt được |
-| C2 | Không giả định gradient kinh tế–xã hội trong tỷ lệ mắc nền | Không có tỷ lệ mắc và tử vong theo ngũ phân vị cho Việt Nam; tỷ lệ quốc gia được áp cho mọi nhóm |
+| C2 | Không giả định gradient kinh tế–xã hội trong tỷ lệ mắc nền ở kịch bản cơ sở | Không có tỷ lệ mắc và tử vong theo ngũ phân vị cho Việt Nam, nên tỷ lệ quốc gia được áp cho mọi nhóm; toàn bộ phân tích được lặp lại với một gradient giả định (Phụ lục B, #10b) và hai lần chạy được báo cáo ở Hình 3 |
 | C3 | Không thực hiện kiểm toán sản phẩm | Tỷ trọng đồ uống chịu thuế trên ngưỡng là giả định (Phụ lục B, #4), không phải số đo |
 | C4 | Chi phí y tế cho tim thiếu máu cục bộ và đột quỵ được phân bổ từ nghiên cứu đợt cấp | Không có ước lượng Việt Nam về chi phí năm trên mỗi ca hiện mắc cho hai bệnh này |
 | C5 | Độ trễ là dịch chuyển hai năm của phân suất tác động, không phải phân bố độ trễ | Không có bằng chứng Việt Nam về hình dạng độ trễ; bước nhảy là lựa chọn thận trọng |
@@ -306,7 +307,9 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài.
 
-**F.6 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, bộ độ co giãn thấp và cao, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được dự kiến và không thực hiện. Không kết quả nào của chúng được báo cáo.
+**F.6 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại với gradient kinh tế–xã hội trong tỷ lệ mắc nền, 1,15 ở Q1 giảm xuống 0,88 ở Q5, trên cùng 5.000 lần lấy mẫu. Chỉ số tập trung của DALY tránh được dịch từ trung vị 0,047 xuống −0,002 và tỷ số Q1/Q5 từ 0,77 lên 0,99, còn chỉ số Kakwani không đổi vì chỉ phụ thuộc vào thuế phải trả. Hai lần chạy được trình bày cạnh nhau ở Hình 3 và lưu ở `output/psa_gradient.csv`.
+
+**F.7 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, bộ độ co giãn thấp và cao, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được dự kiến và không thực hiện. Không kết quả nào của chúng được báo cáo.
 
 ## Phụ lục G. Mã và khả năng tái lập
 

@@ -80,24 +80,43 @@ psa <- read.csv("output/psa_results.csv")
 d1 <- psa[psa$scenario == "S1", ]
 d2 <- psa[psa$scenario == "S2", ]
 
-png_("fig3_impact_equity.png", 6.6, 4.4)
-par(mar = c(4.4, 4.6, 2.2, 1))
-plot(NA, xlim = range(c(d1$dalys_averted, d2$dalys_averted), na.rm = TRUE),
-     ylim = range(c(d1$ci_dalys, d2$ci_dalys), na.rm = TRUE),
-     log = "x", xaxt = "n",
-     xlab = "Total DALYs averted (log scale)",
-     ylab = "Concentration index of DALYs averted",
-     main = "Figure 3. Impact-equity plane", cex.main = 0.95, font.main = 2)
-at <- axTicks(1, log = TRUE)
-axis(1, at = at, labels = format(at, big.mark = ",", scientific = FALSE))
-points(d2$dalys_averted, d2$ci_dalys, pch = 16, cex = 0.45,
-       col = adjustcolor("#c8792a", 0.30))
-points(d1$dalys_averted, d1$ci_dalys, pch = 16, cex = 0.45,
-       col = adjustcolor("#2c5f7c", 0.35))
-abline(h = 0, lty = 2, col = "grey40")
-legend("bottomleft", legend = c("Enacted tax (S1)", "20% price rise (S2)"),
-       pch = 16, col = c("#2c5f7c", "#c8792a"), bty = "n", cex = 0.8,
-       title = "positive = benefit concentrated among the better-off")
+# The same 5,000 draws under two assumptions about the gradient in baseline
+# disease risk, side by side, so that the reader can see how much of the
+# apparent equity result is carried by the assumption.
+g1 <- read.csv("output/psa_gradient.csv")
+g1 <- g1[g1$scenario == "S1", ]
+g2 <- read.csv("output/psa_gradient.csv")
+g2 <- g2[g2$scenario == "S2", ]
+
+png_("fig3_impact_equity.png", 7.4, 4.0)
+par(mfrow = c(1, 2), mar = c(4.4, 4.4, 2.6, 1), oma = c(0, 0, 1.2, 0))
+
+panel <- function(x1, y1, x2, y2, ylim_all, title, show_y) {
+  plot(NA, xlim = range(c(x1, x2), na.rm = TRUE), ylim = ylim_all,
+       log = "x", xaxt = "n",
+       xlab = "Total DALYs averted (log scale)",
+       ylab = if (show_y) "Concentration index of DALYs averted" else "",
+       main = title, cex.main = 0.82, font.main = 1)
+  at <- axTicks(1, log = TRUE)
+  axis(1, at = at, labels = format(at, big.mark = ",", scientific = FALSE))
+  points(x2, y2, pch = 16, cex = 0.42, col = adjustcolor("#c8792a", 0.25))
+  points(x1, y1, pch = 16, cex = 0.42, col = adjustcolor("#2c5f7c", 0.30))
+  abline(h = 0, lty = 2, col = "grey40")
+}
+
+ylim_all <- range(c(d1$ci_dalys, d2$ci_dalys, g1$ci_dalys, g2$ci_dalys),
+                  na.rm = TRUE)
+ylim_all <- ylim_all + c(-0.02, 0.02) * diff(ylim_all)
+
+panel(d1$dalys_averted, d1$ci_dalys, d2$dalys_averted, d2$ci_dalys, ylim_all,
+      "A  No gradient in disease risk", TRUE)
+legend("left", inset = 0.02, legend = c("Enacted tax (S1)", "20% price rise (S2)"),
+       pch = 16, col = c("#2c5f7c", "#c8792a"), bty = "n", cex = 0.75,
+       title = "above zero = gain concentrated\namong the better-off", title.adj = 0)
+panel(g1$dalys_averted, g1$ci_dalys, g2$dalys_averted, g2$ci_dalys, ylim_all,
+      "B  Gradient 1.15 (Q1) to 0.88 (Q5)", FALSE)
+mtext("Figure 3. Impact-equity plane under two assumptions about the socioeconomic gradient",
+      outer = TRUE, cex = 0.95, font = 2)
 dev.off()
 
 png_("fig4_uncertainty.png", 7, 6.6)
@@ -123,6 +142,15 @@ points(d2$revenue / 1e9, d2$dalys_averted, pch = 16, cex = 0.35,
 points(d1$revenue / 1e9, d1$dalys_averted, pch = 16, cex = 0.35,
        col = adjustcolor("#2c5f7c", 0.30))
 dev.off()
+
+# Journal-standard filenames alongside the descriptive ones, so that the figure
+# that ends up in the submission is traceable to the script that made it.
+for (i in 1:4) {
+  src <- file.path(OUT, sprintf("fig%d_%s.png", i,
+                  c("model_structure", "dalys_by_quintile",
+                    "impact_equity", "uncertainty")[i]))
+  file.copy(src, file.path(OUT, sprintf("Figure%d.png", i)), overwrite = TRUE)
+}
 
 cat("written to", OUT, ":\n")
 print(basename(list.files(OUT, pattern = "\\.png$")))

@@ -65,6 +65,11 @@ params_default <- function() {
     latency_years   = 2,
     rr_per_2bmi     = c(t2dm = 1.55, ihd = 1.11, stroke = 1.12),
 
+    # socioeconomic gradient in baseline disease risk. All ones in the base
+    # case (no gradient assumed); the sensitivity analysis uses the profile
+    # below, which is the direction seen in most middle-income settings.
+    disease_grad = c(1, 1, 1, 1, 1),
+
     # step 6: disease rates, GBD 2021 ---------------------------------------
     gbd         = tryCatch(load_gbd_params(), error = function(e) NULL),
     inc_scale   = c(t2dm = 0.006, ihd = 0.004, stroke = 0.005),
@@ -365,6 +370,9 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
       inc_path[t, ] <- pif_from_bmi_shift(db_t, p$rr_per_2bmi)[dis]
     }
   }
+
+  # apply the socioeconomic gradient to the incidence path (S0 included)
+  inc_path <- inc_path * p$disease_grad[k]
 
   if (is.null(p$cost_age)) p$cost_age <- cost_matrix_by_age(p)
   w_age <- if (is.null(p$age_weights)) rep(1, length(p$ages)) else p$age_weights
