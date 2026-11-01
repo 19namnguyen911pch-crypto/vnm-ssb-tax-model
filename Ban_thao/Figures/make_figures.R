@@ -42,8 +42,8 @@ box_at(5,  "DALYs  ·  health-care costs  ·  revenue", h = 8, fill = "#f7f1ea",
 down(82.5, 76.5); down(65.5, 59.5); down(48.5, 42.5); down(31.5, 25.5); down(14.5, 9)
 
 text(50, 97, "Figure 1. Structure of the model", cex = 1.0, font = 2)
-text(12, 88, "by age\nand sex", cex = 0.68, col = "grey45")
-text(12, 54, "by expenditure\nquintile", cex = 0.68, col = "grey45")
+text(9, 88, "by age\nand sex", cex = 0.68, col = "grey45", adj = 1)
+text(9, 54, "by expenditure\nquintile", cex = 0.68, col = "grey45", adj = 1)
 dev.off()
 
 # ---------------------------------------------------------------------------

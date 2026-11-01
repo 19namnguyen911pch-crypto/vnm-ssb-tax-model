@@ -1,3 +1,4 @@
 "scenario","dp_median","dp_lo","dp_hi","dalys_median","dalys_lo","dalys_hi","revenue_median_bn","dalys_per_bn_median","prob_positive"
 "S1",5.39,3.38,7.79,23614,9956,53043,2721,8.7,1
 "S2",20,20,20,87517,42207,174070,8127,10.6,1
+"S3",4.05,2.53,5.84,17730,7469,39863,1559,11.4,1
