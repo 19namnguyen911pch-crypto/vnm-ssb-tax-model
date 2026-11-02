@@ -233,8 +233,8 @@ The study had no funder, and therefore no funder had any role in study design, d
 18. Hall KD, Sacks G, Chandramohan D, Chow CC, Wang YC, Gortmaker SL, Swinburn BA. Quantification of the effect of energy imbalance on bodyweight. Lancet. 2011;378:826–37.
 19. Ni Mhurchu C, Rodgers A, Pan WH, Gu DF, Woodward M; Asia Pacific Cohort Studies Collaboration. Body mass index and cardiovascular disease in the Asia-Pacific Region: an overview of 33 cohorts involving 310 000 participants. Int J Epidemiol. 2004;33(4):751–8.
 20. Ni Mhurchu C, Parag V, Nakamura M, et al. Body mass index and risk of diabetes mellitus in the Asia-Pacific region. Asia Pac J Clin Nutr. 2006;15(2):127–33.
-21. Le NTD, et al. Type 2 diabetes in Vietnam: a cross-sectional, prevalence-based cost-of-illness study. Diabetes Metab Syndr Obes. 2017;10:363–74.
-22. Pham HTK, et al. Direct medical costs of diabetes and its complications in Vietnam: a national health insurance database study. Diabetes Res Clin Pract. 2020;162:108051.
+21. Le NTD, Pham LD, Vo TQ. Type 2 diabetes in Vietnam: a cross-sectional, prevalence-based cost-of-illness study. Diabetes Metab Syndr Obes. 2017;10:363–74.
+22. Pham HTK, Kieu TTM, Duong TD, Nguyen KDV, Tran NQ, Tran TH, et al. Direct medical costs of diabetes and its complications in Vietnam: a national health insurance database study. Diabetes Res Clin Pract. 2020;162:108051.
 23. Pham ND, Bui HLA, Pham TTL, Bui MT, Nguyen CT. Direct medical cost analysis of percutaneous coronary intervention in acute coronary syndrome patients. Vietnam Medical Journal. 2024;543(2). doi:10.51298/vmj.v543i2.11460.
 24. Doan TH. Direct costs of inpatient treatment for stroke patients at Bach Mai Hospital [thesis]. Hanoi: Hanoi Medical University; 2022.
 25. GBD 2021 Diseases and Injuries Collaborators. Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021. Lancet. 2024;403(10440):2133–61.

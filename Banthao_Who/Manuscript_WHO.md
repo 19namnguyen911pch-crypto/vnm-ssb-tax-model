@@ -6,6 +6,8 @@ Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh Cit
 
 **Correspondence:** Nguyen Thanh Nam (ntnam.ddytcc23@ump.edu.vn)
 
+**Word count:** 2 570 (main text); abstract 245; 27 references; 4 tables; 4 figures; 1 supplementary file.
+
 ---
 
 ## Abstract
@@ -14,7 +16,7 @@ Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh Cit
 
 **Methods** We built a proportional multi-state model of disease incidence and prevalence in the population aged 20 and older, by age and household expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, ischaemic heart disease and stroke. We compared no tax, the tax as enacted, a 20% price increase (the WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5 000 draws with outcomes discounted at 3% per year.
 
-**Findings** The enacted rates raise the retail price of taxed beverages by 5.45% from 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 the tax would avert 19 387 disability-adjusted life years (DALYs; 95% uncertainty interval 7 136–42 913) and 24 574 cases of type 2 diabetes, ischaemic heart disease and stroke, save VND 1 087 billion in health-care costs and raise VND 47 635 billion in discounted revenue. The gain is 0.21 DALYs per 1 000 in the poorest quintile and 0.27 in the richest; tax paid is 0.133% and 0.079% of expenditure, and the Kakwani index is −0.096. Across combinations of the two unmeasured gradients, the poorest-to-richest ratio runs from 0.43 to 1.28.
+**Findings** The enacted rates raise the retail price of taxed beverages by 5.45% from 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 the tax would avert 19 387 disability-adjusted life years (DALYs; 95% uncertainty interval 7 136–42 913) and 24 574 cases of type 2 diabetes, ischaemic heart disease and stroke, save 1 087 billion Vietnamese dong (VND) in health-care costs and raise VND 47 635 billion in discounted revenue. The gain is 0.21 DALYs per 1 000 in the poorest quintile and 0.27 in the richest; tax paid is 0.133% and 0.079% of expenditure, and the Kakwani index is −0.096. Across combinations of the two unmeasured gradients, the poorest-to-richest ratio runs from 0.43 to 1.28.
 
 **Conclusion** The tax will deliver a real but small health gain — about a quarter of the WHO price signal — financed regressively. The 2028 review is where that gap can be closed.
 
@@ -120,8 +122,8 @@ Not applicable.
 16. Hall KD, Sacks G, Chandramohan D, Chow CC, Wang YC, Gortmaker SL, et al. Quantification of the effect of energy imbalance on bodyweight. Lancet. 2011;378(9793):826–37.
 17. Ni Mhurchu C, Rodgers A, Pan WH, Gu DF, Woodward M; Asia Pacific Cohort Studies Collaboration. Body mass index and cardiovascular disease in the Asia-Pacific Region: an overview of 33 cohorts involving 310 000 participants. Int J Epidemiol. 2004;33(4):751–8.
 18. Ni Mhurchu C, Parag V, Nakamura M, et al. Body mass index and risk of diabetes mellitus in the Asia-Pacific region. Asia Pac J Clin Nutr. 2006;15(2):127–33.
-19. Le NTD, et al. Type 2 diabetes in Vietnam: a cross-sectional, prevalence-based cost-of-illness study. Diabetes Metab Syndr Obes. 2017;10:363–74.
-20. Pham HTK, et al. Direct medical costs of diabetes and its complications in Vietnam: a national database analysis. Diabetes Res Clin Pract. 2020;168:108369.
+19. Le NTD, Pham LD, Vo TQ. Type 2 diabetes in Vietnam: a cross-sectional, prevalence-based cost-of-illness study. Diabetes Metab Syndr Obes. 2017;10:363–74.
+20. Pham HTK, Kieu TTM, Duong TD, Nguyen KDV, Tran NQ, Tran TH, et al. Direct medical costs of diabetes and its complications in Vietnam: a national health insurance database study. Diabetes Res Clin Pract. 2020;162:108051.
 21. Pham ND, Bui HLA, Pham TTL, Bui MT, Nguyen CT. Direct medical cost analysis of percutaneous coronary intervention in acute coronary syndrome patients. Vietnam Medical Journal. 2024;543(2).
 22. Doan TH. Direct costs of inpatient treatment for stroke patients at Bach Mai Hospital [thesis]. Hanoi: Hanoi Medical University; 2022.
 23. GBD 2021 Diseases and Injuries Collaborators. Global incidence, prevalence, years lived with disability, disability-adjusted life-years and healthy life expectancy for 371 diseases and injuries in 204 countries and territories. Lancet. 2024;403(10440):2133–61.
