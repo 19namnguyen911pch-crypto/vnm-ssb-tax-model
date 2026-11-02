@@ -191,7 +191,7 @@ We estimated the health, economic and distributional consequences of the tax. Th
 
 ## Contributors
 
-Nguyen Thanh Nam: conceptualisation, methodology, software, formal analysis, data curation, writing – original draft, visualisation, supervision. Khanh Linh Lam Ngoc: investigation, data curation, validation, writing – review and editing. Both authors had full access to all the data in the study, verified the underlying data, and accept responsibility for the decision to submit.
+Both authors contributed equally: they designed the study, built the model, analysed the data and wrote the manuscript. Both had full access to all the data, verified the underlying data, and accept responsibility for the decision to submit.
 
 ## Data sharing
 

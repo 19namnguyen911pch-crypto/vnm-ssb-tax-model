@@ -189,7 +189,7 @@ Chúng tôi ước tính hệ quả sức khỏe, kinh tế và phân bố của
 
 ## Đóng góp của các tác giả
 
-Nguyen Thanh Nam: xây dựng ý tưởng, phương pháp, phần mềm, phân tích chính thức, quản lý dữ liệu, viết bản nháp, trực quan hóa, giám sát. Khanh Linh Lam Ngoc: điều tra, quản lý dữ liệu, thẩm định, viết – rà soát và chỉnh sửa. Cả hai tác giả đều có quyền truy cập đầy đủ dữ liệu của nghiên cứu, đã kiểm chứng dữ liệu nền, và chịu trách nhiệm về quyết định nộp bài.
+Cả hai tác giả đóng góp như nhau: thiết kế nghiên cứu, xây dựng mô hình, phân tích dữ liệu và viết bản thảo. Cả hai đều có quyền truy cập đầy đủ dữ liệu, đã kiểm chứng dữ liệu nền, và chịu trách nhiệm về quyết định nộp bài.
 
 ## Chia sẻ dữ liệu
 

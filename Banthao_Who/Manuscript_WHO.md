@@ -88,7 +88,7 @@ Three implications follow for the 2028 review. First, the health return is a fun
 
 ## Contributors
 
-Both authors designed the study, built the model, analysed the data and wrote the manuscript. Both approved the final version.
+Both authors contributed equally: they designed the study, built the model, analysed the data and wrote the manuscript. Both approved the final version and take public responsibility for its content.
 
 ## Competing interests
 
