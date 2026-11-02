@@ -88,7 +88,17 @@ Three implications follow for the 2028 review. First, the health return is a fun
 
 ## Contributors
 
-Both authors contributed equally: they designed the study, built the model, analysed the data and wrote the manuscript. Both approved the final version and take public responsibility for its content.
+Both authors contributed equally to all stages of the work. Together they:
+
+- identified the legal instruments and read each one in full;
+- specified the tax, price, demand, body-weight and disease pathways;
+- assembled the parameter set from Vietnamese and international sources and recorded the source of every value;
+- wrote and ran the model code;
+- designed and ran the probabilistic, threshold and gradient analyses;
+- performed the equity calculations;
+- interpreted the findings and wrote the manuscript.
+
+Both authors had full access to all data and code, verified the underlying calculations, approved the final version, and accept public responsibility for its content. Both meet the ICMJE criteria for authorship.
 
 ## Competing interests
 
