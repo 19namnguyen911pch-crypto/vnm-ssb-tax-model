@@ -1,14 +1,14 @@
 "analysis","value","dalys","revenue_bn","dalys_per_bn"
-"Base case","",24767,47635,0.52
-"Discount rate","0%",39894,65539,0.61
-"Discount rate","5%",18724,39565,0.47
-"Pass-through rate","0.50",13784,49090,0.28
-"Pass-through rate","0.90",24767,47635,0.52
-"Pass-through rate","1.30",35710,46179,0.77
-"Own-price elasticity","-0.80",16534,48727,0.34
-"Own-price elasticity","-1.20",24767,47635,0.52
-"Own-price elasticity","-1.80",37075,45997,0.81
-"Initial prevalent stock","GBD 2021",22632,47635,0.48
-"Horizon","2036",7822,23993,0.33
-"Horizon","2050",24767,47635,0.52
-"Horizon","2100",53509,83236,0.64
+"Base case","",19387,47635,0.41
+"Discount rate","0%",31345,65539,0.48
+"Discount rate","5%",14639,39565,0.37
+"Pass-through rate","0.50",10784,49090,0.22
+"Pass-through rate","0.90",19387,47635,0.41
+"Pass-through rate","1.30",27968,46179,0.61
+"Own-price elasticity","-0.80",12937,48727,0.27
+"Own-price elasticity","-1.20",19387,47635,0.41
+"Own-price elasticity","-1.80",29039,45997,0.63
+"Initial prevalent stock","GBD 2021",17682,47635,0.37
+"Horizon","2036",6280,23993,0.26
+"Horizon","2050",19387,47635,0.41
+"Horizon","2100",41027,83236,0.49

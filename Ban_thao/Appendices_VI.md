@@ -286,13 +286,13 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **E.1 Đã kiểm tra.** Mỗi bước của mô hình có kiểm thử đơn vị với đầu vào và đầu ra tính tay. Bảo toàn dân số được kiểm tra ở mọi chu kỳ: không ai rời quần thể ngoài đường tử vong, và số còn sống cộng số đã chết bằng dân số ban đầu ở mọi chu kỳ. Điều kiện cực biên được kiểm tra: thuế bằng không trả về đúng kịch bản nền, độ co giãn bằng không trả về đúng kịch bản nền, và một mức thuế đủ lớn để triệt tiêu tiêu thụ không tạo ra lượng âm hay lỗi chia.
 
-**E.2 So sánh nền.** Tỷ lệ hiện mắc do chính mô hình tạo ra ở cuối khung phân tích được so với nguồn mà các tham số bệnh lấy từ đó, trên cùng cơ cấu tuổi 2027: 5,1% so với 6,2% với đái tháo đường type 2, 0,4% so với 1,6% với bệnh tim thiếu máu cục bộ, và 1,2% so với 1,9% với đột quỵ (GBD 2021). Đái tháo đường, chiếm 89% số ca tránh được, là gần nhất. Khoảng cách ở hai bệnh tim mạch phát sinh từ việc khởi đầu năm 2027 không có tồn lưu hiện mắc và áp tỷ lệ tử vong ca bệnh cao cho ca mới; điều này được ghi ở phần Hạn chế và ảnh hưởng đến mức số năm sống với khuyết tật, không ảnh hưởng đến chiều của khác biệt tránh được.
+**E.2 So sánh nền.** Tỷ lệ hiện mắc do chính mô hình tạo ra ở cuối khung phân tích được so với nguồn mà các tham số bệnh lấy từ đó, trên cùng cơ cấu tuổi 2027: 5,1% so với 6,2% với đái tháo đường type 2, 0,4% so với 1,6% với bệnh tim thiếu máu cục bộ, và 1,2% so với 1,9% với đột quỵ (GBD 2021). Đái tháo đường, chiếm 85% số ca tránh được, là gần nhất. Khoảng cách ở hai bệnh tim mạch phát sinh từ việc khởi đầu năm 2027 không có tồn lưu hiện mắc và áp tỷ lệ tử vong ca bệnh cao cho ca mới; điều này được ghi ở phần Hạn chế và ảnh hưởng đến mức số năm sống với khuyết tật, không ảnh hưởng đến chiều của khác biệt tránh được.
 
 **E.3 Chưa kiểm tra.** Hai kiểm tra đã không được thực hiện và bài không tuyên bố chúng. Không có so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[14], vì nghiên cứu đó báo cáo kết cục khác trên cấu trúc mô hình khác và so sánh sẽ không tách được sai số mô hình. Mã chưa được một lập trình viên độc lập rà soát. Các kiểm thử đơn vị, điều kiện cực biên ở E.1 và so sánh nền ở E.2 là toàn bộ bảo đảm kỹ thuật phía sau kết quả.
 
 ## Phụ lục F. Các phân tích độ nhạy đã thực hiện
 
-**F.1 Phân tích xác suất.** 5.000 lần mô phỏng Monte Carlo, lấy mẫu độc lập từ các phân phối ở Phụ lục B, hạt giống cố định (20261101), báo cáo trung vị và khoảng bất định 95%. Đóng góp của từng tham số vào phương sai của DALY tránh được được tính từ một mô hình tuyến tính của 5.000 lần rút trên các tham số đã lấy mẫu, dùng bình phương tương quan bán phần chia cho phương sai được giải thích; mô hình đó giải thích 94% biến thiên.
+**F.1 Phân tích xác suất.** 5.000 lần mô phỏng Monte Carlo, lấy mẫu độc lập từ các phân phối ở Phụ lục B, hạt giống cố định (20261101), báo cáo trung vị và khoảng bất định 95%. Đóng góp của từng tham số vào phương sai của DALY tránh được tính từ một mô hình tuyến tính của 5.000 lần rút trên các tham số đã lấy mẫu, dùng bình phương tương quan bán phần chia cho phương sai được giải thích; mô hình đó giải thích 93% biến thiên.
 
 **F.2 Phân tích ngưỡng.** Lưới trên tỷ trọng giá xuất xưởng (0,30 đến 0,85) và mức truyền dẫn (0,30 đến 1,50), mô hình chạy lại tại từng điểm, xác định các tổ hợp mà tại đó lợi ích sức khỏe không phân biệt được với không. Lưới được lưu ở `output/threshold_grid.csv`.
 
@@ -300,7 +300,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài.
 
-**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ tồn lưu hiện mắc GBD 2021 thay vì từ không. Ở giá trị trung tâm, lợi ích sức khỏe là 39.894 và 18.724 DALY ở suất chiết khấu 0% và 5%; 13.784 và 35.710 ở mức truyền dẫn 0,50 và 1,30; 16.534 và 37.075 ở độ co giãn −0,80 và −1,80; 7.822, 24.767 và 53.509 ở khung 10 năm, 2050 và 2100; và 22.632 khi khởi tạo tồn lưu hiện mắc từ GBD 2021. Lưu ở `output/sensitivity.csv`.
+**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ tồn lưu hiện mắc GBD 2021 thay vì từ không. Ở giá trị trung tâm, lợi ích sức khỏe là 31.345 và 14.639 DALY ở suất chiết khấu 0% và 5%; 10.784 và 27.968 ở mức truyền dẫn 0,50 và 1,30; 12.937 và 29.039 ở độ co giãn −0,80 và −1,80; 6.280, 19.387 và 41.027 ở khung 10 năm, 2050 và 2100; và 17.682 khi khởi tạo tồn lưu hiện mắc từ GBD 2021. Lưu ở `output/sensitivity.csv`.
 
 **F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
 
@@ -308,7 +308,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 | Nguy cơ nền | Gradient độ co giãn | Q1/Q5 | Chỉ số tập trung | Kakwani | Thuế, Q1 (%) | Thuế, Q5 (%) |
 |---|---|---|---|---|---|---|
-| Tăng theo chi tiêu | 1,0 | 0,44 | 0,160 | −0,101 | 0,135 | 0,078 |
+| Tăng theo chi tiêu | 1,0 | 0,43 | 0,160 | −0,101 | 0,135 | 0,078 |
 | Tăng theo chi tiêu | 1,39 | 0,60 | 0,096 | −0,096 | 0,133 | 0,079 |
 | Tăng theo chi tiêu | 1,8 | 0,78 | 0,045 | −0,093 | 0,132 | 0,080 |
 | Không có | 1,0 | 0,56 | 0,112 | −0,101 | 0,135 | 0,078 |

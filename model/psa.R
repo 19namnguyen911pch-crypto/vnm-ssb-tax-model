@@ -22,7 +22,7 @@ psa_spec <- function() {
     list(name = "elast_own",    dist = "lnorm_abs", args = list(meanlog = log(1.20), sdlog = 0.30), scale = 1),
     list(name = "elast_cross_unt", dist = "lnorm", args = list(meanlog = log(0.35), sdlog = 0.40), scale = 1),
     list(name = "compensation", dist = "unif", args = list(min = 0.15, max = 0.45), scale = 1),
-    list(name = "rr_t2dm",      dist = "lnorm", args = list(meanlog = log(1.55), sdlog = 0.08), scale = 1),
+    list(name = "rr_t2dm",      dist = "lnorm", args = list(meanlog = log(1.37), sdlog = 0.08), scale = 1),
     list(name = "rr_ihd",       dist = "lnorm", args = list(meanlog = log(1.11), sdlog = 0.06), scale = 1),
     list(name = "rr_stroke",    dist = "lnorm", args = list(meanlog = log(1.12), sdlog = 0.06), scale = 1)
   )

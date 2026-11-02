@@ -62,7 +62,9 @@ params_default <- function() {
 
     # step 5: BMI to disease -------------------------------------------------
     latency_years   = 2,
-    rr_per_2bmi     = c(t2dm = 1.55, ihd = 1.11, stroke = 1.12),
+    # APCSC: 27% lower diabetes risk per 2 kg/m2 lower BMI (RR 1.37);
+    # 12% lower ischaemic stroke, 8% lower haemorrhagic stroke, ~11% lower CHD
+    rr_per_2bmi     = c(t2dm = 1.37, ihd = 1.11, stroke = 1.12),
 
     # socioeconomic gradient in baseline disease risk. All ones in the base
     # case (no gradient assumed); the sensitivity analysis uses the profile

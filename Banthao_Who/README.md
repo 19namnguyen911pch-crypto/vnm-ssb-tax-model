@@ -17,7 +17,7 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 
 | Requirement | Limit | This manuscript |
 |---|---|---|
-| Body text | 3000 words | 2 560 |
+| Body text | 3000 words | 2 570 |
 | Abstract | 250 words, structured | 245 (Objective, Methods, Findings, Conclusion) |
 | References | 50 | 27, numbered in order of appearance |
 | Citation style | numbers in parentheses | (1), (1,2), (1–4) |
@@ -35,7 +35,7 @@ used for the baseline manuscript.
   from 296 to 245 words.
 - The three-part "Research in context" panel replaced by the two paragraphs the
   Bulletin requests.
-- Body cut from 3 487 to 2 560 words: Methods condensed (parameter detail stays
+- Body cut from 3 485 to 2 570 words: Methods condensed (parameter detail stays
   in the supplement), Results tightened, Discussion shortened.
 - References reduced from 30 to 27 and renumbered; the three works that no
   longer appear in the main list (Luong 2020, the WHO 2025 global report, and
