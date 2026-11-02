@@ -236,7 +236,7 @@ Nghiên cứu không có nhà tài trợ, và do đó không có bên nào có v
 23. Pham ND, Bui HLA, Pham TTL, Bui MT, Nguyen CT. Direct medical cost analysis of percutaneous coronary intervention in acute coronary syndrome patients. Vietnam Medical Journal. 2024;543(2). doi:10.51298/vmj.v543i2.11460.
 24. Doan TH. Direct costs of inpatient treatment for stroke patients at Bach Mai Hospital [thesis]. Hanoi: Hanoi Medical University; 2022.
 25. GBD 2021 Diseases and Injuries Collaborators. Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021. Lancet. 2024;403(10440):2133–61.
-26. World Bank. Taxes on sugar-sweetened beverages: evidence and experiences. Washington, DC: World Bank; 2020.
+26. World Bank. Taxes on sugar-sweetened beverages: international evidence and experiences. Washington, DC: World Bank; 2020.
 27. dos Santos JP, Gonçalves J. Brown sugar, how come you taste so good? The impact of a soda tax on prices and consumption. Gabinete de Estratégia e Estudos working paper 00124; 2019.
 28. Lecocq S. The incidence of soft-drink taxes on consumer prices and welfare: evidence from the French soda tax. HEDG, University of York, working paper 18-13; 2018.
 29. Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, et al. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) statement. BMJ. 2022;376:e067975.
