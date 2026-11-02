@@ -6,7 +6,7 @@ Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh Cit
 
 **Correspondence:** Nguyen Thanh Nam (ntnam.ddytcc23@ump.edu.vn)
 
-**Word count:** 2 641 (main text); abstract 243; 27 references; 4 tables; 4 figures; 1 supplementary file.
+**Word count:** 2 640 (main text); abstract 243; 27 references; 4 tables; 4 figures; 1 supplementary file.
 
 ---
 
@@ -16,7 +16,7 @@ Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh Cit
 
 **Methods** We built a proportional multi-state model of disease incidence and prevalence in the population aged 20 and older, by age and household expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, ischaemic heart disease and stroke. We compared no tax, the tax as enacted, a 20% price increase (the WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5 000 draws with outcomes discounted at 3% per year.
 
-**Findings** The enacted rates raise the retail price of taxed beverages by 5.45% from 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 the tax would avert 19 387 disability-adjusted life years (DALYs; 95% uncertainty interval 7 136–42 913) and 24 574 cases of type 2 diabetes, ischaemic heart disease and stroke, save 1 087 billion Vietnamese dong (VND) in health-care costs and raise VND 47 635 billion in discounted revenue. The gain is 0.21 DALYs per 1 000 in the poorest quintile and 0.27 in the richest; tax paid is 0.133% and 0.079% of expenditure, and the Kakwani index is −0.096. Across combinations of the two unmeasured gradients, the poorest-to-richest ratio runs from 0.43 to 1.28.
+**Findings** The enacted rates raise the retail price of taxed beverages by 5.45% from 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 the tax would avert 17 209 disability-adjusted life years (DALYs; 95% uncertainty interval 6 335–38 093) and 21 814 cases of type 2 diabetes, ischaemic heart disease and stroke, save 965 billion Vietnamese dong (VND) in health-care costs and raise VND 42 284 billion in discounted revenue. The gain is 0.21 DALYs per 1 000 in the poorest quintile and 0.27 in the richest; tax paid is 0.133% and 0.079% of expenditure, and the Kakwani index is −0.096. Across combinations of the two unmeasured gradients, the poorest-to-richest ratio runs from 0.43 to 1.28.
 
 **Conclusion** The tax will deliver a real but small health gain — about a quarter of the WHO price signal — financed regressively. The 2028 review is where that gap can be closed.
 
@@ -60,17 +60,17 @@ Previous modelling for Viet Nam examined hypothetical rates before the statute w
 
 **Price and consumption.** With 90% pass-through, the 8% rate from 2027 would raise the retail price of taxed beverages by 4.36% and the 10% rate from 2028 by 5.45% (95% uncertainty interval 3.4–7.8 across draws), equivalent to 653 dong per litre; the 20% benchmark implies a price change 3.7 times larger. Consumption of taxed beverages falls by 9.6 mL per person per day (−6.6%), partly offset by a 1.9% rise in consumption of untaxed beverages, and net energy intake from beverages falls by 2.9 kcal per person per day. With a two-year latency, the implied reduction in incidence by 2050 is 1.1% for diabetes, 0.3% for ischaemic heart disease and 0.3% for stroke.
 
-**Baseline comparison.** The model's prevalence at the end of the horizon is 5.1% for diabetes, 0.4% for ischaemic heart disease and 1.2% for stroke; on the same age structure, GBD 2021 reports 6.2%, 1.6% and 1.9%, so the model is 18%, 75% and 37% below its source. Type 2 diabetes, 85% of averted cases, is closest. STEPS 2021 measured 7.3% in men and 6.9% in women on a raised-glucose definition, above both figures; the definitions differ. Starting without a prevalent stock explains the cardiovascular shortfall: initialising it from GBD 2021 raises the discounted cost of the no-tax scenario from VND 203 411 billion to VND 574 378 billion, and lowers the averted gain from 19 387 to 17 682 DALYs (−8.8%) and averted costs from VND 1 087 to 999 billion (−8.1%), so the base case is optimistic.
+**Baseline comparison.** The model's prevalence at the end of the horizon is 5.1% for diabetes, 0.4% for ischaemic heart disease and 1.2% for stroke; on the same age structure, GBD 2021 reports 6.2%, 1.6% and 1.9%, so the model is 18%, 75% and 37% below its source. Type 2 diabetes, 85% of averted cases, is closest. STEPS 2021 measured 7.3% in men and 6.9% in women on a raised-glucose definition, above both figures; the definitions differ. Starting without a prevalent stock explains the cardiovascular shortfall: initialising it from GBD 2021 raises the discounted cost of the no-tax scenario from VND 203 411 billion to VND 574 378 billion, and lowers the averted gain from 17 209 to 15 696 DALYs (−8.8%) and averted costs from VND 965 to 999 billion (−8.1%), so the base case is optimistic.
 
-**Primary outcome.** Over 2027–2050 the enacted tax would avert 19 387 DALYs (95% uncertainty interval 7 136–42 913), or 0.24 per 1 000 adults, corresponding to 24 574 cases avoided — 20 894 of type 2 diabetes, 902 of ischaemic heart disease and 2 778 of stroke — and 631 deaths deferred (Table 3). The gain is 41 027 DALYs to 2100 and 6 280 at 10 years.
+**Primary outcome.** Over 2027–2050 the enacted tax would avert 17 209 DALYs (95% uncertainty interval 6 335–38 093), or 0.24 per 1 000 adults, corresponding to 21 814 cases avoided — 18 547 of type 2 diabetes, 801 of ischaemic heart disease and 2 466 of stroke — and 560 deaths deferred (Table 3). The gain is 36 419 DALYs to 2100 and 5 575 at 10 years.
 
-**Comparison of designs.** The 20% price increase would avert 70 670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142 803 billion against VND 47 635 billion. Reformulation removes a share of taxed volume from the base, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42 871, 35 726 and 23 817 billion and DALYs averted are 35 168, 58 696 and 97 532. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
+**Comparison of designs.** The 20% price increase would avert 62 733 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 126 764 billion against VND 42 284 billion. Reformulation removes a share of taxed volume from the base, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42 871, 31 713 and 23 817 billion and DALYs averted are 31 218, 52 104 and 86 578. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
 
 **Equity.** DALYs averted per 1 000 (Fig. 2) were 0.21 in the poorest quintile and 0.27 in the richest, a ratio of 0.77; the concentration index of DALYs averted was 0.047. Tax paid was 0.133% of household expenditure in the poorest quintile and 0.079% in the richest. The richest quintile paid 1.84 times as much in absolute terms, so the concentration index of the absolute payment was 0.117 and of payment as a share of expenditure −0.113; with a Gini of 0.213, a lower bound, the Kakwani index is −0.096. Neither gradient is measured, and they matter jointly: across the nine combinations the ratio of the gain in the poorest to the richest quintile runs from 0.43 to 1.28 and the concentration index from 0.160 to −0.054, so the distribution runs from clearly pro-rich to mildly pro-poor and is near-proportional under central assumptions (Table 4, Fig. 3).
 
 **Uncertainty.** Across 5 000 iterations the gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 93% of the variation (Fig. 4), with the own-price elasticity accounting for 45% of the explained variance, the diabetes relative risk 17% and pass-through 16%. Because only the product of the ex-factory share and pass-through is identified, the gain depends on that product: it reaches 10 000 DALYs at about 0.28 and 20 000 at about 0.55 (Appendix F).
 
-**Structural sensitivity.** One-way runs are reported in the supplementary material. The gain ranges from 6 280 DALYs at 10 years to 41 027 to 2100, from 10 784 to 27 968 across the pass-through range and from 12 937 to 29 039 across the elasticity range, and is 31 345 at a zero discount rate and 14 639 at 5%; no value changes the order of magnitude. Inequality-adjusted equivalents of the per-capita gain were 0.996, 0.989 and 0.965 of the mean at aversion of 1, 3 and 10.
+**Structural sensitivity.** One-way runs are reported in the supplementary material. The gain ranges from 5 575 DALYs at 10 years to 36 419 to 2100, from 9 573 to 24 827 across the pass-through range and from 11 484 to 25 777 across the elasticity range, and is 27 824 at a zero discount rate and 12 995 at 5%; no value changes the order of magnitude. Inequality-adjusted equivalents of the per-capita gain were 0.996, 0.989 and 0.965 of the mean at aversion of 1, 3 and 10.
 
 ## Discussion
 
@@ -164,13 +164,13 @@ Not applicable.
 |---|---|---|---|
 | Retail price change, taxed beverages (%) | 5.5 | 20.0 | 4.1 |
 | Consumption change (mL/person/day) | −9.6 | −35.3 | −7.2 |
-| DALYs averted, central (95% UI) | 19 387 (7 136–42 913) | 70 670 | 58 696 |
+| DALYs averted, central (95% UI) | 17 209 (6 335–38 093) | 62 733 | 52 104 |
 | DALYs averted per 1 000 population | 0.24 | 0.87 | 0.72 |
-| Type 2 diabetes cases averted | 20 894 | 76 041 | 63 179 |
-| Ischaemic heart disease cases averted | 902 | 3 307 | 2 743 |
-| Stroke cases averted | 2 778 | 10 181 | 8 446 |
-| Health-care costs saved (VND bn, 2026) | 1 087 | 3 956 | 3 287 |
-| Revenue, 2027–2050, discounted (VND bn) | 47 635 | 142 803 | 35 726 |
+| Type 2 diabetes cases averted | 18 547 | 67 501 | 56 083 |
+| Ischaemic heart disease cases averted | 801 | 2 936 | 2 435 |
+| Stroke cases averted | 2 466 | 9 037 | 7 498 |
+| Health-care costs saved (VND bn, 2026) | 965 | 3 512 | 2 918 |
+| Revenue, 2027–2050, discounted (VND bn) | 42 284 | 126 764 | 31 713 |
 | DALYs averted per VND bn of revenue | 0.4 | 0.5 | 1.6 |
 
 S3 values are averages across the taxed category after 25% of taxed volume reformulates and leaves the base.

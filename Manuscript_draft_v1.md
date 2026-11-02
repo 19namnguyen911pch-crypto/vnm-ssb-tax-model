@@ -16,7 +16,7 @@ Viet Nam legislated its first excise tax on sugar-sweetened beverages in 2025: 8
 We built a proportional multi-state model of disease incidence and prevalence in the Vietnamese population aged 20 and older, by age and expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, heart disease and stroke. We compared no tax, the enacted tax, a 20% price increase (the WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5,000 iterations, with outcomes discounted at 3%.
 
 **Findings**
-The enacted tax would raise the price of taxed beverages by 4.36% in 2027 and 5.45% in 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 it would avert 19,387 DALYs (95% uncertainty interval 7,136–42,913) and 24,574 cases of diabetes, heart disease and stroke, save VND 1,087 billion in health-care costs, and raise VND 47,635 billion in discounted revenue. DALYs averted per 1000 were 0.21 in the poorest quintile and 0.27 in the richest; tax payments were 0.13% and 0.08%. A 20% price increase would avert 70,670 DALYs, 3.6 times more.
+The enacted tax would raise the price of taxed beverages by 4.36% in 2027 and 5.45% in 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 it would avert 17,209 DALYs (95% uncertainty interval 6,335–38,093) and 21,814 cases of diabetes, heart disease and stroke, save VND 965 billion in health-care costs, and raise VND 42,284 billion in discounted revenue. DALYs averted per 1000 were 0.21 in the poorest quintile and 0.27 in the richest; tax payments were 0.13% and 0.08%. A 20% price increase would avert 62,733 DALYs, 3.6 times more.
 
 **Interpretation**
 Because the excise is levied on an ex-factory base and cascaded through value-added tax, the rates raise the retail price by about a quarter of the WHO benchmark. Financing is regressive. The distribution of benefit depends on two unmeasured gradients, disease risk and price response; across the combinations the Q1/Q5 ratio runs from 0.43, clearly pro-rich, to 1.28, mildly pro-poor. The 2028 review is decisive.
@@ -129,11 +129,11 @@ With a two-year latency, the implied reduction in incidence by 2050 is 1.1% for 
 
 ### Baseline comparison
 
-The model's prevalence at the end of the horizon is 5.1% for type 2 diabetes, 0.4% for ischaemic heart disease and 1.2% for stroke; on the same 2027 age structure GBD 2021 reports 6.2%, 1.6% and 1.9%, so the model is 18%, 75% and 37% below its source. Type 2 diabetes, which accounts for 85% of averted cases, is closest. STEPS 2021 measured 7.3% in men and 6.9% in women on a raised-glucose definition, above both figures; the definitions differ. Starting without a prevalent stock explains the cardiovascular shortfall: initialising it from GBD 2021 raises the discounted cost of the no-tax scenario from VND 203,411 billion to VND 574,378 billion, and lowers the averted gain from 19,387 to 17,682 DALYs (−8.8%) and averted costs from VND 1,087 to 999 billion (−8.1%; Appendix F).
+The model's prevalence at the end of the horizon is 5.1% for type 2 diabetes, 0.4% for ischaemic heart disease and 1.2% for stroke; on the same 2027 age structure GBD 2021 reports 6.2%, 1.6% and 1.9%, so the model is 18%, 75% and 37% below its source. Type 2 diabetes, which accounts for 85% of averted cases, is closest. STEPS 2021 measured 7.3% in men and 6.9% in women on a raised-glucose definition, above both figures; the definitions differ. Starting without a prevalent stock explains the cardiovascular shortfall: initialising it from GBD 2021 raises the discounted cost of the no-tax scenario from VND 203,411 billion to VND 574,378 billion, and lowers the averted gain from 17,209 to 15,696 DALYs (−8.8%) and averted costs from VND 965 to 999 billion (−8.1%; Appendix F).
 
 ### Primary outcome
 
-Over 2027–2050 the enacted tax would avert 19,387 DALYs (95% uncertainty interval 7,136–42,913), or 0.24 per 1,000 population, corresponding to 24,574 cases avoided — 20,894 of type 2 diabetes, 902 of ischaemic heart disease, 2,778 of stroke — and 631 deaths deferred. The gain is 41,027 DALYs to 2100 and 6,280 at 10 years.
+Over 2027–2050 the enacted tax would avert 17,209 DALYs (95% uncertainty interval 6,335–38,093), or 0.24 per 1,000 population, corresponding to 21,814 cases avoided — 18,547 of type 2 diabetes, 801 of ischaemic heart disease, 2,466 of stroke — and 560 deaths deferred. The gain is 36,419 DALYs to 2100 and 5,575 at 10 years.
 
 **Table 3. Main results by scenario, 2027–2050**
 
@@ -143,18 +143,18 @@ S3 values are averages across the taxed category after 25% of taxed volume refor
 |---|---|---|---|
 | Retail price change, taxed beverages (%) | 5.5 | 20.0 | 4.1 |
 | Consumption change (mL/person/day) | -9.6 | -35.3 | -7.2 |
-| DALYs averted, central (95% UI) | 19,387 (7,136–42,913) | 70,670 | 58,696 |
+| DALYs averted, central (95% UI) | 17,209 (6,335–38,093) | 62,733 | 52,104 |
 | DALYs averted per 1,000 population | 0.24 | 0.87 | 0.72 |
-| Type 2 diabetes cases averted | 20,894 | 76,041 | 63,179 |
-| Ischaemic heart disease cases averted | 902 | 3,307 | 2,743 |
-| Stroke cases averted | 2,778 | 10,181 | 8,446 |
-| Health-care costs saved (VND bn, 2026) | 1,087 | 3,956 | 3,287 |
-| Revenue, 2027–2050, discounted (VND bn) | 47,635 | 142,803 | 35,726 |
+| Type 2 diabetes cases averted | 18,547 | 67,501 | 56,083 |
+| Ischaemic heart disease cases averted | 801 | 2,936 | 2,435 |
+| Stroke cases averted | 2,466 | 9,037 | 7,498 |
+| Health-care costs saved (VND bn, 2026) | 965 | 3,512 | 2,918 |
+| Revenue, 2027–2050, discounted (VND bn) | 42,284 | 126,764 | 31,713 |
 | DALYs averted per VND bn of revenue | 0.4 | 0.5 | 1.6 |
 
 ### Comparison of designs
 
-The 20% price increase would avert 70,670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142,803 billion against VND 47,635 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 35,726 and 23,817 billion and DALYs averted are 35,168, 58,696 and 97,532. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5.
+The 20% price increase would avert 62,733 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 126,764 billion against VND 42,284 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 31,713 and 23,817 billion and DALYs averted are 31,218, 52,104 and 86,578. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5.
 
 ### Equity
 
@@ -166,7 +166,7 @@ Across 5,000 iterations the S1 gain was positive in every draw and S2 exceeded S
 
 ### Structural sensitivity
 
-One-way runs are in Appendix F. The gain ranges from 6,280 DALYs at 10 years to 41,027 to 2100, from 10,784 to 27,968 across the pass-through range and from 12,937 to 29,039 across the elasticity range, and is 31,345 at a zero discount rate and 14,639 at 5%. No value changes the order of magnitude.
+One-way runs are in Appendix F. The gain ranges from 5,575 DALYs at 10 years to 36,419 to 2100, from 9,573 to 24,827 across the pass-through range and from 11,484 to 25,777 across the elasticity range, and is 27,824 at a zero discount rate and 12,995 at 5%. No value changes the order of magnitude.
 
 ### Figure legends
 
@@ -553,7 +553,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
 
-**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 31,345 and 14,639 DALYs at discount rates of 0% and 5%; 10,784 and 27,968 at pass-through 0.50 and 1.30; 12,937 and 29,039 at elasticity −0.80 and −1.80; 6,280, 19,387 and 41,027 over the 10-year, 2050 and 2100 horizons; and 17,682 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
+**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 27,824 and 12,995 DALYs at discount rates of 0% and 5%; 9,573 and 24,827 at pass-through 0.50 and 1.30; 11,484 and 25,777 at elasticity −0.80 and −1.80; 5,575, 17,209 and 36,419 over the 10-year, 2050 and 2100 horizons; and 15,696 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
 
 **F.6 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
 

@@ -24,8 +24,8 @@ params_default <- function() {
   list(
     # population ------------------------------------------------------------
     ages            = 20:100,
-    pop_2027        = 104e6,
-    share_20plus    = 0.78,
+    pop_2027        = 102.46e6,   # UN WPP 2024, 2027
+    share_20plus    = 0.7028,     # WPP 2024: 72.01m of 102.46m aged 20+
     age_weights     = tryCatch(load_age_weights(), error = function(e) NULL),
 
     # step 1: tax to retail price -------------------------------------------

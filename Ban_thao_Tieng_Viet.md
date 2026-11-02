@@ -16,7 +16,7 @@ Tháng 6/2025, Việt Nam lần đầu ban hành thuế tiêu thụ đặc biệ
 Chúng tôi xây dựng mô hình đa trạng thái tỷ lệ cho tỷ lệ mắc và tỷ lệ hiện mắc bệnh ở dân số Việt Nam từ 20 tuổi trở lên, phân tầng theo tuổi và ngũ phân vị chi tiêu hộ, liên kết thuế suất qua giá, cầu, năng lượng nạp vào và chỉ số khối cơ thể đến tỷ lệ mắc đái tháo đường type 2, bệnh tim thiếu máu cục bộ và đột quỵ. Chúng tôi so sánh bốn kịch bản — không thuế, thuế như đã ban hành, tăng giá 20% và thuế kèm tái định lượng — với bất định lan truyền qua 5.000 lần lặp và kết cục chiết khấu 3%/năm.
 
 **Kết quả**
-Thuế đã ban hành sẽ làm giá bán lẻ đồ uống chịu thuế tăng 4,36% năm 2027 và 5,45% năm 2028, làm tiêu thụ giảm 9,6 mL/người/ngày. Giai đoạn 2027–2050, thuế tránh được 19.387 DALY (khoảng bất định 95%: 7.136–42.913) và 24.574 ca đái tháo đường type 2, bệnh tim thiếu máu cục bộ, đột quỵ, tiết kiệm 1.087 tỷ đồng chi phí y tế và tạo 47.635 tỷ đồng doanh thu đã chiết khấu cho cả giai đoạn. DALY tránh được trên 1.000 dân là 0,21 ở nhóm nghèo nhất và 0,27 ở nhóm giàu nhất; thuế phải trả tương ứng 0,133% và 0,079% chi tiêu hộ. Tăng giá 20% tránh được 70.670 DALY, gấp 3,6 lần.
+Thuế đã ban hành sẽ làm giá bán lẻ đồ uống chịu thuế tăng 4,36% năm 2027 và 5,45% năm 2028, làm tiêu thụ giảm 9,6 mL/người/ngày. Giai đoạn 2027–2050, thuế tránh được 17.209 DALY (khoảng bất định 95%: 6.335–38.093) và 21.814 ca đái tháo đường type 2, bệnh tim thiếu máu cục bộ, đột quỵ, tiết kiệm 965 tỷ đồng chi phí y tế và tạo 42.284 tỷ đồng doanh thu đã chiết khấu cho cả giai đoạn. DALY tránh được trên 1.000 dân là 0,21 ở nhóm nghèo nhất và 0,27 ở nhóm giàu nhất; thuế phải trả tương ứng 0,133% và 0,079% chi tiêu hộ. Tăng giá 20% tránh được 62.733 DALY, gấp 3,6 lần.
 
 **Diễn giải**
 Vì thuế đánh trên cơ sở xuất xưởng và chịu tầng thuế giá trị gia tăng, các mức thuế đã ban hành chỉ tạo ra mức tăng giá bán lẻ khoảng một phần tư mốc WHO khuyến nghị, và lợi ích sức khỏe nhỏ tương ứng. Việc chi trả phân bố lũy thoái. Phân bố lợi ích sức khỏe phụ thuộc vào gradient nguy cơ bệnh, yếu tố chưa được đo ở Việt Nam: phân bố lợi ích phụ thuộc vào hai gradient chưa được đo là nguy cơ bệnh và phản ứng giá; qua các tổ hợp, tỷ số Q1/Q5 chạy từ 0,43 (nghiêng rõ về nhóm giàu) đến 1,28 (nghiêng nhẹ về nhóm nghèo). Kỳ rà soát 2028 là cơ hội quyết định.
@@ -129,11 +129,11 @@ Với độ trễ hai năm, mức giảm tỷ lệ mắc đến 2050 là 1,1% v�
 
 ### So sánh với dữ liệu nền
 
-Tỷ lệ hiện mắc do mô hình tạo ra ở cuối khung là 5,1% với đái tháo đường type 2, 0,4% với bệnh tim thiếu máu cục bộ và 1,2% với đột quỵ; trên cùng cơ cấu tuổi 2027, GBD 2021 báo cáo 6,2%, 1,6% và 1,9%, nên mô hình thấp hơn nguồn 18%, 75% và 37%. Đái tháo đường, chiếm 85% số ca tránh được, là gần nhất. STEPS 2021 đo được 7,3% ở nam và 6,9% ở nữ theo định nghĩa đường huyết tăng, cao hơn cả hai giá trị trên, và các định nghĩa không thay thế được cho nhau. Việc khởi đầu năm 2027 không có tồn lưu hiện mắc giải thích khoảng cách ở hai bệnh tim mạch: khởi tạo tồn lưu từ GBD 2021 làm chi phí y tế đã chiết khấu của kịch bản không thuế giai đoạn 2027–2050 tăng từ 203.411 tỷ đồng lên 574.378 tỷ đồng, đồng thời giảm lợi ích tránh được từ 19.387 xuống 17.682 DALY (−8,8%) và chi phí tránh được từ 1.087 xuống 999 tỷ đồng (−8,1%), nên kịch bản cơ sở hơi lạc quan (Phụ lục F).
+Tỷ lệ hiện mắc do mô hình tạo ra ở cuối khung là 5,1% với đái tháo đường type 2, 0,4% với bệnh tim thiếu máu cục bộ và 1,2% với đột quỵ; trên cùng cơ cấu tuổi 2027, GBD 2021 báo cáo 6,2%, 1,6% và 1,9%, nên mô hình thấp hơn nguồn 18%, 75% và 37%. Đái tháo đường, chiếm 85% số ca tránh được, là gần nhất. STEPS 2021 đo được 7,3% ở nam và 6,9% ở nữ theo định nghĩa đường huyết tăng, cao hơn cả hai giá trị trên, và các định nghĩa không thay thế được cho nhau. Việc khởi đầu năm 2027 không có tồn lưu hiện mắc giải thích khoảng cách ở hai bệnh tim mạch: khởi tạo tồn lưu từ GBD 2021 làm chi phí y tế đã chiết khấu của kịch bản không thuế giai đoạn 2027–2050 tăng từ 203.411 tỷ đồng lên 574.378 tỷ đồng, đồng thời giảm lợi ích tránh được từ 17.209 xuống 15.696 DALY (−8,8%) và chi phí tránh được từ 965 xuống 999 tỷ đồng (−8,1%), nên kịch bản cơ sở hơi lạc quan (Phụ lục F).
 
 ### Kết cục chính
 
-Giai đoạn 2027–2050, thuế đã ban hành tránh được 19.387 DALY (khoảng bất định 95%: 7.136–42.913), tức 0,24 trên 1.000 dân, tương ứng 24.574 ca tránh được — 20.894 ca đái tháo đường type 2, 902 ca bệnh tim thiếu máu cục bộ, 2.778 ca đột quỵ — và 631 ca tử vong được hoãn. Lợi ích là 41.027 DALY đến 2100 và 6.280 ở mốc 10 năm.
+Giai đoạn 2027–2050, thuế đã ban hành tránh được 17.209 DALY (khoảng bất định 95%: 6.335–38.093), tức 0,24 trên 1.000 dân, tương ứng 21.814 ca tránh được — 18.547 ca đái tháo đường type 2, 801 ca bệnh tim thiếu máu cục bộ, 2.466 ca đột quỵ — và 560 ca tử vong được hoãn. Lợi ích là 36.419 DALY đến 2100 và 5.575 ở mốc 10 năm.
 
 **Bảng 3. Kết quả chính theo kịch bản, 2027–2050**
 
@@ -143,18 +143,18 @@ Giá trị của S3 là trung bình trên cả nhóm chịu thuế sau khi 25% t
 |---|---|---|---|
 | Thay đổi giá bán lẻ, đồ uống chịu thuế (%) | 5,5 | 20,0 | 4,1 |
 | Thay đổi tiêu thụ (mL/người/ngày) | −9,6 | −35,3 | −7,2 |
-| DALY tránh được, trung tâm (KTC 95%) | 19.387 (7.136–42.913) | 70.670 | 58.696 |
+| DALY tránh được, trung tâm (KTC 95%) | 17.209 (6.335–38.093) | 62.733 | 52.104 |
 | DALY tránh được trên 1.000 dân | 0,24 | 0,87 | 0,72 |
-| Ca đái tháo đường type 2 tránh được | 20.894 | 76.041 | 63.179 |
-| Ca bệnh tim thiếu máu cục bộ tránh được | 902 | 3.307 | 2.743 |
-| Ca đột quỵ tránh được | 2.778 | 10.181 | 8.446 |
-| Chi phí y tế tiết kiệm (tỷ đồng, 2026) | 1.087 | 3.956 | 3.287 |
-| Doanh thu 2027–2050, đã chiết khấu (tỷ đồng) | 47.635 | 142.803 | 35.726 |
+| Ca đái tháo đường type 2 tránh được | 18.547 | 67.501 | 56.083 |
+| Ca bệnh tim thiếu máu cục bộ tránh được | 801 | 2.936 | 2.435 |
+| Ca đột quỵ tránh được | 2.466 | 9.037 | 7.498 |
+| Chi phí y tế tiết kiệm (tỷ đồng, 2026) | 965 | 3.512 | 2.918 |
+| Doanh thu 2027–2050, đã chiết khấu (tỷ đồng) | 42.284 | 126.764 | 31.713 |
 | DALY tránh được trên mỗi tỷ đồng doanh thu | 0,4 | 0,5 | 1,6 |
 
 ### So sánh các thiết kế
 
-Mức tăng giá 20% tránh được 70.670 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu đã chiết khấu 142.803 tỷ đồng so với 47.635 tỷ đồng; trên mỗi tỷ đồng, thuế đã ban hành tạo 0,4 DALY và mốc tham chiếu 0,5. Tái định lượng loại khỏi cơ sở thuế phần sản phẩm xuống dưới ngưỡng, và doanh thu giảm theo: ở mức 10%, 25% và 50%, doanh thu là 42.871, 35.726 và 23.817 tỷ đồng và DALY tránh được là 35.168, 58.696 và 97.532. Lợi ích tăng theo tỷ lệ tái định lượng vì các sản phẩm đó chứa ít đường hơn dù ra khỏi cơ sở thuế. Phần tái định lượng giảm từ mức trung bình của nhóm chịu thuế là 11 g/100 mL xuống 4,5 g/100 mL. Vì S3 loại một phần cơ sở, tỷ lệ DALY trên mỗi tỷ đồng của nó không phải so sánh ngang hàng.
+Mức tăng giá 20% tránh được 62.733 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu đã chiết khấu 126.764 tỷ đồng so với 42.284 tỷ đồng; trên mỗi tỷ đồng, thuế đã ban hành tạo 0,4 DALY và mốc tham chiếu 0,5. Tái định lượng loại khỏi cơ sở thuế phần sản phẩm xuống dưới ngưỡng, và doanh thu giảm theo: ở mức 10%, 25% và 50%, doanh thu là 42.871, 31.713 và 23.817 tỷ đồng và DALY tránh được là 31.218, 52.104 và 86.578. Lợi ích tăng theo tỷ lệ tái định lượng vì các sản phẩm đó chứa ít đường hơn dù ra khỏi cơ sở thuế. Phần tái định lượng giảm từ mức trung bình của nhóm chịu thuế là 11 g/100 mL xuống 4,5 g/100 mL. Vì S3 loại một phần cơ sở, tỷ lệ DALY trên mỗi tỷ đồng của nó không phải so sánh ngang hàng.
 
 ### Công bằng
 
@@ -166,7 +166,7 @@ Qua 5.000 lần lặp, lợi ích của S1 dương ở mọi lần rút và S2 v
 
 ### Độ nhạy cấu trúc
 
-Các lần chạy một chiều ở Phụ lục F. Lợi ích từ 6.280 DALY ở mốc 10 năm đến 41.027 đến 2100, từ 10.784 đến 27.968 trong dải truyền dẫn và từ 12.937 đến 29.039 trong dải độ co giãn, và là 31.345 ở suất chiết khấu 0% và 14.639 ở 5%. Không giá trị nào đổi bậc độ lớn: lợi ích lớn nhất trong các lần chạy một chiều trên khung 2050 bằng 44% mức mà một mức tăng giá 20% tạo ra.
+Các lần chạy một chiều ở Phụ lục F. Lợi ích từ 5.575 DALY ở mốc 10 năm đến 36.419 đến 2100, từ 9.573 đến 24.827 trong dải truyền dẫn và từ 11.484 đến 25.777 trong dải độ co giãn, và là 27.824 ở suất chiết khấu 0% và 12.995 ở 5%. Không giá trị nào đổi bậc độ lớn: lợi ích lớn nhất trong các lần chạy một chiều trên khung 2050 bằng 44% mức mà một mức tăng giá 20% tạo ra.
 
 ### Chú thích hình
 
@@ -544,7 +544,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài.
 
-**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ tồn lưu hiện mắc GBD 2021 thay vì từ không. Ở giá trị trung tâm, lợi ích sức khỏe là 31.345 và 14.639 DALY ở suất chiết khấu 0% và 5%; 10.784 và 27.968 ở mức truyền dẫn 0,50 và 1,30; 12.937 và 29.039 ở độ co giãn −0,80 và −1,80; 6.280, 19.387 và 41.027 ở khung 10 năm, 2050 và 2100; và 17.682 khi khởi tạo tồn lưu hiện mắc từ GBD 2021. Lưu ở `output/sensitivity.csv`.
+**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ tồn lưu hiện mắc GBD 2021 thay vì từ không. Ở giá trị trung tâm, lợi ích sức khỏe là 27.824 và 12.995 DALY ở suất chiết khấu 0% và 5%; 9.573 và 24.827 ở mức truyền dẫn 0,50 và 1,30; 11.484 và 25.777 ở độ co giãn −0,80 và −1,80; 5.575, 17.209 và 36.419 ở khung 10 năm, 2050 và 2100; và 15.696 khi khởi tạo tồn lưu hiện mắc từ GBD 2021. Lưu ở `output/sensitivity.csv`.
 
 **F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
 
