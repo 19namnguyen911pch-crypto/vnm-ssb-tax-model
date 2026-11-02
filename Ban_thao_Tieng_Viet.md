@@ -189,17 +189,7 @@ Chúng tôi ước tính hệ quả sức khỏe, kinh tế và phân bố của
 
 ## Đóng góp của các tác giả
 
-Cả hai tác giả đóng góp như nhau ở mọi khâu của công trình. Hai tác giả cùng:
-
-- xác định các văn bản pháp lý và đọc toàn văn từng văn bản;
-- xây dựng chuỗi thuế, giá, cầu, cân nặng và bệnh tật;
-- tập hợp bộ tham số từ các nguồn Việt Nam và quốc tế, ghi nguồn cho từng giá trị;
-- viết và chạy mã mô hình;
-- thiết kế và thực hiện phân tích xác suất, phân tích ngưỡng và phân tích gradient;
-- thực hiện các tính toán công bằng;
-- diễn giải kết quả và viết bản thảo.
-
-Cả hai tác giả đều có quyền truy cập đầy đủ dữ liệu và mã, đã kiểm chứng các tính toán nền, thông qua phiên bản cuối cùng và chịu trách nhiệm công khai về nội dung. Cả hai đáp ứng tiêu chí tác giả của ICMJE.
+Nguyen Thanh Nam là tác giả chính. Ông thiết kế phân tích, xây dựng mô hình, tập hợp bộ tham số, chạy các phân tích, diễn giải kết quả và viết bản thảo. Khanh Linh Lam Ngoc tham gia phân tích, kiểm tra kết quả và rà soát, chỉnh sửa bản thảo. Cả hai tác giả đều có quyền truy cập đầy đủ dữ liệu và mã, đã kiểm chứng các tính toán nền, thông qua phiên bản cuối cùng và chịu trách nhiệm công khai về nội dung. Cả hai đáp ứng tiêu chí tác giả của ICMJE.
 
 ## Chia sẻ dữ liệu
 
