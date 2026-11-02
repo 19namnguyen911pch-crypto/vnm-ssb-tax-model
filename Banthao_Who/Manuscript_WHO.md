@@ -6,7 +6,7 @@ Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh Cit
 
 **Correspondence:** Nguyen Thanh Nam (ntnam.ddytcc23@ump.edu.vn)
 
-**Word count:** 2 641 (main text); abstract 245; 27 references; 4 tables; 4 figures; 1 supplementary file.
+**Word count:** 2 641 (main text); abstract 243; 27 references; 4 tables; 4 figures; 1 supplementary file.
 
 ---
 

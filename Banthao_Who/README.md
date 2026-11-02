@@ -18,7 +18,7 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 | Requirement | Limit | This manuscript |
 |---|---|---|
 | Body text | 3000 words | 2 641 |
-| Abstract | 250 words, structured | 245 (Objective, Methods, Findings, Conclusion) |
+| Abstract | 250 words, structured | 243 (Objective, Methods, Findings, Conclusion) |
 | References | 50 | 27, numbered in order of appearance |
 | Citation style | numbers in parentheses | (1), (1,2), (1–4) |
 | "What this adds" | two paragraphs | "What was already known" / "What this study adds" |

@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 296; main text 3,384 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
+**Word count:** abstract 286; main text 3,384 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
 
 ---
 
@@ -16,7 +16,7 @@ Viet Nam legislated its first excise tax on sugar-sweetened beverages in 2025: 8
 We built a proportional multi-state model of disease incidence and prevalence in the Vietnamese population aged 20 and older, by age and expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, heart disease and stroke. We compared no tax, the enacted tax, a 20% price increase (the WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5,000 iterations, with outcomes discounted at 3%.
 
 **Findings**
-The enacted tax would raise the price of taxed beverages by 4.36% in 2027 and 5.45% in 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 it would avert 19 387 DALYs (95% uncertainty interval 7 136–42 913) and 24 574 cases of diabetes, heart disease and stroke, save VND 1087 billion in health-care costs, and raise VND 47 635 billion in discounted revenue. DALYs averted per 1000 were 0.21 in the poorest quintile and 0.27 in the richest; tax payments were 0.13% and 0.08%. A 20% price increase would avert 70 670 DALYs, 3.6 times more.
+The enacted tax would raise the price of taxed beverages by 4.36% in 2027 and 5.45% in 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 it would avert 19,387 DALYs (95% uncertainty interval 7,136–42,913) and 24,574 cases of diabetes, heart disease and stroke, save VND 1,087 billion in health-care costs, and raise VND 47,635 billion in discounted revenue. DALYs averted per 1000 were 0.21 in the poorest quintile and 0.27 in the richest; tax payments were 0.13% and 0.08%. A 20% price increase would avert 70,670 DALYs, 3.6 times more.
 
 **Interpretation**
 Because the excise is levied on an ex-factory base and cascaded through value-added tax, the rates raise the retail price by about a quarter of the WHO benchmark. Financing is regressive. The distribution of benefit depends on two unmeasured gradients, disease risk and price response; across the combinations the Q1/Q5 ratio runs from 0.43, clearly pro-rich, to 1.28, mildly pro-poor. The 2028 review is decisive.
