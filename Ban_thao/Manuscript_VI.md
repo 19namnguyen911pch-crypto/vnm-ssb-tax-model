@@ -3,7 +3,7 @@
 **Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 448; thân bài 4.628 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
+**Số từ:** tóm tắt 448; thân bài 4.626 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
 
 ---
 
@@ -59,7 +59,7 @@ Chi phí được đánh giá theo quan điểm hệ thống y tế, phân bố 
 
 ### Các kịch bản chính sách
 
-Bốn kịch bản được mô hình hóa (Bảng 1). S0 là không thuế. S1 là thuế như đã ban hành: 8% từ 2027 và 10% từ 2028 cho đồ uống trên ngưỡng luật định, với các trường hợp loại trừ theo luật, đánh trên giá xuất xưởng. S2 là mức tăng giá bán lẻ 20%, mốc tham chiếu của WHO. S3 áp thuế suất đã ban hành trong khi 10%, 25% hoặc 50% sản phẩm gần ngưỡng tái định lượng xuống dưới 5 g đường/100 mL; các sản phẩm đó ra khỏi cơ sở thuế, không chịu thay đổi giá, và mật độ đường giảm từ 6,5 xuống 4,5 g/100 mL, nên mức thay đổi giá và tiêu thụ báo cáo cho S3 là trung bình trên cả nhóm chịu thuế. Mức truyền dẫn được xử lý như tham số độ nhạy chứ không phải kịch bản, vì bằng chứng Việt Nam chưa có.
+Bốn kịch bản được mô hình hóa (Bảng 1). S0 là không thuế. S1 là thuế như đã ban hành: 8% từ 2027 và 10% từ 2028 cho đồ uống trên ngưỡng luật định, với các trường hợp loại trừ theo luật, đánh trên giá xuất xưởng. S2 là mức tăng giá bán lẻ 20%, mốc tham chiếu của WHO. S3 áp thuế suất đã ban hành trong khi 10%, 25% hoặc 50% thể tích chịu thuế tái định lượng xuống dưới 5 g đường/100 mL; phần đó ra khỏi cơ sở thuế, không chịu thay đổi giá, và mật độ đường giảm từ mức trung bình 11 xuống 4,5 g/100 mL, nên mức thay đổi giá và tiêu thụ báo cáo cho S3 là trung bình trên cả nhóm chịu thuế. Mức truyền dẫn được xử lý như tham số độ nhạy chứ không phải kịch bản, vì bằng chứng Việt Nam chưa có.
 
 **Bảng 1. Các kịch bản chính sách**
 
@@ -162,7 +162,7 @@ DALY tránh được trên 1.000 dân là 0,21 ở Q1 và 0,27 ở Q5, tỷ số
 
 ### Bất định
 
-Qua 5.000 lần lặp, lợi ích của S1 dương ở mọi lần rút và S2 vượt S1 ở mọi lần rút; cả hai đều không mang thông tin thực nghiệm, vì độ co giãn bị ràng buộc là âm và S2 tạo mức tăng giá gấp 3,6 lần. Một mô hình tuyến tính trên các tham số đã rút giải thích 93% biến thiên, trong đó độ co giãn giá riêng chiếm 45% phương sai được giải thích, nguy cơ tương đối BMI–đái tháo đường 17% và mức truyền dẫn 16%. Dấu của lợi ích là hệ quả cấu trúc: DALY đơn điệu theo tích của mức truyền dẫn và độ co giãn. Lưới vì vậy báo cáo tổ hợp cần thiết cho một độ lớn nhất định; ở tỷ trọng giá xuất xưởng trung tâm 0,55, cần mức truyền dẫn 0,38 để đạt 10.000 DALY và 0,74 để đạt 20.000, so với 0,50 và 1,00 ở tỷ trọng 0,40 (Phụ lục F).
+Qua 5.000 lần lặp, lợi ích của S1 dương ở mọi lần rút và S2 vượt S1 ở mọi lần rút; cả hai đều không mang thông tin thực nghiệm, vì độ co giãn bị ràng buộc là âm và S2 tạo mức tăng giá gấp 3,6 lần. Một mô hình tuyến tính trên các tham số đã rút giải thích 93% biến thiên, trong đó độ co giãn giá riêng chiếm 45% phương sai được giải thích, nguy cơ tương đối BMI–đái tháo đường 17% và mức truyền dẫn 16%. Dấu của lợi ích là hệ quả cấu trúc: DALY đơn điệu theo tích của mức truyền dẫn và độ co giãn. Vì chỉ tích của tỷ trọng giá xuất xưởng và mức truyền dẫn là nhận diện được, lợi ích phụ thuộc vào tích đó: đạt 10.000 DALY ở tích khoảng 0,28 và 20.000 ở khoảng 0,55, bất kể tham số nào tạo ra nó (Phụ lục F).
 
 ### Độ nhạy cấu trúc
 

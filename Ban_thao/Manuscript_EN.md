@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 296; main text 3,410 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
+**Word count:** abstract 296; main text 3,384 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
 
 ---
 
@@ -59,7 +59,7 @@ Costs used a health-system perspective, distribution a household perspective, an
 
 ### Policy scenarios
 
-Four scenarios were modelled (Table 1). S0 is no tax. S1 is the tax as legislated: 8% from 2027 and 10% from 2028 on beverages above the statutory threshold, with the statutory exclusions, applied to the ex-factory price. S2 is a 20% retail price increase, the WHO benchmark. S3 applies the enacted rates while 10%, 25% or 50% of near-threshold products reformulate below 5 g of sugar per 100 mL; those products leave the base and their sugar density falls from 6.5 to 4.5 g/100 mL, so reported price and consumption changes for S3 are averages across the taxed category. Pass-through is a sensitivity parameter, not a scenario, because Vietnamese evidence is absent.
+Four scenarios were modelled (Table 1). S0 is no tax. S1 is the tax as legislated: 8% from 2027 and 10% from 2028 on beverages above the statutory threshold, with the statutory exclusions, applied to the ex-factory price. S2 is a 20% retail price increase, the WHO benchmark. S3 applies the enacted rates while 10%, 25% or 50% of the taxed volume reformulates below 5 g of sugar per 100 mL; that share leaves the base and its sugar density falls from the category mean of 11 to 4.5 g/100 mL, so reported changes for S3 are averages across the taxed category. Pass-through is a sensitivity parameter, not a scenario, because Vietnamese evidence is absent.
 
 **Table 1. Policy scenarios**
 
@@ -137,7 +137,7 @@ Over 2027–2050 the enacted tax would avert 19,387 DALYs (95% uncertainty inter
 
 **Table 3. Main results by scenario, 2027–2050**
 
-S3 values are averages across the taxed category after 25% of taxed volume reformulates below the threshold and leaves the tax base: the full price change applies to the remaining 75%, and the reformulated share carries 4.5 g/100 mL rather than 6.5 g/100 mL.
+S3 values are averages across the taxed category after 25% of taxed volume reformulates below the threshold and leaves the tax base: the full price change applies to the remaining 75%, and the reformulated share falls from the category mean of 11 to 4.5 g/100 mL.
 
 | Outcome | S1 | S2 | S3 (25%) |
 |---|---|---|---|
@@ -154,7 +154,7 @@ S3 values are averages across the taxed category after 25% of taxed volume refor
 
 ### Comparison of designs
 
-The 20% price increase would avert 70,670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142,803 billion against VND 47,635 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 35,726 and 23,817 billion and DALYs averted are 35,168, 58,696 and 97,532. The gain rises with the share that reformulates because those products carry less sugar. The reformulating share is 5–8 g/100 mL, mean 6.5 falling to 4.5, against 11 g/100 mL for the taxed group. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
+The 20% price increase would avert 70,670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142,803 billion against VND 47,635 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 35,726 and 23,817 billion and DALYs averted are 35,168, 58,696 and 97,532. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5.
 
 ### Equity
 
@@ -162,7 +162,7 @@ DALYs averted per 1,000 were 0.21 in Q1 and 0.27 in Q5, a ratio of 0.77; the con
 
 ### Uncertainty
 
-Across 5,000 iterations the S1 gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 93% of the variation; the own-price elasticity accounted for 45% of the explained variance, the BMI–diabetes relative risk 17% and pass-through 16%. The sign of the gain is structural: DALYs averted are monotone in the product of pass-through and elasticity. The grid therefore reports the combination needed for a given magnitude; at the central ex-factory share of 0.55, a pass-through of 0.38 is needed for 10,000 DALYs and 0.74 for 20,000, against 0.50 and 1.00 at a share of 0.40 (Appendix F).
+Across 5,000 iterations the S1 gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 93% of the variation; the own-price elasticity accounted for 45% of the explained variance, the BMI–diabetes relative risk 17% and pass-through 16%. The sign of the gain is structural: DALYs averted are monotone in the product of pass-through and elasticity. Because only the product of the ex-factory share and pass-through is identified, the gain depends on that product: it reaches 10,000 DALYs at about 0.28 and 20,000 at about 0.55, whichever parameter supplies it (Appendix F).
 
 ### Structural sensitivity
 
