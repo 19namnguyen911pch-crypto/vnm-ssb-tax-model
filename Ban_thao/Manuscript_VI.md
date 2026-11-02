@@ -2,7 +2,7 @@
 
 **Tác giả:** Nguyen Thanh Nam (ORCID 0009-0009-7627-8854; điện thoại +84 379793766; fax: không áp dụng), Khanh Linh Lam Ngoc (ORCID 0009-0005-6454-7472; điện thoại +84 799934778; fax: không áp dụng)\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam\
-**Tác giả liên hệ:** Khanh Linh Lam Ngoc, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam. Email: lnklinh.ddytcc23@ump.edu.vn\
+**Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
 **Số từ:** tóm tắt 440; thân bài 4.626 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
 
 ---

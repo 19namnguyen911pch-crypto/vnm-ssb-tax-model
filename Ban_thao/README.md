@@ -1,6 +1,6 @@
 # Bản thảo — gói nộp bài
 
-Tác giả: **Nguyen Thanh Nam**, **Khanh Linh Lam Ngoc** (liên hệ)
+Tác giả: **Nguyen Thanh Nam** (liên hệ), **Khanh Linh Lam Ngoc**
 Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh
 
 Tạp chí mục tiêu: *The Lancet Regional Health – Western Pacific*

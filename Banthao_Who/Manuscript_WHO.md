@@ -4,7 +4,7 @@
 
 ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Viet Nam
 
-**Correspondence:** Khanh Linh Lam Ngoc, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Viet Nam. Email: lnklinh.ddytcc23@ump.edu.vn
+**Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Viet Nam. Email: ntnam.ddytcc23@ump.edu.vn
 
 **Word count:** 2 640 (main text); abstract 246; 27 references; 4 tables; 4 figures; 1 supplementary file.
 
