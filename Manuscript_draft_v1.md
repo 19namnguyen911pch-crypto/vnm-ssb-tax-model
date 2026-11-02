@@ -227,7 +227,7 @@ The study had no funder, and therefore no funder had any role in study design, d
 12. Government of Viet Nam. Decree No. 174/2025/ND-CP of 30 June 2025 on the policy for reducing value-added tax under National Assembly Resolution No. 204/2025/QH15 of 17 June 2025, Appendix II. Hanoi: Office of the Government; 2025.
 13. TCVN 12828:2019. Water-based beverages — Vietnamese national standard. Hanoi: Ministry of Science and Technology; 2019.
 14. Nguyen DT, Hoang MV, Dao S, Do PH, Nguyen QD, Jewell J, Amies-Cull B, Muthu M, Hoang LN, Le TT, Nguyen AT, Tran BQ, O'Neill C. Estimating the health impacts of sugar-sweetened beverage tax for informing policy decisions about the obesity burden in Vietnam. PLoS One. 2023;18(4):e0274928.
-15. Vu LH, et al. The impacts of alcoholic and non-alcoholic beverage tax on different income groups in Vietnam. Discover Sustainability. 2026;7:496.
+15. Vu LH, Nguyen AN, Nguyen TA. The impacts of alcoholic and non-alcoholic beverage tax on different income groups in Vietnam. Discov Sustain. 2026;7:496.
 16. Colchero MA, Salgado JC, Unar-Munguía M, Hernández-Ávila M, Rivera-Dommarco JA. Price elasticity of the demand for sugar sweetened beverages and soft drinks in Mexico. Econ Hum Biol. 2015;19:129–37.
 17. Colchero MA, Molina M, Guerrero-López CM. After Mexico implemented a tax, purchases of sugar-sweetened beverages decreased and water increased: difference by place of residence, household composition, and income level. J Nutr. 2017;147(8):1552–7.
 18. Hall KD, Sacks G, Chandramohan D, Chow CC, Wang YC, Gortmaker SL, Swinburn BA. Quantification of the effect of energy imbalance on bodyweight. Lancet. 2011;378:826–37.
@@ -239,8 +239,8 @@ The study had no funder, and therefore no funder had any role in study design, d
 24. Doan TH. Direct costs of inpatient treatment for stroke patients at Bach Mai Hospital [thesis]. Hanoi: Hanoi Medical University; 2022.
 25. GBD 2021 Diseases and Injuries Collaborators. Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021. Lancet. 2024;403(10440):2133–61.
 26. World Bank. Taxes on sugar-sweetened beverages: evidence and experiences. Washington, DC: World Bank; 2020.
-27. dos Santos JP, Gonçalves J. Brown sugar, how come you taste so good? The impact of a soda tax on prices and consumption. Gabinete de Estratégia e Estudos working paper 00124; 2019.
-28. Lecocq S. The incidence of soft-drink taxes on consumer prices and welfare: evidence from the French soda tax. HEDG, University of York, working paper 18-13; 2018.
+27. Gonçalves J, dos Santos JP. Brown sugar, how come you taste so good? The impact of a soda tax on prices and consumption. Soc Sci Med. 2020;264:113332.
+28. Etilé F, Lecocq S, Boizot-Szantai C. The incidence of soft-drink taxes on consumer prices and welfare: evidence from the French soda tax. Paris: Paris School of Economics; 2018. PSE Working Paper No. 2018-24.
 29. Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, et al. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) statement. BMJ. 2022;376:e067975.
 30. Phonsuk P, Vongmongkol V, Ponguttha S, Suphanchaimat R, Rojroongwasinkul N, Swinburn BA. Impacts of a sugar sweetened beverage tax on body mass index and obesity in Thailand: a modelling study. PLoS One. 2021;16(4):e0250841.
 
