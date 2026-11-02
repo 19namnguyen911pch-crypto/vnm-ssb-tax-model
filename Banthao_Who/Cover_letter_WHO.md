@@ -15,13 +15,14 @@ Viet Nam legislated its first excise tax on sugar-sweetened beverages in June 20
 
 The study models the tax as legislated — its statutory base, its threshold as operationalised in the national standard, and the Vietnamese value-added tax treatment — rather than a hypothetical design. It places health benefit and tax payment on the same expenditure-quintile scale, and it states which part of the distributional result rests on assumption.
 
-The manuscript has 2 641 words in the body, a structured abstract of 246 words and 27 references, within the limits for Research articles. It uses only published parameters and secondary data, involved no participants, and required no ethical approval. Both authors are nationals of Viet Nam and affiliated with a Vietnamese institution. The analytic code, parameter tables and probabilistic analysis are archived at https://doi.org/10.5281/zenodo.23852908. The study received no specific funding and we declare no competing interests.
+The manuscript has 2 640 words in the body, a structured abstract of 246 words and 27 references, within the limits for Research articles. It uses only published parameters and secondary data, involved no participants, and required no ethical approval. Both authors are nationals of Viet Nam and affiliated with a Vietnamese institution. The analytic code, parameter tables and probabilistic analysis are archived at https://doi.org/10.5281/zenodo.23852908. The study received no specific funding and we declare no competing interests.
 
 The manuscript is not under consideration elsewhere, has not been published, and both authors have approved the submission.
 
 Yours sincerely,
 
-**Nguyen Thanh Nam**, on behalf of the authors
+**Khanh Linh Lam Ngoc**, on behalf of the authors
 Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City
-217 Hong Bang Street, District 5, Ho Chi Minh City, Viet Nam
-ntnam.ddytcc23@ump.edu.vn
+217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Viet Nam
+lnklinh.ddytcc23@ump.edu.vn
+ORCID 0009-0005-6454-7472; telephone +84 799934778

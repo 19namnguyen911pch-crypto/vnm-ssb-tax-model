@@ -21,7 +21,8 @@ We hope you will find it suitable for review, and we would be glad to provide an
 
 Yours sincerely,
 
-**Nguyen Thanh Nam**, on behalf of the authors
+**Khanh Linh Lam Ngoc**, on behalf of the authors
 Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City
-217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam
-ntnam.ddytcc23@ump.edu.vn
+217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam
+lnklinh.ddytcc23@ump.edu.vn
+ORCID 0009-0005-6454-7472; telephone +84 799934778

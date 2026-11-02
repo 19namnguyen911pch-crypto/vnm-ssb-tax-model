@@ -1,8 +1,8 @@
 # Modest health gains and regressive financing from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study
 
-**Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
-**Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
-**Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
+**Authors:** Nguyen Thanh Nam (ORCID 0009-0009-7627-8854; telephone +84 379793766; fax: not applicable), Khanh Linh Lam Ngoc (ORCID 0009-0005-6454-7472; telephone +84 799934778; fax: not applicable)\
+**Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam\
+**Correspondence:** Khanh Linh Lam Ngoc, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam. Email: lnklinh.ddytcc23@ump.edu.vn\
 **Word count:** abstract 286; main text 3,384 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
 
 ---

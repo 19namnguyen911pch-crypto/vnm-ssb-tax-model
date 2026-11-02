@@ -4,15 +4,15 @@ import re
 NAMES_EN = "Nguyen Thanh Nam, Khanh Linh Lam Ngoc"
 NAMES_VI = "Nguyen Thanh Nam, Khanh Linh Lam Ngoc"
 AFF_EN = ("¹Faculty of Public Health, University of Medicine and Pharmacy at "
-          "Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam")
+          "Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam")
 AFF_VI = ("¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, "
-          "217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam")
-CORR_EN = ("Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy "
-           "at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. "
-           "Email: ntnam.ddytcc23@ump.edu.vn")
-CORR_VI = ("Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, "
-           "217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. "
-           "Email: ntnam.ddytcc23@ump.edu.vn")
+          "217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam")
+CORR_EN = ("Khanh Linh Lam Ngoc, Faculty of Public Health, University of Medicine and Pharmacy "
+           "at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam. "
+           "Email: lnklinh.ddytcc23@ump.edu.vn")
+CORR_VI = ("Khanh Linh Lam Ngoc, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, "
+           "217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam. "
+           "Email: lnklinh.ddytcc23@ump.edu.vn")
 
 CREDIT_EN = ("Nguyen Thanh Nam: conceptualisation, methodology, software, formal analysis, "
              "data curation, writing – original draft, visualisation, supervision. "
