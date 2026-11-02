@@ -36,13 +36,13 @@ box_at(88, "Statutory rate (8%, then 10%) applied to the\nex-factory price, abov
 box_at(71, "Retail price change\n(ex-factory share, pass-through, 10% VAT cascade)", h = 11)
 box_at(54, "Consumption change, energy intake and BMI\n(own-price elasticity, sugar density, dynamic weight model)", h = 11)
 box_at(37, "Disease incidence\n(population impact fractions, 2-year latency)", h = 11)
-box_at(20, "Multi-state life table\n(healthy, type 2 diabetes, ischaemic heart disease, stroke, dead)", h = 11)
+box_at(20, "Disease-state model\n(healthy, type 2 diabetes, ischaemic heart disease, stroke, dead)", h = 11)
 box_at(5,  "DALYs  ·  health-care costs  ·  revenue", h = 8, fill = "#f7f1ea", cex = 0.85)
 
 down(82.5, 76.5); down(65.5, 59.5); down(48.5, 42.5); down(31.5, 25.5); down(14.5, 9)
 
 text(50, 97, "Figure 1. Structure of the model", cex = 1.0, font = 2)
-text(9, 88, "by age\nand sex", cex = 0.68, col = "grey45", adj = 1)
+text(4, 88, "by age\nand quintile", cex = 0.62, col = "grey45", adj = 0)
 text(9, 54, "by expenditure\nquintile", cex = 0.68, col = "grey45", adj = 1)
 dev.off()
 
