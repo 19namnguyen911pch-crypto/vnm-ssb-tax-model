@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, District 5, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 296; main text 3,497 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
+**Word count:** abstract 296; main text 3,410 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
 
 ---
 
@@ -29,7 +29,7 @@ No specific funding.
 ## Research in context
 
 **Evidence before this study**
-We searched PubMed, Europe PMC, Scopus, OpenAlex, the Cochrane Library and RePEc from January 2000 to 1 November 2026, with forward and backward citation chasing of every included study, together with the grey literature of the Vietnamese Ministry of Finance, Ministry of Health, WHO Viet Nam, and the Health Strategy and Policy Institute, for modelling studies, policy evaluations, and systematic reviews on the health, fiscal, and distributional effects of SSB taxes in Viet Nam and in comparable lower-middle-income and upper-middle-income countries. Search terms combined "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling", and "Viet Nam"; the full strings, dates, and screening log are in Appendix A. SSB taxes had been adopted in 64 countries by 2024, of which 45% were ad valorem, 44% volume-based, and only 5% based on sugar content. For Viet Nam, fourteen unique records were identified and eight were included. Two of them are quantitative analyses that model the tax. One modelled five tax scenarios corresponding to retail price increases of 5%, 11%, and 19–20% while the statute was still under discussion, and estimated effects on bodyweight and diabetes. The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but could not separate SSBs from bottled water and 100% juice in the survey data, and did not model disease outcomes. The remaining records describe the empirical effect of excise taxation on beverage consumption,[1] public acceptability of SSB policies,[S8] the human-rights framing of the enacted tax,[S9] a legal analysis of the enacted design,[S10] and the distributional impacts of health taxes regionally. No published study has modelled the design as legislated, nor reported health benefits and tax payments on a common equity scale.
+We searched PubMed, Europe PMC, Scopus, OpenAlex, the Cochrane Library and RePEc from January 2000 to 1 November 2026, with forward and backward citation chasing of every included study, together with the grey literature of the Vietnamese Ministry of Finance, Ministry of Health, WHO Viet Nam, and the Health Strategy and Policy Institute, for modelling studies, policy evaluations, and systematic reviews on the health, fiscal, and distributional effects of SSB taxes in Viet Nam and in comparable lower-middle-income and upper-middle-income countries. Search terms combined "sugar-sweetened beverage", "soft drink", "excise tax", "price elasticity", "body mass index", "diabetes", "modelling", and "Viet Nam"; the full strings, dates, and screening log are in Appendix A. SSB taxes had been adopted in 64 countries by 2024, of which 45% were ad valorem, 44% volume-based, and only 5% based on sugar content. For Viet Nam, fourteen unique records were identified and eight were included. Two of them are quantitative analyses that model the tax. One modelled five tax scenarios corresponding to retail price increases of 5%, 11%, and 19–20% while the statute was still under discussion, and estimated effects on bodyweight and diabetes. The other used Viet Nam Household Living Standards Survey data with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but could not separate SSBs from bottled water and 100% juice in the survey data, and did not model disease outcomes. The remaining records describe the empirical effect of excise taxation on beverage consumption,[1] public acceptability of SSB policies,[S8] the human-rights framing of the enacted tax,[S9] a legal analysis of the enacted design,[S10] and the distributional impacts of health taxes regionally. No published study has modelled the design as legislated, nor reported health benefits and tax payments on a common equity scale.
 
 **Added value of this study**
 This study quantifies the consequences of the tax as legislated rather than as hypothesised, using the statutory tax base, the statutory threshold as operationalised in TCVN 12828:2019, and the value-added tax cascade that applies to excise-bearing goods. It adds three things. First, it estimates the retail price change and the health gain that the 2027 and 2028 rates will actually deliver, expressed in DALYs, cases avoided, costs saved, and revenue. Second, it compares, in a single model and population, the enacted design with the 20% retail price increase recommended by WHO. Third, it reports health gains and tax payments on the same expenditure-quintile scale, so that the gain and the payment can be read together, and states which part of the distributional result rests on an assumed disease gradient and which does not.
@@ -68,7 +68,7 @@ Four scenarios were modelled (Table 1). S0 is no tax. S1 is the tax as legislate
 | S0 | No tax | Baseline consumption trend 2027–2050 | Counterfactual |
 | S1 | Tax as enacted | 8% from 2027, 10% from 2028; >5 g/100 mL; ex-factory base; 10% VAT cascade; statutory exclusions | Policy under evaluation |
 | S2 | WHO benchmark | 20% retail price increase on taxed beverages from 2027 | Reference |
-| S3 | Enacted tax with reformulation | 10%, 25%, 50% of near-threshold products reformulate below 5 g/100 mL | Industry response |
+| S3 | Enacted tax with reformulation | 10%, 25%, 50% of taxed volume reformulates below 5 g/100 mL | Industry response |
 
 ### Model structure
 
@@ -137,24 +137,24 @@ Over 2027–2050 the enacted tax would avert 19,387 DALYs (95% uncertainty inter
 
 **Table 3. Main results by scenario, 2027–2050**
 
-S3 values are averages across the taxed category after 25% of near-threshold products reformulate below the threshold and leave the tax base: the full price change applies to the remaining 75%, and the reformulated share carries 4.5 g/100 mL rather than 6.5 g/100 mL.
+S3 values are averages across the taxed category after 25% of taxed volume reformulates below the threshold and leaves the tax base: the full price change applies to the remaining 75%, and the reformulated share carries 4.5 g/100 mL rather than 6.5 g/100 mL.
 
 | Outcome | S1 | S2 | S3 (25%) |
 |---|---|---|---|
 | Retail price change, taxed beverages (%) | 5.5 | 20.0 | 4.1 |
 | Consumption change (mL/person/day) | -9.6 | -35.3 | -7.2 |
-| DALYs averted, central (95% UI) | 19,387 (7,136–42,913) | 70,670 | 30,169 |
-| DALYs averted per 1,000 population | 0.24 | 0.87 | 0.37 |
-| Type 2 diabetes cases averted | 20,894 | 76,041 | 32,503 |
-| Ischaemic heart disease cases averted | 902 | 3,307 | 1,405 |
-| Stroke cases averted | 2,778 | 10,181 | 4,328 |
-| Health-care costs saved (VND bn, 2026) | 1,087 | 3,956 | 1,691 |
+| DALYs averted, central (95% UI) | 19,387 (7,136–42,913) | 70,670 | 58,696 |
+| DALYs averted per 1,000 population | 0.24 | 0.87 | 0.72 |
+| Type 2 diabetes cases averted | 20,894 | 76,041 | 63,179 |
+| Ischaemic heart disease cases averted | 902 | 3,307 | 2,743 |
+| Stroke cases averted | 2,778 | 10,181 | 8,446 |
+| Health-care costs saved (VND bn, 2026) | 1,087 | 3,956 | 3,287 |
 | Revenue, 2027–2050, discounted (VND bn) | 47,635 | 142,803 | 35,726 |
-| DALYs averted per VND bn of revenue | 0.4 | 0.5 | 0.8 |
+| DALYs averted per VND bn of revenue | 0.4 | 0.5 | 1.6 |
 
 ### Comparison of designs
 
-The 20% price increase would avert 70,670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142,803 billion against VND 47,635 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 35,726 and 23,817 billion and DALYs averted are 23,704, 30,169 and 40,915. The gain rises with the share that reformulates because those products carry less sugar. The reformulating share is 5–8 g/100 mL, mean 6.5 falling to 4.5, against 11 g/100 mL for the taxed group. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
+The 20% price increase would avert 70,670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142,803 billion against VND 47,635 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 35,726 and 23,817 billion and DALYs averted are 35,168, 58,696 and 97,532. The gain rises with the share that reformulates because those products carry less sugar. The reformulating share is 5–8 g/100 mL, mean 6.5 falling to 4.5, against 11 g/100 mL for the taxed group. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
 
 ### Equity
 
@@ -181,11 +181,11 @@ One-way runs are in Appendix F. The gain ranges from 6,280 DALYs at 10 years to 
 
 We estimated the health, economic and distributional consequences of the tax. Three findings stand out. First, because the excise is levied on an ex-factory base and cascaded through value-added tax, the 8% and 10% rates correspond to a retail price increase of about 5%, a quarter of the WHO benchmark, and a proportionally small health gain. Second, payment is regressively distributed, though by a small margin: 0.13% of household expenditure in the poorest quintile against 0.08% in the richest (Kakwani −0.096). The distribution of the health gain is less certain: across the combinations tested it ranges from clearly pro-rich (Q1/Q5 0.44) to mildly pro-poor (1.28), and is near-proportional under central assumptions. Third, raising the rate is the lever that matters: a 20% price increase would avert 3.6 times as many DALYs, and reformulation would add to the gain while reducing revenue.
 
-**Comparison with previous work.** Previous Vietnamese modelling examined 5%, 11% and 19–20% price increases while the statute was under discussion,[14] whereas we model the rates, the ex-factory base and the value-added tax cascade that now apply, which matters because the retail effect depends on the base as much as on the rate. We model three diseases through BMI with explicit states rather than bodyweight and diabetes alone, and run the model by quintile, so that the same tax produces different changes across the distribution. The 2018 survey analysis[15] could not separate SSBs from bottled water and juice, which biases its elasticities toward the aggregate non-alcoholic category; a product-level tax base closes that gap.
+**Comparison with previous work.** Previous Vietnamese modelling examined 5%, 11% and 19–20% price increases while the statute was under discussion,[14] whereas we model the rates, the ex-factory base and the value-added tax cascade that now apply, which matters because the retail effect depends on the base as much as on the rate. We model three diseases through BMI with explicit states rather than bodyweight and diabetes alone, and run the model by quintile, so that the same tax produces different changes across the distribution. The survey analysis[15] could not separate SSBs from bottled water and juice, which biases its elasticities toward the aggregate category; a product-level tax base closes that gap. The size of the response is consistent with evaluations elsewhere: after Mexico's 10% tax, purchases of taxed beverages fell, with the largest falls among poorer households.[17]
 
 **Implications for policy.** Three implications follow for the 2028 review. First, the health return is a function of the retail price change, not of the statutory rate: with the base at a fraction of the retail price and a 10% value-added tax cascade, a 10% rate yields a single-digit price change for any ex-factory share below about nine-tenths of the retail price, and less still if pass-through is partial.[26] Reaching the benchmark would need a rate of about 37% (29–50% across the ex-factory share), so evaluation should be framed by the price change achieved. Second, payment and benefit must be reported together, because payment is regressive as a share of expenditure while the benefit depends on an unmeasured disease gradient; a revenue-recycling mechanism would change the distributional verdict without changing the health gain. Third, the review can act on the rate immediately and on the base as well: an incentive to reformulate adds to the gain while shrinking revenue, and a levy per gram of sugar would concentrate the increase where the sugar is, but requires a product-level evidence base that does not exist for Viet Nam and that we did not model. Thailand's graded tax on sugar content raised SSB prices by about 11%, and modelling of that price change suggests a corresponding fall in energy intake and body-mass index.[30]
 
-**Limitations.** Two omissions act in opposite directions. Chronic disease is modelled only from age 20 and only through the BMI pathway, so effects on children and adolescents, and dental caries, are not captured, which understates the total health benefit. Starting without a prevalent disease stock works the other way: it overstates the averted gain by about 9%. Quintile-specific disease rates are not available, so national rates were applied to every quintile and the Atkinson measures are approximations within quintiles. The age structure is fixed at its 2027 distribution and individuals are not aged across cycles, so population ageing is not represented, and the model starts without a prevalent stock, which understates prevalent ischaemic heart disease and the associated years lived with disability; initialising the stock from GBD 2021 lowers the averted gain by 8.8%. The distributional result is a range because neither gradient is measured: across the nine combinations the Q1/Q5 ratio runs from 0.43 to 1.28, while the Kakwani index moves only from −0.101 to −0.093, so the payment side is the more stable of the two. Diabetes prevalence in GBD refers to diagnosed type 2 disease whereas STEPS measures raised blood glucose; we use GBD for the model and STEPS for context. Rates were combined across sexes, costs for ischaemic heart disease and stroke are amortised from acute episodes, and pass-through and elasticity come from other countries. Because S1 and S2 differ in price change, the comparison measures distance from the benchmark rather than which policy performs better. The volume of taxed beverages, 145 mL/day, is derived from total soft-drink sales by an assumed share above the threshold and multiplies every result. The baseline trend is extrapolated from market data that are not nationally representative, the informal market is incompletely captured, and the results should be revisited when 2027 data exist.
+**Limitations.** Chronic disease is modelled only from age 20 and only through body-mass index, so effects on children and dental caries are not captured; starting without a prevalent disease stock works the other way and overstates the averted gain by about 9%. The age structure is fixed at 2027 and individuals are not aged, so population ageing is not represented. Quintile-specific disease rates are not available, so national rates were applied to every quintile. The distributional result is a range because neither gradient is measured: across the nine combinations the Q1/Q5 ratio runs from 0.43 to 1.28, while the Kakwani index moves only from −0.101 to −0.093. Diabetes prevalence in GBD refers to diagnosed type 2 disease whereas STEPS measures raised blood glucose. Rates were combined across sexes, costs for ischaemic heart disease and stroke are amortised from acute episodes, and pass-through and elasticity come from other countries. Because S1 and S2 differ in price change, the comparison measures distance from the benchmark rather than which policy performs better. The baseline trend is extrapolated from market data that are not nationally representative, and the results should be revisited when 2027 data exist.
 
 **Conclusion.** Viet Nam's sugar-sweetened beverage excise tax as enacted will deliver a health gain that is real but small, financed regressively, and equivalent to about a quarter of the price signal WHO recommends; the 2028 review is where that gap can be closed.
 
@@ -329,7 +329,7 @@ filter=title_and_abstract.search:("sugar-sweetened beverage" OR "soft drink" OR 
    [AND (vietnam OR "viet nam")]
 ```
 
-Set #4 is run without the country limit because the review and trial literature on SSB taxes is thin and almost entirely non-Vietnamese; #5 isolates the Vietnamese subset.
+The Cochrane and RePEc searches were run without a country limit because the review and trial literature on SSB taxes is thin and almost entirely non-Vietnamese; the Vietnamese subset is isolated by the country term.
 
 *Citation chasing.* The reference list of every included study was screened by hand, and the "cited by" function of Google Scholar was used for the two Vietnamese analyses and for each systematic review included.
 
@@ -422,7 +422,7 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.8 What the search established before the model was run**
 
-*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[14] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[15] Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
+*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 analysis is not indexed in PubMed and was identified through Scopus. Two modelling analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[14] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[15] Neither models the enacted design on its statutory base, and neither reports how health benefit and tax payment are distributed across the same expenditure groups.
 
 *On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.[7] WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult[8] — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
 
@@ -507,35 +507,33 @@ Two further points affect the reading of the equity results. The elasticity grad
 | # | Item | Reported in |
 |---|---|---|
 | 1 | Title | Title page |
-| 2 | Abstract | Summary |
+| 2 | Abstract | Abstract |
 | 3 | Background and objectives | Introduction |
-| 4 | Health economic analysis plan | Methods, *Uncertainty and sensitivity analysis*; archived protocol |
-| 5 | Study population | Methods, *Study design and overview* |
-| 6 | Setting and location | Methods, *Study design and overview* |
-| 7 | Comparators | Methods, *Policy scenarios*; Table 1 |
-| 8 | Perspective | Methods, *Study design and overview* |
-| 9 | Time horizon | Methods, *Study design and overview* |
+| 4 | Health economic analysis plan | Methods, uncertainty section; archived protocol |
+| 5 | Study population | Methods, first paragraph |
+| 6 | Setting and location | Methods, first paragraph |
+| 7 | Comparators | Methods, scenarios; Table 1 |
+| 8 | Perspective | Methods, first paragraph |
+| 9 | Time horizon | Methods, first paragraph |
 | 10 | Discount rate | Methods; Appendix F |
-| 11 | Selection of outcomes | Methods; summary of outcomes in Introduction |
-| 12 | Measurement of outcomes | Methods, *Model structure* steps 5–7 |
-| 13 | Valuation of outcomes | Methods step 7; disability weights from GBD 2021 |
+| 11 | Selection of outcomes | Introduction, final paragraph |
+| 12 | Measurement of outcomes | Methods, model structure |
+| 13 | Valuation of outcomes | Methods, model structure; GBD 2021 weights |
 | 14 | Measurement and valuation of resources and costs | Methods; Appendix B |
-| 15 | Currency, price date, and conversion | Methods, *Study design and overview* |
-| 16 | Rationale and description of model | Methods, *Model structure*; Figure 1 |
+| 15 | Currency, price date, and conversion | Methods, first paragraph |
+| 16 | Rationale and description of model | Methods, model structure; Fig. 1 |
 | 17 | Analytics and assumptions | Methods; Appendix B; Appendix F |
-| 18 | Characterising heterogeneity | Methods, *Equity analysis*; Results, *Equity* |
-| 19 | Characterising distributional effects | Methods, *Equity analysis*; Figure 3 |
-| 20 | Characterising uncertainty | Methods; Results, *Uncertainty*; Appendix F |
-| 21 | Approach to engagement with patients and others affected | Methods, *Validation* |
+| 18 | Characterising heterogeneity | Methods, equity; Results, equity |
+| 19 | Characterising distributional effects | Methods, equity; Fig. 3; Table 4 |
+| 20 | Characterising uncertainty | Methods; Results, uncertainty; Appendix F |
+| 21 | Approach to engagement with patients and others affected | Not undertaken; published qualitative evidence used (ref 38) |
 | 22 | Study parameters | Appendix B |
 | 23 | Summary of main results | Results; Table 3 |
-| 24 | Effect of uncertainty | Results, *Uncertainty*; Figure 4 |
-| 25 | Effect of engagement | Methods, *Validation*; Discussion, Limitations |
+| 24 | Effect of uncertainty | Results, uncertainty; Fig. 4 |
+| 25 | Effect of engagement | Not applicable |
 | 26 | Study findings, limitations, and interpretation | Discussion |
-| 27 | Generalisability | Discussion, *Implications for policy* |
-| 28 | Source of funding, conflicts of interest, data availability | Title page; Declaration of interests; Data sharing |
-
----
+| 27 | Generalisability | Discussion, implications for policy |
+| 28 | Source of funding, conflicts of interest, data availability | Title page; declarations; data availability |
 
 ## Appendix E. What was and was not validated
 

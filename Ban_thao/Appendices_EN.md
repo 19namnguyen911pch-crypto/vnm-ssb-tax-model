@@ -71,7 +71,7 @@ filter=title_and_abstract.search:("sugar-sweetened beverage" OR "soft drink" OR 
    [AND (vietnam OR "viet nam")]
 ```
 
-Set #4 is run without the country limit because the review and trial literature on SSB taxes is thin and almost entirely non-Vietnamese; #5 isolates the Vietnamese subset.
+The Cochrane and RePEc searches were run without a country limit because the review and trial literature on SSB taxes is thin and almost entirely non-Vietnamese; the Vietnamese subset is isolated by the country term.
 
 *Citation chasing.* The reference list of every included study was screened by hand, and the "cited by" function of Google Scholar was used for the two Vietnamese analyses and for each systematic review included.
 
@@ -164,7 +164,7 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 **A.8 What the search established before the model was run**
 
-*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[14] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[15] Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
+*On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 analysis is not indexed in PubMed and was identified through Scopus. Two modelling analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.[14] The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.[15] Neither models the enacted design on its statutory base, and neither reports how health benefit and tax payment are distributed across the same expenditure groups.
 
 *On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.[7] WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult[8] — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
 
@@ -249,35 +249,33 @@ Two further points affect the reading of the equity results. The elasticity grad
 | # | Item | Reported in |
 |---|---|---|
 | 1 | Title | Title page |
-| 2 | Abstract | Summary |
+| 2 | Abstract | Abstract |
 | 3 | Background and objectives | Introduction |
-| 4 | Health economic analysis plan | Methods, *Uncertainty and sensitivity analysis*; archived protocol |
-| 5 | Study population | Methods, *Study design and overview* |
-| 6 | Setting and location | Methods, *Study design and overview* |
-| 7 | Comparators | Methods, *Policy scenarios*; Table 1 |
-| 8 | Perspective | Methods, *Study design and overview* |
-| 9 | Time horizon | Methods, *Study design and overview* |
+| 4 | Health economic analysis plan | Methods, uncertainty section; archived protocol |
+| 5 | Study population | Methods, first paragraph |
+| 6 | Setting and location | Methods, first paragraph |
+| 7 | Comparators | Methods, scenarios; Table 1 |
+| 8 | Perspective | Methods, first paragraph |
+| 9 | Time horizon | Methods, first paragraph |
 | 10 | Discount rate | Methods; Appendix F |
-| 11 | Selection of outcomes | Methods; summary of outcomes in Introduction |
-| 12 | Measurement of outcomes | Methods, *Model structure* steps 5–7 |
-| 13 | Valuation of outcomes | Methods step 7; disability weights from GBD 2021 |
+| 11 | Selection of outcomes | Introduction, final paragraph |
+| 12 | Measurement of outcomes | Methods, model structure |
+| 13 | Valuation of outcomes | Methods, model structure; GBD 2021 weights |
 | 14 | Measurement and valuation of resources and costs | Methods; Appendix B |
-| 15 | Currency, price date, and conversion | Methods, *Study design and overview* |
-| 16 | Rationale and description of model | Methods, *Model structure*; Figure 1 |
+| 15 | Currency, price date, and conversion | Methods, first paragraph |
+| 16 | Rationale and description of model | Methods, model structure; Fig. 1 |
 | 17 | Analytics and assumptions | Methods; Appendix B; Appendix F |
-| 18 | Characterising heterogeneity | Methods, *Equity analysis*; Results, *Equity* |
-| 19 | Characterising distributional effects | Methods, *Equity analysis*; Figure 3 |
-| 20 | Characterising uncertainty | Methods; Results, *Uncertainty*; Appendix F |
-| 21 | Approach to engagement with patients and others affected | Methods, *Validation* |
+| 18 | Characterising heterogeneity | Methods, equity; Results, equity |
+| 19 | Characterising distributional effects | Methods, equity; Fig. 3; Table 4 |
+| 20 | Characterising uncertainty | Methods; Results, uncertainty; Appendix F |
+| 21 | Approach to engagement with patients and others affected | Not undertaken; published qualitative evidence used (ref 38) |
 | 22 | Study parameters | Appendix B |
 | 23 | Summary of main results | Results; Table 3 |
-| 24 | Effect of uncertainty | Results, *Uncertainty*; Figure 4 |
-| 25 | Effect of engagement | Methods, *Validation*; Discussion, Limitations |
+| 24 | Effect of uncertainty | Results, uncertainty; Fig. 4 |
+| 25 | Effect of engagement | Not applicable |
 | 26 | Study findings, limitations, and interpretation | Discussion |
-| 27 | Generalisability | Discussion, *Implications for policy* |
-| 28 | Source of funding, conflicts of interest, data availability | Title page; Declaration of interests; Data sharing |
-
----
+| 27 | Generalisability | Discussion, implications for policy |
+| 28 | Source of funding, conflicts of interest, data availability | Title page; declarations; data availability |
 
 ## Appendix E. What was and was not validated
 

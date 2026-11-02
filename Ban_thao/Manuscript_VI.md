@@ -3,7 +3,7 @@
 **Tác giả:** Nguyen Thanh Nam, Khanh Linh Lam Ngoc\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Quận 5, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 448; thân bài 4.727 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
+**Số từ:** tóm tắt 448; thân bài 4.628 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
 
 ---
 
@@ -68,7 +68,7 @@ Bốn kịch bản được mô hình hóa (Bảng 1). S0 là không thuế. S1 
 | S0 | Không thuế | Xu hướng tiêu thụ nền 2027–2050 | Phản thực tế |
 | S1 | Thuế như đã ban hành | 8% từ 2027, 10% từ 2028; >5 g/100 mL; cơ sở xuất xưởng; tầng VAT 10%; loại trừ theo luật | Chính sách cần đánh giá |
 | S2 | Mốc tham chiếu WHO | Tăng giá bán lẻ 20% cho đồ uống chịu thuế từ 2027 | Tham chiếu |
-| S3 | Thuế đã ban hành kèm tái định lượng | 10%, 25%, 50% sản phẩm gần ngưỡng tái định lượng xuống dưới 5 g/100 mL | Phản ứng của ngành |
+| S3 | Thuế đã ban hành kèm tái định lượng | 10%, 25%, 50% thể tích chịu thuế tái định lượng xuống dưới 5 g/100 mL | Phản ứng của ngành |
 
 ### Cấu trúc mô hình
 
@@ -137,24 +137,24 @@ Giai đoạn 2027–2050, thuế đã ban hành tránh được 19.387 DALY (kho
 
 **Bảng 3. Kết quả chính theo kịch bản, 2027–2050**
 
-Giá trị của S3 là trung bình trên cả nhóm chịu thuế sau khi 25% sản phẩm gần ngưỡng tái định lượng xuống dưới ngưỡng và ra khỏi cơ sở thuế: mức tăng giá đầy đủ áp cho 75% còn lại, và phần tái định lượng chứa 4,5 g/100 mL thay vì 6,5 g/100 mL.
+Giá trị của S3 là trung bình trên cả nhóm chịu thuế sau khi 25% thể tích chịu thuế tái định lượng xuống dưới ngưỡng và ra khỏi cơ sở thuế: mức tăng giá đầy đủ áp cho 75% còn lại, và phần tái định lượng giảm từ mức trung bình 11 xuống 4,5 g/100 mL.
 
 | Kết cục | S1 | S2 | S3 (25%) |
 |---|---|---|---|
 | Thay đổi giá bán lẻ, đồ uống chịu thuế (%) | 5,5 | 20,0 | 4,1 |
 | Thay đổi tiêu thụ (mL/người/ngày) | −9,6 | −35,3 | −7,2 |
-| DALY tránh được, trung tâm (KTC 95%) | 19.387 (7.136–42.913) | 70.670 | 30.169 |
-| DALY tránh được trên 1.000 dân | 0,24 | 0,87 | 0,37 |
-| Ca đái tháo đường type 2 tránh được | 20.894 | 76.041 | 32.503 |
-| Ca bệnh tim thiếu máu cục bộ tránh được | 902 | 3.307 | 1.405 |
-| Ca đột quỵ tránh được | 2.778 | 10.181 | 4.328 |
-| Chi phí y tế tiết kiệm (tỷ đồng, 2026) | 1.087 | 3.956 | 1.691 |
+| DALY tránh được, trung tâm (KTC 95%) | 19.387 (7.136–42.913) | 70.670 | 58.696 |
+| DALY tránh được trên 1.000 dân | 0,24 | 0,87 | 0,72 |
+| Ca đái tháo đường type 2 tránh được | 20.894 | 76.041 | 63.179 |
+| Ca bệnh tim thiếu máu cục bộ tránh được | 902 | 3.307 | 2.743 |
+| Ca đột quỵ tránh được | 2.778 | 10.181 | 8.446 |
+| Chi phí y tế tiết kiệm (tỷ đồng, 2026) | 1.087 | 3.956 | 3.287 |
 | Doanh thu 2027–2050, đã chiết khấu (tỷ đồng) | 47.635 | 142.803 | 35.726 |
-| DALY tránh được trên mỗi tỷ đồng doanh thu | 0,4 | 0,5 | 0,8 |
+| DALY tránh được trên mỗi tỷ đồng doanh thu | 0,4 | 0,5 | 1,6 |
 
 ### So sánh các thiết kế
 
-Mức tăng giá 20% tránh được 70.670 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu đã chiết khấu 142.803 tỷ đồng so với 47.635 tỷ đồng; trên mỗi tỷ đồng, thuế đã ban hành tạo 0,4 DALY và mốc tham chiếu 0,5. Tái định lượng loại khỏi cơ sở thuế phần sản phẩm xuống dưới ngưỡng, và doanh thu giảm theo: ở mức 10%, 25% và 50%, doanh thu là 42.871, 35.726 và 23.817 tỷ đồng và DALY tránh được là 23.704, 30.169 và 40.915. Lợi ích tăng theo tỷ lệ tái định lượng vì các sản phẩm đó chứa ít đường hơn dù ra khỏi cơ sở thuế. Nhóm tái định lượng là 5–8 g đường/100 mL, trung bình 6,5 giảm còn 4,5, so với 11 g/100 mL của cả nhóm chịu thuế. Vì S3 loại một phần cơ sở, tỷ lệ DALY trên mỗi tỷ đồng của nó không phải so sánh ngang hàng.
+Mức tăng giá 20% tránh được 70.670 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu đã chiết khấu 142.803 tỷ đồng so với 47.635 tỷ đồng; trên mỗi tỷ đồng, thuế đã ban hành tạo 0,4 DALY và mốc tham chiếu 0,5. Tái định lượng loại khỏi cơ sở thuế phần sản phẩm xuống dưới ngưỡng, và doanh thu giảm theo: ở mức 10%, 25% và 50%, doanh thu là 42.871, 35.726 và 23.817 tỷ đồng và DALY tránh được là 35.168, 58.696 và 97.532. Lợi ích tăng theo tỷ lệ tái định lượng vì các sản phẩm đó chứa ít đường hơn dù ra khỏi cơ sở thuế. Phần tái định lượng giảm từ mức trung bình của nhóm chịu thuế là 11 g/100 mL xuống 4,5 g/100 mL. Vì S3 loại một phần cơ sở, tỷ lệ DALY trên mỗi tỷ đồng của nó không phải so sánh ngang hàng.
 
 ### Công bằng
 
@@ -179,11 +179,11 @@ Các lần chạy một chiều ở Phụ lục F. Lợi ích từ 6.280 DALY �
 
 Chúng tôi ước tính hệ quả sức khỏe, kinh tế và phân bố của thuế như đã ban hành. Ba phát hiện nổi bật. Thứ nhất, vì thuế đánh trên cơ sở xuất xưởng và chịu tầng thuế giá trị gia tăng, thuế suất 8% và 10% chỉ tương ứng mức tăng giá bán lẻ khoảng 5%, tức khoảng một phần tư mốc của WHO, và lợi ích sức khỏe nhỏ tương ứng. Thứ hai, việc chi trả phân bố lũy thoái, tuy mức chênh lệch nhỏ: 0,13% chi tiêu hộ ở nhóm nghèo nhất so với 0,08% ở nhóm giàu nhất (Kakwani −0,096). Phân bố lợi ích sức khỏe kém chắc chắn hơn: qua các tổ hợp đã thử, nó chạy từ nghiêng rõ về nhóm giàu (Q1/Q5 là 0,43) đến nghiêng nhẹ về nhóm nghèo (1,28), và gần tỷ lệ thuận ở các giả định trung tâm. Thứ ba, nâng thuế suất là đòn bẩy có ý nghĩa: mức tăng giá 20% tránh được số DALY gấp 3,6 lần, và tái định lượng sẽ tăng thêm lợi ích trong khi giảm doanh thu.
 
-**So sánh với nghiên cứu trước.** Mô hình hóa trước đây cho Việt Nam khảo sát mức tăng giá 5%, 11% và 19–20% khi luật còn đang thảo luận,[14] trong khi chúng tôi mô hình hóa đúng thuế suất, đúng cơ sở xuất xưởng và đúng tầng thuế giá trị gia tăng đang áp dụng — điều này quan trọng vì tác động lên giá bán lẻ phụ thuộc vào cơ sở ít nhất bằng mức phụ thuộc vào thuế suất. Chúng tôi cũng mô hình hóa ba bệnh qua BMI với các trạng thái tường minh thay vì chỉ cân nặng và đái tháo đường, và chạy mô hình theo ngũ phân vị để cùng một mức thuế tạo ra thay đổi giá, tiêu thụ và nguy cơ khác nhau giữa các nhóm. Phân tích trên khảo sát 2018[15] không tách được đồ uống có đường khỏi nước đóng chai và nước ép, khiến độ co giãn của họ lệch về nhóm đồ uống không cồn tổng hợp; một cơ sở thuế ở cấp sản phẩm lấp được khoảng trống đó.
+**So sánh với nghiên cứu trước.** Mô hình hóa trước đây cho Việt Nam khảo sát mức tăng giá 5%, 11% và 19–20% khi luật còn đang thảo luận,[14] trong khi chúng tôi mô hình hóa đúng thuế suất, đúng cơ sở xuất xưởng và đúng tầng thuế giá trị gia tăng đang áp dụng — điều này quan trọng vì tác động lên giá bán lẻ phụ thuộc vào cơ sở ít nhất bằng mức phụ thuộc vào thuế suất. Chúng tôi cũng mô hình hóa ba bệnh qua BMI với các trạng thái tường minh thay vì chỉ cân nặng và đái tháo đường, và chạy mô hình theo ngũ phân vị để cùng một mức thuế tạo ra thay đổi giá, tiêu thụ và nguy cơ khác nhau giữa các nhóm. Phân tích trên khảo sát 2018[15] không tách được đồ uống có đường khỏi nước đóng chai và nước ép, khiến độ co giãn của họ lệch về nhóm đồ uống không cồn tổng hợp; một cơ sở thuế ở cấp sản phẩm lấp được khoảng trống đó. Độ lớn phản ứng tương đồng với các đánh giá ở nơi khác: sau thuế 10% tại Mexico, lượng mua đồ uống chịu thuế giảm, với mức giảm lớn nhất ở các hộ nghèo hơn.[17]
 
 **Hàm ý chính sách.** Ba hàm ý cho kỳ rà soát 2028. Thứ nhất, lợi ích sức khỏe là hàm của mức tăng giá bán lẻ, không phải của thuế suất: với cơ sở thuế chỉ bằng một phần giá bán lẻ và tầng VAT 10%, một thuế suất 10% tạo ra mức tăng giá ở mức một chữ số với mọi tỷ trọng giá xuất xưởng dưới khoảng chín phần mười giá bán lẻ, và còn thấp hơn nếu mức truyền dẫn chỉ là một phần.[26] Để đạt mốc tham chiếu cần thuế suất khoảng 37% (29–50% theo tỷ trọng giá xuất xưởng), nên đánh giá phải đặt trong khuôn khổ mức tăng giá đạt được. Thứ hai, khoản chi trả và lợi ích phải được báo cáo cùng nhau, vì chi trả lũy thoái theo tỷ trọng chi tiêu còn lợi ích phụ thuộc vào một gradient bệnh chưa được đo; một cơ chế hoàn trả doanh thu sẽ thay đổi kết luận phân bố mà không thay đổi lợi ích sức khỏe. Thứ ba, kỳ rà soát có thể hành động ngay về thuế suất và cả về cơ sở thuế: một cơ chế khuyến khích tái định lượng làm tăng lợi ích trong khi thu hẹp doanh thu, còn thuế theo gam đường sẽ tập trung mức tăng giá vào đúng chỗ có đường nhưng cần một nền bằng chứng ở cấp sản phẩm mà Việt Nam chưa có, và chúng tôi không mô hình hóa phương án đó. Thuế bậc thang theo hàm lượng đường của Thái Lan đã làm giá đồ uống có đường tăng khoảng 11%, và mô hình hóa mức tăng giá đó cho thấy mức giảm tương ứng về năng lượng nạp vào và chỉ số khối cơ thể.[30]
 
-**Hạn chế.** Hai thiếu sót tác động ngược chiều: chỉ mô hình hóa người trưởng thành và chỉ qua BMI, nên bỏ sót trẻ em và sâu răng, làm đánh giá thấp lợi ích; trong khi khởi đầu không có tồn lưu bệnh lại làm lợi ích tránh được cao hơn khoảng 9%. Tỷ lệ bệnh theo ngũ phân vị không có sẵn, nên tỷ lệ quốc gia được áp cho mọi nhóm và các thước đo dựa trên Atkinson là xấp xỉ trong nội bộ nhóm. Cơ cấu tuổi cố định ở phân bố năm 2027 và cá thể không được làm già đi, nên già hóa dân số không được phản ánh, và mô hình khởi đầu không có tồn lưu hiện mắc, điều này đánh giá thấp tỷ lệ hiện mắc bệnh tim thiếu máu cục bộ cùng số năm sống với khuyết tật; khởi tạo tồn lưu từ GBD 2021 làm lợi ích tránh được giảm 8,8%. Kết quả phân bố là một khoảng vì không gradient nào được đo: qua chín tổ hợp, tỷ số Q1/Q5 chạy từ 0,43 đến 1,28, trong khi chỉ số Kakwani chỉ dịch từ −0,101 đến −0,093, nên phía chi trả là phía ổn định hơn trong hai phía. Tỷ lệ hiện mắc đái tháo đường trong GBD là type 2 đã chẩn đoán trong khi STEPS đo đường huyết tăng; chúng tôi dùng GBD cho mô hình và STEPS cho bối cảnh. Tỷ lệ bệnh được gộp giữa hai giới, chi phí cho bệnh tim thiếu máu cục bộ và đột quỵ được phân bổ từ đợt cấp, và mức truyền dẫn cùng độ co giãn lấy từ nước khác. Vì S1 và S2 khác nhau ở mức tăng giá, so sánh định lượng khoảng cách đến mốc tham chiếu chứ không kiểm định chính sách nào tốt hơn. Khối lượng đồ uống chịu thuế, 145 mL/người/ngày, được suy ra từ tổng doanh số nước ngọt bằng cách áp một tỷ lệ giả định trên ngưỡng, và khối lượng đó nhân vào mọi kết quả. Xu hướng nền được ngoại suy từ dữ liệu thị trường không đại diện quốc gia, thị trường phi chính thức được phản ánh chưa đầy đủ, và kết quả cần được xem lại khi có dữ liệu năm 2027.
+**Hạn chế.** Bệnh mạn tính chỉ được mô hình hóa từ 20 tuổi và chỉ qua chỉ số khối cơ thể, nên không nắm bắt được tác động lên trẻ em và sâu răng; việc khởi đầu không có tồn lưu bệnh lại tác động ngược chiều và làm lợi ích tránh được cao hơn khoảng 9%. Cơ cấu tuổi cố định ở 2027 và cá thể không được làm già đi, nên già hóa dân số không được phản ánh. Tỷ lệ bệnh theo ngũ phân vị không có sẵn, nên tỷ lệ quốc gia được áp cho mọi nhóm. Kết quả phân bố là một khoảng vì không gradient nào được đo: qua chín tổ hợp, tỷ số Q1/Q5 chạy từ 0,43 đến 1,28, trong khi chỉ số Kakwani chỉ dịch từ −0,101 đến −0,093. Tỷ lệ hiện mắc đái tháo đường trong GBD là type 2 đã chẩn đoán trong khi STEPS đo đường huyết tăng. Tỷ lệ bệnh được gộp giữa hai giới, chi phí cho bệnh tim thiếu máu cục bộ và đột quỵ được phân bổ từ đợt cấp, và mức truyền dẫn cùng độ co giãn lấy từ nước khác. Vì S1 và S2 khác nhau ở mức tăng giá, so sánh định lượng khoảng cách đến mốc tham chiếu chứ không kiểm định chính sách nào tốt hơn. Xu hướng nền được ngoại suy từ dữ liệu thị trường không đại diện quốc gia, và kết quả cần được xem lại khi có dữ liệu năm 2027.
 
 **Kết luận.** Thuế tiêu thụ đặc biệt đồ uống có đường của Việt Nam như đã ban hành sẽ tạo ra lợi ích sức khỏe có thật nhưng nhỏ, được huy động theo cách lũy thoái, và chỉ tương đương khoảng một phần tư tín hiệu giá mà WHO khuyến nghị; kỳ rà soát 2028 là nơi có thể thu hẹp khoảng cách đó.
 

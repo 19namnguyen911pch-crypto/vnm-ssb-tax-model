@@ -6,7 +6,7 @@ Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh Cit
 
 **Correspondence:** Nguyen Thanh Nam (ntnam.ddytcc23@ump.edu.vn)
 
-**Word count:** 2 615 (main text); abstract 245; 27 references; 4 tables; 4 figures; 1 supplementary file.
+**Word count:** 2 597 (main text); abstract 245; 27 references; 4 tables; 4 figures; 1 supplementary file.
 
 ---
 
@@ -64,7 +64,7 @@ Previous modelling for Viet Nam examined hypothetical rates before the statute w
 
 **Primary outcome.** Over 2027–2050 the enacted tax would avert 19 387 DALYs (95% uncertainty interval 7 136–42 913), or 0.24 per 1 000 population, corresponding to 24 574 cases avoided — 20 894 of type 2 diabetes, 902 of ischaemic heart disease and 2 778 of stroke — and 631 deaths deferred (Table 3). The gain is 41 027 DALYs to 2100 and 6 280 at 10 years.
 
-**Comparison of designs.** The 20% price increase would avert 70 670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142 803 billion against VND 47 635 billion. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42 871, 35 726 and 23 817 billion and DALYs averted are 23 704, 30 169 and 40 915. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
+**Comparison of designs.** The 20% price increase would avert 70 670 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 142 803 billion against VND 47 635 billion. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42 871, 35 726 and 23 817 billion and DALYs averted are 35 168, 58 696 and 97 532. Because S3 removes part of the base, its higher yield per billion dong is not a like-for-like comparison.
 
 **Equity.** DALYs averted per 1 000 (Fig. 2) were 0.21 in the poorest quintile and 0.27 in the richest, a ratio of 0.77; the concentration index of DALYs averted was 0.047. Tax paid was 0.133% of household expenditure in the poorest quintile and 0.079% in the richest. The richest quintile paid 1.84 times as much in absolute terms, so the concentration index of the absolute payment was 0.117 and of payment as a share of expenditure −0.113; with a Gini of 0.213, a lower bound, the Kakwani index is −0.096. Neither gradient is measured, and they matter jointly: across the nine combinations the ratio of the gain in the poorest to the richest quintile runs from 0.43 to 1.28 and the concentration index from 0.160 to −0.054, so the distribution runs from clearly pro-rich to mildly pro-poor and is near-proportional under central assumptions (Table 4, Fig. 3).
 
@@ -76,11 +76,11 @@ Previous modelling for Viet Nam examined hypothetical rates before the statute w
 
 We estimated the health, economic and distributional consequences of the enacted tax. Three findings stand out. First, because the excise is levied on an ex-factory base and cascaded through value-added tax, the 8% and 10% rates correspond to a retail price increase of about 5%, a quarter of the WHO benchmark, and a proportionally small health gain. Second, payment is regressively distributed, though by a small margin: 0.13% of household expenditure in the poorest quintile against 0.08% in the richest, with a Kakwani index of −0.096. The distribution of the health gain is less certain: across the combinations tested it ranges from clearly pro-rich to mildly pro-poor, and is near-proportional under central assumptions. Third, raising the rate is the lever that matters: a 20% price increase would avert 3.6 times as many DALYs, and reformulation would add to the gain while reducing revenue.
 
-Previous Vietnamese modelling examined 5%, 11% and 19–20% price increases while the statute was under discussion,(12) whereas we model the rates, the ex-factory base and the value-added tax cascade that now apply, which matters because the retail effect depends on the base as much as on the rate. We also model three diseases through body-mass index with explicit states rather than bodyweight and diabetes alone, and run the model by quintile so that the same tax produces different changes across the distribution. The earlier survey analysis(13) could not separate sugar-sweetened beverages from bottled water and juice, which biases its elasticities toward the aggregate category.
+Previous Vietnamese modelling examined 5%, 11% and 19–20% price increases while the statute was under discussion,(12) whereas we model the rates, the ex-factory base and the value-added tax cascade that now apply, which matters because the retail effect depends on the base as much as on the rate. We also model three diseases through body-mass index with explicit states rather than bodyweight and diabetes alone, and run the model by quintile so that the same tax produces different changes across the distribution. The earlier survey analysis(13) could not separate sugar-sweetened beverages from bottled water and juice, which biases its elasticities toward the aggregate category. The size of the response is consistent with evaluations elsewhere: after Mexico's 10% tax, purchases of taxed beverages fell, with the largest falls among poorer households.(15)
 
 Three implications follow for the 2028 review. First, the health return is a function of the retail price change, not of the statutory rate: with the base at a fraction of the retail price and a 10% value-added tax cascade, a 10% rate yields a single-digit price change for any ex-factory share below about nine-tenths of the retail price, and less still if pass-through is partial.(24) Reaching the benchmark would require a rate of about 37% at central parameter values, and between 29% and 50% across the ex-factory share, which is why evaluation should be framed by the price change achieved. Second, payment and benefit must be reported together, because payment is regressive as a share of expenditure while the benefit depends on unmeasured gradients; a revenue-recycling mechanism would change the distributional verdict without changing the health gain. Third, the review can act on the rate immediately and on the base as well: an incentive to reformulate adds to the gain while shrinking revenue, and a levy per gram of sugar would concentrate the increase where the sugar is, but requires a product-level evidence base that does not exist for Viet Nam and that we did not model.
 
-**Limitations.** Two omissions act in opposite directions: modelling only adults and only through body-mass index, so that children and dental caries are missed, understates the benefit, while starting without a prevalent stock overstates the averted gain by about 9%. Quintile-specific disease rates are not available, so national rates were applied to every quintile. The age structure is fixed at 2027 and individuals are not aged, and the model starts without a prevalent stock, which understates prevalent ischaemic heart disease; initialising the stock from GBD 2021 lowers the averted gain by 8.8%. The distributional result is a range because neither gradient is measured: across the nine combinations the ratio of the gain in the poorest to the richest quintile runs from 0.43 to 1.28, while the Kakwani index moves only from −0.101 to −0.093, so payment is the more stable of the two. The volume of taxed beverages, 145 mL/day, is derived from total soft-drink sales by an assumed share above the threshold and multiplies every result. Disease rates were combined across sexes, costs for ischaemic heart disease and stroke are amortised from acute episodes, and pass-through and elasticity come from other countries. Because S1 and S2 differ in price change, the comparison measures distance from the benchmark rather than which policy performs better. The baseline trend is extrapolated from market data that are not nationally representative, and the results should be revisited when 2027 data exist.
+**Limitations.** Chronic disease is modelled only from age 20 and only through body-mass index, so effects on children and dental caries are not captured; starting without a prevalent disease stock works the other way and overstates the averted gain by about 9%. The age structure is fixed at 2027 and individuals are not aged, so population ageing is not represented. Quintile-specific disease rates are not available, so national rates were applied to every quintile. The distributional result is a range because neither gradient is measured: across the nine combinations the Q1/Q5 ratio runs from 0.43 to 1.28, while the Kakwani index moves only from −0.101 to −0.093. Diabetes prevalence in GBD refers to diagnosed type 2 disease whereas STEPS measures raised blood glucose. Rates were combined across sexes, costs for ischaemic heart disease and stroke are amortised from acute episodes, and pass-through and elasticity come from other countries. Because S1 and S2 differ in price change, the comparison measures distance from the benchmark rather than which policy performs better. The baseline trend is extrapolated from market data that are not nationally representative, and the results should be revisited when 2027 data exist.
 
 **Conclusion.** Viet Nam's sugar-sweetened beverage excise tax as enacted will deliver a health gain that is real but small, financed regressively, and equivalent to about a quarter of the price signal WHO recommends; the 2028 review is where that gap can be closed.
 
@@ -141,7 +141,7 @@ Not applicable.
 | S0 | No tax | Baseline consumption trend 2027–2050 | Counterfactual |
 | S1 | Tax as enacted | 8% from 2027, 10% from 2028; >5 g/100 mL; ex-factory base; 10% VAT cascade; statutory exclusions | Policy under evaluation |
 | S2 | WHO benchmark | 20% retail price increase on taxed beverages from 2027 | Reference |
-| S3 | Enacted tax with reformulation | 10%, 25%, 50% of near-threshold products reformulate below 5 g/100 mL | Industry response |
+| S3 | Enacted tax with reformulation | 10%, 25%, 50% of taxed volume reformulates below 5 g/100 mL | Industry response |
 
 **Table 2. Key model parameters**
 
@@ -164,16 +164,16 @@ Not applicable.
 |---|---|---|---|
 | Retail price change, taxed beverages (%) | 5.5 | 20.0 | 4.1 |
 | Consumption change (mL/person/day) | −9.6 | −35.3 | −7.2 |
-| DALYs averted, central (95% UI) | 19 387 (7 136–42 913) | 70 670 | 30 169 |
-| DALYs averted per 1 000 population | 0.24 | 0.87 | 0.37 |
-| Type 2 diabetes cases averted | 20 894 | 76 041 | 32 503 |
-| Ischaemic heart disease cases averted | 902 | 3 307 | 1 405 |
-| Stroke cases averted | 2 778 | 10 181 | 4 328 |
-| Health-care costs saved (VND bn, 2026) | 1 087 | 3 956 | 1 691 |
+| DALYs averted, central (95% UI) | 19 387 (7 136–42 913) | 70 670 | 58 696 |
+| DALYs averted per 1 000 population | 0.24 | 0.87 | 0.72 |
+| Type 2 diabetes cases averted | 20 894 | 76 041 | 63 179 |
+| Ischaemic heart disease cases averted | 902 | 3 307 | 2 743 |
+| Stroke cases averted | 2 778 | 10 181 | 8 446 |
+| Health-care costs saved (VND bn, 2026) | 1 087 | 3 956 | 3 287 |
 | Revenue, 2027–2050, discounted (VND bn) | 47 635 | 142 803 | 35 726 |
-| DALYs averted per VND bn of revenue | 0.4 | 0.5 | 0.8 |
+| DALYs averted per VND bn of revenue | 0.4 | 0.5 | 1.6 |
 
-S3 values are averages across the taxed category after 25% of near-threshold products reformulate and leave the base.
+S3 values are averages across the taxed category after 25% of taxed volume reformulates and leaves the base.
 
 **Table 4. Equity results across the two unmeasured gradients**
 

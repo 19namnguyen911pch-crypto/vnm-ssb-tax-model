@@ -43,7 +43,6 @@ params_default <- function() {
     # reformulation: share of taxed volume that reformulates below the
     # threshold, and the sugar density it reaches (g/100 mL)
     reform_share = 0.25,
-    sugar_near   = 6.5,   # baseline density of the near-threshold products
     sugar_reform = 4.5,   # density they reach once they leave the base
 
     # mean sugar density of taxed beverages, g per 100 mL.
@@ -226,9 +225,11 @@ sugar_change_g_day <- function(ml_day, dq_rel, p, reform_share = 0,
                                sugar_reform = NA_real_) {
   q0 <- ml_day / 100
   if (reform_share > 0 && !is.na(sugar_reform)) {
-    # The reformulating share comes from products near the threshold, so the
-    # share that stays in the base is denser than the market average.
-    s_taxed <- (p$sugar_mean - reform_share * p$sugar_near) / (1 - reform_share)
+    # The reformulating share is drawn from the taxed category as a whole, so
+    # the share that remains in the base keeps the category mean density. This
+    # keeps the sugar accounting consistent with the revenue base, which also
+    # shrinks by exactly this share.
+    s_taxed <- p$sugar_mean
     return(q0 * ((1 - reform_share) * (1 + dq_rel) * s_taxed +
                  reform_share * sugar_reform - p$sugar_mean))
   }
