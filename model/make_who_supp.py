@@ -57,6 +57,24 @@ out = ("# Supplementary material\n\n"
        + body +
        "\n\n## Supplementary references\n\n"
        + "\n".join(f"{k}. {lookup[k]}" for k in supp_order) + "\n")
+# drop supplementary entries that are never cited, then renumber
+body_part, supp_part = out.split("## Supplementary references")
+entries = re.findall(r"(?m)^(S\d+)\. (.+)$", supp_part)
+cited = []
+for m in re.finditer(r"\(([0-9S,]+)\)", body_part):
+    for x in m.group(1).split(","):
+        if x.startswith("S") and x not in cited:
+            cited.append(x)
+keep = [(k, v) for k, v in entries if k in cited]
+renum = {k: f"S{i+1}" for i, (k, _) in enumerate(keep)}
+body_part = re.sub(r"(?<=\()(S\d+)(?=[,)])",
+                   lambda m: renum.get(m.group(1), m.group(1)), body_part)
+out = (body_part + "## Supplementary references\n\n"
+       + "\n".join(f"{renum[k]}. {v}" for k, v in keep) + "\n")
+
+# thousands separators as spaces, in line with the main manuscript
+out = re.sub(r"(?<=\d),(?=\d{3}\b)", " ", out)
+
 open("Banthao_Who/Supplement_WHO.md", "w", encoding="utf-8").write(out)
 print("appendix citations mapped; supplementary refs:", len(supp_order))
 print("extra:", extra)

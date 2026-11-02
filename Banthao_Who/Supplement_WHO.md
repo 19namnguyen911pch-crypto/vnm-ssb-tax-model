@@ -150,7 +150,7 @@ Eight records were included: two quantitative analyses that model SSB taxation i
 
 Six were excluded. A 1997 dental review of sugar consumption trends is not about taxation; a historical article on Lyndon Johnson was retrieved by the country term as a false positive; an urban food-systems paper and a study of food marketing to children report no SSB-tax estimate; and a peer-led dietary education trial and a caries prevalence study mention Viet Nam but contain no tax exposure.
 
-The broad sets without a country limit returned 576 records in PubMed, 506 in Europe PMC, 2,961 in OpenAlex, 1,526 in Cochrane CENTRAL and 21 in RePEc. These were screened for parameter evidence rather than for inclusion in a review of effects, because the study needs estimates from any comparable setting. The RePEc set contained no Vietnamese study but two evaluations of European soda taxes that report pass-through, and both are cited for that parameter (Appendix B, #5). The 21 retrieved records, with the decision for each, are in `data/repec_screening.csv`.
+The broad sets without a country limit returned 576 records in PubMed, 506 in Europe PMC, 2 961 in OpenAlex, 1 526 in Cochrane CENTRAL and 21 in RePEc. These were screened for parameter evidence rather than for inclusion in a review of effects, because the study needs estimates from any comparable setting. The RePEc set contained no Vietnamese study but two evaluations of European soda taxes that report pass-through, and both are cited for that parameter (Appendix B, #5). The 21 retrieved records, with the decision for each, are in `data/repec_screening.csv`.
 
 Two features of this flow are themselves findings. The yield of the country-limited searches is very small: fourteen unique records for the whole Vietnamese literature on SSB taxation, of which eight are relevant. And the 1997 dental review is retrieved by every database because it names Viet Nam in a list of countries with rising sugar consumption — a reminder that country-term searches in this field are noisy.
 
@@ -170,7 +170,7 @@ Legal claims in a tax model are load-bearing and cannot be cited at second hand.
 
 *On the Vietnamese question.* The completed PubMed search returned **576 records for SSB taxation internationally and 2 for Viet Nam** — one of them a 1997 dental review of sugar consumption trends, the other the 2023 modelling study. The 2026 economic analysis is not indexed in PubMed and was found through RePEc and Google Scholar. Two analyses therefore exist in total. One modelled five tax scenarios at retail price increases of 5%, 11%, and 19–20% while the statute was under discussion, and estimated effects on bodyweight and diabetes.(12) The other used the 2018 Viet Nam Household Living Standards Survey with a quality-adjusted demand system to simulate consumption and welfare effects consistent with the 2025 law, but treats non-alcoholic beverages as a single aggregate of SSBs, bottled water, and 100% juice, and does not model disease.(13) Neither models the enacted design on its statutory base, and neither reports health benefit and tax payment on a common equity scale.
 
-*On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.(6) WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult(S11) — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
+*On the international question.* By 2024, 64 countries had implemented SSB taxes covering 3.5 billion people; 45% were ad valorem, 44% volume-based, and 5% sugar-content-based.(6) WHO's own 2025 assessment reached consistent conclusions and noted that the tax base and the price point at which the tax is levied differ so much across countries that standardised comparison is difficult(S8) — which is precisely why an analysis anchored to the statutory base, rather than to the headline rate, is the useful unit of comparison.
 
 *On parameters.* Elasticities, pass-through, relative risks, and costs are available from comparable settings but not from Viet Nam, apart from the diabetes cost estimate.(19,20) This is the source of the two binding constraints identified in Appendix B: the ex-factory share of retail price and the quintile-specific disease rates.
 
@@ -293,19 +293,17 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 ## Appendix F. Sensitivity analyses performed
 
-**F.1 Probabilistic analysis.** 5,000 Monte Carlo iterations, independent sampling from the distributions in Appendix B, fixed seed (20261101), reporting medians and 95% uncertainty intervals. The contribution of each parameter to the variance in DALYs averted was obtained from a linear model of the 5,000 draws on the sampled parameters, with squared semipartial correlations as shares of the explained variance; that model explains 94% of the variation.
+**F.1 Probabilistic analysis.** 5 000 Monte Carlo iterations, independent sampling from the distributions in Appendix B, fixed seed (20261101), reporting medians and 95% uncertainty intervals. The contribution of each parameter to the variance in DALYs averted was obtained from a linear model of the 5 000 draws on the sampled parameters, with squared semipartial correlations as shares of the explained variance; that model explains 94% of the variation.
 
 **F.2 Threshold analysis.** A grid over the ex-factory share (0.30 to 0.85) and the pass-through rate (0.30 to 1.50), with the model re-run at each point, identifies the combinations at which the health gain becomes indistinguishable from zero. The grid is deposited as `output/threshold_grid.csv`.
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.5 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
+**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
 
-**F.6 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 39,894 and 18,724 DALYs at discount rates of 0% and 5%; 13,784 and 35,710 at pass-through 0.50 and 1.30; 16,534 and 37,075 at elasticity −0.80 and −1.80; 7,822, 24,767 and 53,509 over the 10-year, 2050 and 2100 horizons; and 22,632 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
+**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 39 894 and 18 724 DALYs at discount rates of 0% and 5%; 13 784 and 35 710 at pass-through 0.50 and 1.30; 16 534 and 37 075 at elasticity −0.80 and −1.80; 7 822, 24 767 and 53 509 over the 10-year, 2050 and 2100 horizons; and 22 632 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
 
-**F.7 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated on the same 5,000 draws under two socioeconomic gradients, risk falling with expenditure (1.15 in Q1 to 0.88 in Q5) and risk rising with expenditure (0.88 in Q1 to 1.15 in Q5). The median Q1/Q5 ratio moves from 0.77 to 0.99 in the first case and to 0.60 in the second, and the concentration index from 0.047 to −0.002 and to 0.097; the Kakwani index is unchanged because it depends only on payments. Deposited as `output/psa_gradient.csv`.
-
-**F.8 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
+**F.6 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
 
 | Baseline risk | Elasticity gradient | Q1/Q5 | Concentration index | Kakwani | Tax, Q1 (%) | Tax, Q5 (%) |
 |---|---|---|---|---|---|---|
@@ -321,7 +319,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 Deposited as `output/equity_grid.csv`.
 
-**F.9 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
+**F.7 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 
 ## Appendix G. Code and reproducibility
 
@@ -332,7 +330,7 @@ Deposited as `output/equity_grid.csv`.
 **G.3 Reproduction.** The main results are reproduced in five steps, each writing its output to `output/`:
 
 ```
-Rscript model/psa_all.R        # 5,000 draws, seed 20261101 -> psa_results.csv, psa_draws.csv
+Rscript model/psa_all.R        # 5 000 draws, seed 20261101 -> psa_results.csv, psa_draws.csv
 Rscript model/psa_gradient.R   # same draws, three disease gradients -> psa_gradient.csv
 Rscript model/sensitivity.R    # one-way structural runs -> sensitivity.csv
 Rscript model/fill_results.R   # every number in the manuscript -> results.json
@@ -353,7 +351,4 @@ S4. Hernández JCS, et al. Building upon the sugar beverage tax in Mexico. BMJ G
 S5. Andreyeva T, Long MW, Brownell KD. The impact of food prices on consumption: a systematic review of research on the price elasticity of demand for food. Am J Public Health. 2010;100(2):216–22.
 S6. Cabrera Escobar MA, Veerman JL, Tollman SM, Bertram MY, Hofman KJ. Evidence that a tax on sugar sweetened beverages reduces the obesity rate: a meta-analysis. BMC Public Health. 2013;13:1072.
 S7. National Institute of Nutrition, Ministry of Health of Viet Nam. Vietnamese food composition table. Hanoi: Medical Publishing House; 2017.
-S8. Nguyen LM, De Steur H. Public acceptability of policy interventions to reduce sugary drink consumption in urban Vietnam. Sustainability. 2021;13(23):13422.
-S9. Nguyen LG, Nguyen TD. Between commerce and conscience: a human rights assessment of Vietnam's excise tax on sugar-sweetened beverages. Nord J Hum Rights. 2025;43(4):405–18.
-S10. Nguyen TNC, Nguyen NA, Tran CN. Excise tax on sugar-sweetened beverages in Viet Nam: a view from theory and international experience. VLUTE J Sci. 2026;2(2). doi:10.64215/h1bmvr13
-S11. WHO. Global report on the use of sugar-sweetened beverage taxes, 2025. Geneva: World Health Organization; 2025.
+S8. WHO. Global report on the use of sugar-sweetened beverage taxes, 2025. Geneva: World Health Organization; 2025.

@@ -66,7 +66,7 @@ Previous modelling for Viet Nam examined hypothetical rates before the statute w
 
 **Equity.** DALYs averted per 1 000 (Fig. 2) were 0.27 in the poorest quintile and 0.35 in the richest, a ratio of 0.77; the concentration index of DALYs averted was 0.047. Tax paid was 0.133% of household expenditure in the poorest quintile and 0.079% in the richest. The richest quintile paid 1.84 times as much in absolute terms, so the concentration index of the absolute payment was 0.117 and of payment as a share of expenditure −0.113; with a Gini of 0.213, a lower bound, the Kakwani index is −0.096. Neither gradient is measured, and they matter jointly: across the nine combinations the ratio of the gain in the poorest to the richest quintile runs from 0.44 to 1.28 and the concentration index from 0.160 to −0.054, so the distribution runs from clearly pro-rich to mildly pro-poor and is near-proportional under central assumptions (Table 4, Fig. 3).
 
-**Uncertainty.** Across 5 000 iterations the gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 94% of the variation (Fig. 4), with the own-price elasticity accounting for 50% of the explained variance, pass-through 18% and the diabetes relative risk 12%. The gain ranged from 7 822 DALYs at 10 years to 53 509 to 2100, from 13 784 to 35 710 across the pass-through range, and from 16 534 to 37 075 across the elasticity range; no value changed the order of magnitude.
+**Uncertainty.** Across 5 000 iterations the gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 94% of the variation (Fig. 4), with the own-price elasticity accounting for 50% of the explained variance, pass-through 18% and the diabetes relative risk 12%.
 
 **Structural sensitivity.** One-way runs are reported in the supplementary material. The gain ranges from 7 822 DALYs at 10 years to 53 509 to 2100, from 13 784 to 35 710 across the pass-through range and from 16 534 to 37 075 across the elasticity range, and is 39 894 at a zero discount rate and 18 724 at 5%; no value changes the order of magnitude. Inequality-adjusted equivalents of the per-capita gain were 0.996, 0.989 and 0.965 of the mean at aversion of 1, 3 and 10.
 
@@ -137,7 +137,7 @@ Not applicable.
 | Code | Scenario | Specification | Role |
 |---|---|---|---|
 | S0 | No tax | Baseline consumption trend 2027–2050 | Counterfactual |
-| S1 | Tax as enacted | 8% (2027), 10% (2028+); >5 g/100 mL; ex-factory base; 10% VAT cascade; statutory exclusions | Policy under evaluation |
+| S1 | Tax as enacted | 8% from 2027, 10% from 2028; >5 g/100 mL; ex-factory base; 10% VAT cascade; statutory exclusions | Policy under evaluation |
 | S2 | WHO benchmark | 20% retail price increase on taxed beverages from 2027 | Reference |
 | S3 | Enacted tax with reformulation | 10%, 25%, 50% of near-threshold products reformulate below 5 g/100 mL | Industry response |
 

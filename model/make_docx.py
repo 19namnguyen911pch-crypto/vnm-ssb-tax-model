@@ -107,17 +107,18 @@ def postprocess(path):
     zout.close()
     shutil.move(tmp, path)
 
-jobs = [
-    ("Ban_thao/Manuscript_EN.md", "Ban_thao/Manuscript_EN.docx"),
-    ("Ban_thao/Manuscript_VI.md", "Ban_thao/Manuscript_VI.docx"),
-    ("Ban_thao/Appendices_EN.md", "Ban_thao/Appendices_EN.docx"),
-    ("Ban_thao/Appendices_VI.md", "Ban_thao/Appendices_VI.docx"),
-    ("Ban_thao/Cover_letter.md",   "Ban_thao/Cover_letter.docx"),
-]
+if __name__ == "__main__":
+    jobs = [
+        ("Ban_thao/Manuscript_EN.md", "Ban_thao/Manuscript_EN.docx"),
+        ("Ban_thao/Manuscript_VI.md", "Ban_thao/Manuscript_VI.docx"),
+        ("Ban_thao/Appendices_EN.md", "Ban_thao/Appendices_EN.docx"),
+        ("Ban_thao/Appendices_VI.md", "Ban_thao/Appendices_VI.docx"),
+        ("Ban_thao/Cover_letter.md",   "Ban_thao/Cover_letter.docx"),
+    ]
 
-build_reference()
-for src, dst in jobs:
-    subprocess.run([PANDOC, src, "-f", "markdown", "-t", "docx",
-                    "--reference-doc", REF, "-o", dst], check=True)
-    postprocess(dst)
-    print(f"{dst:36s} {os.path.getsize(dst)/1024:7.1f} KB")
+    build_reference()
+    for src, dst in jobs:
+        subprocess.run([PANDOC, src, "-f", "markdown", "-t", "docx",
+                        "--reference-doc", REF, "-o", dst], check=True)
+        postprocess(dst)
+        print(f"{dst:36s} {os.path.getsize(dst)/1024:7.1f} KB")
