@@ -6,21 +6,13 @@
 
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Viet Nam. Email: ntnam.ddytcc23@ump.edu.vn
 
-**Word count:** 2 640 (main text); abstract 246; 27 references; 4 tables; 4 figures; 1 supplementary file.
+**Word count:** 2 640 (main text); abstract 247; 27 references; 4 tables; 4 figures; 1 supplementary file.
 
 ---
 
 ## Abstract
 
-**Objective** To estimate the health, cost and distributional consequences of the sugar-sweetened beverage excise tax that Viet Nam enacted in 2025.
-
-**Methods** We built a proportional multi-state model of disease incidence and prevalence in the population aged 20 and older, by age and household expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, ischaemic heart disease and stroke. We compared no tax, the tax as enacted, a 20% price increase (the WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5 000 draws with outcomes discounted at 3% per year.
-
-**Findings** The enacted rates raise the retail price of taxed beverages by 5.45% from 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 the tax would avert 17 209 disability-adjusted life years (DALYs; 95% uncertainty interval 6 335–38 093) and 21 814 cases of type 2 diabetes, ischaemic heart disease and stroke, save 965 billion Vietnamese dong (VND) in health-care costs and raise VND 42 284 billion in discounted revenue. The gain is 0.21 DALYs per 1 000 in the poorest quintile and 0.27 in the richest; tax paid is 0.133% and 0.079% of expenditure, and the Kakwani index is −0.096. Across combinations of the two unmeasured gradients, the poorest-to-richest ratio runs from 0.43 to 1.28.
-
-**Conclusion** The tax will deliver a real but small health gain — about a quarter of the WHO price signal — financed regressively. The 2028 review is where that gap can be closed.
-
----
+Viet Nam enacted its first excise tax on sugar-sweetened beverages in 2025: 8% from 2027 and 10% from 2028 on drinks with more than 5 g of sugar per 100 mL. We built a proportional multi-state model of disease incidence and prevalence in the population aged 20 and older by age and household expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, ischaemic heart disease and stroke. We compared no tax, the tax as enacted, a 20% price increase (WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5 000 draws with outcomes discounted at 3% per year. The enacted rates raise the retail price by 5.45% from 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 the tax would avert 17 209 disability-adjusted life years (DALYs; 95% uncertainty interval 6 335–38 093) and 21 814 cases of type 2 diabetes, ischaemic heart disease and stroke, save VND 965 billion in health-care costs and raise VND 42 284 billion in discounted revenue. The gain is 0.21 DALYs per 1 000 in the poorest quintile and 0.27 in the richest; tax paid is 0.133% and 0.079% of expenditure, and the Kakwani index is −0.096. Across the two unmeasured gradients, the poorest-to-richest ratio runs from 0.43 to 1.28. The tax will deliver a real but small health gain — about a quarter of the WHO price signal — financed regressively. The 2028 review is where that gap can be closed.
 
 ## What this adds
 

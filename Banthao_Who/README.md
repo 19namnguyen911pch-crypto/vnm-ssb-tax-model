@@ -7,23 +7,25 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 
 | File | Contents |
 |---|---|
-| `Manuscript_WHO.docx` | Main manuscript, Article type: Research |
+| `Manuscript_WHO.docx` | Main manuscript, Article type: Policy & Practice |
 | `Cover_letter_WHO.docx` | Cover letter |
 | `Supplement_WHO.docx` | Appendices A–G and supplementary references |
-| `Figures/Fig1.png` … `Fig4.png` | Figures 1–4, one file each |
+| `Figures/Fig1.tif` … `Fig4.tif` | Figures 1–4 as submitted (300 dpi TIFF); PNG originals also kept |
 | `Manuscript_WHO.md`, `Cover_letter_WHO.md`, `Supplement_WHO.md` | Markdown sources |
 
-## Compliance with the Bulletin's requirements for Research articles
+## Compliance with the Bulletin's requirements for Policy & Practice articles
 
 | Requirement | Limit | This manuscript |
 |---|---|---|
-| Body text | 3000 words | 2 641 |
-| Abstract | 250 words, structured | 246 (Objective, Methods, Findings, Conclusion) |
+| Body text | 3000 words | 2 640 |
+| Abstract | 250 words, non-structured | 247 |
 | References | 50 | 27, numbered in order of appearance |
 | Citation style | numbers in parentheses | (1), (1,2), (1–4) |
 | "What this adds" | two paragraphs | "What was already known" / "What this study adds" |
 | Tables and figures | numbered consecutively | Tables 1–4, Figures 1–4 |
 | Authors | at least one national of the study country, affiliated there | both authors |
+
+Submitted 2 November 2026 as **BLT/2026/297910**.
 
 Word count covers the body only, as the Bulletin excludes the abstract, tables,
 boxes, figures, references and appendices. It was computed with the same rule
@@ -31,11 +33,11 @@ used for the baseline manuscript.
 
 ## Differences from the baseline manuscript
 
-- Abstract restructured to Objective / Methods / Findings / Conclusion and cut
-  from 296 to 245 words.
+- Abstract rewritten as a single non-structured paragraph of 247 words, as
+  required for Policy & Practice; the earlier structured version was 286 words.
 - The three-part "Research in context" panel replaced by the two paragraphs the
   Bulletin requests.
-- Body cut from 3 404 to 2 641 words: Methods condensed (parameter detail stays
+- Body cut from 3 404 to 2 640 words: Methods condensed (parameter detail stays
   in the supplement), Results tightened, Discussion shortened.
 - References reduced from 30 to 27 and renumbered; the three works that no
   longer appear in the main list (Luong 2020, the WHO 2025 global report, and
