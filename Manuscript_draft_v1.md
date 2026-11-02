@@ -66,7 +66,7 @@ Four scenarios were modelled (Table 1). S0 is no tax. S1 is the tax as legislate
 | Code | Scenario | Specification | Role |
 |---|---|---|---|
 | S0 | No tax | Baseline consumption trend 2027–2050 | Counterfactual |
-| S1 | Tax as enacted | 8% (2027), 10% (2028+); >5 g/100 mL; ex-factory base; 10% VAT cascade; statutory exclusions | Policy under evaluation |
+| S1 | Tax as enacted | 8% from 2027, 10% from 2028; >5 g/100 mL; ex-factory base; 10% VAT cascade; statutory exclusions | Policy under evaluation |
 | S2 | WHO benchmark | 20% retail price increase on taxed beverages from 2027 | Reference |
 | S3 | Enacted tax with reformulation | 10%, 25%, 50% of near-threshold products reformulate below 5 g/100 mL | Industry response |
 

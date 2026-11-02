@@ -295,13 +295,11 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.5 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
+**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
 
-**F.6 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 39,894 and 18,724 DALYs at discount rates of 0% and 5%; 13,784 and 35,710 at pass-through 0.50 and 1.30; 16,534 and 37,075 at elasticity −0.80 and −1.80; 7,822, 24,767 and 53,509 over the 10-year, 2050 and 2100 horizons; and 22,632 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
+**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 39,894 and 18,724 DALYs at discount rates of 0% and 5%; 13,784 and 35,710 at pass-through 0.50 and 1.30; 16,534 and 37,075 at elasticity −0.80 and −1.80; 7,822, 24,767 and 53,509 over the 10-year, 2050 and 2100 horizons; and 22,632 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
 
-**F.7 Gradient in baseline disease risk.** The whole probabilistic analysis is repeated on the same 5,000 draws under two socioeconomic gradients, risk falling with expenditure (1.15 in Q1 to 0.88 in Q5) and risk rising with expenditure (0.88 in Q1 to 1.15 in Q5). The median Q1/Q5 ratio moves from 0.77 to 0.99 in the first case and to 0.60 in the second, and the concentration index from 0.047 to −0.002 and to 0.097; the Kakwani index is unchanged because it depends only on payments. Deposited as `output/psa_gradient.csv`.
-
-**F.8 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
+**F.6 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
 
 | Baseline risk | Elasticity gradient | Q1/Q5 | Concentration index | Kakwani | Tax, Q1 (%) | Tax, Q5 (%) |
 |---|---|---|---|---|---|---|
@@ -317,7 +315,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 Deposited as `output/equity_grid.csv`.
 
-**F.9 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
+**F.7 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 
 ## Appendix G. Code and reproducibility
 

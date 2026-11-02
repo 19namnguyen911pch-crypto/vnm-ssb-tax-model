@@ -66,7 +66,7 @@ Bốn kịch bản được mô hình hóa (Bảng 1). S0 là không thuế. S1 
 | Mã | Kịch bản | Đặc tả | Vai trò |
 |---|---|---|---|
 | S0 | Không thuế | Xu hướng tiêu thụ nền 2027–2050 | Phản thực tế |
-| S1 | Thuế như đã ban hành | 8% (2027), 10% (2028 trở đi); >5 g/100 mL; cơ sở xuất xưởng; tầng VAT 10%; loại trừ theo luật | Chính sách cần đánh giá |
+| S1 | Thuế như đã ban hành | 8% từ 2027, 10% từ 2028; >5 g/100 mL; cơ sở xuất xưởng; tầng VAT 10%; loại trừ theo luật | Chính sách cần đánh giá |
 | S2 | Mốc tham chiếu WHO | Tăng giá bán lẻ 20% cho đồ uống chịu thuế từ 2027 | Tham chiếu |
 | S3 | Thuế đã ban hành kèm tái định lượng | 10%, 25%, 50% sản phẩm gần ngưỡng tái định lượng xuống dưới 5 g/100 mL | Phản ứng của ngành |
 
