@@ -1,4 +1,4 @@
-1 November 2026
+2 November 2026
 
 The Editors
 *The Lancet Regional Health – Western Pacific*

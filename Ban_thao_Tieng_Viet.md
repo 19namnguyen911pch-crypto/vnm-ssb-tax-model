@@ -536,7 +536,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 ## Phụ lục F. Các phân tích độ nhạy đã thực hiện
 
-**F.1 Phân tích xác suất.** 5.000 lần mô phỏng Monte Carlo, lấy mẫu độc lập từ các phân phối ở Phụ lục B, hạt giống cố định (20261101), báo cáo trung vị và khoảng bất định 95%. Đóng góp của từng tham số vào phương sai của DALY tránh được được tính từ một mô hình tuyến tính của 5.000 lần rút trên các tham số đã lấy mẫu, dùng bình phương tương quan bán phần chia cho phương sai được giải thích; mô hình đó giải thích 94% biến thiên.
+**F.1 Phân tích xác suất.** 5.000 lần mô phỏng Monte Carlo, lấy mẫu độc lập từ các phân phối ở Phụ lục B, hạt giống cố định (20261101), báo cáo trung vị và khoảng bất định 95%. Đóng góp của từng tham số vào phương sai của DALY tránh được tính từ một mô hình tuyến tính của 5.000 lần rút trên các tham số đã lấy mẫu, dùng bình phương tương quan bán phần chia cho phương sai được giải thích; mô hình đó giải thích 94% biến thiên.
 
 **F.2 Phân tích ngưỡng.** Lưới trên tỷ trọng giá xuất xưởng (0,30 đến 0,85) và mức truyền dẫn (0,30 đến 1,50), mô hình chạy lại tại từng điểm, xác định các tổ hợp mà tại đó lợi ích sức khỏe không phân biệt được với không. Lưới được lưu ở `output/threshold_grid.csv`.
 
