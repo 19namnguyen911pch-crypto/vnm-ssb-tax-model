@@ -5,7 +5,7 @@ The Editors
 
 Dear Editors,
 
-We submit for your consideration a modelling study, **"Modest health gains and regressive financing from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study."**
+We submit for your consideration a modelling study, **"The excise base, not the headline rate, drives the health gain from Viet Nam's sugar-sweetened beverage tax: an ex-ante modelling study."**
 
 In June 2025 Viet Nam became one of the last countries in southeast Asia to legislate a tax on sugar-sweetened beverages. The statute applies 8% from January 2027 and 10% from January 2028 to drinks containing more than 5 g of sugar per 100 mL, and provides for review. Two years of debate preceded it, and almost all of that debate concerned the rate. Our study shows that the rate is not the binding constraint.
 

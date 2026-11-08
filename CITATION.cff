@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or these parameters, please cite the article below."
-title: "Modest health gains and regressive financing from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study"
+title: "The excise base, not the headline rate, drives the health gain from Viet Nam's sugar-sweetened beverage tax: an ex-ante modelling study"
 type: software
 authors:
   - family-names: "Nguyen"
@@ -23,7 +23,7 @@ keywords:
   - multi-state life table
 references:
   - type: article
-    title: "Modest health gains and regressive financing from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study"
+    title: "The excise base, not the headline rate, drives the health gain from Viet Nam's sugar-sweetened beverage tax: an ex-ante modelling study"
     authors:
       - family-names: "Nguyen"
         given-names: "Thanh Nam"

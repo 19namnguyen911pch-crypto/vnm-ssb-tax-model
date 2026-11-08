@@ -1,6 +1,6 @@
 # Supplementary material
 
-Supplementary material for: Modest health gains and regressive financing from Viet Nam's sugar-sweetened beverage excise tax: a modelling study. Reference numbers in parentheses refer to the main reference list; numbers prefixed S refer to the list below.
+Supplementary material for: The excise base, not the headline rate, drives the health gain from Viet Nam's sugar-sweetened beverage tax: a modelling study. Reference numbers in parentheses refer to the main reference list; numbers prefixed S refer to the list below.
 
 ## Appendix A. Evidence search
 
@@ -188,7 +188,7 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 | # | Parameter | Central value used | Uncertainty range | Distribution | Source | Type | Feasible |
 |---|---|---|---|---|---|---|---|
-| 1 | Population aged 20+, by age and quintile | 81 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 (S1) | Source | Yes |
+| 1 | Population aged 20+, by age and quintile | 72 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 (S1) | Source | Yes |
 | 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR (2) | Derived | Partly |
 | 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor (2); GNS 2019–20 (S2); VHLSS (S3) | Derived | Partly |
 | 4 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
@@ -297,7 +297,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text.
+**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 55 096 and 49 108 DALYs, within 6% of the central 52 104.
 
 **F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from the GBD 2021 prevalent stock instead of from zero. At central values the health gain is 27 824 and 12 995 DALYs at discount rates of 0% and 5%; 9 573 and 24 827 at pass-through 0.50 and 1.30; 11 484 and 25 777 at elasticity −0.80 and −1.80; 5 575, 17 209 and 36 419 over the 10-year, 2050 and 2100 horizons; and 15 696 when the prevalent stock is initialised from GBD 2021. Deposited as `output/sensitivity.csv`.
 
@@ -317,20 +317,23 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 Deposited as `output/equity_grid.csv`.
 
-**F.7 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
+**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 31 217, health-care costs saved VND 1 750 billion and discounted revenue VND 72 555 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 15 554 DALYs (−9.6%), and combining the 2050 age distribution with the GBD 2021 prevalent stock gives 13 990 DALYs (−18.7%). These runs are deterministic and were not propagated through the probabilistic analysis.
+
+**F.8 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 
 ## Appendix G. Code and reproducibility
 
 **G.1 Environment.** R version 4.6.1, base R only, with no package dependencies. The model, the probabilistic analysis and the figures run from a clean installation of R; the DOCX files are built with Python 3 and `python-docx`.
 
-**G.2 Repository.** `model/` holds the model (`pmslt_model.R`), the quintile profile (`vhlss.R`), the probabilistic analysis (`psa.R`, `psa_all.R`, `psa_gradient.R`) and the script that writes every number in the manuscript (`fill_results.R`). `data/` holds the parameter inputs and the screening log. `output/` holds the draw matrix, the draws, the threshold grid and the gradient run. `Ban_thao/` holds the manuscript sources, the figure script and the generated DOCX files.
+**G.2 Repository.** `model/` holds the model (`pmslt_model.R`), the quintile profile (`vhlss.R`), the probabilistic analysis (`psa.R`, `psa_all.R`, `psa_gradient.R`), the base and ageing counterfactuals (`policy_levers.R`) and the script that writes every number in the manuscript (`fill_results.R`). `data/` holds the parameter inputs and the screening log. `output/` holds the draw matrix, the draws, the threshold grid and the gradient run. `Ban_thao/` holds the manuscript sources, the figure script and the generated DOCX files.
 
-**G.3 Reproduction.** The main results are reproduced in five steps, each writing its output to `output/`:
+**G.3 Reproduction.** The main results are reproduced in six steps, each writing its output to `output/`:
 
 ```
 Rscript model/psa_all.R        # 5 000 draws, seed 20261101 -> psa_results.csv, psa_draws.csv
 Rscript model/psa_gradient.R   # same draws, three disease gradients -> psa_gradient.csv
 Rscript model/sensitivity.R    # one-way structural runs -> sensitivity.csv
+Rscript model/policy_levers.R  # base and ageing counterfactuals -> policy_levers.csv
 Rscript model/fill_results.R   # every number in the manuscript -> results.json
 Rscript Ban_thao/Figures/make_figures.R   # Figures 1-4
 ```

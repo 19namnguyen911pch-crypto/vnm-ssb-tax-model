@@ -1,9 +1,9 @@
-# Modest health gains and regressive financing from Viet Nam's enacted sugar-sweetened beverage excise tax: an ex-ante modelling study
+# The excise base, not the headline rate, drives the health gain from Viet Nam's sugar-sweetened beverage tax: an ex-ante modelling study
 
 **Authors:** Nguyen Thanh Nam (ORCID 0009-0009-7627-8854; telephone +84 379793766; fax: not applicable), Khanh Linh Lam Ngoc (ORCID 0009-0005-6454-7472; telephone +84 799934778; fax: not applicable)\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 286; main text 3,384 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
+**Word count:** abstract 286; main text 3,433 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
 
 ---
 
@@ -88,7 +88,7 @@ Table 2 gives the central value and range of the parameters driving the results;
 
 | Parameter | Source | Distribution | Value or range |
 |---|---|---|---|
-| Population aged 20+, by age and quintile | UN World Population Prospects 2024 (Appendix B) | Fixed | 81 million, 2027 distribution |
+| Population aged 20+, by age and quintile | UN World Population Prospects 2024 (Appendix B) | Fixed | 72 million, 2027 distribution |
 | Volume of taxed beverages | Euromonitor; General Nutrition Survey (Appendix B) | Gamma | 145 mL/day (90–220) |
 | Ex-factory share of retail price | No Vietnamese estimate | Triangular | 0.55 (0.40–0.70) |
 | Pass-through rate | Evaluations in Mexico, Chile, Barbados [26], Portugal and France [27,28] | Triangular | 0.90 (0.50–1.30) |
@@ -154,7 +154,7 @@ S3 values are averages across the taxed category after 25% of taxed volume refor
 
 ### Comparison of designs
 
-The 20% price increase would avert 62,733 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 126,764 billion against VND 42,284 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 31,713 and 23,817 billion and DALYs averted are 31,218, 52,104 and 86,578. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5.
+The 20% price increase would avert 62,733 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 126,764 billion against VND 42,284 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 42,871, 31,713 and 23,817 billion and DALYs averted are 31,218, 52,104 and 86,578. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5. Holding the 10% rate and moving the base to the retail price would raise the retail price by 9.9% and avert 31,217 DALYs, 1.8 times the enacted gain, at VND 72,555 billion in revenue; at the ex-factory base, the same price change would need a rate of about 18%.
 
 ### Equity
 
@@ -442,7 +442,7 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 | # | Parameter | Central value used | Uncertainty range | Distribution | Source | Type | Feasible |
 |---|---|---|---|---|---|---|---|
-| 1 | Population aged 20+, by age and quintile | 81 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 [S1] | Source | Yes |
+| 1 | Population aged 20+, by age and quintile | 72 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 [S1] | Source | Yes |
 | 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR [3] | Derived | Partly |
 | 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [3]; GNS 2019–20 [S2]; VHLSS [S3] | Derived | Partly |
 | 4 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |

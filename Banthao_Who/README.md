@@ -17,15 +17,15 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 
 | Requirement | Limit | This manuscript |
 |---|---|---|
-| Body text | 3000 words | 2 640 |
-| Abstract | 250 words, non-structured | 247 |
+| Body text | 3000 words | 2 870 |
+| Abstract | 250 words, non-structured | 249 |
 | References | 50 | 27, numbered in order of appearance |
 | Citation style | numbers in parentheses | (1), (1,2), (1–4) |
 | "What this adds" | two paragraphs | "What was already known" / "What this study adds" |
 | Tables and figures | numbered consecutively | Tables 1–4, Figures 1–4 |
 | Authors | at least one national of the study country, affiliated there | both authors |
 
-Submitted 2 November 2026 as **BLT/2026/297910**.
+Submitted 2 November 2026 as **BLT/2026/297910**; desk rejected 8 November 2026. The present version adds the retail-base counterfactual and the population-ageing sensitivity for resubmission.
 
 Word count covers the body only, as the Bulletin excludes the abstract, tables,
 boxes, figures, references and appendices. It was computed with the same rule
@@ -33,11 +33,11 @@ used for the baseline manuscript.
 
 ## Differences from the baseline manuscript
 
-- Abstract rewritten as a single non-structured paragraph of 247 words, as
+- Abstract rewritten as a single non-structured paragraph of 249 words, as
   required for Policy & Practice; the earlier structured version was 286 words.
 - The three-part "Research in context" panel replaced by the two paragraphs the
   Bulletin requests.
-- Body cut from 3 404 to 2 640 words: Methods condensed (parameter detail stays
+- Body cut from 3 433 to 2 870 words: Methods condensed (parameter detail stays
   in the supplement), Results tightened, Discussion shortened.
 - References reduced from 30 to 27 and renumbered; the three works that no
   longer appear in the main list (Luong 2020, the WHO 2025 global report, and

@@ -5,7 +5,7 @@ The Editors
 
 Dear Editors,
 
-We submit for consideration as a **Policy & Practice** article: **"Modest health gains and regressive financing from Viet Nam's sugar-sweetened beverage excise tax: a modelling study."**
+We submit for consideration as a **Policy & Practice** article: **"The excise base, not the headline rate, drives the health gain from Viet Nam's sugar-sweetened beverage tax: a modelling study."**
 
 Viet Nam legislated its first excise tax on sugar-sweetened beverages in June 2025 and provides for review in 2028. Almost all of the preceding debate concerned the rate. Our study shows that the rate is not the binding constraint: because the excise is levied on an ex-factory base and cascaded through value-added tax, a 10% statutory rate produces a retail price increase of about 5%, roughly a quarter of the 20% benchmark WHO recommends. The health gain scales with that price change, not with the rate.
 
@@ -15,7 +15,7 @@ Viet Nam legislated its first excise tax on sugar-sweetened beverages in June 20
 
 The study models the tax as legislated — its statutory base, its threshold as operationalised in the national standard, and the Vietnamese value-added tax treatment — rather than a hypothetical design. It places health benefit and tax payment on the same expenditure-quintile scale, and it states which part of the distributional result rests on assumption.
 
-The manuscript has 2 640 words in the body, an abstract of 247 words and 27 references, within the limits for Policy & Practice articles. It uses only published parameters and secondary data, involved no participants, and required no ethical approval. Both authors are nationals of Viet Nam and affiliated with a Vietnamese institution. The analytic code, parameter tables and probabilistic analysis are archived at https://doi.org/10.5281/zenodo.23852908. The study received no specific funding and we declare no competing interests.
+The manuscript has 2 870 words in the body, an abstract of 249 words and 27 references, within the limits for Policy & Practice articles. It uses only published parameters and secondary data, involved no participants, and required no ethical approval. Both authors are nationals of Viet Nam and affiliated with a Vietnamese institution. The analytic code, parameter tables and probabilistic analysis are archived at https://doi.org/10.5281/zenodo.23852908. The study received no specific funding and we declare no competing interests.
 
 The manuscript is not under consideration elsewhere, has not been published, and both authors have approved the submission.
 

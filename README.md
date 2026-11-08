@@ -5,8 +5,8 @@
 
 Reproducibility package for:
 
-> **Modest health gains and regressive financing from Viet Nam's enacted
-> sugar-sweetened beverage excise tax: an ex-ante modelling study**
+> **The excise base, not the headline rate, drives the health gain from Viet Nam's
+> sugar-sweetened beverage tax: an ex-ante modelling study**
 > Nguyen Thanh Nam, Khanh Linh Lam Ngoc
 > Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City
 

@@ -187,7 +187,7 @@ Mỗi tham số một dòng. Cột "Loại" phân biệt giá trị lấy từ n
 
 | # | Tham số | Giá trị trung tâm đã dùng | Khoảng bất định | Phân phối | Nguồn | Loại | Khả thi |
 |---|---|---|---|---|---|---|---|
-| 1 | Dân số từ 20 tuổi, theo tuổi và ngũ phân vị | 81 triệu, phân bố năm 2027 giữ cho mọi năm | — | Cố định | Dự báo dân số UN 2024 [S1] | Nguồn | Có |
+| 1 | Dân số từ 20 tuổi, theo tuổi và ngũ phân vị | 72 triệu, phân bố năm 2027 giữ cho mọi năm | — | Cố định | Dự báo dân số UN 2024 [S1] | Nguồn | Có |
 | 2 | Xu hướng tiêu thụ nền | +2,0%/năm | 0 đến +4,0% | Đều | CAGR Euromonitor 2009–2023 [3] | Suy ra | Một phần |
 | 3 | Tiêu thụ theo tuổi, giới, ngũ phân vị | 145 mL/người/ngày | 90 đến 220 | Gamma | Euromonitor [3]; GNS 2019–20 [S2]; VHLSS [S3] | Suy ra | Một phần |
 | 4 | Tỷ trọng giá xuất xưởng trong giá bán lẻ | 0,55 | 0,40 đến 0,70 | Tam giác | Không có nguồn Việt Nam; cấu trúc biên FMCG | Giả định | **Không** |

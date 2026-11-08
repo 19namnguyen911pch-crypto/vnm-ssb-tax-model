@@ -17,6 +17,7 @@ Không cần gói ngoài base R.
 | `vhlss.R` | Nạp microdata VHLSS → 5 ngũ phân vị; nếu không có thì dự phòng từ số công bố |
 | `pmslt_model.R` | 7 bước mô hình, cầu 2 phân đoạn, vòng 5 ngũ phân vị, hiệu chuẩn S1b, chỉ số công bằng |
 | `psa.R` | Lấy mẫu phân phối, chạy PSA, tóm tắt, xuất CSV |
+| `policy_levers.R` | Kịch bản cơ sở tính thuế bán lẻ và già hóa dân số, xuất `output/policy_levers.csv` |
 | `audit.R` | Nạp CSV kiểm toán sản phẩm → 4 tham số, xuất `data/audit_params.csv` |
 | `run_all.R` | Điều khiển toàn bộ |
 

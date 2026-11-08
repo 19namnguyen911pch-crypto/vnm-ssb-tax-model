@@ -1,9 +1,9 @@
-# Lợi ích sức khỏe khiêm tốn và cơ chế tài chính lũy thoái của thuế tiêu thụ đặc biệt đồ uống có đường đã ban hành tại Việt Nam: nghiên cứu mô hình hóa trước thực thi
+# Cơ sở tính thuế, không phải thuế suất danh nghĩa, quyết định lợi ích sức khỏe của thuế tiêu thụ đặc biệt đồ uống có đường tại Việt Nam: nghiên cứu mô hình hóa trước thực thi
 
 **Tác giả:** Nguyen Thanh Nam (ORCID 0009-0009-7627-8854; điện thoại +84 379793766; fax: không áp dụng), Khanh Linh Lam Ngoc (ORCID 0009-0005-6454-7472; điện thoại +84 799934778; fax: không áp dụng)\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 440; thân bài 4.626 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
+**Số từ:** tóm tắt 440; thân bài 4.682 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
 
 ---
 
@@ -88,7 +88,7 @@ Bảng 2 nêu giá trị trung tâm và khoảng của các tham số quyết đ
 
 | Tham số | Nguồn | Phân phối | Giá trị hoặc khoảng |
 |---|---|---|---|
-| Dân số từ 20 tuổi, theo tuổi và ngũ phân vị | Dự báo dân số UN 2024 (Phụ lục B) | Cố định | 81 triệu, phân bố năm 2027 |
+| Dân số từ 20 tuổi, theo tuổi và ngũ phân vị | Dự báo dân số UN 2024 (Phụ lục B) | Cố định | 72 triệu, phân bố năm 2027 |
 | Khối lượng đồ uống chịu thuế | Euromonitor; Điều tra dinh dưỡng toàn quốc (Phụ lục B) | Gamma | 145 mL/ngày (90–220) |
 | Tỷ trọng giá xuất xưởng | Không có ước lượng Việt Nam | Tam giác | 0,55 (0,40–0,70) |
 | Mức truyền dẫn | Đánh giá tại Mexico, Chile, Barbados [26], Bồ Đào Nha và Pháp [27,28] | Tam giác | 0,90 (0,50–1,30) |
@@ -154,7 +154,7 @@ Giá trị của S3 là trung bình trên cả nhóm chịu thuế sau khi 25% t
 
 ### So sánh các thiết kế
 
-Mức tăng giá 20% tránh được 62.733 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu đã chiết khấu 126.764 tỷ đồng so với 42.284 tỷ đồng; trên mỗi tỷ đồng, thuế đã ban hành tạo 0,4 DALY và mốc tham chiếu 0,5. Tái định lượng loại khỏi cơ sở thuế phần sản phẩm xuống dưới ngưỡng, và doanh thu giảm theo: ở mức 10%, 25% và 50%, doanh thu là 42.871, 31.713 và 23.817 tỷ đồng và DALY tránh được là 31.218, 52.104 và 86.578. Lợi ích tăng theo tỷ lệ tái định lượng vì các sản phẩm đó chứa ít đường hơn dù ra khỏi cơ sở thuế. Phần tái định lượng giảm từ mức trung bình của nhóm chịu thuế là 11 g/100 mL xuống 4,5 g/100 mL. Vì S3 loại một phần cơ sở, tỷ lệ DALY trên mỗi tỷ đồng của nó không phải so sánh ngang hàng.
+Mức tăng giá 20% tránh được 62.733 DALY, gấp 3,6 lần lợi ích của thuế đã ban hành, với doanh thu đã chiết khấu 126.764 tỷ đồng so với 42.284 tỷ đồng; trên mỗi tỷ đồng, thuế đã ban hành tạo 0,4 DALY và mốc tham chiếu 0,5. Tái định lượng loại khỏi cơ sở thuế phần sản phẩm xuống dưới ngưỡng, và doanh thu giảm theo: ở mức 10%, 25% và 50%, doanh thu là 42.871, 31.713 và 23.817 tỷ đồng và DALY tránh được là 31.218, 52.104 và 86.578. Lợi ích tăng theo tỷ lệ tái định lượng vì các sản phẩm đó chứa ít đường hơn dù ra khỏi cơ sở thuế. Phần tái định lượng giảm từ mức trung bình của nhóm chịu thuế là 11 g/100 mL xuống 4,5 g/100 mL. Giữ nguyên thuế suất 10% và chuyển cơ sở tính thuế sang giá bán lẻ sẽ làm giá bán lẻ tăng 9,9% và tránh được 31.217 DALY, gấp 1,8 lần lợi ích đã ban hành, với doanh thu 72.555 tỷ đồng; ở cơ sở giá xuất xưởng, mức tăng giá đó cần thuế suất khoảng 18%. Vì S3 loại một phần cơ sở, tỷ lệ DALY trên mỗi tỷ đồng của nó không phải so sánh ngang hàng.
 
 ### Công bằng
 
@@ -431,7 +431,7 @@ Mỗi tham số một dòng. Cột "Loại" phân biệt giá trị lấy từ n
 
 | # | Tham số | Giá trị trung tâm đã dùng | Khoảng bất định | Phân phối | Nguồn | Loại | Khả thi |
 |---|---|---|---|---|---|---|---|
-| 1 | Dân số từ 20 tuổi, theo tuổi và ngũ phân vị | 81 triệu, phân bố năm 2027 giữ cho mọi năm | — | Cố định | Dự báo dân số UN 2024 [S1] | Nguồn | Có |
+| 1 | Dân số từ 20 tuổi, theo tuổi và ngũ phân vị | 72 triệu, phân bố năm 2027 giữ cho mọi năm | — | Cố định | Dự báo dân số UN 2024 [S1] | Nguồn | Có |
 | 2 | Xu hướng tiêu thụ nền | +2,0%/năm | 0 đến +4,0% | Đều | CAGR Euromonitor 2009–2023 [3] | Suy ra | Một phần |
 | 3 | Tiêu thụ theo tuổi, giới, ngũ phân vị | 145 mL/người/ngày | 90 đến 220 | Gamma | Euromonitor [3]; GNS 2019–20 [S2]; VHLSS [S3] | Suy ra | Một phần |
 | 4 | Tỷ trọng giá xuất xưởng trong giá bán lẻ | 0,55 | 0,40 đến 0,70 | Tam giác | Không có nguồn Việt Nam; cấu trúc biên FMCG | Giả định | **Không** |

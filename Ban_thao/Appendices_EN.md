@@ -184,7 +184,7 @@ One row per parameter. "Type" distinguishes a value taken from a published sourc
 
 | # | Parameter | Central value used | Uncertainty range | Distribution | Source | Type | Feasible |
 |---|---|---|---|---|---|---|---|
-| 1 | Population aged 20+, by age and quintile | 81 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 [S1] | Source | Yes |
+| 1 | Population aged 20+, by age and quintile | 72 million, 2027 distribution held for every year | — | Fixed | UN World Population Prospects 2024 [S1] | Source | Yes |
 | 2 | Baseline SSB consumption trend | +2.0% per year | 0 to +4.0% | Uniform | Euromonitor 2009–2023 CAGR [3] | Derived | Partly |
 | 3 | SSB consumption by age, sex, quintile | 145 mL/person/day | 90 to 220 | Gamma | Euromonitor [3]; GNS 2019–20 [S2]; VHLSS [S3] | Derived | Partly |
 | 4 | Ex-factory share of retail price | 0.55 | 0.40 to 0.70 | Triangular | No Vietnamese source; FMCG margin structure | Assumption | **No** |
