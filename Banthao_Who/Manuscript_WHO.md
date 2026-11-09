@@ -167,7 +167,7 @@ Not applicable.
 | Revenue, 2027–2050, discounted (VND bn) | 41 053 | 123 072 | 30 790 |
 | DALYs averted per VND bn of revenue | 0.4 | 0.5 | 1.7 |
 
-S3 values are averages across the taxed category after 25% of taxed volume reformulates and leaves the base.
+S3 values are averages across the taxed category after 25% of taxed volume reformulates and leaves the base. Central estimates are deterministic runs at central parameter values; the 95% uncertainty interval is from the probabilistic analysis.
 
 **Table 4. Equity results across the two unmeasured gradients**
 

@@ -3,7 +3,7 @@
 **Authors:** Nguyen Thanh Nam (ORCID 0009-0009-7627-8854; telephone +84 379793766; fax: not applicable), Khanh Linh Lam Ngoc (ORCID 0009-0005-6454-7472; telephone +84 799934778; fax: not applicable)\
 **Affiliations:** ¹Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam\
 **Correspondence:** Nguyen Thanh Nam, Faculty of Public Health, University of Medicine and Pharmacy at Ho Chi Minh City, 217 Hong Bang Street, Cho Lon Ward, Ho Chi Minh City, Vietnam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Word count:** abstract 296; main text 3,525 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
+**Word count:** abstract 296; main text 3,543 (Introduction to the end of the Discussion, excluding tables, figure legends and headings); 3 tables; 4 figures; 30 references, with 10 further references cited only in the appendices
 
 ---
 
@@ -137,7 +137,7 @@ Over 2027–2050 the enacted tax would avert 16,898 DALYs (95% uncertainty inter
 
 **Table 3. Main results by scenario, 2027–2050**
 
-S3 values are averages across the taxed category after 25% of taxed volume reformulates below the threshold and leaves the tax base: the full price change applies to the remaining 75%, and the reformulated share falls from the category mean of 11 to 4.5 g/100 mL.
+S3 values are averages across the taxed category after 25% of taxed volume reformulates below the threshold and leaves the tax base: the full price change applies to the remaining 75%, and the reformulated share falls from the category mean of 11 to 4.5 g/100 mL. Central estimates are deterministic runs at central parameter values; the 95% uncertainty interval is from the probabilistic analysis.
 
 | Outcome | S1 | S2 | S3 (25%) |
 |---|---|---|---|

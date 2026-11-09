@@ -3,7 +3,7 @@
 **Tác giả:** Nguyen Thanh Nam (ORCID 0009-0009-7627-8854; điện thoại +84 379793766; fax: không áp dụng), Khanh Linh Lam Ngoc (ORCID 0009-0005-6454-7472; điện thoại +84 799934778; fax: không áp dụng)\
 **Đơn vị:** ¹Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam\
 **Tác giả liên hệ:** Nguyen Thanh Nam, Khoa Y tế Công cộng, Đại học Y Dược Thành phố Hồ Chí Minh, 217 Hồng Bàng, Phường Chợ Lớn, Thành phố Hồ Chí Minh, Việt Nam. Email: ntnam.ddytcc23@ump.edu.vn\
-**Số từ:** tóm tắt 451; thân bài 4.760 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
+**Số từ:** tóm tắt 451; thân bài 4.788 (từ Giới thiệu đến hết Thảo luận, không tính bảng, chú thích hình và tiêu đề mục); 3 bảng; 4 hình; 30 tài liệu tham khảo, cùng 10 tài liệu chỉ được trích trong phụ lục
 
 ---
 
@@ -137,7 +137,7 @@ Giai đoạn 2027–2050, thuế đã ban hành tránh được 16.898 DALY (kho
 
 **Bảng 3. Kết quả chính theo kịch bản, 2027–2050**
 
-Giá trị của S3 là trung bình trên cả nhóm chịu thuế sau khi 25% thể tích chịu thuế tái định lượng xuống dưới ngưỡng và ra khỏi cơ sở thuế: mức tăng giá đầy đủ áp cho 75% còn lại, và phần tái định lượng giảm từ mức trung bình 11 xuống 4,5 g/100 mL.
+Giá trị của S3 là trung bình trên cả nhóm chịu thuế sau khi 25% thể tích chịu thuế tái định lượng xuống dưới ngưỡng và ra khỏi cơ sở thuế: mức tăng giá đầy đủ áp cho 75% còn lại, và phần tái định lượng giảm từ mức trung bình 11 xuống 4,5 g/100 mL. Giá trị trung tâm là các lần chạy tất định tại giá trị trung tâm của tham số; khoảng bất định 95% lấy từ phân tích xác suất.
 
 | Kết cục | S1 | S2 | S3 (25%) |
 |---|---|---|---|
