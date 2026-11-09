@@ -297,27 +297,27 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 55 753 and 49 688 DALYs, within 6% of the central 52 722.
+**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 54 142 and 48 252 DALYs, within 6% of the central 51 198.
 
-**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from zero instead of the GBD 2021 prevalent stock. At central values the health gain is 28 943 and 12 977 DALYs at discount rates of 0% and 5%; 9 680 and 25 110 at pass-through 0.50 and 1.30; 11 613 and 26 072 at elasticity −0.80 and −1.80; 5 949, 17 404 and 34 934 over the 10-year, 2050 and 2100 horizons; and 19 228 when the model starts from zero instead of the GBD stock. Deposited as `output/sensitivity.csv`.
+**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from zero instead of the GBD 2021 prevalent stock. At central values the health gain is 28 102 and 12 600 DALYs at discount rates of 0% and 5%; 9 398 and 24 381 at pass-through 0.50 and 1.30; 11 275 and 25 316 at elasticity −0.80 and −1.80; 5 777, 16 898 and 33 919 over the 10-year, 2050 and 2100 horizons; and 18 669 when the model starts from zero instead of the GBD stock. Deposited as `output/sensitivity.csv`.
 
 **F.6 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
 
 | Baseline risk | Elasticity gradient | Q1/Q5 | Concentration index | Kakwani | Tax, Q1 (%) | Tax, Q5 (%) |
 |---|---|---|---|---|---|---|
-| Rises with expenditure | 1.0 | 0.44 | 0.160 | −0.101 | 0.135 | 0.078 |
-| Rises with expenditure | 1.39 | 0.61 | 0.096 | −0.096 | 0.133 | 0.079 |
-| Rises with expenditure | 1.8 | 0.78 | 0.044 | −0.093 | 0.132 | 0.080 |
-| None | 1.0 | 0.56 | 0.112 | −0.101 | 0.135 | 0.078 |
-| None | 1.39 | 0.77 | 0.047 | −0.096 | 0.133 | 0.079 |
-| None | 1.8 | 1.00 | −0.005 | −0.093 | 0.132 | 0.080 |
-| Falls with expenditure | 1.0 | 0.71 | 0.064 | −0.101 | 0.135 | 0.078 |
-| Falls with expenditure | 1.39 | 0.99 | −0.002 | −0.096 | 0.133 | 0.079 |
-| Falls with expenditure | 1.8 | 1.28 | −0.053 | −0.093 | 0.132 | 0.080 |
+| Rises with expenditure | 1.0 | 0.44 | 0.160 | −0.101 | 0.131 | 0.076 |
+| Rises with expenditure | 1.39 | 0.61 | 0.096 | −0.096 | 0.129 | 0.077 |
+| Rises with expenditure | 1.8 | 0.78 | 0.044 | −0.093 | 0.128 | 0.077 |
+| None | 1.0 | 0.56 | 0.112 | −0.101 | 0.131 | 0.076 |
+| None | 1.39 | 0.77 | 0.047 | −0.096 | 0.129 | 0.077 |
+| None | 1.8 | 1.00 | −0.005 | −0.093 | 0.128 | 0.077 |
+| Falls with expenditure | 1.0 | 0.71 | 0.064 | −0.101 | 0.131 | 0.076 |
+| Falls with expenditure | 1.39 | 0.99 | −0.002 | −0.096 | 0.129 | 0.077 |
+| Falls with expenditure | 1.8 | 1.28 | −0.053 | −0.093 | 0.128 | 0.077 |
 
 Deposited as `output/equity_grid.csv`.
 
-**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 31 577, health-care costs saved VND 1 582 billion and discounted revenue VND 72 555 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 15 468 DALYs (−11.1%), and combining the 2050 age distribution with zero stock gives 17 351 DALYs (−0.3%) because the two changes offset. These runs are deterministic and were not propagated through the probabilistic analysis.
+**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 30 661, health-care costs saved VND 1 536 billion and discounted revenue VND 70 442 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 15 018 DALYs (−11.1%), and combining the 2050 age distribution with zero stock gives 16 847 DALYs (−0.3%) because the two changes offset. These runs are deterministic and were not propagated through the probabilistic analysis.
 
 **F.8 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 

@@ -16,7 +16,7 @@ Viet Nam legislated its first excise tax on sugar-sweetened beverages in 2025: 8
 We built a proportional multi-state model of disease incidence and prevalence in the Vietnamese population aged 20 and older, by age and expenditure quintile, linking the statutory rate through price, demand, energy intake and body-mass index to diabetes, heart disease and stroke. We compared no tax, the enacted tax, a 20% price increase (the WHO benchmark), and the enacted tax with reformulation. Uncertainty was propagated over 5,000 iterations, with outcomes discounted at 3%.
 
 **Findings**
-The enacted tax would raise the price of taxed beverages by 4.36% in 2027 and 5.45% in 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 it would avert 17,404 DALYs (95% uncertainty interval 6,220–38,955) and 20,144 cases of diabetes, heart disease and stroke, save VND 873 billion in health-care costs, and raise VND 42,284 billion in discounted revenue. DALYs averted per 1000 were 0.21 in the poorest quintile and 0.27 in the richest; tax payments were 0.13% and 0.08%. A 20% price increase would avert 63,486 DALYs, 3.6 times more.
+The enacted tax would raise the price of taxed beverages by 4.36% in 2027 and 5.45% in 2028, cutting consumption by 9.6 mL/day. Over 2027–2050 it would avert 16,898 DALYs (95% uncertainty interval 6,039–37,827) and 19,559 cases of diabetes, heart disease and stroke, save VND 847 billion in health-care costs, and raise VND 41,053 billion in discounted revenue. DALYs averted per 1000 were 0.20 in the poorest quintile and 0.27 in the richest; tax payments were 0.13% and 0.08%. A 20% price increase would avert 61,654 DALYs, 3.6 times more.
 
 **Interpretation**
 Because the excise is levied on an ex-factory base and cascaded through value-added tax, the rates raise the retail price by about a quarter of the WHO benchmark. Financing is regressive. The distribution of benefit depends on two unmeasured gradients, disease risk and price response; across the combinations the Q1/Q5 ratio runs from 0.44, clearly pro-rich, to 1.28, mildly pro-poor. The 2028 review is decisive.
@@ -129,11 +129,11 @@ With a two-year latency, the implied reduction in incidence by 2050 is 0.8% for 
 
 ### Baseline comparison
 
-The model starts from the GBD 2021 prevalent stock and, at the end of the horizon, yields 8.1% for type 2 diabetes, 0.8% for ischaemic heart disease and 1.7% for stroke; on the same 2027 age structure GBD 2021 reports 6.2%, 1.6% and 1.9%, so diabetes is overstated by about a third, ischaemic heart disease understated by half and stroke is close. Type 2 diabetes accounts for 81% of averted cases. STEPS 2021 measured 7.3% in men and 6.9% in women on a raised-glucose definition, between the two diabetes figures; the definitions differ. Starting from zero instead of the GBD stock would raise the averted gain from 17,404 to 19,228 DALYs (+10.5%), so the GBD-stock base case is conservative (Appendix F).
+The model starts from the GBD 2021 prevalent stock and, at the end of the horizon, yields 8.1% for type 2 diabetes, 0.8% for ischaemic heart disease and 1.7% for stroke; on the same 2027 age structure GBD 2021 reports 6.2%, 1.6% and 1.9%, so diabetes is overstated by about a third, ischaemic heart disease understated by half and stroke is close. Type 2 diabetes accounts for 81% of averted cases. STEPS 2021 measured 7.3% in men and 6.9% in women on a raised-glucose definition, between the two diabetes figures; the definitions differ. Starting from zero instead of the GBD stock would raise the averted gain from 16,898 to 18,669 DALYs (+10.5%), so the GBD-stock base case is conservative (Appendix F).
 
 ### Primary outcome
 
-Over 2027–2050 the enacted tax would avert 17,404 DALYs (95% uncertainty interval 6,220–38,955), or 0.24 per 1,000 population, corresponding to 20,144 cases avoided — 16,370 of type 2 diabetes, 840 of ischaemic heart disease, 2,934 of stroke — and 798 deaths deferred. The gain is 34,934 DALYs to 2100 and 5,949 at 10 years.
+Over 2027–2050 the enacted tax would avert 16,898 DALYs (95% uncertainty interval 6,039–37,827), or 0.23 per 1,000 population, corresponding to 19,559 cases avoided — 15,894 of type 2 diabetes, 816 of ischaemic heart disease, 2,849 of stroke — and 774 deaths deferred. The gain is 33,919 DALYs to 2100 and 5,777 at 10 years.
 
 **Table 3. Main results by scenario, 2027–2050**
 
@@ -143,30 +143,30 @@ S3 values are averages across the taxed category after 25% of taxed volume refor
 |---|---|---|---|
 | Retail price change, taxed beverages (%) | 5.5 | 20.0 | 4.1 |
 | Consumption change (mL/person/day) | -9.6 | -35.3 | -7.2 |
-| DALYs averted, central (95% UI) | 17,404 (6,220–38,955) | 63,486 | 52,722 |
-| DALYs averted per 1,000 population | 0.24 | 0.88 | 0.73 |
-| Type 2 diabetes cases averted | 16,370 | 59,575 | 49,498 |
-| Ischaemic heart disease cases averted | 840 | 3,081 | 2,556 |
-| Stroke cases averted | 2,934 | 10,753 | 8,921 |
-| Health-care costs saved (VND bn, 2026) | 873 | 3,176 | 2,639 |
-| Revenue, 2027–2050, discounted (VND bn) | 42,284 | 126,764 | 31,713 |
+| DALYs averted, central (95% UI) | 16,898 (6,039–37,827) | 61,654 | 51,198 |
+| DALYs averted per 1,000 population | 0.23 | 0.86 | 0.71 |
+| Type 2 diabetes cases averted | 15,894 | 57,861 | 48,071 |
+| Ischaemic heart disease cases averted | 816 | 2,991 | 2,481 |
+| Stroke cases averted | 2,849 | 10,441 | 8,662 |
+| Health-care costs saved (VND bn, 2026) | 847 | 3,084 | 2,562 |
+| Revenue, 2027–2050, discounted (VND bn) | 41,053 | 123,072 | 30,790 |
 | DALYs averted per VND bn of revenue | 0.4 | 0.5 | 1.7 |
 
 ### Comparison of designs
 
-The 20% price increase would avert 63,486 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 126,764 billion against VND 42,284 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 38,056, 31,713 and 21,142 billion and DALYs averted are 31,578, 52,722 and 87,654. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5. Holding the 10% rate and moving the base to the retail price would raise the retail price by 9.9% and avert 31,577 DALYs, 1.8 times the enacted gain, at VND 72,555 billion in revenue; at the ex-factory base, the same price change would need a rate of about 18%.
+The 20% price increase would avert 61,654 DALYs, 3.6 times the enacted gain, at discounted revenue of VND 123,072 billion against VND 41,053 billion; per billion dong the enacted tax would deliver 0.4 DALYs and the benchmark 0.5. Reformulation removes from the base the share that falls below the threshold, and revenue falls with it: at 10%, 25% and 50%, revenue is VND 36,948, 30,790 and 20,526 billion and DALYs averted are 30,662, 51,198 and 85,135. The gain rises with the share that reformulates because those products carry less sugar. The reformulated share falls from the category mean of 11 g/100 mL to 4.5. Holding the 10% rate and moving the base to the retail price would raise the retail price by 9.9% and avert 30,661 DALYs, 1.8 times the enacted gain, at VND 70,442 billion in revenue; at the ex-factory base, the same price change would need a rate of about 18%.
 
 ### Equity
 
-DALYs averted per 1,000 were 0.21 in Q1 and 0.27 in Q5, a ratio of 0.77; the concentration index of DALYs averted was 0.047. Tax paid was 0.133% of household expenditure in Q1 and 0.079% in Q5. In absolute terms the richest quintile paid 1.84 times the poorest, so the concentration index of the absolute payment was 0.117 and of payment as a share of expenditure −0.113. With a Gini of household expenditure of 0.213 — a lower bound, since it is computed from quintile means — the Kakwani index is −0.096 (0.117 − 0.213). Neither the disease gradient nor the quintile elasticity gradient is measured, and they matter jointly: across the nine combinations in Appendix F the Q1/Q5 ratio runs from 0.44 when baseline risk rises with expenditure and the elasticity gradient is flat, through 0.77 at the central combination, to 1.28 when risk falls with expenditure and the elasticity gradient is 1.8, with the concentration index from 0.160 to −0.053. The gain therefore runs from clearly pro-rich to mildly pro-poor, and is near-proportional centrally. Inequality-adjusted equivalents were 0.996, 0.989 and 0.965 of the mean at aversion 1, 3 and 10.
+DALYs averted per 1,000 were 0.20 in Q1 and 0.27 in Q5, a ratio of 0.77; the concentration index of DALYs averted was 0.047. Tax paid was 0.129% of household expenditure in Q1 and 0.077% in Q5. In absolute terms the richest quintile paid 1.84 times the poorest, so the concentration index of the absolute payment was 0.117 and of payment as a share of expenditure −0.113. With a Gini of household expenditure of 0.213 — a lower bound, since it is computed from quintile means — the Kakwani index is −0.096 (0.117 − 0.213). Neither the disease gradient nor the quintile elasticity gradient is measured, and they matter jointly: across the nine combinations in Appendix F the Q1/Q5 ratio runs from 0.44 when baseline risk rises with expenditure and the elasticity gradient is flat, through 0.77 at the central combination, to 1.28 when risk falls with expenditure and the elasticity gradient is 1.8, with the concentration index from 0.160 to −0.053. The gain therefore runs from clearly pro-rich to mildly pro-poor, and is near-proportional centrally. Inequality-adjusted equivalents were 0.996, 0.989 and 0.965 of the mean at aversion 1, 3 and 10.
 
 ### Uncertainty
 
-Across 5,000 iterations the S1 gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 93% of the variation; the own-price elasticity accounted for 40% of the explained variance, the BMI–stroke relative risk 16% and pass-through 15%. The sign of the gain is structural: DALYs averted are monotone in the product of pass-through and elasticity. Because only the product of the ex-factory share and pass-through is identified, the gain depends on that product: it reaches 10,000 DALYs at about 0.28 and 20,000 at about 0.57, whichever parameter supplies it (Appendix F).
+Across 5,000 iterations the S1 gain was positive in every draw and S2 exceeded S1 in every draw; neither carries information, because the elasticity is constrained negative and S2 raises the price 3.6 times as much. A linear model in the sampled parameters explained 93% of the variation; the own-price elasticity accounted for 40% of the explained variance, the BMI–stroke relative risk 16% and pass-through 15%. The sign of the gain is structural: DALYs averted are monotone in the product of pass-through and elasticity. Because only the product of the ex-factory share and pass-through is identified, the gain depends on that product: it reaches 10,000 DALYs at about 0.29 and 20,000 at about 0.59, whichever parameter supplies it (Appendix F).
 
 ### Structural sensitivity
 
-One-way runs are in Appendix F. The gain ranges from 5,949 DALYs at 10 years to 34,934 to 2100, from 9,680 to 25,110 across the pass-through range and from 11,613 to 26,072 across the elasticity range, and is 28,943 at a zero discount rate and 12,977 at 5%. Using the 2050 age distribution lowers the gain to 15,468 DALYs (−11.1%), and starting from zero instead of the GBD stock raises it to 19,228 (+10.5%). No value changes the order of magnitude.
+One-way runs are in Appendix F. The gain ranges from 5,777 DALYs at 10 years to 33,919 to 2100, from 9,398 to 24,381 across the pass-through range and from 11,275 to 25,316 across the elasticity range, and is 28,102 at a zero discount rate and 12,600 at 5%. Using the 2050 age distribution lowers the gain to 15,018 DALYs (−11.1%), and starting from zero instead of the GBD stock raises it to 18,669 (+10.5%). No value changes the order of magnitude.
 
 ### Figure legends
 
@@ -551,27 +551,27 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 55,753 and 49,688 DALYs, within 6% of the central 52,722.
+**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 54,142 and 48,252 DALYs, within 6% of the central 51,198.
 
-**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from zero instead of the GBD 2021 prevalent stock. At central values the health gain is 28,943 and 12,977 DALYs at discount rates of 0% and 5%; 9,680 and 25,110 at pass-through 0.50 and 1.30; 11,613 and 26,072 at elasticity −0.80 and −1.80; 5,949, 17,404 and 34,934 over the 10-year, 2050 and 2100 horizons; and 19,228 when the model starts from zero instead of the GBD stock. Deposited as `output/sensitivity.csv`.
+**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from zero instead of the GBD 2021 prevalent stock. At central values the health gain is 28,102 and 12,600 DALYs at discount rates of 0% and 5%; 9,398 and 24,381 at pass-through 0.50 and 1.30; 11,275 and 25,316 at elasticity −0.80 and −1.80; 5,777, 16,898 and 33,919 over the 10-year, 2050 and 2100 horizons; and 18,669 when the model starts from zero instead of the GBD stock. Deposited as `output/sensitivity.csv`.
 
 **F.6 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
 
 | Baseline risk | Elasticity gradient | Q1/Q5 | Concentration index | Kakwani | Tax, Q1 (%) | Tax, Q5 (%) |
 |---|---|---|---|---|---|---|
-| Rises with expenditure | 1.0 | 0.44 | 0.160 | −0.101 | 0.135 | 0.078 |
-| Rises with expenditure | 1.39 | 0.61 | 0.096 | −0.096 | 0.133 | 0.079 |
-| Rises with expenditure | 1.8 | 0.78 | 0.044 | −0.093 | 0.132 | 0.080 |
-| None | 1.0 | 0.56 | 0.112 | −0.101 | 0.135 | 0.078 |
-| None | 1.39 | 0.77 | 0.047 | −0.096 | 0.133 | 0.079 |
-| None | 1.8 | 1.00 | −0.005 | −0.093 | 0.132 | 0.080 |
-| Falls with expenditure | 1.0 | 0.71 | 0.064 | −0.101 | 0.135 | 0.078 |
-| Falls with expenditure | 1.39 | 0.99 | −0.002 | −0.096 | 0.133 | 0.079 |
-| Falls with expenditure | 1.8 | 1.28 | −0.053 | −0.093 | 0.132 | 0.080 |
+| Rises with expenditure | 1.0 | 0.44 | 0.160 | −0.101 | 0.131 | 0.076 |
+| Rises with expenditure | 1.39 | 0.61 | 0.096 | −0.096 | 0.129 | 0.077 |
+| Rises with expenditure | 1.8 | 0.78 | 0.044 | −0.093 | 0.128 | 0.077 |
+| None | 1.0 | 0.56 | 0.112 | −0.101 | 0.131 | 0.076 |
+| None | 1.39 | 0.77 | 0.047 | −0.096 | 0.129 | 0.077 |
+| None | 1.8 | 1.00 | −0.005 | −0.093 | 0.128 | 0.077 |
+| Falls with expenditure | 1.0 | 0.71 | 0.064 | −0.101 | 0.131 | 0.076 |
+| Falls with expenditure | 1.39 | 0.99 | −0.002 | −0.096 | 0.129 | 0.077 |
+| Falls with expenditure | 1.8 | 1.28 | −0.053 | −0.093 | 0.128 | 0.077 |
 
 Deposited as `output/equity_grid.csv`.
 
-**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 31,577, health-care costs saved VND 1,582 billion and discounted revenue VND 72,555 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 15,468 DALYs (−11.1%), and combining the 2050 age distribution with zero stock gives 17,351 DALYs (−0.3%) because the two changes offset. These runs are deterministic and were not propagated through the probabilistic analysis.
+**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 30,661, health-care costs saved VND 1,536 billion and discounted revenue VND 70,442 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 15,018 DALYs (−11.1%), and combining the 2050 age distribution with zero stock gives 16,847 DALYs (−0.3%) because the two changes offset. These runs are deterministic and were not propagated through the probabilistic analysis.
 
 **F.8 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 

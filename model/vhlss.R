@@ -78,6 +78,7 @@ published_profile <- function(mean_exp_month = 3.0e6,
                               retail_price_l = 12000) {
   ratio <- c(0.50, 0.70, 0.983, 1.267, 1.55)   # Q5/Q1 = 3.10, mean = 1.000
   vol_mult <- c(0.75, 0.90, 1.00, 1.15, 1.35)
+  vol_mult <- vol_mult / mean(vol_mult)   # weighted mean volume equals mean_ssb_ml_day
   elast_mult <- c(1.18, 1.09, 1.00, 0.92, 0.85)
 
   ml_day <- mean_ssb_ml_day * vol_mult
