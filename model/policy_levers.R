@@ -31,8 +31,8 @@ rows <- list(
   run_one("Enacted tax, ex-factory base"),
   run_one("Same 10% rate on retail base", list(exfac_share = 1)),
   run_one("2050 age distribution", list(age_weights = load_age_weights(year = 2050))),
-  run_one("2050 age distribution + GBD prevalent stock",
-          list(age_weights = load_age_weights(year = 2050), init_prev = TRUE))
+  run_one("2050 age distribution + zero stock",
+          list(age_weights = load_age_weights(year = 2050), init_prev = FALSE))
 )
 
 out <- do.call(rbind, rows)

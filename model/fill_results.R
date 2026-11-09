@@ -96,6 +96,10 @@ life_split <- function(p, pop0, mort_by_age) {
   dis <- c("t2dm", "ihd", "stroke")
   A <- length(p$ages)
   N <- matrix(0, A, 3, dimnames = list(NULL, dis)); healthy <- pop0
+  if (isTRUE(p$init_prev) && !is.null(p$gbd)) {
+    N <- sweep(p$gbd$prev, 1, pop0, "*")
+    healthy <- pmax(pop0 - rowSums(N), 0)
+  }
   yld <- 0; yll <- 0
   surv <- cumprod(1 - pmin(mort_by_age, 1)); e_rem <- rev(cumsum(rev(surv))) / pmax(surv, 1e-9)
   inc_base <- p$gbd$inc

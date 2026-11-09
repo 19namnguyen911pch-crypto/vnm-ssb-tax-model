@@ -82,7 +82,7 @@ params_default <- function() {
     cost_case = c(t2dm = 8.0e6, ihd = 84.9e6, stroke = 10.5e6),
 
     # analysis settings ------------------------------------------------------
-    init_prev = FALSE,   # sensitivity: start from the GBD prevalent stock
+    init_prev = TRUE,    # base case: start from the GBD 2021 prevalent stock
     discount = 0.03,
     start    = 2027,
     horizon  = 2050
@@ -120,6 +120,32 @@ load_age_weights <- function(path = "data/vnm_wpp_age5_2025_2050.csv",
 # ---------------------------------------------------------------------------
 # 1c. Disease parameters from GBD 2021 (real data)
 # ---------------------------------------------------------------------------
+load_sex_share <- function(path = "data/vnm_wpp_age5_2025_2050.csv",
+                            year = 2027, ages = 20:100) {
+  if (!file.exists(path)) return(rep(0.5, length(ages)))
+  d <- utils::read.csv(path, stringsAsFactors = FALSE)
+  d <- d[d$year == year & grepl("^[0-9]", d$age_group), ]
+  male <- stats::setNames(numeric(length(ages)), as.character(ages))
+  female <- male
+  for (i in seq_len(nrow(d))) {
+    g <- d$age_group[i]
+    if (grepl("\\+$", g)) {
+      st <- as.integer(sub("\\+$", "", g)); sp <- 100L - st + 1L
+    } else {
+      ab <- as.integer(strsplit(g, "-", fixed = TRUE)[[1]])
+      st <- ab[1]; sp <- ab[2] - ab[1] + 1L
+    }
+    a <- st:(st + sp - 1L); a <- a[a %in% ages]
+    if (length(a)) {
+      male[as.character(a)] <- d$male[i] / sp
+      female[as.character(a)] <- d$female[i] / sp
+    }
+  }
+  share <- male / (male + female)
+  share[!is.finite(share)] <- 0.5
+  as.numeric(share)
+}
+
 load_gbd_params <- function(path = "data/gbd_vnm/vnm_gbd_params_long.csv",
                             ages = 20:100) {
   if (!file.exists(path)) {
@@ -128,10 +154,12 @@ load_gbd_params <- function(path = "data/gbd_vnm/vnm_gbd_params_long.csv",
   }
   d <- utils::read.csv(path, stringsAsFactors = FALSE)
   dis <- c("t2dm", "ihd", "stroke")
-  mk <- function(col) {
+  share_m <- load_sex_share(ages = ages)
+  mk <- function(col, sex = NULL) {
     out <- matrix(0, nrow = length(ages), ncol = 3, dimnames = list(NULL, dis))
     for (k in seq_along(dis)) {
       sub <- d[d$cause == dis[k], ]
+      if (!is.null(sex)) sub <- sub[sub$sex == sex, ]
       st <- suppressWarnings(as.integer(sub("-.*", "", sub$age_band)))
       st[grepl("^95", sub$age_band)] <- 95L
       ok <- !is.na(st)
@@ -142,14 +170,22 @@ load_gbd_params <- function(path = "data/gbd_vnm/vnm_gbd_params_long.csv",
     }
     out
   }
-  list(
-    inc       = mk("inc_rate"),
-    mort_case = mk("mort_among_cases"),
-    dw        = vapply(dis, function(k)
-                   stats::weighted.mean(d$dw[d$cause == k], d$prev_rate[d$cause == k],
-                                        na.rm = TRUE), numeric(1)),
-    prev      = mk("prev_rate")
-  )
+  inc_m <- mk("inc_rate", "M"); inc_f <- mk("inc_rate", "F")
+  mort_m <- mk("mort_among_cases", "M"); mort_f <- mk("mort_among_cases", "F")
+  prev_m <- mk("prev_rate", "M"); prev_f <- mk("prev_rate", "F")
+  dw_m <- mk("dw", "M"); dw_f <- mk("dw", "F")
+  inc <- sweep(inc_m, 1, share_m, "*") + sweep(inc_f, 1, 1 - share_m, "*")
+  mort <- sweep(mort_m, 1, share_m, "*") + sweep(mort_f, 1, 1 - share_m, "*")
+  prev <- sweep(prev_m, 1, share_m, "*") + sweep(prev_f, 1, 1 - share_m, "*")
+  w_age <- load_age_weights(ages = ages)
+  dw <- vapply(seq_along(dis), function(k) {
+    num <- sum(w_age * (share_m * prev_m[, k] * dw_m[, k] +
+                        (1 - share_m) * prev_f[, k] * dw_f[, k]))
+    den <- sum(w_age * prev[, k])
+    if (den > 0) num / den else mean(c(dw_m[, k], dw_f[, k]))
+  }, numeric(1))
+  names(dw) <- dis
+  list(inc = inc, mort_case = mort, dw = dw, prev = prev)
 }
 
 # ---------------------------------------------------------------------------

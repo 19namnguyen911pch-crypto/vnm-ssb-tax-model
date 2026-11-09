@@ -286,7 +286,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **E.1 Đã kiểm tra.** Mỗi bước của mô hình có kiểm thử đơn vị với đầu vào và đầu ra tính tay. Bảo toàn dân số được kiểm tra ở mọi chu kỳ: không ai rời quần thể ngoài đường tử vong, và số còn sống cộng số đã chết bằng dân số ban đầu ở mọi chu kỳ. Điều kiện cực biên được kiểm tra: thuế bằng không trả về đúng kịch bản nền, độ co giãn bằng không trả về đúng kịch bản nền, và một mức thuế đủ lớn để triệt tiêu tiêu thụ không tạo ra lượng âm hay lỗi chia.
 
-**E.2 So sánh nền.** Tỷ lệ hiện mắc do chính mô hình tạo ra ở cuối khung phân tích được so với nguồn mà các tham số bệnh lấy từ đó, trên cùng cơ cấu tuổi 2027: 5,1% so với 6,2% với đái tháo đường type 2, 0,4% so với 1,6% với bệnh tim thiếu máu cục bộ, và 1,2% so với 1,9% với đột quỵ (GBD 2021). Đái tháo đường, chiếm 85% số ca tránh được, là gần nhất. Khoảng cách ở hai bệnh tim mạch phát sinh từ việc khởi đầu năm 2027 không có tồn lưu hiện mắc và áp tỷ lệ tử vong ca bệnh cao cho ca mới; điều này được ghi ở phần Hạn chế và ảnh hưởng đến mức số năm sống với khuyết tật, không ảnh hưởng đến chiều của khác biệt tránh được.
+**E.2 So sánh nền.** Mô hình khởi đầu từ tồn lưu hiện mắc GBD 2021 và ở cuối khung cho 8,1% với đái tháo đường type 2, 0,8% với bệnh tim thiếu máu cục bộ và 1,7% với đột quỵ, so với 6,2%, 1,6% và 1,9% của GBD 2021 trên cùng cơ cấu tuổi 2027. Đái tháo đường cao hơn khoảng một phần ba, bệnh tim thiếu máu cục bộ thấp hơn một nửa và đột quỵ gần đúng. Khởi đầu từ zero thay vì tồn lưu GBD làm lợi ích tránh được tăng 10,5%, nên kịch bản cơ sở là thận trọng hơn. Khoảng cách ở bệnh tim mạch được ghi ở phần Hạn chế.
 
 **E.3 Chưa kiểm tra.** Hai kiểm tra đã không được thực hiện và bài không tuyên bố chúng. Không có so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[14], vì nghiên cứu đó báo cáo kết cục khác trên cấu trúc mô hình khác và so sánh sẽ không tách được sai số mô hình. Mã chưa được một lập trình viên độc lập rà soát. Các kiểm thử đơn vị, điều kiện cực biên ở E.1 và so sánh nền ở E.2 là toàn bộ bảo đảm kỹ thuật phía sau kết quả.
 
@@ -300,7 +300,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài.
 
-**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ tồn lưu hiện mắc GBD 2021 thay vì từ không. Ở giá trị trung tâm, lợi ích sức khỏe là 27.824 và 12.995 DALY ở suất chiết khấu 0% và 5%; 9.573 và 24.827 ở mức truyền dẫn 0,50 và 1,30; 11.484 và 25.777 ở độ co giãn −0,80 và −1,80; 5.575, 17.209 và 36.419 ở khung 10 năm, 2050 và 2100; và 15.696 khi khởi tạo tồn lưu hiện mắc từ GBD 2021. Lưu ở `output/sensitivity.csv`.
+**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ zero thay vì tồn lưu GBD 2021. Ở giá trị trung tâm, lợi ích sức khỏe là 28.943 và 12.977 DALY ở suất chiết khấu 0% và 5%; 9.680 và 25.110 ở mức truyền dẫn 0,50 và 1,30; 11.613 và 26.072 ở độ co giãn −0,80 và −1,80; 5.949, 17.404 và 34.934 ở khung 10 năm, 2050 và 2100; và 19.228 khi khởi đầu từ zero thay vì tồn lưu GBD. Lưu ở `output/sensitivity.csv`.
 
 **F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
 
@@ -308,15 +308,15 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 | Nguy cơ nền | Gradient độ co giãn | Q1/Q5 | Chỉ số tập trung | Kakwani | Thuế, Q1 (%) | Thuế, Q5 (%) |
 |---|---|---|---|---|---|---|
-| Tăng theo chi tiêu | 1,0 | 0,43 | 0,160 | −0,101 | 0,135 | 0,078 |
-| Tăng theo chi tiêu | 1,39 | 0,60 | 0,096 | −0,096 | 0,133 | 0,079 |
-| Tăng theo chi tiêu | 1,8 | 0,78 | 0,045 | −0,093 | 0,132 | 0,080 |
+| Tăng theo chi tiêu | 1,0 | 0,44 | 0,160 | −0,101 | 0,135 | 0,078 |
+| Tăng theo chi tiêu | 1,39 | 0,61 | 0,096 | −0,096 | 0,133 | 0,079 |
+| Tăng theo chi tiêu | 1,8 | 0,78 | 0,044 | −0,093 | 0,132 | 0,080 |
 | Không có | 1,0 | 0,56 | 0,112 | −0,101 | 0,135 | 0,078 |
 | Không có | 1,39 | 0,77 | 0,047 | −0,096 | 0,133 | 0,079 |
 | Không có | 1,8 | 1,00 | −0,005 | −0,093 | 0,132 | 0,080 |
-| Giảm theo chi tiêu | 1,0 | 0,71 | 0,063 | −0,101 | 0,135 | 0,078 |
-| Giảm theo chi tiêu | 1,39 | 0,99 | −0,003 | −0,096 | 0,133 | 0,079 |
-| Giảm theo chi tiêu | 1,8 | 1,28 | −0,054 | −0,093 | 0,132 | 0,080 |
+| Giảm theo chi tiêu | 1,0 | 0,71 | 0,064 | −0,101 | 0,135 | 0,078 |
+| Giảm theo chi tiêu | 1,39 | 0,99 | −0,002 | −0,096 | 0,133 | 0,079 |
+| Giảm theo chi tiêu | 1,8 | 1,28 | −0,053 | −0,093 | 0,132 | 0,080 |
 
 Lưu ở `output/equity_grid.csv`.
 

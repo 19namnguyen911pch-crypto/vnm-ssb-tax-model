@@ -48,8 +48,8 @@ for (e in c(-0.80, -1.20, -1.80)) {
 }
 
 # start from the GBD prevalent stock rather than from zero
-add("Initial prevalent stock", list(init_prev = TRUE))
-rows[[length(rows)]]$value <- "GBD 2021"
+add("Zero prevalent stock", list(init_prev = FALSE))
+rows[[length(rows)]]$value <- "zero"
 
 # horizon
 for (h in c(2036, 2050, 2100)) {

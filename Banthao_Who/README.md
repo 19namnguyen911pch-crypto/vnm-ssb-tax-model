@@ -17,7 +17,7 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 
 | Requirement | Limit | This manuscript |
 |---|---|---|
-| Body text | 3000 words | 2 870 |
+| Body text | 3000 words | 2 941 |
 | Abstract | 250 words, non-structured | 249 |
 | References | 50 | 27, numbered in order of appearance |
 | Citation style | numbers in parentheses | (1), (1,2), (1–4) |
@@ -25,7 +25,7 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 | Tables and figures | numbered consecutively | Tables 1–4, Figures 1–4 |
 | Authors | at least one national of the study country, affiliated there | both authors |
 
-Submitted 2 November 2026 as **BLT/2026/297910**; desk rejected 8 November 2026. The present version adds the retail-base counterfactual and the population-ageing sensitivity for resubmission.
+Submitted 2 November 2026 as **BLT/2026/297910**; desk rejected 8 November 2026. The present version revises the model for resubmission: sex-weighted GBD rates, the GBD prevalent stock at baseline, the retail-base counterfactual, and population-ageing and reformulation sensitivities.
 
 Word count covers the body only, as the Bulletin excludes the abstract, tables,
 boxes, figures, references and appendices. It was computed with the same rule
