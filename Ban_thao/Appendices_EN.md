@@ -281,7 +281,7 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **E.1 Checks performed.** Every step of the model has a unit test with hand-calculated inputs and outputs. Population conservation is checked in every cycle: no individual leaves the population except through death, and the living plus the dead equal the starting population in every cycle. Boundary conditions are checked: a zero tax returns the baseline exactly, a zero elasticity returns the baseline exactly, and a tax large enough to remove all consumption produces neither negative quantities nor a division error.
 
-**E.2 Baseline comparison.** The model starts from the GBD 2021 prevalent stock and, at the end of the horizon, yields 8.1% for type 2 diabetes, 0.8% for ischaemic heart disease and 1.7% for stroke, against 6.2%, 1.6% and 1.9% in GBD 2021 on the same 2027 age structure. Diabetes is overstated by about a third, ischaemic heart disease understated by half and stroke is close. Starting from zero instead of the GBD stock would raise the averted gain by 10.5%, so the GBD-stock base case is the more conservative one. The cardiovascular shortfall is recorded in the Limitations.
+**E.2 Baseline comparison.** The model starts from the GBD 2021 prevalent stock and, at the end of the horizon, yields 8.1% for type 2 diabetes, 0.8% for ischaemic heart disease and 1.7% for stroke, against 6.2%, 1.6% and 1.9% in GBD 2021 on the same 2027 age structure. Diabetes is overstated by about a third, ischaemic heart disease understated by half and stroke is close. Starting from zero instead of the GBD stock would raise the averted gain by 9.9%, so the GBD-stock base case is the more conservative one. The cardiovascular shortfall is recorded in the Limitations.
 
 **E.3 Checks not performed.** Two checks were not carried out and the manuscript does not claim them. No external comparison was made with the earlier Vietnamese modelling study,[14] because that study reports different outcomes on a different model structure and the comparison would not isolate model error. The code was not reviewed by an independent programmer. The unit tests, the boundary conditions in E.1 and the baseline comparison in E.2 are the whole of the technical assurance behind the results.
 
@@ -293,27 +293,27 @@ Two further points affect the reading of the equity results. The elasticity grad
 
 **F.3 Elasticity grid.** Own-price elasticity from −0.3 to −2.0 in steps of 0.1, other parameters held central, to locate the point at which the health gain changes sign.
 
-**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 54,142 and 48,252 DALYs, within 6% of the central 51,198.
+**F.4 Reformulation.** S3 is run at 25% reformulation centrally; the 10% and 50% levels are reported in the text. The density of the reformulated share is set at 4.5 g/100 mL; at 4.0 and 5.0 g/100 mL the 25% scenario averts 47,113 and 41,990 DALYs, within 6% of the central 44,553.
 
-**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from zero instead of the GBD 2021 prevalent stock. At central values the health gain is 28,102 and 12,600 DALYs at discount rates of 0% and 5%; 9,398 and 24,381 at pass-through 0.50 and 1.30; 11,275 and 25,316 at elasticity −0.80 and −1.80; 5,777, 16,898 and 33,919 over the 10-year, 2050 and 2100 horizons; and 18,669 when the model starts from zero instead of the GBD stock. Deposited as `output/sensitivity.csv`.
+**F.5 One-way structural sensitivity.** Discount rate 0% and 5%; pass-through 0.50, 0.90 and 1.30; own-price elasticity −0.80, −1.20 and −1.80; horizon 2036, 2050 and 2100; and a run that starts from zero instead of the GBD 2021 prevalent stock. At central values the health gain is 25,151 and 10,774 DALYs at discount rates of 0% and 5%; 8,183 and 21,224 at pass-through 0.50 and 1.30; 9,816 and 22,037 at elasticity −0.80 and −1.80; 4,022, 14,711 and 31,688 over the 10-year, 2050 and 2100 horizons; and 16,170 when the model starts from zero instead of the GBD stock. Deposited as `output/sensitivity.csv`.
 
 **F.6 Disease and elasticity gradients together.** Both gradients are assumptions, so they are reported jointly. The table gives the Q1/Q5 ratio of DALYs averted and the concentration index at each combination of the disease gradient (baseline risk rising with expenditure, none, falling with expenditure) and the quintile elasticity gradient (1.0, 1.39 at base, 1.8). The Kakwani index and the tax share move far less, because payments depend on consumption rather than on disease risk.
 
 | Baseline risk | Elasticity gradient | Q1/Q5 | Concentration index | Kakwani | Tax, Q1 (%) | Tax, Q5 (%) |
 |---|---|---|---|---|---|---|
-| Rises with expenditure | 1.0 | 0.44 | 0.160 | −0.101 | 0.131 | 0.076 |
-| Rises with expenditure | 1.39 | 0.61 | 0.096 | −0.096 | 0.129 | 0.077 |
+| Rises with expenditure | 1.0 | 0.44 | 0.159 | −0.101 | 0.131 | 0.076 |
+| Rises with expenditure | 1.39 | 0.61 | 0.095 | −0.096 | 0.129 | 0.077 |
 | Rises with expenditure | 1.8 | 0.78 | 0.044 | −0.093 | 0.128 | 0.077 |
 | None | 1.0 | 0.56 | 0.112 | −0.101 | 0.131 | 0.076 |
 | None | 1.39 | 0.77 | 0.047 | −0.096 | 0.129 | 0.077 |
 | None | 1.8 | 1.00 | −0.005 | −0.093 | 0.128 | 0.077 |
 | Falls with expenditure | 1.0 | 0.71 | 0.064 | −0.101 | 0.131 | 0.076 |
-| Falls with expenditure | 1.39 | 0.99 | −0.002 | −0.096 | 0.129 | 0.077 |
-| Falls with expenditure | 1.8 | 1.28 | −0.053 | −0.093 | 0.128 | 0.077 |
+| Falls with expenditure | 1.39 | 0.98 | −0.002 | −0.096 | 0.129 | 0.077 |
+| Falls with expenditure | 1.8 | 1.27 | −0.053 | −0.093 | 0.128 | 0.077 |
 
 Deposited as `output/equity_grid.csv`.
 
-**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 30,661, health-care costs saved VND 1,536 billion and discounted revenue VND 70,442 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 15,018 DALYs (−11.1%), and combining the 2050 age distribution with zero stock gives 16,847 DALYs (−0.3%) because the two changes offset. These runs are deterministic and were not propagated through the probabilistic analysis.
+**F.7 Base counterfactual and population ageing.** Two deterministic checks support the policy arithmetic in the main text. First, the excise base was moved from the ex-factory price to the retail price by setting the ex-factory share to 1.0 and holding the 10% rate; all other parameters were at central values. The retail price change becomes 9.9%, DALYs averted 26,688, health-care costs saved VND 1,519 billion and discounted revenue VND 70,442 billion. At the ex-factory base, matching a 9.9% price change would require a rate of 18.2%, and the 20% benchmark a rate of 36.7%. Second, the age weights were replaced by the 2050 World Population Prospects distribution; the gain falls to 12,912 DALYs (−11.1%), and combining the 2050 age distribution with zero stock gives 16,838 DALYs (−0.3%) because the two changes offset. These runs are deterministic and were not propagated through the probabilistic analysis.
 
 **F.8 Analyses not run.** A static weight model, a full cross of the pass-through grid with broad and narrow legal interpretations of the taxable category, and a distributed latency were considered and not carried out. None is reported.
 

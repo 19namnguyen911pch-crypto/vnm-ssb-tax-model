@@ -60,7 +60,7 @@ params_default <- function() {
     energy_per_kg_gain = 7000,
 
     # step 5: BMI to disease -------------------------------------------------
-    latency_years   = 2,
+    latency_years   = c(t2dm = 2, ihd = 5, stroke = 5),
     # APCSC: 27% lower diabetes risk per 2 kg/m2 lower BMI (RR 1.37);
     # 12% lower ischaemic stroke, 8% lower haemorrhagic stroke, ~11% lower CHD
     rr_per_2bmi     = c(t2dm = 1.37, ihd = 1.11, stroke = 1.12),
@@ -418,9 +418,11 @@ run_quintile <- function(code, qprof, k, p, mort_by_age) {
   inc_path <- matrix(1, nrow = yrs, ncol = 3, dimnames = list(NULL, dis))
   if (!identical(code, "S0")) {
     for (t in seq_len(yrs)) {
-      src <- t - p$latency_years
-      db_t <- if (src >= 1) bmi_path[src] else 0
-      inc_path[t, ] <- pif_from_bmi_shift(db_t, p$rr_per_2bmi)[dis]
+      for (d in seq_along(dis)) {
+        src <- t - p$latency_years[d]
+        db_t <- if (src >= 1) bmi_path[src] else 0
+        inc_path[t, d] <- pif_from_bmi_shift(db_t, p$rr_per_2bmi)[d]
+      }
     }
   }
 

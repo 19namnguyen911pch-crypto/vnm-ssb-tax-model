@@ -286,7 +286,7 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **E.1 Đã kiểm tra.** Mỗi bước của mô hình có kiểm thử đơn vị với đầu vào và đầu ra tính tay. Bảo toàn dân số được kiểm tra ở mọi chu kỳ: không ai rời quần thể ngoài đường tử vong, và số còn sống cộng số đã chết bằng dân số ban đầu ở mọi chu kỳ. Điều kiện cực biên được kiểm tra: thuế bằng không trả về đúng kịch bản nền, độ co giãn bằng không trả về đúng kịch bản nền, và một mức thuế đủ lớn để triệt tiêu tiêu thụ không tạo ra lượng âm hay lỗi chia.
 
-**E.2 So sánh nền.** Mô hình khởi đầu từ tồn lưu hiện mắc GBD 2021 và ở cuối khung cho 8,1% với đái tháo đường type 2, 0,8% với bệnh tim thiếu máu cục bộ và 1,7% với đột quỵ, so với 6,2%, 1,6% và 1,9% của GBD 2021 trên cùng cơ cấu tuổi 2027. Đái tháo đường cao hơn khoảng một phần ba, bệnh tim thiếu máu cục bộ thấp hơn một nửa và đột quỵ gần đúng. Khởi đầu từ zero thay vì tồn lưu GBD làm lợi ích tránh được tăng 10,5%, nên kịch bản cơ sở là thận trọng hơn. Khoảng cách ở bệnh tim mạch được ghi ở phần Hạn chế.
+**E.2 So sánh nền.** Mô hình khởi đầu từ tồn lưu hiện mắc GBD 2021 và ở cuối khung cho 8,1% với đái tháo đường type 2, 0,8% với bệnh tim thiếu máu cục bộ và 1,7% với đột quỵ, so với 6,2%, 1,6% và 1,9% của GBD 2021 trên cùng cơ cấu tuổi 2027. Đái tháo đường cao hơn khoảng một phần ba, bệnh tim thiếu máu cục bộ thấp hơn một nửa và đột quỵ gần đúng. Khởi đầu từ zero thay vì tồn lưu GBD làm lợi ích tránh được tăng 9,9%, nên kịch bản cơ sở là thận trọng hơn. Khoảng cách ở bệnh tim mạch được ghi ở phần Hạn chế.
 
 **E.3 Chưa kiểm tra.** Hai kiểm tra đã không được thực hiện và bài không tuyên bố chúng. Không có so sánh ngoại với nghiên cứu mô hình hóa Việt Nam trước đó,[14], vì nghiên cứu đó báo cáo kết cục khác trên cấu trúc mô hình khác và so sánh sẽ không tách được sai số mô hình. Mã chưa được một lập trình viên độc lập rà soát. Các kiểm thử đơn vị, điều kiện cực biên ở E.1 và so sánh nền ở E.2 là toàn bộ bảo đảm kỹ thuật phía sau kết quả.
 
@@ -298,9 +298,9 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 **F.3 Lưới độ co giãn.** Độ co giãn giá riêng từ −0,3 đến −2,0 theo bước 0,1, các tham số khác giữ ở trung tâm, để xác định điểm mà lợi ích sức khỏe đổi dấu.
 
-**F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài. Mật độ phần tái định lượng đặt ở 4,5 g/100 mL; ở 4,0 và 5,0 g/100 mL, kịch bản 25% tránh được 54.142 và 48.252 DALY, trong khoảng ±6% so với 51.198.
+**F.5 Tái định lượng.** S3 chạy ở mức 25% tại trung tâm; các mức 10% và 50% được báo cáo trong bài. Mật độ phần tái định lượng đặt ở 4,5 g/100 mL; ở 4,0 và 5,0 g/100 mL, kịch bản 25% tránh được 47.113 và 41.990 DALY, trong khoảng ±6% so với 44.553.
 
-**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ zero thay vì tồn lưu GBD 2021. Ở giá trị trung tâm, lợi ích sức khỏe là 28.102 và 12.600 DALY ở suất chiết khấu 0% và 5%; 9.398 và 24.381 ở mức truyền dẫn 0,50 và 1,30; 11.275 và 25.316 ở độ co giãn −0,80 và −1,80; 5.777, 16.898 và 33.919 ở khung 10 năm, 2050 và 2100; và 18.669 khi khởi đầu từ zero thay vì tồn lưu GBD. Lưu ở `output/sensitivity.csv`.
+**F.6 Độ nhạy cấu trúc một chiều.** Suất chiết khấu 0% và 5%; mức truyền dẫn 0,50; 0,90 và 1,30; độ co giãn giá riêng −0,80; −1,20 và −1,80; khung 2036, 2050 và 2100; và một lần chạy khởi đầu từ zero thay vì tồn lưu GBD 2021. Ở giá trị trung tâm, lợi ích sức khỏe là 25.151 và 10.774 DALY ở suất chiết khấu 0% và 5%; 8.183 và 21.224 ở mức truyền dẫn 0,50 và 1,30; 9.816 và 22.037 ở độ co giãn −0,80 và −1,80; 4.022, 14.711 và 31.688 ở khung 10 năm, 2050 và 2100; và 16.170 khi khởi đầu từ zero thay vì tồn lưu GBD. Lưu ở `output/sensitivity.csv`.
 
 **F.7 Gradient nguy cơ bệnh nền.** Toàn bộ phân tích xác suất được lặp lại trên cùng 5.000 lần rút dưới hai gradient kinh tế–xã hội, nguy cơ giảm theo chi tiêu (1,15 ở Q1 xuống 0,88 ở Q5) và nguy cơ tăng theo chi tiêu (0,88 ở Q1 lên 1,15 ở Q5). Trung vị tỷ số Q1/Q5 dịch từ 0,77 lên 0,99 ở trường hợp đầu và xuống 0,60 ở trường hợp sau, chỉ số tập trung từ 0,047 xuống −0,002 và lên 0,097; chỉ số Kakwani không đổi vì chỉ phụ thuộc vào khoản thuế phải trả. Lưu ở `output/psa_gradient.csv`.
 
@@ -308,19 +308,19 @@ Hai điểm nữa ảnh hưởng đến cách đọc kết quả công bằng. G
 
 | Nguy cơ nền | Gradient độ co giãn | Q1/Q5 | Chỉ số tập trung | Kakwani | Thuế, Q1 (%) | Thuế, Q5 (%) |
 |---|---|---|---|---|---|---|
-| Tăng theo chi tiêu | 1,0 | 0,44 | 0,160 | −0,101 | 0,131 | 0,076 |
-| Tăng theo chi tiêu | 1,39 | 0,61 | 0,096 | −0,096 | 0,129 | 0,077 |
+| Tăng theo chi tiêu | 1,0 | 0,44 | 0,159 | −0,101 | 0,131 | 0,076 |
+| Tăng theo chi tiêu | 1,39 | 0,61 | 0,095 | −0,096 | 0,129 | 0,077 |
 | Tăng theo chi tiêu | 1,8 | 0,78 | 0,044 | −0,093 | 0,128 | 0,077 |
 | Không có | 1,0 | 0,56 | 0,112 | −0,101 | 0,131 | 0,076 |
 | Không có | 1,39 | 0,77 | 0,047 | −0,096 | 0,129 | 0,077 |
 | Không có | 1,8 | 1,00 | −0,005 | −0,093 | 0,128 | 0,077 |
 | Giảm theo chi tiêu | 1,0 | 0,71 | 0,064 | −0,101 | 0,131 | 0,076 |
-| Giảm theo chi tiêu | 1,39 | 0,99 | −0,002 | −0,096 | 0,129 | 0,077 |
-| Giảm theo chi tiêu | 1,8 | 1,28 | −0,053 | −0,093 | 0,128 | 0,077 |
+| Giảm theo chi tiêu | 1,39 | 0,98 | −0,002 | −0,096 | 0,129 | 0,077 |
+| Giảm theo chi tiêu | 1,8 | 1,27 | −0,053 | −0,093 | 0,128 | 0,077 |
 
 Lưu ở `output/equity_grid.csv`.
 
-**F.9 Kịch bản cơ sở tính thuế và già hóa dân số.** Hai kiểm tra tất định hỗ trợ phần số học chính sách trong bài. Thứ nhất, chuyển cơ sở tính thuế từ giá xuất xưởng sang giá bán lẻ bằng cách đặt tỷ trọng giá xuất xưởng bằng 1,0 và giữ thuế suất 10%; các tham số khác ở giá trị trung tâm. Mức tăng giá bán lẻ là 9,9%, DALY tránh được 30.661, chi phí y tế tiết kiệm 1.536 tỷ đồng và doanh thu chiết khấu 70.442 tỷ đồng. Ở cơ sở xuất xưởng, để đạt mức tăng giá 9,9% cần thuế suất 18,2%, và để đạt mốc 20% cần 36,7%. Thứ hai, thay trọng số tuổi bằng cơ cấu dân số 2050 của WPP; lợi ích giảm còn 15.018 DALY (−11,1%), và kết hợp cơ cấu 2050 với khởi đầu từ zero cho 16.847 DALY (−0,3%) vì hai thay đổi bù trừ nhau. Các lần chạy này là tất định và không được lan truyền qua phân tích xác suất.
+**F.9 Kịch bản cơ sở tính thuế và già hóa dân số.** Hai kiểm tra tất định hỗ trợ phần số học chính sách trong bài. Thứ nhất, chuyển cơ sở tính thuế từ giá xuất xưởng sang giá bán lẻ bằng cách đặt tỷ trọng giá xuất xưởng bằng 1,0 và giữ thuế suất 10%; các tham số khác ở giá trị trung tâm. Mức tăng giá bán lẻ là 9,9%, DALY tránh được 26.688, chi phí y tế tiết kiệm 1.519 tỷ đồng và doanh thu chiết khấu 70.442 tỷ đồng. Ở cơ sở xuất xưởng, để đạt mức tăng giá 9,9% cần thuế suất 18,2%, và để đạt mốc 20% cần 36,7%. Thứ hai, thay trọng số tuổi bằng cơ cấu dân số 2050 của WPP; lợi ích giảm còn 12.912 DALY (−12,2%), và kết hợp cơ cấu 2050 với khởi đầu từ zero cho 16.838 DALY (−0,3%) vì hai thay đổi bù trừ nhau. Các lần chạy này là tất định và không được lan truyền qua phân tích xác suất.
 
 **F.10 Các phân tích không thực hiện.** Mô hình cân nặng tĩnh, lưới truyền dẫn đầy đủ kết hợp diễn giải rộng và hẹp phạm vi chịu thuế, và độ trễ phân bố đã được xem xét và không thực hiện. Không kết quả nào của chúng được báo cáo.
 

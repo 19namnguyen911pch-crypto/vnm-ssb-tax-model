@@ -1,5 +1,5 @@
 "analysis","price_change_pct","dalys","costs_saved_bn","revenue_bn","dalys_per_bn"
-"Enacted tax, ex-factory base",5.45,16898,847,41053,0.412
-"Same 10% rate on retail base",9.9,30661,1536,70442,0.435
-"2050 age distribution",5.45,15018,741,41053,0.366
-"2050 age distribution + zero stock",5.45,16847,821,41053,0.41
+"Enacted tax, ex-factory base",5.45,14711,838,41053,0.358
+"Same 10% rate on retail base",9.9,26688,1519,70442,0.379
+"2050 age distribution",5.45,12912,730,41053,0.315
+"2050 age distribution + zero stock",5.45,14381,807,41053,0.35
