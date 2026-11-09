@@ -17,7 +17,7 @@ Prepared 2 November 2026. The *Lancet Regional Health – Western Pacific* versi
 
 | Requirement | Limit | This manuscript |
 |---|---|---|
-| Body text | 3000 words | 2 941 |
+| Body text | 3000 words | 2 997 |
 | Abstract | 250 words, non-structured | 249 |
 | References | 50 | 27, numbered in order of appearance |
 | Citation style | numbers in parentheses | (1), (1,2), (1–4) |
